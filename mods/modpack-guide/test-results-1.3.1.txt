@@ -1,0 +1,128 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet build client/ToolsmithFamilySlideshows.csproj -c Release
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ToolsmithFamilySlideshows -> /home/brunette/.hermes/cache/scratch/pszczoly-index-guide/client/bin/Release/net10.0/KuboczochModpackGuide.Client.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python verify_table_sources.py
+SOURCE AUDIT PASS: 200 active mapping records; 153 resolved options / 153 registered collectible matches; 30 independently expanded source assets; all rows exact equal-stat partitions.
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python release_build.py
+/home/brunette/.hermes/cache/scratch/pszczoly-index-guide/dist/KuboczochModpackGuide-1.3.1.zip
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python registry_input.py
+175 custom pages; 233 stacks
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project harness/RichtextHarness.csproj -c Release
+PASS exact API version 1.22.7
+PASS native parser preserves amp entity literally; display-node normalization required
+PASS native parser: compact pipe slideshow
+PASS native parser: adjacent icon and anchor
+PASS native item page omits game domain
+PASS native item page preserves custom domain
+PASS native block page prefix
+PASS native page ignores durability
+PASS native page retains material attribute suffix: item-stick-{ "material": "oak" }
+PASS real OnMouseDown calls supplied callback with displayed slot
+PASS real OnMouseDown excludes outside bounds
+PASS real OnMouseDown with null callback performs no navigation (VTML default)
+PASS real LinkTextComponent.Trigger dispatches handbook protocol
+PASS explicit link callback overrides default protocol routing
+PASS all 85 native attributed stack page codes and VTML hrefs match exact game methods
+PASS exact VTML parser tokenizes every shipped custom page
+PASS regression: plain attributed aliases and game-domain href are not registered
+PASS real GuiDialogHandbook.LoadPages_Async registers fixture custom and stack pages
+PASS all 37 progression anchors resolve after native registration; missing: 
+RESULT 19 checks passed; no client GUI, network, modloader or downloaded mod assemblies executed.
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project client/tests/FamilyTests.csproj -c Release -- attribute_inventory.json client/assets/kuboczochmodpackguide/config/toolsmith-families.json
+PASS exact native API 1.22.7
+PASS all 85 exact inventory snapshots materialized
+PASS all 85 native attributed page codes equal source inventory
+PASS duplicate codes do not duplicate slideshow variants
+PASS fresh attribute trees per build
+PASS uninstalled collectible skipped without air fallback
+PASS empty/unknown selection creates no native component
+PASS actual native slideshow class contains combined variants
+PASS native OnMouseDown routes all 85 displayed stacks through handbook protocol
+PASS outside-bounds click does not navigate
+PASS missing handbook protocol safely does nothing
+API delegate: Vintagestory.API.Client.RichTextComponentBase Invoke(Vintagestory.API.Client.ICoreClientAPI, Vintagestory.API.Common.VtmlTagToken, System.Collections.Generic.Stack`1[Vintagestory.API.Client.CairoFont], System.Action`1[Vintagestory.API.Client.LinkTextComponent])
+PASS converter binds exact installed API delegate signature
+PASS native converter registry accepts own converter
+PASS native VTML parser accepts family pipe syntax
+PASS actual Tag2RichTextDelegate invocation produces native slideshow
+PASS non-plain snapshot values rejected without polymorphic deserialization
+RESULT headless native class/callback/snapshot checks passed; no GUI or downloaded mod DLL execution
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project client/geometry/TableGeometry.csproj -c Release
+SPIKE API=1.22.7 native table component types=
+GEOMETRY width=240 scale=0.75 tableHeight=434.00 rowHeight=217.00 click=PASS
+GEOMETRY width=320 scale=0.75 tableHeight=306.00 rowHeight=153.00 click=PASS
+GEOMETRY width=420 scale=0.75 tableHeight=274.00 rowHeight=137.00 click=PASS
+GEOMETRY width=550 scale=0.75 tableHeight=146.00 rowHeight=73.00 click=PASS
+GEOMETRY width=240 scale=1 tableHeight=596.00 rowHeight=298.00 click=PASS
+GEOMETRY width=320 scale=1 tableHeight=420.00 rowHeight=210.00 click=PASS
+GEOMETRY width=420 scale=1 tableHeight=376.00 rowHeight=188.00 click=PASS
+GEOMETRY width=550 scale=1 tableHeight=200.00 rowHeight=100.00 click=PASS
+GEOMETRY width=240 scale=1.5 tableHeight=894.00 rowHeight=447.00 click=PASS
+GEOMETRY width=320 scale=1.5 tableHeight=630.00 rowHeight=315.00 click=PASS
+GEOMETRY width=420 scale=1.5 tableHeight=498.00 rowHeight=249.00 click=PASS
+GEOMETRY width=550 scale=1.5 tableHeight=300.00 rowHeight=150.00 click=PASS
+GEOMETRY width=240 scale=2 tableHeight=1192.00 rowHeight=596.00 click=PASS
+GEOMETRY width=320 scale=2 tableHeight=840.00 rowHeight=420.00 click=PASS
+GEOMETRY width=420 scale=2 tableHeight=752.00 rowHeight=376.00 click=PASS
+GEOMETRY width=550 scale=2 tableHeight=400.00 rowHeight=200.00 click=PASS
+PASS 1146 assertions; native font metrics/wrapping/layout/link events, no game GUI or untrusted mod DLL loaded
+REAL PAGES PASS: 96 layouts; 2880 cell bounds; 3728 displayed stack callbacks. Trusted API/font geometry; no game GUI.
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python -m unittest test_progression test_tables test_root_index -v
+test_bounded_pages (test_progression.ProgressionTests.test_bounded_pages) ... ok
+test_cleanup_preserved (test_progression.ProgressionTests.test_cleanup_preserved) ... ok
+test_entry_title (test_progression.ProgressionTests.test_entry_title) ... ok
+test_family_slideshow (test_progression.ProgressionTests.test_family_slideshow) ... ok
+test_no_attributed_synthetic_links (test_progression.ProgressionTests.test_no_attributed_synthetic_links) ... ok
+test_numeric_comparisons (test_progression.ProgressionTests.test_numeric_comparisons) ... ok
+test_numeric_source_and_active_defaults (test_progression.ProgressionTests.test_numeric_source_and_active_defaults) ... ok
+test_real_progression (test_progression.ProgressionTests.test_real_progression) ... ok
+test_registry_for_family_clicks (test_progression.ProgressionTests.test_registry_for_family_clicks) ... ok
+test_complete_one_row_per_resolved_option (test_tables.Tables.test_complete_one_row_per_resolved_option) ... ok
+test_eligibility_and_drying (test_tables.Tables.test_eligibility_and_drying) ... ok
+test_entity_normalization_only_changes_display_text (test_tables.Tables.test_entity_normalization_only_changes_display_text) ... ok
+test_only_scoped_install_files_changed (test_tables.Tables.test_only_scoped_install_files_changed) ... ok
+test_pack_integration_and_preservation (test_tables.Tables.test_pack_integration_and_preservation) ... ok
+test_titles_navigation_and_entities (test_tables.Tables.test_titles_navigation_and_entities) ... ok
+test_unique_item_references_and_no_family_overlap (test_tables.Tables.test_unique_item_references_and_no_family_overlap) ... ok
+test_all_internal_links_resolve (test_root_index.RootIndex.test_all_internal_links_resolve) ... ok
+test_every_category_mod_destination_retained (test_root_index.RootIndex.test_every_category_mod_destination_retained) ... ok
+test_regeneration_is_consistent (test_root_index.RootIndex.test_regeneration_is_consistent) ... ok
+test_root_and_all_other_pages_preserved (test_root_index.RootIndex.test_root_and_all_other_pages_preserved) ... ok
+test_root_directory_semantics_and_exact_topics (test_root_index.RootIndex.test_root_directory_semantics_and_exact_topics) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.081s
+
+OK
+
+EXIT 0
+
+PASS consecutive install builds have identical SHA-256 87d6a7ff69281dd2e2c94e8524ebe1e845507ad8a0a04bdfbfb2ef6929ac41b1

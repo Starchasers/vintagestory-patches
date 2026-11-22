@@ -1,0 +1,1 @@
+Regression tests added before implementation: dotnet run --project tests/Tests.csproj -c Release failed with CS0117 at lines 40,45,46,49: ProcessPlan does not contain a definition for Sections. No upstream assemblies executed.

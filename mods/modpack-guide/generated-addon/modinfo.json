@@ -1,0 +1,17 @@
+{
+  "type": "code",
+  "modid": "kuboczochmodpackguide",
+  "name": "Kuboczoch Modpack Guide",
+  "authors": [
+    "Kuboczoch"
+  ],
+  "description": "Pszczoly Modpack directory, Toolsmith comparisons and concise cross-mod process guides.",
+  "version": "1.4.0",
+  "side": "client",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": {
+    "game": "1.22.7",
+    "survival": "1.22.7"
+  }
+}

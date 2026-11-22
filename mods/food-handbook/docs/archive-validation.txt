@@ -1,0 +1,39 @@
+PASS exact mod identity
+PASS client-only optional presentation addon
+PASS explicit verified dependency minima
+PASS all reachable process signatures localized
+PASS language-only assets: en.json
+PASS language-only assets: pl.json
+PASS all upstream references non-copying
+PASS ACA composition plus IL-gated native recipe patch; existing native named attribute sections retained, no behavior shadow
+PASS single validated helper call redirects component list and ref result
+PASS migrated process contribution removed from generic Ingredient for
+PASS no translated-label matching or native list surgery
+PASS dedicated headings compose transactionally before commit
+PASS both output paths use shared inline geometry and callbacks
+PASS each process row has shared leading/trailing clear spacers
+PASS explicit concrete output constructor and provider-first routing
+PASS native predicates and native matching attribute policy retained
+PASS exact ACA semantic fingerprint gated before any patch
+PASS only two verified guide destinations; no guessed guides
+PASS all combined heading destinations composed through optional link helper
+PASS combined headings retain one output row
+PASS Preparing Fermenting Preserving Soaking remain plain
+PASS no guessed locale overrides
+PASS linked headings retain exact destination, translated newline and native spacing
+PASS combined parent and subheadings localized en
+PASS combined parent and subheadings localized pl
+PASS all 63 selected provider rows unique
+PASS all 141 manifest provider classifications unique
+PASS selected provider IDs match manifest food classification
+PASS provider status totals reconciled
+PASS no provider claimed runtime-validated
+PASS safe archive names: KuboczochFoodHandbook-0.3.1.zip
+PASS archive uniqueness and CRC: KuboczochFoodHandbook-0.3.1.zip
+PASS runtime archive contains only own DLL
+PASS runtime archive DLL equals compiled production artifact
+PASS runtime archive manifest matches source
+PASS safe archive names: KuboczochFoodHandbook-0.3.1-source.zip
+PASS archive uniqueness and CRC: KuboczochFoodHandbook-0.3.1-source.zip
+PASS source archive original code, tests, no binaries
+Static contracts passed; GUI layout, Harmony execution, routing and live recipe registries NOT tested.

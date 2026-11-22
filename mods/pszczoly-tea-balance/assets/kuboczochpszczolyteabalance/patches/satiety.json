@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "file": "simpletea:itemtypes/liquid/teaportion.json",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/satietybytype/*-floral-hot",
+    "value": 30
+  },
+  {
+    "op": "replace",
+    "file": "simpletea:itemtypes/liquid/teaportion.json",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/satietybytype/*-wild-hot",
+    "value": 20
+  },
+  {
+    "op": "replace",
+    "file": "simpletea:itemtypes/liquid/teaportion.json",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/satietybytype/*-floral-cold",
+    "value": 15
+  },
+  {
+    "op": "replace",
+    "file": "simpletea:itemtypes/liquid/teaportion.json",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/satietybytype/*-wild-cold",
+    "value": 15
+  }
+]

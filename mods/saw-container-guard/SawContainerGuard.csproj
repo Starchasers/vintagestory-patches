@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <AssemblyName>SawContainerGuard</AssemblyName><Version>1.0.0</Version>
+    <Deterministic>true</Deterministic><EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <Reference Include="VintagestoryAPI"><HintPath>$(GamePath)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSSurvivalMod"><HintPath>$(GamePath)/Mods/VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="ValidateGamePath" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GamePath)/VintagestoryAPI.dll') Or !Exists('$(GamePath)/Mods/VSSurvivalMod.dll') Or !Exists('$(GamePath)/Lib/0Harmony.dll')" Text="Set GamePath to a Vintage Story 1.22.7 installation with API, Mods/VSSurvivalMod.dll and Lib/0Harmony.dll." />
+  </Target>
+</Project>

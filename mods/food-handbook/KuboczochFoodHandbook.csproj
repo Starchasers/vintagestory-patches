@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net10.0</TargetFramework><AssemblyName>KuboczochFoodHandbook</AssemblyName><Version>0.3.1</Version><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems><Deterministic>true</Deterministic><GamePath Condition="'$(GamePath)'==''">../woodworking-tutorial/vs</GamePath><ACAPath Condition="'$(ACAPath)'==''">../food-handbook-hook-spike/evidence/ACulinaryArtillery_2.0.0-dev.29.zip/ACulinaryArtillery.dll</ACAPath></PropertyGroup>
+<ItemGroup><Compile Include="src/**/*.cs" />
+<Reference Include="VintagestoryAPI"><HintPath>$(GamePath)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="VSSurvivalMod"><HintPath>$(GamePath)/Mods/VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="ACulinaryArtillery"><HintPath>$(ACAPath)</HintPath><Private>false</Private></Reference>
+<Reference Include="0Harmony"><HintPath>$(GamePath)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="cairo-sharp"><HintPath>$(GamePath)/Lib/cairo-sharp.dll</HintPath><Private>false</Private></Reference>
+</ItemGroup></Project>

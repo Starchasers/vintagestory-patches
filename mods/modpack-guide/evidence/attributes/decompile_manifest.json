@@ -1,0 +1,83 @@
+{
+  "mode": "ilspy static decompilation, no target DLL execution",
+  "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip",
+  "archiveSha256": "325ead64a9192ea7426d017e1c5141286f860f95c3af5dd34b79ad14f060974b",
+  "assemblies": {
+    "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll": "95c25a86ffe83b56ae72fcf77e602864015d711e7118988eae2d7b9d825b3076",
+    "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll": "034283e7e9d98eae45ee63005576fd89badc3c995b531cc4c3fe46f3eb2d3296"
+  },
+  "commands": [
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.Client.Behaviors.ModularPartRenderingFromAttributes",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.ToolsmithModSystem",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.Client.PartData",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.ToolTinkering.Behaviors.CollectibleBehaviorToolHandle",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.Utils.ToolsmithAttributes",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.Client.MultiPartRenderingHelpers",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.RecipeRegisterModSystem",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.ToolTinkering.Items.ItemTinkerToolParts",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Toolsmith.ToolTinkering.Items.ItemWhetstone",
+      "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/evidence/attributes/Toolsmith.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Vintagestory.API.Datastructures.TreeAttribute",
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Vintagestory.API.Common.CollectibleObject",
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll"
+    ],
+    [
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/tools/ilspycmd",
+      "-t",
+      "Vintagestory.API.Config.GlobalConstants",
+      "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll"
+    ]
+  ]
+}

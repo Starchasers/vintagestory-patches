@@ -1,0 +1,176 @@
+{
+  "process-farming-animal-care": {
+    "wordsIncludingNavigationAndIconLabels": 322,
+    "iconFamilies": 4,
+    "anchors": 9,
+    "steps": 7
+  },
+  "process-butchering-leather": {
+    "wordsIncludingNavigationAndIconLabels": 360,
+    "iconFamilies": 9,
+    "anchors": 11,
+    "steps": 7
+  },
+  "process-bees": {
+    "wordsIncludingNavigationAndIconLabels": 291,
+    "iconFamilies": 3,
+    "anchors": 7,
+    "steps": 6
+  },
+  "process-textiles": {
+    "wordsIncludingNavigationAndIconLabels": 339,
+    "iconFamilies": 14,
+    "anchors": 8,
+    "steps": 6
+  },
+  "process-kitchen-broth": {
+    "wordsIncludingNavigationAndIconLabels": 256,
+    "iconFamilies": 9,
+    "anchors": 7,
+    "steps": 4
+  },
+  "process-kitchen-pasta": {
+    "wordsIncludingNavigationAndIconLabels": 287,
+    "iconFamilies": 9,
+    "anchors": 9,
+    "steps": 4
+  },
+  "process-kitchen-dairy": {
+    "wordsIncludingNavigationAndIconLabels": 306,
+    "iconFamilies": 10,
+    "anchors": 8,
+    "steps": 4
+  },
+  "process-kitchen-bottles": {
+    "wordsIncludingNavigationAndIconLabels": 264,
+    "iconFamilies": 6,
+    "anchors": 8,
+    "steps": 4
+  },
+  "process-building-materials": {
+    "wordsIncludingNavigationAndIconLabels": 326,
+    "iconFamilies": 7,
+    "anchors": 7,
+    "steps": 4
+  },
+  "process-heraldic-decor": {
+    "wordsIncludingNavigationAndIconLabels": 318,
+    "iconFamilies": 6,
+    "anchors": 6,
+    "steps": 4
+  },
+  "process-tableware-equipment": {
+    "wordsIncludingNavigationAndIconLabels": 298,
+    "iconFamilies": 9,
+    "anchors": 8,
+    "steps": 3
+  },
+  "process-kitchen-firstfire": {
+    "wordsIncludingNavigationAndIconLabels": 309,
+    "iconFamilies": 5,
+    "anchors": 8,
+    "steps": 6
+  },
+  "process-kitchen-dough-oven": {
+    "wordsIncludingNavigationAndIconLabels": 356,
+    "iconFamilies": 7,
+    "anchors": 8,
+    "steps": 5
+  },
+  "process-kitchen-tea-storage": {
+    "wordsIncludingNavigationAndIconLabels": 321,
+    "iconFamilies": 8,
+    "anchors": 7,
+    "steps": 5
+  },
+  "process-wood-to-workshop": {
+    "wordsIncludingNavigationAndIconLabels": 353,
+    "iconFamilies": 9,
+    "anchors": 10,
+    "steps": 5
+  },
+  "process-ore-to-equipment": {
+    "wordsIncludingNavigationAndIconLabels": 333,
+    "iconFamilies": 5,
+    "anchors": 14,
+    "steps": 4
+  },
+  "process-powders-to-ceramics": {
+    "wordsIncludingNavigationAndIconLabels": 304,
+    "iconFamilies": 10,
+    "anchors": 9,
+    "steps": 4
+  },
+  "process-workshop-storage": {
+    "wordsIncludingNavigationAndIconLabels": 259,
+    "iconFamilies": 4,
+    "anchors": 6,
+    "steps": 4
+  },
+  "world-overland": {
+    "wordsIncludingNavigationAndIconLabels": 305,
+    "iconFamilies": 3,
+    "anchors": 8,
+    "steps": 4
+  },
+  "world-water": {
+    "wordsIncludingNavigationAndIconLabels": 273,
+    "iconFamilies": 1,
+    "anchors": 10,
+    "steps": 4
+  },
+  "world-survival": {
+    "wordsIncludingNavigationAndIconLabels": 235,
+    "iconFamilies": 2,
+    "anchors": 6,
+    "steps": 4
+  },
+  "world-trade": {
+    "wordsIncludingNavigationAndIconLabels": 314,
+    "iconFamilies": 3,
+    "anchors": 7,
+    "steps": 4
+  },
+  "process-index-food-cooking": {
+    "wordsIncludingNavigationAndIconLabels": 83,
+    "iconFamilies": 0,
+    "anchors": 9,
+    "steps": 0
+  },
+  "process-index-farming-husbandry": {
+    "wordsIncludingNavigationAndIconLabels": 48,
+    "iconFamilies": 0,
+    "anchors": 5,
+    "steps": 0
+  },
+  "process-index-crafting-workshops": {
+    "wordsIncludingNavigationAndIconLabels": 73,
+    "iconFamilies": 0,
+    "anchors": 10,
+    "steps": 0
+  },
+  "process-index-gear-tools": {
+    "wordsIncludingNavigationAndIconLabels": 42,
+    "iconFamilies": 0,
+    "anchors": 4,
+    "steps": 0
+  },
+  "process-index-movement-transport": {
+    "wordsIncludingNavigationAndIconLabels": 42,
+    "iconFamilies": 0,
+    "anchors": 4,
+    "steps": 0
+  },
+  "process-index-combat-survival": {
+    "wordsIncludingNavigationAndIconLabels": 36,
+    "iconFamilies": 0,
+    "anchors": 3,
+    "steps": 0
+  },
+  "process-index-economy-community": {
+    "wordsIncludingNavigationAndIconLabels": 37,
+    "iconFamilies": 0,
+    "anchors": 3,
+    "steps": 0
+  }
+}

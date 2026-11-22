@@ -1,0 +1,27 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project sound-src/SoundTests.csproj -c Release -p:GameDir=/home/brunette/.hermes/cache/scratch/vs-freeze/game-api
+exit=0
+PASS real IL has one final break call
+PASS actual Harmony install: 
+PASS Installed true
+PASS actual target owns transpiler
+PASS transformed IL has one helper
+PASS final break sound getter retained
+PASS hit sound getter retained
+PASS only three context loads added
+PASS every other original instruction and branch label is unchanged
+PASS positive damage hit suppressed
+PASS predicate exact context
+PASS false predicate forwards original return
+PASS all original sound arguments forwarded unchanged
+PASS final break/nonpositive/NaN forwarded: 0
+PASS final break/nonpositive/NaN forwarded: -1
+PASS final break/nonpositive/NaN forwarded: NaN
+PASS final break never consults suppression
+PASS predicate exceptions fail closed to vanilla
+PASS unknown IL returned unchanged and disables replacement
+PASS invalidated compatibility forwards vanilla
+PASS reinstall after rejection
+PASS dispose clears installed state
+PASS dispose removes own actual Harmony patch
+PASS disposed helper forwards vanilla
+SUCCESS 24 assertions; real Harmony + game API; no graphical runtime.

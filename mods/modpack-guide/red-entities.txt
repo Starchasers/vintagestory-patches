@@ -1,0 +1,15 @@
+test_entity_normalization_only_changes_display_text (test_tables.Tables.test_entity_normalization_only_changes_display_text) ... FAIL
+
+======================================================================
+FAIL: test_entity_normalization_only_changes_display_text (test_tables.Tables.test_entity_normalization_only_changes_display_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/test_tables.py", line 90, in test_entity_normalization_only_changes_display_text
+    self.assertNotIn('&amp;',''.join(re.split(r'<[^>]*>',value)),key)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '&amp;' unexpectedly found in 'Welcome to PszczolyNew here? Start with the tools and food you need for everyday work. Choose a topic below when you are ready to build a workshop, care for animals or travel farther. Search the handbook for individual items and recipes.Getting started• Make and maintain your tools — Learn tool parts, assembly, sharpening and repair.• Set up woodworking — Find the steps for processing wood in the world.• Prepare food — Explore ingredients, meals and the connected kitchen guides.Choose a topic• Food &amp; Cooking — Prepare ingredients, cook meals, make drinks and preserve food.• Crafting &amp; Workshops — Make tools, process wood and minerals, and craft clothing.• Gear &amp; Tools — Choose travel equipment and tools for building.• Farming &amp; Husbandry — Grow crops, keep bees and care for livestock.• Movement &amp; Transport — Learn movement actions, haul supplies and plan land or water travel.• Combat &amp; Survival — Learn combat, hunting, fire safety and helping downed players.• Economy &amp; Community — Trade, make currency, share notices and play games.Progression guidesToolsmith - Pszczoly Guide to Toolsmith' : root-text
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)

@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "file": "roughseas:lang/en.json",
+    "path": "/roughseas:item-handbooktext-roughseas:barkcanoe-*",
+    "value": "Bark on a light frame. It is fast, and draws so little water that it runs rapids that batter every other hull but the coracle.<br>It is fragile, and light enough to carry over portages.<br><br><strong>Building it</strong><br>You build a bark canoe where its bark comes off the tree.<br>- Hold a knife and <hk>rightmouse</hk> a standing birch, elm or spruce whose trunk is at least five blocks tall. The bark comes off in one sheet and falls to the ground: the canoe, not yet framed. It floats and can be carried from the start.<br>- Split <a href=\"handbook://item-roughseas:lath-oak-5-dry\">laths</a>: lay five logs of one wood on their sides, end to end, set a <a href=\"handbook://block-roughseas:wedge-we-0\">splitting wedge</a> on each, and drive the wedges with an axe.<br>- Soak the laths for two days, because only wet laths bend: in a barrel of water, or as a <a href=\"handbook://item-roughseas:lathbundle-oak-5-dry\">bundle</a> weighted with stones on the bottom of any water.<br>- Hold the laths on the sheet one at a time. Lay the inner gunwales and the thwarts flat on the bark. The last thwart turns the middle of the bark up around them.<br>- Hold a knife on the canoe to slash the bark where it narrows. Each slash lets the next length turn up.<br>- Lay the first outer gunwale to raise the frame to full height, then lay the second.<br>- Hold the knife on the canoe again to trim each end, then lay the stems.<br>- Hold a rope on the canoe to lash the bark to the gunwales, then lay the sheathing and the ribs.<br>- Hold raw <a href=\"handbook://item-game:resin\">resin</a> on the canoe to seal the seams. Each seam consumes 1 resin in every Pitch stage. No glue, heating or liquid container is needed.<br>- Two days later the ribs have dried, and the canoe is finished and takes its seats.<br><br><strong>Using it</strong><br>- Sit in the back seat and paddle it with a <a href=\"handbook://item-roughseas:paddle-oak\">paddle</a> in hand, or pole it through shallows with a <a href=\"handbook://item-roughseas:pole-oak-3\">pole</a>. The front seat carries a passenger.<br>- Pick it up with <hk>shift</hk> + <hk>rightmouse</hk>.<br>- Mend it on the way with bark of the same tree.",
+    "dependsOn": [
+      {
+        "modid": "roughseas"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "file": "roughseas:lang/pl.json",
+    "path": "/roughseas:item-handbooktext-roughseas:barkcanoe-*",
+    "value": "Kora na lekkiej ramie. Jest szybkie i ma tak płytkie zanurzenie, że pokonuje bystrza, które obijają każdy inny kadłub oprócz korakla.<br>Jest kruche i na tyle lekkie, że przenosisz je na przenoskach.<br><br><strong>Budowa</strong><br>Kanu z kory budujesz tam, gdzie kora schodzi z drzewa.<br>- Trzymaj nóż i kliknij <hk>rightmouse</hk> na rosnącą brzozę, wiąz lub świerk o pniu wysokim na co najmniej pięć bloków. Kora schodzi jednym płatem i spada na ziemię: to już kanu, jeszcze bez szkieletu. Od początku pływa i można je nosić.<br>- Rozszczep <a href=\"handbook://item-roughseas:lath-oak-5-dry\">listwy</a>: połóż na boku pięć kłód z jednego drewna, koniec do końca, ustaw na każdej <a href=\"handbook://block-roughseas:wedge-we-0\">klin do łupania</a> i wbij kliny siekierą.<br>- Namocz listwy na dwa dni w beczce z wodą albo jako <a href=\"handbook://item-roughseas:lathbundle-oak-5-dry\">wiązkę</a> obciążoną kamieniami na dnie dowolnej wody, bo gną się tylko mokre.<br>- Przytrzymuj listwy na płacie kory po jednej. Połóż wewnętrzne okrężnice i poprzeczki płasko na korze. Ostatnia poprzeczka wygina środek kory do góry wokół nich.<br>- Przytrzymaj nóż na kanu, by naciąć korę tam, gdzie się zwęża. Każde nacięcie pozwala wygiąć do góry kolejny odcinek.<br>- Połóż pierwszą zewnętrzną okrężnicę, by podnieść szkielet na pełną wysokość, a potem drugą.<br>- Znów przytrzymaj nóż na kanu, by przyciąć każdy koniec, a potem połóż stewy.<br>- Przytrzymaj linę na kanu, by przywiązać korę do okrężnic, a potem połóż poszycie wewnętrzne i wręgi.<br>- Przytrzymaj na kanu surową <a href=\"handbook://item-game:resin\">żywicę</a>, aby uszczelnić szwy. Każdy szew zużywa 1 sztukę żywicy na każdym etapie uszczelniania (Pitch). Nie potrzeba kleju, podgrzewania ani pojemnika na płyny.<br>- Po dwóch dniach wręgi wyschną, a kanu jest gotowe i dostaje siedzenia.<br><br><strong>Użytkowanie</strong><br>- Usiądź na tylnym siedzeniu i wiosłuj z <a href=\"handbook://item-roughseas:paddle-oak\">pagajem</a> w ręce albo płyń na pych po płyciznach z <a href=\"handbook://item-roughseas:pole-oak-3\">drągiem</a>. Na przednim siedzeniu płynie pasażer.<br>- Podnieś je, klikając <hk>shift</hk> + <hk>rightmouse</hk>.<br>- Naprawiaj je w drodze korą z tego samego drzewa.",
+    "dependsOn": [
+      {
+        "modid": "roughseas"
+      }
+    ]
+  }
+]

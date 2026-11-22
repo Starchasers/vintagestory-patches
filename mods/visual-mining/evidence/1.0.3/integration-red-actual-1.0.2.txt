@@ -1,0 +1,80 @@
+ACTUAL 1.0.2 packaged DLL, same test sources; exit=134
+PASS start has no phantom hit
+PASS windup has no hit
+PASS crossing detects contact even when exact frame skipped
+PASS duplicate frame cannot hit twice
+PASS recovery cannot hit twice
+PASS target switch in recovery cannot manufacture impact
+PASS next cycle windup
+PASS next cycle contact
+PASS cancel and resume midcycle no phantom
+PASS NaN fails safely
+PASS original shovel visual timing
+PASS config bounded and NaN safe
+PASS weapons knife bare hands not configured
+PASS reference game version 1.22.7
+PASS exactly two core visual observer hooks installed against real engine
+PASS damage observer postfix only with no gameplay replacement
+PASS exact engine observer class
+PASS actual observer damage field signature
+PASS animation-only getter hook installed
+PASS core patches fully removed
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS all 8 original/offhand animation metadata+shape pairs applied to actual game JSON
+PASS game Shape deserializes all standalone animations without collisions
+PASS actual game AnimationMetaData deserializes all registrations
+PASS no damage/sound frame attributes in cosmetic animation metadata
+PASS RED fixture reproduces logged 1.0.0 assetsAvailable=false gate from actual unpatched player
+PASS runtime client registration repairs server-provided metadata (legacy RED reproduction fails here)
+PASS registration is idempotent
+PASS private local shape bypasses vanilla AnimationCache and stays shared between mesh/FP/TP callers
+PASS shared player shape remains untouched
+PASS local animator receives all 8 shape animations
+PASS real engine resolves inactive animation: CanPresent is not circular
+PASS actual game animation manager starts repaired metadata
+PASS repaired activation proceeds to contact using actual registered axe
+PASS actual shovel asset uses inherited Item animation getter, not material override class
+PASS actual inherited getter exists for game:shovel-chert
+PASS actual inherited getter exists for game:shovel-granite
+PASS actual inherited getter exists for game:shovel-andesite
+PASS actual inherited getter exists for game:shovel-basalt
+PASS actual inherited getter exists for game:shovel-obsidian
+PASS actual inherited getter exists for game:shovel-peridotite
+PASS actual inherited getter exists for game:shovel-flint
+PASS actual inherited getter exists for game:shovel-copper
+PASS actual inherited getter exists for game:shovel-tinbronze
+PASS actual inherited getter exists for game:shovel-bismuthbronze
+PASS actual inherited getter exists for game:shovel-blackbronze
+PASS actual inherited getter exists for game:shovel-gold
+PASS actual inherited getter exists for game:shovel-silver
+PASS actual inherited getter exists for game:shovel-iron
+PASS actual inherited getter exists for game:shovel-meteoriciron
+PASS actual inherited getter exists for game:shovel-steel
+PASS actual animation manager activates registered shovel
+PASS actual engine shovel animation Progress crosses configured contact frame
+PASS real grown-log fixture: registered axe → contact → observed damage → committed voxel entry → world-coordinate redraw → vanilla restoration; strict accessor rejects gameplay writes
+dispatch fixture: game:log-grown-birch-ud, wood/woodtyped/log.json drawtype=Cube → 10 → BleedingCubeTesselator; other mod patches absent
+CPU pool evidence: vanilla=24v/36i 5C32ACBE5505F837; committed=336v/504i 6D1CDC19ADDC11FE; hook/light/source/emission deltas=1/1/1/1
+PASS production diagnostics: all six pipeline stages emitted; 24 repeated rejections bounded to eight, with reason
+PASS dispatcher CPU mesh: committed carve has interior vertices; reset=24v/36i 5C32ACBE5505F837 exactly equals baseline; strict world rejects gameplay writes
+dispatch fixture: game:peat-none, soil/peat.json drawtype=TopSoil → 14 → TopsoilTesselator; other mod patches absent
+CPU pool evidence: vanilla=24v/36i A2ABCB9F2B66594A; committed=24v/36i A2ABCB9F2B66594A; hook/light/source/emission deltas=0/0/0/0
+Unhandled exception. System.Exception: RED: real dispatcher still emitted unchanged vanilla cube after committed contact (TopsoilTesselator replacement missing)
+   at DispatchMeshTests.RunFixture(String game, String asset, String code, EnumTool tool, Dictionary`2 variants)
+   at DispatchMeshTests.Run(String game) in /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/tests/DispatchMeshTests.cs:line 35
+   at Program.<Main>$(String[] args) in /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/tests/Program.cs:line 97

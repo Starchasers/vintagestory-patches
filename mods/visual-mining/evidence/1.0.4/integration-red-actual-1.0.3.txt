@@ -1,0 +1,268 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/tests/obj/legacy-1.0.3/LegacyRegression.csproj -c Release -p:GameDir=/home/brunette/.hermes/cache/scratch/vs-freeze/game-api
+exit=134
+PASS start has no phantom hit
+PASS windup has no hit
+PASS crossing detects contact even when exact frame skipped
+PASS duplicate frame cannot hit twice
+PASS recovery cannot hit twice
+PASS target switch in recovery cannot manufacture impact
+PASS next cycle windup
+PASS next cycle contact
+PASS cancel and resume midcycle no phantom
+PASS NaN fails safely
+PASS original shovel visual timing
+PASS config bounded and NaN safe
+PASS weapons knife bare hands not configured
+PASS reference game version 1.22.7
+PASS exactly two core visual observer hooks installed against real engine
+PASS damage observer postfix only with no gameplay replacement
+PASS exact engine observer class
+PASS actual observer damage field signature
+PASS animation-only getter hook installed
+PASS core patches fully removed
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS client-only additive animation patch
+PASS all 8 original/offhand animation metadata+shape pairs applied to actual game JSON
+PASS game Shape deserializes all standalone animations without collisions
+PASS actual game AnimationMetaData deserializes all registrations
+PASS no damage/sound frame attributes in cosmetic animation metadata
+PASS RED fixture reproduces logged 1.0.0 assetsAvailable=false gate from actual unpatched player
+PASS runtime client registration repairs server-provided metadata (legacy RED reproduction fails here)
+PASS registration is idempotent
+PASS private local shape bypasses vanilla AnimationCache and stays shared between mesh/FP/TP callers
+PASS shared player shape remains untouched
+PASS local animator receives all 8 shape animations
+PASS real engine resolves inactive animation: CanPresent is not circular
+PASS actual game animation manager starts repaired metadata
+PASS repaired activation proceeds to contact using actual registered axe
+PASS actual shovel asset uses inherited Item animation getter, not material override class
+PASS actual inherited getter exists for game:shovel-chert
+PASS actual inherited getter exists for game:shovel-granite
+PASS actual inherited getter exists for game:shovel-andesite
+PASS actual inherited getter exists for game:shovel-basalt
+PASS actual inherited getter exists for game:shovel-obsidian
+PASS actual inherited getter exists for game:shovel-peridotite
+PASS actual inherited getter exists for game:shovel-flint
+PASS actual inherited getter exists for game:shovel-copper
+PASS actual inherited getter exists for game:shovel-tinbronze
+PASS actual inherited getter exists for game:shovel-bismuthbronze
+PASS actual inherited getter exists for game:shovel-blackbronze
+PASS actual inherited getter exists for game:shovel-gold
+PASS actual inherited getter exists for game:shovel-silver
+PASS actual inherited getter exists for game:shovel-iron
+PASS actual inherited getter exists for game:shovel-meteoriciron
+PASS actual inherited getter exists for game:shovel-steel
+PASS actual animation manager activates registered shovel
+PASS actual engine shovel animation Progress crosses configured contact frame
+Unhandled exception. System.Exception: Tool toggle regressions: 195/2560 failed
+existing config is NEVER overwritten on startup
+existing config is NEVER overwritten on startup
+invalid config uses defaults without overwriting user file
+mask=1 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=1 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=1 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=2 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=2 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=3 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=3 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=3 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=4 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=4 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=5 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=5 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=5 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=6 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=6 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=6 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=7 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Pickaxe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=False FirstPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=True FirstPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=7 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Axe offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=False FirstPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=False FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=False ThirdPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=False ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=True FirstPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=True FirstPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=True ThirdPerson reset removes owned FP/TP animations
+mask=7 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+mask=7 Shovel offhand=True ThirdPerson actual tool switch stops owned animations in both managers
+   at ToolToggleTests.Run(String game, AnimationManager readyManager) in /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/tests/ToolToggleTests.cs:line 96
+   at Program.<Main>$(String[] args) in /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/tests/Program.cs:line 96

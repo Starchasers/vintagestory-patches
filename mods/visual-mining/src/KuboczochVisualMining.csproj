@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net10.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>KuboczochVisualMining</AssemblyName><Version>1.0.4</Version><GameDir Condition="'$(GameDir)' == ''">/home/brunette/.hermes/cache/scratch/vs-freeze/game-api</GameDir><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+<ItemGroup><Compile Include="*.cs"/><Compile Include="../voxel-src/CosmeticVoxelRenderer.cs" Link="CosmeticVoxelRenderer.cs"/><Compile Include="../voxel-src/VoxelDamageState.cs" Link="VoxelDamageState.cs"/><Compile Include="../sound-src/MiningSoundPatch.cs" Link="MiningSoundPatch.cs"/></ItemGroup>
+<ItemGroup>
+<Reference Include="VintagestoryAPI"><HintPath>$(GameDir)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="VintagestoryLib"><HintPath>$(GameDir)/VintagestoryLib.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="VSSurvivalMod"><HintPath>$(GameDir)/Mods/VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="Newtonsoft.Json"><HintPath>$(GameDir)/Lib/Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="0Harmony"><HintPath>$(GameDir)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+</ItemGroup></Project>

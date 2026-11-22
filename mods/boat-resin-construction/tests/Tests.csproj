@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RoughSeas" HintPath="$(RoughSeasPath)" Private="true" />
+    <ProjectReference Include="../mod/KuboczochPitchGlueCompat.csproj" />
+    <Reference Include="VintagestoryAPI" HintPath="$(GamePath)/VintagestoryAPI.dll" Private="true" />
+    <Reference Include="VintagestoryLib" HintPath="$(GamePath)/VintagestoryLib.dll" Private="true" />
+    <Reference Include="VSSurvivalMod" HintPath="$(GamePath)/Mods/VSSurvivalMod.dll" Private="true" />
+    <Reference Include="VSEssentials" HintPath="$(GamePath)/Mods/VSEssentials.dll" Private="true" />
+    <Reference Include="0Harmony" HintPath="$(GamePath)/Lib/0Harmony.dll" Private="true" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(GamePath)/Lib/Newtonsoft.Json.dll" Private="true" />
+  </ItemGroup>
+</Project>

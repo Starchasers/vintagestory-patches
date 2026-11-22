@@ -1,0 +1,42 @@
+PASS separate concrete stages and one heading per run
+PASS meal identity and callback object preserved
+PASS mixed signature one icon not duplicate process lists
+PASS unknown components retain identity
+PASS partially unknown slideshow left untouched
+PASS empty unchanged
+PASS mixed runs preserve ordering
+PASS provider wins without fallback evaluation
+PASS null provider fallback preserves code
+PASS empty provider result native null-coalescing semantics
+PASS projection exception leaves native source untouched
+PASS 100 deterministic duplicate and mixed-process output sequences
+PASS dedicated section order independent of interleaved helper contributions
+PASS one simmering section, no duplicate concrete icons
+PASS relocated mixing keeps exact native callback widget
+PASS empty helper emits no process sections or spacing
+PASS partially unknown helper rejects relocation transaction, preserving original Ingredient for fallback
+PASS section planning cannot remove native/unrelated Ingredient for or Created by nodes
+PASS migrated broth and pre-gelatin absent Ingredient for, present once Simmering
+PASS mixed vanilla+ACA preserves independently legitimate same-output crafting and unrelated Ingredient for
+PASS ACA-only page has dedicated process section and no orphan Ingredient for heading
+PASS all supported source declarations represented once, not inferred from icon count
+PASS per-source policy projection for 203 simmering, 420 kneading, 3 mixing declarations (synthetic nodes, NOT registry verification)
+PASS 205 EF grid and 30 barrel declarations each classified or explicitly excluded, never runtime-certified
+PASS attribute pointers and runtime acceptance remain explicit
+PASS all 235 native source identities unique
+PASS 235 source-declaration synthetic output projections match exact native identity policy (NOT runtime verification)
+PASS same output independent vanilla crafting relation retained
+PASS unknown EF recipe name retained even for known output
+PASS nonfood hide, oil and wax not blanket classified
+PASS unknown provider cannot acquire food sections
+PASS exact trusted ACA semantic fingerprint accepted
+PASS unknown or missing ACA assembly rejected even with unchanged ABI
+PASS unknown-version native IL fails closed
+PASS 330 patch operations distinguished from recipe declarations
+PASS Ancient Tools rack transform is visual metadata, not a curing recipe or blocker
+PASS simmering uses verified bare guide code
+PASS kneading and mixing share authoritative guide
+PASS combined localized parent retains one output grouping with two clear subheadings
+PASS combined routes independently to BOTH verified destinations, never one ambiguous link
+PASS unknown signatures never guess a guide
+41 tests passed; own-code only, no ACA/game assemblies loaded.

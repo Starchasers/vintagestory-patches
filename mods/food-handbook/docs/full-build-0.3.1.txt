@@ -1,0 +1,207 @@
+RUN /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/research/agent-investigation-engine/dotnet/dotnet build KuboczochFoodHandbook.csproj -c Release --nologo -p:GamePath=/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs -p:ACAPath=/home/brunette/.hermes/cache/scratch/food-handbook-hook-spike/evidence/ACulinaryArtillery_2.0.0-dev.29.zip/ACulinaryArtillery.dll
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KuboczochFoodHandbook -> /home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/bin/Release/net10.0/KuboczochFoodHandbook.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+RUN /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/research/agent-investigation-engine/dotnet/dotnet run --project tests/Tests.csproj -c Release
+PASS separate concrete stages and one heading per run
+PASS meal identity and callback object preserved
+PASS mixed signature one icon not duplicate process lists
+PASS unknown components retain identity
+PASS partially unknown slideshow left untouched
+PASS empty unchanged
+PASS mixed runs preserve ordering
+PASS provider wins without fallback evaluation
+PASS null provider fallback preserves code
+PASS empty provider result native null-coalescing semantics
+PASS projection exception leaves native source untouched
+PASS 100 deterministic duplicate and mixed-process output sequences
+PASS dedicated section order independent of interleaved helper contributions
+PASS one simmering section, no duplicate concrete icons
+PASS relocated mixing keeps exact native callback widget
+PASS empty helper emits no process sections or spacing
+PASS partially unknown helper rejects relocation transaction, preserving original Ingredient for fallback
+PASS section planning cannot remove native/unrelated Ingredient for or Created by nodes
+PASS migrated broth and pre-gelatin absent Ingredient for, present once Simmering
+PASS mixed vanilla+ACA preserves independently legitimate same-output crafting and unrelated Ingredient for
+PASS ACA-only page has dedicated process section and no orphan Ingredient for heading
+PASS all supported source declarations represented once, not inferred from icon count
+PASS per-source policy projection for 203 simmering, 420 kneading, 3 mixing declarations (synthetic nodes, NOT registry verification)
+PASS 205 EF grid and 30 barrel declarations each classified or explicitly excluded, never runtime-certified
+PASS attribute pointers and runtime acceptance remain explicit
+PASS all 235 native source identities unique
+PASS 235 source-declaration synthetic output projections match exact native identity policy (NOT runtime verification)
+PASS same output independent vanilla crafting relation retained
+PASS unknown EF recipe name retained even for known output
+PASS nonfood hide, oil and wax not blanket classified
+PASS unknown provider cannot acquire food sections
+PASS exact trusted ACA semantic fingerprint accepted
+PASS unknown or missing ACA assembly rejected even with unchanged ABI
+PASS unknown-version native IL fails closed
+PASS 330 patch operations distinguished from recipe declarations
+PASS Ancient Tools rack transform is visual metadata, not a curing recipe or blocker
+PASS simmering uses verified bare guide code
+PASS kneading and mixing share authoritative guide
+PASS combined localized parent retains one output grouping with two clear subheadings
+PASS combined routes independently to BOTH verified destinations, never one ambiguous link
+PASS unknown signatures never guess a guide
+41 tests passed; own-code only, no ACA/game assemblies loaded.
+RUN /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/research/agent-investigation-engine/dotnet/dotnet run --project tests/Layout/Layout.csproj -c Release -p:GamePath=/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs
+PASS 0.3.0 reproducer: actual API Left bounds coincide and one click invokes BOTH callbacks
+PASS 84 trusted API geometry/input cases: distinct output rectangles, single-output clicks, wrapping, four GUI scales
+No real client/ACA/Harmony startup or item rendering exercised.
+RUN /home/brunette/.hermes/cache/scratch/kuboczoch-visual-mining/research/agent-investigation-engine/dotnet/dotnet run --project tools/MetadataCheck/MetadataCheck.csproj -c Release -- /home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll /home/brunette/.hermes/cache/scratch/food-handbook-hook-spike/evidence/ACulinaryArtillery_2.0.0-dev.29.zip/ACulinaryArtillery.dll /home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/bin/Release/net10.0/KuboczochFoodHandbook.dll
+PASS trusted game reference OverallVersion = 1.22.7
+PASS exact trusted ACA assembly semantics including helper lambdas
+PASS ACA hook is public static
+PASS ACA helper returns richtext list
+PASS exact ACA hook parameter signature
+PASS Harmony name binding matches exact ACA parameters
+PASS exact ACA Postfix positional ABI: ref result arg0, components arg5
+PASS actual ACA Postfix IL contains exactly one direct ingredient-helper call
+PASS exact native AddHeading has FOUR parameters; preliminary optional-link API claim corrected
+PASS native linked subheading signature retained
+GENERAL_IL=08D01932676FDA0BD552D689FF84150666ECAA6317B6FFFCD03AE8FC4B535101
+PASS native Processes into ABI, no alternate renderer or added hook
+PASS exact existing native Processes into IL fingerprint
+GENERAL_ABI=capi,openDetailPageFor,stack,components,marginTop,marginBottom,containers,fuels,haveText
+NATIVE_IL=E2ADD5DAADB951752CBFE9280897F4435734707CF612BEE8CFCD7BA053A46207
+PASS exact native ingredient IL fingerprint
+GENERAL_KEYS=1
+PASS native transition heading is already named per EnumTransitionType, not generic text
+PASS exact 12 native collector calls; source-locked ordinals grid1/barrel6, returnedStack2 untouched
+PASS unambiguous grid/barrel recipe locals for contribution capture
+PASS native output collector ABI: instance void (capi,list,output)
+NATIVE_ABI=Vintagestory.API.Client.ICoreClientAPI,Vintagestory.API.Common.ItemStack[],Vintagestory.API.Common.ActionConsumable`1<System.String>,Vintagestory.API.Common.ItemStack,System.Collections.Generic.List`1<Vintagestory.API.Client.RichTextComponentBase>,System.Single,System.Collections.Generic.List`1<Vintagestory.API.Common.ItemStack>,System.Collections.Generic.List`1<Vintagestory.API.Common.ItemStack>,System.Collections.Generic.List`1<Vintagestory.API.Common.ItemStack>,System.Boolean
+PASS production assembly version 0.3.1.0
+PASS production contains independent section composition hook
+PASS addon contains ModSystem
+PASS no bundled upstream namespaces
+PASS ACA retained as metadata reference not bundled code
+VintagestoryAPI.dll sha256=034283e7e9d98eae45ee63005576fd89badc3c995b531cc4c3fe46f3eb2d3296
+ACulinaryArtillery.dll sha256=8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b
+KuboczochFoodHandbook.dll sha256=ab3dd9b2ceefa0c944bd5769594a83cc53125e3fa47f578f9833020d874d45a0
+Metadata checks only; no upstream DLL or game client executed.
+RUN /home/brunette/.hermes/tools/python-3.14.7+202****0901-linux-x64/bin/python tools/validate.py
+PASS exact mod identity
+PASS client-only optional presentation addon
+PASS explicit verified dependency minima
+PASS all reachable process signatures localized
+PASS language-only assets: en.json
+PASS language-only assets: pl.json
+PASS all upstream references non-copying
+PASS ACA composition plus IL-gated native recipe patch; existing native named attribute sections retained, no behavior shadow
+PASS single validated helper call redirects component list and ref result
+PASS migrated process contribution removed from generic Ingredient for
+PASS no translated-label matching or native list surgery
+PASS dedicated headings compose transactionally before commit
+PASS both output paths use shared inline geometry and callbacks
+PASS each process row has shared leading/trailing clear spacers
+PASS explicit concrete output constructor and provider-first routing
+PASS native predicates and native matching attribute policy retained
+PASS exact ACA semantic fingerprint gated before any patch
+PASS only two verified guide destinations; no guessed guides
+PASS all combined heading destinations composed through optional link helper
+PASS combined headings retain one output row
+PASS Preparing Fermenting Preserving Soaking remain plain
+PASS no guessed locale overrides
+PASS linked headings retain exact destination, translated newline and native spacing
+PASS combined parent and subheadings localized en
+PASS combined parent and subheadings localized pl
+PASS all 63 selected provider rows unique
+PASS all 141 manifest provider classifications unique
+PASS selected provider IDs match manifest food classification
+PASS provider status totals reconciled
+PASS no provider claimed runtime-validated
+Static contracts passed; GUI layout, Harmony execution, routing and live recipe registries NOT tested.
+RUN /home/brunette/.hermes/tools/python-3.14.7+202****0901-linux-x64/bin/python tools/package.py
+/home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/dist/KuboczochFoodHandbook-0.3.1.zip
+/home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/dist/KuboczochFoodHandbook-0.3.1-source.zip
+RUN /home/brunette/.hermes/tools/python-3.14.7+202****0901-linux-x64/bin/python tools/validate.py dist/KuboczochFoodHandbook-0.3.1.zip dist/KuboczochFoodHandbook-0.3.1-source.zip
+PASS exact mod identity
+PASS client-only optional presentation addon
+PASS explicit verified dependency minima
+PASS all reachable process signatures localized
+PASS language-only assets: en.json
+PASS language-only assets: pl.json
+PASS all upstream references non-copying
+PASS ACA composition plus IL-gated native recipe patch; existing native named attribute sections retained, no behavior shadow
+PASS single validated helper call redirects component list and ref result
+PASS migrated process contribution removed from generic Ingredient for
+PASS no translated-label matching or native list surgery
+PASS dedicated headings compose transactionally before commit
+PASS both output paths use shared inline geometry and callbacks
+PASS each process row has shared leading/trailing clear spacers
+PASS explicit concrete output constructor and provider-first routing
+PASS native predicates and native matching attribute policy retained
+PASS exact ACA semantic fingerprint gated before any patch
+PASS only two verified guide destinations; no guessed guides
+PASS all combined heading destinations composed through optional link helper
+PASS combined headings retain one output row
+PASS Preparing Fermenting Preserving Soaking remain plain
+PASS no guessed locale overrides
+PASS linked headings retain exact destination, translated newline and native spacing
+PASS combined parent and subheadings localized en
+PASS combined parent and subheadings localized pl
+PASS all 63 selected provider rows unique
+PASS all 141 manifest provider classifications unique
+PASS selected provider IDs match manifest food classification
+PASS provider status totals reconciled
+PASS no provider claimed runtime-validated
+PASS safe archive names: KuboczochFoodHandbook-0.3.1.zip
+PASS archive uniqueness and CRC: KuboczochFoodHandbook-0.3.1.zip
+PASS runtime archive contains only own DLL
+PASS runtime archive DLL equals compiled production artifact
+PASS runtime archive manifest matches source
+PASS safe archive names: KuboczochFoodHandbook-0.3.1-source.zip
+PASS archive uniqueness and CRC: KuboczochFoodHandbook-0.3.1-source.zip
+PASS source archive original code, tests, no binaries
+Static contracts passed; GUI layout, Harmony execution, routing and live recipe registries NOT tested.
+RUN /home/brunette/.hermes/tools/python-3.14.7+202****0901-linux-x64/bin/python tools/package.py
+/home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/dist/KuboczochFoodHandbook-0.3.1.zip
+/home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/dist/KuboczochFoodHandbook-0.3.1-source.zip
+RUN /home/brunette/.hermes/tools/python-3.14.7+202****0901-linux-x64/bin/python tools/validate.py dist/KuboczochFoodHandbook-0.3.1.zip dist/KuboczochFoodHandbook-0.3.1-source.zip
+PASS exact mod identity
+PASS client-only optional presentation addon
+PASS explicit verified dependency minima
+PASS all reachable process signatures localized
+PASS language-only assets: en.json
+PASS language-only assets: pl.json
+PASS all upstream references non-copying
+PASS ACA composition plus IL-gated native recipe patch; existing native named attribute sections retained, no behavior shadow
+PASS single validated helper call redirects component list and ref result
+PASS migrated process contribution removed from generic Ingredient for
+PASS no translated-label matching or native list surgery
+PASS dedicated headings compose transactionally before commit
+PASS both output paths use shared inline geometry and callbacks
+PASS each process row has shared leading/trailing clear spacers
+PASS explicit concrete output constructor and provider-first routing
+PASS native predicates and native matching attribute policy retained
+PASS exact ACA semantic fingerprint gated before any patch
+PASS only two verified guide destinations; no guessed guides
+PASS all combined heading destinations composed through optional link helper
+PASS combined headings retain one output row
+PASS Preparing Fermenting Preserving Soaking remain plain
+PASS no guessed locale overrides
+PASS linked headings retain exact destination, translated newline and native spacing
+PASS combined parent and subheadings localized en
+PASS combined parent and subheadings localized pl
+PASS all 63 selected provider rows unique
+PASS all 141 manifest provider classifications unique
+PASS selected provider IDs match manifest food classification
+PASS provider status totals reconciled
+PASS no provider claimed runtime-validated
+PASS safe archive names: KuboczochFoodHandbook-0.3.1.zip
+PASS archive uniqueness and CRC: KuboczochFoodHandbook-0.3.1.zip
+PASS runtime archive contains only own DLL
+PASS runtime archive DLL equals compiled production artifact
+PASS runtime archive manifest matches source
+PASS safe archive names: KuboczochFoodHandbook-0.3.1-source.zip
+PASS archive uniqueness and CRC: KuboczochFoodHandbook-0.3.1-source.zip
+PASS source archive original code, tests, no binaries
+Static contracts passed; GUI layout, Harmony execution, routing and live recipe registries NOT tested.

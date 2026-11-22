@@ -1,0 +1,196 @@
+{
+  "process-farming-animal-care-text": [
+    "<toolsmithitem type=\"item\" code=\"game:seeds-rye\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:grainbundle-rye-wet\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:grainbundle-rye-dry\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:grain-rye\"></toolsmithitem>"
+  ],
+  "process-butchering-leather-text": [
+    "<toolsmithitem type=\"block\" code=\"butchering:butcherhook-flint-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"butchering:butchertable-primitive-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"butchering:primemeat-raw\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:fat-rendered\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:hide-soaked-small\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:hide-scraped-small\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:hide-prepared-small\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:leather-normal-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:flaxtwine\"></toolsmithitem>"
+  ],
+  "process-bees-text": [
+    "<toolsmithitem type=\"block\" code=\"fromgoldencombs:ceramicbroodpot-ashforest-notop\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"fromgoldencombs:hivetop-ashforest-fired\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"fromgoldencombs:frameliner\"></toolsmithitem>"
+  ],
+  "process-textiles-text": [
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:grainbundle-flax-wet\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:flaxbundle-dry\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:flaxbundle-wet\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:flaxbundle-clear\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"artofgrowing:flaxbundle-soft\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:flaxfibers\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"tailorsdelight:spindle-wood\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:flaxtwine\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:cloth-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"game:linen-normal-down\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"wool:fleece-generic-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"wool:fibers-generic-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"wool:twine-wool-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"wool:cloth-wool-plain\"></toolsmithitem>"
+  ],
+  "process-kitchen-broth-text": [
+    "<toolsmithitem type=\"block\" code=\"aculinaryartillery:saucepan-blue-fired\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:bone\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:waterportion\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:brothportion-bone\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"aculinaryartillery:eggwhiteportion\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:clarifiedbrothportion-bone\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:gelatin-liquid\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:gelatin-raw\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:gelatin-plain\"></toolsmithitem>"
+  ],
+  "process-kitchen-pasta-text": [
+    "<toolsmithitem type=\"block\" code=\"aculinaryartillery:mixingbowl-blue\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:flour-rye\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"aculinaryartillery:eggyolkfullportion-chicken\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:pasta-dough\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:pasta-flat\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:pasta-cut\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:pasta-dried\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"aculinaryartillery:saucepan-blue-fired\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"expandedfoods:pasta-cooked\"></toolsmithitem>"
+  ],
+  "process-kitchen-dairy-text": [
+    "<toolsmithitem type=\"item\" code=\"game:milkportion\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"dairyplus:separatingmilk\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"dairyplus:creamscoop\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"dairyplus:cream\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"dairyplus:skimmilk\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"dairyplus:plungerchurn\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"dairyplus:butter-unsalted\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:salt\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"dairyplus:butter-salted\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"dairyplus:butter-twicesalted\"></toolsmithitem>"
+  ],
+  "process-kitchen-bottles-text": [
+    "<toolsmithitem type=\"block\" code=\"aculinaryartillery:bottle-glass-quartz-fired\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"aculinaryartillery:bark-oak-dry\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"aculinaryartillery:bark-oak-boiled\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"aculinaryartillery:stopper-bark-cork\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"aculinaryartillery:saucepan-blue-fired\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"aculinaryartillery:bottle-glass-quartz-corked\"></toolsmithitem>"
+  ],
+  "process-building-materials-text": [
+    "<toolsmithitem type=\"block\" code=\"scaffolding:scaffolding-top-ns\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:shingle-raw-red\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:shingle-burned-red\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"oneroof:oneroof-redclay-standard-none-free\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"oneroof:oneroof-redclay-dynamic-none-free\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"chiseltools:handplaner-iron\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"chiseltools:pantograph-steel\"></toolsmithitem>"
+  ],
+  "process-heraldic-decor-text": [
+    "<toolsmithitem type=\"block\" code=\"heraldry:heraldryworkbench-east\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"heraldrybanners:banner\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"capes:cape\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"windowdisplay:customwindow-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"windchimes:windchime-wood\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"windchimes:windchime-copper\"></toolsmithitem>"
+  ],
+  "process-tableware-equipment-text": [
+    "<toolsmithitem type=\"item\" code=\"game:ingot-pewter\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:tablewaremold-blue-raw-bowl\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:tablewaremold-blue-fired-bowl\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:bowl-pewter\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:candlelamp-pewter-up\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:crock-pewter\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:bowl-silver\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"pewter:bowl-gold\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"quiversandsheaths:beltbag-back-quiver-arrows\"></toolsmithitem>"
+  ],
+  "process-kitchen-firstfire-text": [
+    "<toolsmithitem type=\"item\" code=\"game:drygrass\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:firewood\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:firestarter\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:stick\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"stickroast:roastingstick\"></toolsmithitem>"
+  ],
+  "process-kitchen-dough-oven-text": [
+    "<toolsmithitem type=\"item\" code=\"game:flour-spelt\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:dough-spelt\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"fseasonedfirewood:fpreparedfirewood\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"fseasonedfirewood:fseasonedfirewood\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"stonebakeoven:ovencontrollerplain-granite-cold-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"stonebakeoven:ovengrillplain-granite-cold-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"stonebakeoven:ovenbakingtopplain-granite\"></toolsmithitem>"
+  ],
+  "process-kitchen-tea-storage-text": [
+    "<toolsmithitem type=\"block\" code=\"game:flower-cornflower-free\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:waterportion\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"simpletea:teaportion-floral-hot\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"tankardsandgoblets:tankard-wood\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"simpletea:teaportion-floral-cold\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"foodshelves:coolingcabinet-normal-east\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"foodshelves:cutice\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"foodshelves:icekeeper-normal-east\"></toolsmithitem>"
+  ],
+  "process-wood-to-workshop-text": [
+    "<toolsmithitem type=\"block\" code=\"immersivewoodworking:choppingblock\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:firewood\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"immersivewoodworking:sawhorse\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:stick\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:saw-copper\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"immersivewoodworking:pitsaw-copper\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:plank-oak\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"toolsmith:workbench-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"toolsmith:grindstone-granite-north\"></toolsmithitem>"
+  ],
+  "process-ore-to-equipment-text": [
+    "<toolsmithitem type=\"item\" code=\"game:charcoal\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"game:crucible-blue-fired\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:ingot-copper\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"toolsmith:workbench-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:ingot-iron\"></toolsmithitem>"
+  ],
+  "process-powders-to-ceramics-text": [
+    "<toolsmithitem type=\"item\" code=\"em:powdered-ore-quartz\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"em:powdered-metal-copper\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"bricklayers:glazingbase-clay\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"bricklayers:glazingbase-clear\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"bricklayers:frit-mix-blue\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"bricklayers:frit-baked-blue\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"bricklayers:frit-ground-blue\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"bricklayers:glazing-clear-blue\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"bricklayers:glazedbowl-raw-clear-blue-plain\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"bricklayers:glazedbowl-burnt-clear-blue-plain\"></toolsmithitem>"
+  ],
+  "process-workshop-storage-text": [
+    "<toolsmithitem type=\"item\" code=\"game:firewood\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:plank-oak\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"purposefulstorage:resourcebin-normal-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"containersbundle:foodcupboard-east\"></toolsmithitem>"
+  ],
+  "world-overland-text": [
+    "<toolsmithitem type=\"item\" code=\"walkingstick:walkingstick-crude\"></toolsmithitem>",
+    "<toolsmithitem type=\"block\" code=\"kscartographytable:cartographytable-filled-north\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"kscartographytable:quill\"></toolsmithitem>"
+  ],
+  "world-water-text": [
+    "<toolsmithitem type=\"item\" code=\"game:rope\"></toolsmithitem>"
+  ],
+  "world-survival-text": [
+    "<toolsmithitem type=\"item\" code=\"game:flaxtwine\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"game:bandage-clean\"></toolsmithitem>"
+  ],
+  "world-trade-text": [
+    "<toolsmithitem type=\"block\" code=\"coins:mint-east\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"coins:wallet\"></toolsmithitem>",
+    "<toolsmithitem type=\"item\" code=\"coins:banknote-1\"></toolsmithitem>"
+  ],
+  "process-index-food-cooking-text": [],
+  "process-index-farming-husbandry-text": [],
+  "process-index-crafting-workshops-text": [],
+  "process-index-gear-tools-text": [],
+  "process-index-movement-transport-text": [],
+  "process-index-combat-survival-text": [],
+  "process-index-economy-community-text": []
+}

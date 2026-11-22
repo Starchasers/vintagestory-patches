@@ -1,0 +1,18 @@
+{
+  "type": "code",
+  "modid": "kuboczochfoodhandbook",
+  "name": "Kuboczoch Food Handbook",
+  "authors": [
+    "Kuboczoch"
+  ],
+  "description": "Client-only independent process sections for native ACA handbook recipe contributions. No recipe or tooltip changes.",
+  "version": "0.3.1",
+  "side": "client",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": {
+    "game": "1.22.7",
+    "aculinaryartillery": "2.0.0-dev.29",
+    "expandedfoods": "2.0.0-dev.17"
+  }
+}

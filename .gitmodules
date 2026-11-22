@@ -1,0 +1,9 @@
+[submodule "mods/quiet-rough-seas"]
+	path = mods/quiet-rough-seas
+	url = https://github.com/Starchasers/vintagestory-quietroughseas.git
+[submodule "mods/tutorial-skip"]
+	path = mods/tutorial-skip
+	url = https://github.com/Kuboczoch/kuboczoch-tutorial-skip.git
+[submodule "mods/coins"]
+	path = mods/coins
+	url = https://github.com/Starchasers/vintagestory-coins.git

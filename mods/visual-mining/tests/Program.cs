@@ -1,0 +1,103 @@
+using HarmonyLib;
+using Kuboczoch.VisualMining;
+using Vintagestory.API.Common;
+using Vintagestory.API.Config;
+using Vintagestory.Client.NoObf;
+int n=0;
+void Check(bool value,string name){if(!value)throw new Exception(name);n++;Console.WriteLine("PASS "+name);}
+var t=new ContactTracker();
+Check(!t.Sample("a",0,0,6),"start has no phantom hit");
+Check(!t.Sample("a",0,5,6),"windup has no hit");
+Check(t.Sample("a",0,7,6),"crossing detects contact even when exact frame skipped");
+Check(!t.Sample("a",0,7,6),"duplicate frame cannot hit twice");
+Check(!t.Sample("a",0,20,6),"recovery cannot hit twice");
+Check(!t.Sample("b",0,20,6),"target switch in recovery cannot manufacture impact");
+Check(!t.Sample("b",1,1,6),"next cycle windup");
+Check(t.Sample("b",1,6,6),"next cycle contact");
+t.Reset();Check(!t.Sample("b",1,20,6),"cancel and resume midcycle no phantom");
+Check(!t.Sample("b",1,float.NaN,6),"NaN fails safely");
+var config=new VisualMiningConfig();
+Check(config.Shovel.ContactFrame==15 && config.Shovel.AnimationSpeed==.7f,"original shovel visual timing");
+config.Pickaxe.AnimationSpeed=float.NaN;config.Axe.ContactFrame=999;config.Shovel.CameraShake=-9;config.Normalize();
+Check(config.Pickaxe.AnimationSpeed==1 && config.Axe.ContactFrame==39 && config.Shovel.CameraShake==0,"config bounded and NaN safe");
+Check(config.For(EnumTool.Sword)==null && config.For(EnumTool.Knife)==null && config.For(null)==null,"weapons knife bare hands not configured");
+Check(GameVersion.ShortGameVersion=="1.22.7","reference game version 1.22.7");
+var h=new Harmony("kuboczoch.visualmining.integrationtest");
+VisualMiningMod.InstallCorePatches(h);
+var installed=Harmony.GetAllPatchedMethods().Where(m=>Harmony.GetPatchInfo(m)?.Owners.Contains(h.Id)==true).ToArray();
+Check(installed.Length==2,"exactly two core visual observer hooks installed against real engine");
+var observer=installed.Single(m=>m.Name=="ContinueBreakSurvival");
+var info=Harmony.GetPatchInfo(observer);
+Check(info.Prefixes.Count==0 && info.Transpilers.Count==0 && info.Postfixes.Count==1,"damage observer postfix only with no gameplay replacement");
+Check(observer.DeclaringType==typeof(SystemMouseInWorldInteractions),"exact engine observer class");
+Check(AccessTools.Field(typeof(SystemMouseInWorldInteractions),"curBlockDmg").FieldType==typeof(BlockDamage),"actual observer damage field signature");
+Check(installed.Any(m=>m.Name=="GetHeldTpHitAnimation"),"animation-only getter hook installed");
+h.UnpatchAll(h.Id);
+Check(!Harmony.GetAllPatchedMethods().Any(m=>Harmony.GetPatchInfo(m)?.Owners.Contains(h.Id)==true),"core patches fully removed");
+string game=Environment.GetEnvironmentVariable("VS_GAME_DIR") ?? "/home/brunette/.hermes/cache/scratch/vs-freeze/game-api";
+var playerJson=Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(Path.Combine(game,"assets/game/entities/humanoid/player.json")));
+var shapeJson=Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(Path.Combine(game,"assets/game/shapes/entity/humanoid/seraph-faceless.json")));
+int assetOps=0;
+foreach(var path in Directory.GetFiles("package/assets/kuboczochvisualmining/patches/animations","*.json")) {
+    foreach(Newtonsoft.Json.Linq.JObject op in Newtonsoft.Json.Linq.JArray.Parse(File.ReadAllText(path))) {
+        Check((string)op["side"]=="Client" && (string)op["op"]=="Add","client-only additive animation patch");
+        var arr=(string)op["path"]=="/client/animations/-" ? (Newtonsoft.Json.Linq.JArray)playerJson["client"]["animations"] : (Newtonsoft.Json.Linq.JArray)shapeJson["animations"];
+        arr.Add(op["value"].DeepClone());assetOps++;
+    }
+}
+Check(assetOps==16,"all 8 original/offhand animation metadata+shape pairs applied to actual game JSON");
+var shape=shapeJson.ToObject<Shape>();
+var newAnimations=shape.Animations.Where(a=>a.Code.StartsWith("kvm-")).ToArray();
+Check(newAnimations.Length==8 && newAnimations.Select(a=>a.Code).Distinct().Count()==8,"game Shape deserializes all standalone animations without collisions");
+var metadata=playerJson["client"]["animations"].ToObject<AnimationMetaData[]>();
+Check(metadata.Count(a=>a.Code.StartsWith("kvm-"))==8,"actual game AnimationMetaData deserializes all registrations");
+Check(metadata.Where(a=>a.Code.StartsWith("kvm-")).All(a=>a.Attributes==null),"no damage/sound frame attributes in cosmetic animation metadata");
+// Reproduce the real server-provided player metadata shape, without client JSON patches.
+var unpatchedPlayer = Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(Path.Combine(game,"assets/game/entities/humanoid/player.json")));
+var unpatchedShape = Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(Path.Combine(game,"assets/game/shapes/entity/humanoid/seraph-faceless.json"))).ToObject<Shape>()!;
+var runtimeClient = (Vintagestory.API.Common.Entities.EntityClientProperties)System.Runtime.CompilerServices.RuntimeHelpers.GetUninitializedObject(typeof(Vintagestory.API.Common.Entities.EntityClientProperties));
+runtimeClient.Animations = unpatchedPlayer["client"]!["animations"]!.ToObject<AnimationMetaData[]>()!;
+runtimeClient.AnimationsByMetaCode = runtimeClient.Animations.GroupBy(a => a.Code).ToDictionary(g => g.Key, g => g.Last());
+runtimeClient.AnimationsByCrc32 = new();
+Check(!runtimeClient.Animations.Any(a => a.Code == "kvm-pickaxe"), "RED fixture reproduces logged 1.0.0 assetsAvailable=false gate from actual unpatched player");
+var localAssets = new LocalAnimationAssets(Directory.GetFiles("package/assets/kuboczochvisualmining/patches/animations","*.json").Select(File.ReadAllText));
+if (Environment.GetEnvironmentVariable("KVM_REPRO_LEGACY") != "1") localAssets.RegisterMetadata(runtimeClient);
+Check(localAssets.Registered(runtimeClient), "runtime client registration repairs server-provided metadata (legacy RED reproduction fails here)");
+localAssets.RegisterMetadata(runtimeClient);
+Check(runtimeClient.Animations.Count(a => a.Code.StartsWith("kvm-")) == 8, "registration is idempotent");
+var repairedShape = unpatchedShape;
+bool shapeIsCloned = false;
+localAssets.PrepareTesselation(ref repairedShape, ref shapeIsCloned);
+Check(shapeIsCloned, "private local shape bypasses vanilla AnimationCache and stays shared between mesh/FP/TP callers");
+Check(!unpatchedShape.Animations.Any(a => a.Code.StartsWith("kvm-")), "shared player shape remains untouched");
+Check(repairedShape.Animations.Count(a => a.Code.StartsWith("kvm-")) == 8, "local animator receives all 8 shape animations");
+repairedShape.InitForAnimations(StrictProxy.Create<ILogger>((m,a)=>null),"private-player-test");
+var actualAnimator = new ClientAnimator(() => 1, repairedShape.Animations,repairedShape.Elements,repairedShape.JointsById);
+var actualManager = new AnimationManager { Animator = actualAnimator };
+var inactiveAxe = actualManager.GetAnimationState("kvm-axe");
+Check(inactiveAxe != null && !inactiveAxe.Active, "real engine resolves inactive animation: CanPresent is not circular");
+Check(actualManager.StartAnimation(runtimeClient.AnimationsByMetaCode["kvm-axe"]), "actual game animation manager starts repaired metadata");
+var actualContact = new ContactTracker();
+Check(!actualContact.Sample("log", 0, 0, 6) && actualContact.Sample("log", 0, 7, 6), "repaired activation proceeds to contact using actual registered axe");
+var shovelAsset=Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(Path.Combine(game,"assets/survival/itemtypes/tool/shovel.json")));
+Check(shovelAsset["class"]==null && (string)shovelAsset["tool"]=="shovel", "actual shovel asset uses inherited Item animation getter, not material override class");
+foreach(var material in shovelAsset["variantgroups"][0]["states"]) {
+    var shovel=new Item { Code=new AssetLocation("game:shovel-"+(string)material),Tool=EnumTool.Shovel,HeldTpHitAnimation=(string)shovelAsset["heldTpHitAnimation"] };
+    Check(shovel.GetHeldTpHitAnimation(null!,null!)=="shoveldig", "actual inherited getter exists for "+shovel.Code);
+}
+runtimeClient.AnimationsByMetaCode["kvm-shovel"].AnimationSpeed=config.Shovel.AnimationSpeed;
+Check(actualManager.StartAnimation(runtimeClient.AnimationsByMetaCode["kvm-shovel"]),"actual animation manager activates registered shovel");
+var shovelState=actualManager.GetAnimationState("kvm-shovel");
+var shovelContact=new ContactTracker();
+shovelContact.Sample("peat",0,0,config.Shovel.ContactFrame);
+bool shovelHit=false;
+for(int frame=0;frame<90&&!shovelHit;frame++) { actualAnimator.OnFrame(new Dictionary<string,AnimationMetaData>{{"kvm-shovel",runtimeClient.AnimationsByMetaCode["kvm-shovel"]}},1f/30);shovelHit=shovelContact.Sample("peat",shovelState.Iterations,shovelState.CurrentFrame,config.Shovel.ContactFrame); }
+Check(shovelHit,"actual engine shovel animation Progress crosses configured contact frame");
+ToolToggleTests.Run(game, actualManager);
+PipelineTests.Run(game, actualManager, actualContact);
+DispatchMeshTests.Run(game);
+var tessellationTarget = AccessTools.Method(typeof(Vintagestory.API.Common.Entities.Entity), "OnTesselation", new[] { typeof(Shape).MakeByRefType(), typeof(string), typeof(bool).MakeByRefType() });
+h.Patch(tessellationTarget, prefix: new HarmonyMethod(typeof(VisualMiningMod), "BeforeTesselation"));
+Check(Harmony.GetPatchInfo(tessellationTarget).Prefixes.Any(p => p.owner == h.Id), "local private-shape tessellation hook installs against exact engine overload");
+h.UnpatchAll(h.Id);
+Console.WriteLine($"PASS {n} integration assertions. Headless: no rendered gameplay claimed.");

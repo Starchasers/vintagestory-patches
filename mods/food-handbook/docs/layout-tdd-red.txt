@@ -1,0 +1,3 @@
+PASS 0.3.0 reproducer: actual API Left bounds coincide and one click invokes BOTH callbacks
+Unhandled exception. System.Exception: OVERLAP count=2 width=40 scale=0.75: 0 (0,0) / 1 (0,0)
+   at Program.<Main>$(String[] args) in /home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/tests/Layout/Program.cs:line 41

@@ -1,0 +1,1165 @@
+{
+  "codes": [
+    {
+      "code": "toolsmith:grindstone-granite-north",
+      "kind": "block",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "block-toolsmith:grindstone-granite-north",
+          "href": "handbook://block-toolsmith:grindstone-granite-north",
+          "richtextLink": "<a href='handbook://block-toolsmith:grindstone-granite-north'>toolsmith:grindstone-granite-north</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:grindstone-granite-east",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-granite-south",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-granite-west",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-north",
+      "kind": "block",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "block-toolsmith:grindstone-sandstone-north",
+          "href": "handbook://block-toolsmith:grindstone-sandstone-north",
+          "richtextLink": "<a href='handbook://block-toolsmith:grindstone-sandstone-north'>toolsmith:grindstone-sandstone-north</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-east",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-south",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-west",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-shale-north",
+      "kind": "block",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "block-toolsmith:grindstone-shale-north",
+          "href": "handbook://block-toolsmith:grindstone-shale-north",
+          "richtextLink": "<a href='handbook://block-toolsmith:grindstone-shale-north'>toolsmith:grindstone-shale-north</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:grindstone-shale-east",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-shale-south",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-shale-west",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-north",
+      "kind": "block",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "block-toolsmith:grindstone-andesite-north",
+          "href": "handbook://block-toolsmith:grindstone-andesite-north",
+          "richtextLink": "<a href='handbook://block-toolsmith:grindstone-andesite-north'>toolsmith:grindstone-andesite-north</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-east",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-south",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-west",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:workbench-north",
+      "kind": "block",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "block-toolsmith:workbench-north",
+          "href": "handbook://block-toolsmith:workbench-north",
+          "richtextLink": "<a href='handbook://block-toolsmith:workbench-north'>toolsmith:workbench-north</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:workbench-east",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:workbench-south",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:workbench-west",
+      "kind": "block",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:fabricstrips-rawhide",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:fabricstrips-rawhide",
+          "href": "handbook://item-toolsmith:fabricstrips-rawhide",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-rawhide'>toolsmith:fabricstrips-rawhide</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/plain"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/plain\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/plain\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/plain\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/mordant"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/mordant\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/mordant\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/mordant\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/blue"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/blue\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/blue\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/blue\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/red"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/red\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/red\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/red\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/yellow"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/yellow\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/yellow\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/yellow\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/green"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/green\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/green\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/green\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/purple"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/purple\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/purple\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/purple\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/pink"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/pink\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/pink\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/pink\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/orange"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/orange\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/orange\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/orange\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/brown"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/brown\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/brown\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/brown\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/gray"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/gray\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/gray\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/gray\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/black"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/black\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/black\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/black\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/white"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/white\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/white\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/white\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "tailorsdelight:block/cloth/dark/darkblue"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkblue\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkblue\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkblue\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "tailorsdelight:block/cloth/dark/darkbrown"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkbrown\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkbrown\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkbrown\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "tailorsdelight:block/cloth/dark/darkgreen"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkgreen\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkgreen\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkgreen\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "tailorsdelight:block/cloth/dark/darkred"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkred\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkred\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-cloth-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"tailorsdelight:block/cloth/dark/darkred\" } } }'>toolsmith:fabricstrips-cloth</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/plain"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/plain\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/plain\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/plain\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/orange"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/orange\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/orange\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/orange\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/black"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/black\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/black\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/black\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/red"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/red\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/red\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/red\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/blue"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/blue\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/blue\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/blue\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/purple"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/purple\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/purple\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/purple\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/pink"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/pink\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/pink\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/pink\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/white"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/white\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/white\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/white\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/yellow"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/yellow\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/yellow\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/yellow\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/gray"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/gray\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/gray\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/gray\" } } }'>toolsmith:fabricstrips-leather</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/leather/green"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/green\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/green\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-leather-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/leather/green\" } } }'>toolsmith:fabricstrips-leather</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:fabricstrips-sturdy",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:fabricstrips-sturdy",
+          "href": "handbook://item-toolsmith:fabricstrips-sturdy",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-sturdy'>toolsmith:fabricstrips-sturdy</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/plain"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/plain\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/plain\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/plain\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "game:block/cloth/linen/mordant"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/mordant\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/mordant\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"game:block/cloth/linen/mordant\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/blue"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/blue\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/blue\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/blue\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/red"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/red\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/red\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/red\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/yellow"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/yellow\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/yellow\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/yellow\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/green"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/green\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/green\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/green\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/purple"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/purple\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/purple\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/purple\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/pink"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/pink\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/pink\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/pink\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/orange"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/orange\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/orange\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/orange\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/brown"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/brown\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/brown\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/brown\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/gray"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/gray\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/gray\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/gray\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/black"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/black\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/black\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/black\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/white"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/white\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/white\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/white\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/darkblue"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkblue\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkblue\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkblue\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/darkbrown"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkbrown\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkbrown\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkbrown\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/darkgreen"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkgreen\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkgreen\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkgreen\" } } }'>toolsmith:fabricstrips-wool</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "material": "wool:block/cloth/wool/darkred"
+              }
+            }
+          },
+          "pageCode": "item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkred\" } } }",
+          "href": "handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkred\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:fabricstrips-wool-{ \"modularPartRenderData\": { \"partTextures\": { \"material\": \"wool:block/cloth/wool/darkred\" } } }'>toolsmith:fabricstrips-wool</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:sandpaper",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:sandpaper",
+          "href": "handbook://item-toolsmith:sandpaper",
+          "richtextLink": "<a href='handbook://item-toolsmith:sandpaper'>toolsmith:sandpaper</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:tinkertoolparts",
+      "kind": "item",
+      "stacks": []
+    },
+    {
+      "code": "toolsmith:whetstone-chert",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:whetstone-chert",
+          "href": "handbook://item-toolsmith:whetstone-chert",
+          "richtextLink": "<a href='handbook://item-toolsmith:whetstone-chert'>toolsmith:whetstone-chert</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:whetstone-granite",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:whetstone-granite",
+          "href": "handbook://item-toolsmith:whetstone-granite",
+          "richtextLink": "<a href='handbook://item-toolsmith:whetstone-granite'>toolsmith:whetstone-granite</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:whetstone-andesite",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:whetstone-andesite",
+          "href": "handbook://item-toolsmith:whetstone-andesite",
+          "richtextLink": "<a href='handbook://item-toolsmith:whetstone-andesite'>toolsmith:whetstone-andesite</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:whetstone-basalt",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:whetstone-basalt",
+          "href": "handbook://item-toolsmith:whetstone-basalt",
+          "richtextLink": "<a href='handbook://item-toolsmith:whetstone-basalt'>toolsmith:whetstone-basalt</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:whetstone-peridotite",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {},
+          "pageCode": "item-toolsmith:whetstone-peridotite",
+          "href": "handbook://item-toolsmith:whetstone-peridotite",
+          "richtextLink": "<a href='handbook://item-toolsmith:whetstone-peridotite'>toolsmith:whetstone-peridotite</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolaged"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolaged\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolaged\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolaged\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolbirch"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbirch\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbirch\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbirch\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/tooloak"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/tooloak\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/tooloak\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/tooloak\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolmaple"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolmaple\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolmaple\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolmaple\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolpine"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpine\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpine\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpine\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolacacia"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolacacia\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolacacia\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolacacia\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolkapok"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolkapok\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolkapok\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolkapok\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolbaldcypress"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbaldcypress\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbaldcypress\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbaldcypress\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toollarch"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toollarch\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toollarch\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toollarch\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolredwood"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolredwood\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolredwood\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolredwood\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolebony"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolebony\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolebony\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolebony\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolwalnut"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolwalnut\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolwalnut\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolwalnut\" } } }'>toolsmith:carpentedhandle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolpurpleheart"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpurpleheart\" } } }",
+          "href": "handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpurpleheart\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:carpentedhandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/fine/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpurpleheart\" } } }'>toolsmith:carpentedhandle</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:crudehandle",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {},
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/crude/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:crudehandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/crude/handle\", \"partTextures\": {  } } }",
+          "href": "handbook://item-toolsmith:crudehandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/crude/handle\", \"partTextures\": {  } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:crudehandle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/crude/handle\", \"partTextures\": {  } } }'>toolsmith:crudehandle</a>"
+        }
+      ]
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "stacks": [
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolaged"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolaged\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolaged\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolaged\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolbirch"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbirch\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbirch\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbirch\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/tooloak"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/tooloak\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/tooloak\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/tooloak\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolmaple"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolmaple\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolmaple\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolmaple\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolpine"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpine\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpine\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpine\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolacacia"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolacacia\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolacacia\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolacacia\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolkapok"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolkapok\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolkapok\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolkapok\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolbaldcypress"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbaldcypress\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbaldcypress\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolbaldcypress\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toollarch"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toollarch\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toollarch\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toollarch\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolredwood"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolredwood\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolredwood\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolredwood\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolebony"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolebony\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolebony\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolebony\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolwalnut"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolwalnut\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolwalnut\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolwalnut\" } } }'>toolsmith:handle</a>"
+        },
+        {
+          "attributes": {
+            "modularPartRenderData": {
+              "partTextures": {
+                "wood": "toolsmith:block/tools/toolpurpleheart"
+              },
+              "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+            }
+          },
+          "pageCode": "item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpurpleheart\" } } }",
+          "href": "handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpurpleheart\" } } }",
+          "richtextLink": "<a href='handbook://item-toolsmith:handle-{ \"modularPartRenderData\": { \"partShapeIndex\": \"toolsmith:shapes/item/parts/handles/regular/handle\", \"partTextures\": { \"wood\": \"toolsmith:block/tools/toolpurpleheart\" } } }'>toolsmith:handle</a>"
+        }
+      ]
+    }
+  ]
+}

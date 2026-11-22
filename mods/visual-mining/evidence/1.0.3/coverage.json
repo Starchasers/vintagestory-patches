@@ -1,0 +1,420 @@
+{
+  "game": "1.22.7",
+  "headless": true,
+  "fixture_count": 57,
+  "shovel_fixtures": 56,
+  "fixtures": [
+    {
+      "block": "game:log-grown-birch-ud",
+      "asset": "wood/woodtyped/log.json",
+      "drawtype": "Cube",
+      "drawtype_id": "10",
+      "renderer": "BleedingCubeTesselator"
+    },
+    {
+      "block": "game:peat-none",
+      "asset": "soil/peat.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:rawclay-blue-none",
+      "asset": "soil/clay.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:rawclay-red-none",
+      "asset": "soil/clay.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:rawclay-fire-none",
+      "asset": "soil/clay.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:peat-verysparse",
+      "asset": "soil/peat.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:rawclay-blue-verysparse",
+      "asset": "soil/clay.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:rawclay-red-verysparse",
+      "asset": "soil/clay.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:rawclay-fire-verysparse",
+      "asset": "soil/clay.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-verylow-none",
+      "asset": "soil/soil.json",
+      "drawtype": "Cube",
+      "drawtype_id": "10",
+      "renderer": "BleedingCubeTesselator"
+    },
+    {
+      "block": "game:soil-verylow-verysparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-verylow-sparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-verylow-normal",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-low-none",
+      "asset": "soil/soil.json",
+      "drawtype": "Cube",
+      "drawtype_id": "10",
+      "renderer": "BleedingCubeTesselator"
+    },
+    {
+      "block": "game:soil-low-verysparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-low-sparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-low-normal",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-medium-none",
+      "asset": "soil/soil.json",
+      "drawtype": "Cube",
+      "drawtype_id": "10",
+      "renderer": "BleedingCubeTesselator"
+    },
+    {
+      "block": "game:soil-medium-verysparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-medium-sparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-medium-normal",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-compost-none",
+      "asset": "soil/soil.json",
+      "drawtype": "Cube",
+      "drawtype_id": "10",
+      "renderer": "BleedingCubeTesselator"
+    },
+    {
+      "block": "game:soil-compost-verysparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-compost-sparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-compost-normal",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-high-none",
+      "asset": "soil/soil.json",
+      "drawtype": "Cube",
+      "drawtype_id": "10",
+      "renderer": "BleedingCubeTesselator"
+    },
+    {
+      "block": "game:soil-high-verysparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-high-sparse",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:soil-high-normal",
+      "asset": "soil/soil.json",
+      "drawtype": "TopSoil",
+      "drawtype_id": "14",
+      "renderer": "TopsoilTesselator"
+    },
+    {
+      "block": "game:sand-andesite",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-chalk",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-chert",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-conglomerate",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-limestone",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-claystone",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-granite",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-sandstone",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-shale",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-basalt",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-peridotite",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-phyllite",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-slate",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:sand-bauxite",
+      "asset": "stone/sand.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-andesite",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-chalk",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-chert",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-conglomerate",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-limestone",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-claystone",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-granite",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-sandstone",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-shale",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-basalt",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-peridotite",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-phyllite",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-slate",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    },
+    {
+      "block": "game:gravel-bauxite",
+      "asset": "stone/gravel.json",
+      "drawtype": "JSON",
+      "drawtype_id": "8",
+      "renderer": "JsonTesselator"
+    }
+  ],
+  "reference_sha256": {
+    "assets/survival/blocktypes/soil/clay.json": "4dae68025c6247123e6a754d9bee5ab562bfbaee9b1da7b1ada6f70adc982215",
+    "assets/survival/blocktypes/soil/peat.json": "5281bce48d55ae3fa24263facea1f0850ce3022ce1f019244354bceeea441166",
+    "assets/survival/blocktypes/soil/soil.json": "9ad8e71be8c7504f78c8352a5f392975ada9b0ec9a0f2c0c655d58685f016883",
+    "assets/survival/blocktypes/stone/gravel.json": "25315a719bbe1fc7b77cc4e5dd3c89ea527dd460b25a697be86fe9ab0b5474c5",
+    "assets/survival/blocktypes/stone/sand.json": "16225f5fcfc7646d5bac006f610493e04d6bdc391de1b7e9a9df9dda6041e0e1",
+    "assets/survival/blocktypes/wood/woodtyped/log.json": "801281253d493d0e8d61d69502efd7f275d7c805be9da1c7cb0cf7dbfae69406",
+    "VintagestoryAPI.dll": "034283e7e9d98eae45ee63005576fd89badc3c995b531cc4c3fe46f3eb2d3296",
+    "VintagestoryLib.dll": "e08f22b493b92feaf0aaeb79d22437ea0f7efc38aa7f72a04a47f98bc0e40df0",
+    "Mods/VSSurvivalMod.dll": "d67b48a321403b2052b33c7d0caa99611f92350ffac73ea72672901dd87ccd7a",
+    "assets/survival/itemtypes/tool/shovel.json": "5f49a7cd16187b3f6c59a058ebc959bbbd50d20a00bdabafcf250655e5c8dde7",
+    "assets/game/shapes/block/basic/cube.json": "80290aa9438cf602255521b43d9e1c16035865df6d5d458a583052d860382bbc"
+  }
+}

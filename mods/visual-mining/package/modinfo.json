@@ -1,0 +1,16 @@
+{
+  "type": "code",
+  "modid": "kuboczochvisualmining",
+  "name": "Kuboczoch Visual Mining",
+  "authors": [
+    "Kuboczoch"
+  ],
+  "description": "Private standalone client-side cosmetic mining animations and voxel chips. Original visual assets by SaltyWater and GamingToast. No gameplay changes.",
+  "version": "1.0.4",
+  "side": "Client",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": {
+    "game": "1.22.7"
+  }
+}

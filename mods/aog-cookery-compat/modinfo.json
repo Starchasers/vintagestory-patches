@@ -1,0 +1,18 @@
+{
+  "type": "Content",
+  "modid": "kuboczochaogcookerycompat",
+  "name": "Kuboczoch AoG Cookery Compatibility",
+  "authors": [
+    "Kuboczoch"
+  ],
+  "description": "Adds Rustic Cookery braising interactions and sound to Art of Growing firepits.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.0",
+    "artofgrowingpatch": "1.2.2",
+    "rusticcookery": "1.2.0"
+  }
+}

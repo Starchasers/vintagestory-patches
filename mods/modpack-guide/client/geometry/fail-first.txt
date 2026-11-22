@@ -1,0 +1,5 @@
+/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/client/geometry/Program.cs(27,32): error CS0103: The name 'ToolsmithTable' does not exist in the current context [/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/client/geometry/TableGeometry.csproj]
+/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/client/geometry/Program.cs(27,56): error CS0103: The name 'ToolsmithTable' does not exist in the current context [/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/client/geometry/TableGeometry.csproj]
+/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/client/geometry/Program.cs(35,41): error CS0246: The type or namespace name 'ToolsmithTable' could not be found (are you missing a using directive or an assembly reference?) [/home/brunette/.hermes/cache/scratch/toolsmith-table-guide/client/geometry/TableGeometry.csproj]
+
+The build failed. Fix the build errors and run again.

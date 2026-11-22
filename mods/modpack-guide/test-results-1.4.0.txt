@@ -1,0 +1,199 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet build client/ToolsmithFamilySlideshows.csproj -c Release
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ToolsmithFamilySlideshows -> /home/brunette/.hermes/cache/scratch/pszczoly-process-guides/client/bin/Release/net10.0/KuboczochModpackGuide.Client.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python verify_table_sources.py
+SOURCE AUDIT PASS: 200 active mapping records; 153 resolved options / 153 registered collectible matches; 30 independently expanded source assets; all rows exact equal-stat partitions.
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python process_inventory.py
+PROCESS REFERENCE AUDIT 133 / 133 missing: [] expansion errors []
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python process_labels.py
+PASS justified English display labels: 228 occurrences
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python verify_process_sources.py
+SOURCE READBACK 102 steps; 489 citations; 0 errors
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python coverage_matrix.py
+PASS exhaustive manifest reconciliation: 146 / 146 enabled; 105 player process; 41 support/excluded; 102 source-linked steps
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python release_build.py
+/home/brunette/.hermes/cache/scratch/pszczoly-process-guides/dist/KuboczochModpackGuide-1.4.0.zip
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python registry_input.py
+210 custom pages; 366 stacks
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project harness/RichtextHarness.csproj -c Release
+PASS exact API version 1.22.7
+PASS native parser preserves amp entity literally; display-node normalization required
+PASS native parser: compact pipe slideshow
+PASS native parser: adjacent icon and anchor
+PASS native item page omits game domain
+PASS native item page preserves custom domain
+PASS native block page prefix
+PASS native page ignores durability
+PASS native page retains material attribute suffix: item-stick-{ "material": "oak" }
+PASS real OnMouseDown calls supplied callback with displayed slot
+PASS real OnMouseDown excludes outside bounds
+PASS real OnMouseDown with null callback performs no navigation (VTML default)
+PASS real LinkTextComponent.Trigger dispatches handbook protocol
+PASS explicit link callback overrides default protocol routing
+PASS all 85 native attributed stack page codes and VTML hrefs match exact game methods
+PASS exact VTML parser tokenizes all 118 shipped custom pages
+PASS regression: plain attributed aliases and game-domain href are not registered
+PASS real GuiDialogHandbook.LoadPages_Async registers fixture custom and stack pages
+PASS all 256 progression anchors resolve after native registration; missing: 
+RESULT 19 checks passed; no client GUI, network, modloader or downloaded mod assemblies executed.
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project client/tests/FamilyTests.csproj -c Release -- attribute_inventory.json client/assets/kuboczochmodpackguide/config/toolsmith-families.json
+PASS exact native API 1.22.7
+PASS all 85 exact inventory snapshots materialized
+PASS all 85 native attributed page codes equal source inventory
+PASS duplicate codes do not duplicate slideshow variants
+PASS fresh attribute trees per build
+PASS uninstalled collectible skipped without air fallback
+PASS empty/unknown selection creates no native component
+PASS actual native slideshow class contains combined variants
+PASS native OnMouseDown routes all 85 displayed stacks through handbook protocol
+PASS outside-bounds click does not navigate
+PASS missing handbook protocol safely does nothing
+API delegate: Vintagestory.API.Client.RichTextComponentBase Invoke(Vintagestory.API.Client.ICoreClientAPI, Vintagestory.API.Common.VtmlTagToken, System.Collections.Generic.Stack`1[Vintagestory.API.Client.CairoFont], System.Action`1[Vintagestory.API.Client.LinkTextComponent])
+PASS converter binds exact installed API delegate signature
+PASS native converter registry accepts own converter
+PASS native VTML parser accepts family pipe syntax
+PASS actual Tag2RichTextDelegate invocation produces native slideshow
+PASS non-plain snapshot values rejected without polymorphic deserialization
+RESULT headless native class/callback/snapshot checks passed; no GUI or downloaded mod DLL execution
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project client/geometry/TableGeometry.csproj -c Release
+SPIKE API=1.22.7 native table component types=
+GEOMETRY width=240 scale=0.75 tableHeight=434.00 rowHeight=217.00 click=PASS
+GEOMETRY width=320 scale=0.75 tableHeight=306.00 rowHeight=153.00 click=PASS
+GEOMETRY width=420 scale=0.75 tableHeight=274.00 rowHeight=137.00 click=PASS
+GEOMETRY width=550 scale=0.75 tableHeight=146.00 rowHeight=73.00 click=PASS
+GEOMETRY width=240 scale=1 tableHeight=596.00 rowHeight=298.00 click=PASS
+GEOMETRY width=320 scale=1 tableHeight=420.00 rowHeight=210.00 click=PASS
+GEOMETRY width=420 scale=1 tableHeight=376.00 rowHeight=188.00 click=PASS
+GEOMETRY width=550 scale=1 tableHeight=200.00 rowHeight=100.00 click=PASS
+GEOMETRY width=240 scale=1.5 tableHeight=894.00 rowHeight=447.00 click=PASS
+GEOMETRY width=320 scale=1.5 tableHeight=630.00 rowHeight=315.00 click=PASS
+GEOMETRY width=420 scale=1.5 tableHeight=498.00 rowHeight=249.00 click=PASS
+GEOMETRY width=550 scale=1.5 tableHeight=300.00 rowHeight=150.00 click=PASS
+GEOMETRY width=240 scale=2 tableHeight=1192.00 rowHeight=596.00 click=PASS
+GEOMETRY width=320 scale=2 tableHeight=840.00 rowHeight=420.00 click=PASS
+GEOMETRY width=420 scale=2 tableHeight=752.00 rowHeight=376.00 click=PASS
+GEOMETRY width=550 scale=2 tableHeight=400.00 rowHeight=200.00 click=PASS
+PASS 1146 assertions; native font metrics/wrapping/layout/link events, no game GUI or untrusted mod DLL loaded
+REAL PAGES PASS: 96 layouts; 2880 cell bounds; 3728 displayed stack callbacks. Trusted API/font geometry; no game GUI.
+PROCESS PAGE process-farming-animal-care-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-butchering-leather-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-bees-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-textiles-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-broth-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-pasta-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-dairy-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-bottles-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-building-materials-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-heraldic-decor-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-tableware-equipment-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-firstfire-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-dough-oven-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-kitchen-tea-storage-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-wood-to-workshop-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-ore-to-equipment-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-powders-to-ceramics-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-workshop-storage-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE world-overland-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE world-water-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE world-survival-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE world-trade-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-food-cooking-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-farming-husbandry-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-crafting-workshops-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-gear-tools-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-movement-transport-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-combat-survival-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PAGE process-index-economy-community-text geometry/callbacks PASS 4 widths x 4 scales
+PROCESS PASS pages=29 layouts=464 iconCallbacks=2288 anchorCallbacks=3504 assertions=32880; no live GUI or mod startup
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python -m unittest test_progression test_tables test_root_index test_process_guides test_process_labels -v
+test_bounded_pages (test_progression.ProgressionTests.test_bounded_pages) ... ok
+test_cleanup_preserved (test_progression.ProgressionTests.test_cleanup_preserved) ... ok
+test_entry_title (test_progression.ProgressionTests.test_entry_title) ... ok
+test_family_slideshow (test_progression.ProgressionTests.test_family_slideshow) ... ok
+test_no_attributed_synthetic_links (test_progression.ProgressionTests.test_no_attributed_synthetic_links) ... ok
+test_numeric_comparisons (test_progression.ProgressionTests.test_numeric_comparisons) ... ok
+test_numeric_source_and_active_defaults (test_progression.ProgressionTests.test_numeric_source_and_active_defaults) ... ok
+test_real_progression (test_progression.ProgressionTests.test_real_progression) ... ok
+test_registry_for_family_clicks (test_progression.ProgressionTests.test_registry_for_family_clicks) ... ok
+test_complete_one_row_per_resolved_option (test_tables.Tables.test_complete_one_row_per_resolved_option) ... ok
+test_eligibility_and_drying (test_tables.Tables.test_eligibility_and_drying) ... ok
+test_entity_normalization_only_changes_display_text (test_tables.Tables.test_entity_normalization_only_changes_display_text) ... ok
+test_only_scoped_install_files_changed (test_tables.Tables.test_only_scoped_install_files_changed) ... ok
+test_pack_integration_and_preservation (test_tables.Tables.test_pack_integration_and_preservation) ... ok
+test_titles_navigation_and_entities (test_tables.Tables.test_titles_navigation_and_entities) ... ok
+test_unique_item_references_and_no_family_overlap (test_tables.Tables.test_unique_item_references_and_no_family_overlap) ... ok
+test_all_internal_links_resolve (test_root_index.RootIndex.test_all_internal_links_resolve) ... ok
+test_every_category_mod_destination_retained (test_root_index.RootIndex.test_every_category_mod_destination_retained) ... ok
+test_regeneration_is_consistent (test_root_index.RootIndex.test_regeneration_is_consistent) ... ok
+test_root_and_all_other_pages_preserved (test_root_index.RootIndex.test_root_and_all_other_pages_preserved) ... ok
+test_root_directory_semantics_and_exact_topics (test_root_index.RootIndex.test_root_directory_semantics_and_exact_topics) ... ok
+test_active_iw_tannin_and_disabled_welfare_not_vanilla_assumptions (test_process_guides.ProcessGuides.test_active_iw_tannin_and_disabled_welfare_not_vanilla_assumptions) ... ok
+test_actual_new_assets_exactly_match_authored_pages (test_process_guides.ProcessGuides.test_actual_new_assets_exactly_match_authored_pages) ... ok
+test_all_75_mod_destinations_and_seven_categories_retained (test_process_guides.ProcessGuides.test_all_75_mod_destinations_and_seven_categories_retained) ... ok
+test_all_existing_assets_and_toolsmith_preserved (test_process_guides.ProcessGuides.test_all_existing_assets_and_toolsmith_preserved) ... ok
+test_bounded_cards_no_item_or_cosmetic_walls (test_process_guides.ProcessGuides.test_bounded_cards_no_item_or_cosmetic_walls) ... ok
+test_cross_category_interaction_edges (test_process_guides.ProcessGuides.test_cross_category_interaction_edges) ... ok
+test_each_enabled_manifest_id_has_explicit_evidence_disposition_and_category (test_process_guides.ProcessGuides.test_each_enabled_manifest_id_has_explicit_evidence_disposition_and_category) ... ok
+test_every_claim_has_research_and_source_evidence (test_process_guides.ProcessGuides.test_every_claim_has_research_and_source_evidence) ... ok
+test_every_new_page_reachable_from_root_no_orphans (test_process_guides.ProcessGuides.test_every_new_page_reachable_from_root_no_orphans) ... ok
+test_no_broken_internal_or_native_links (test_process_guides.ProcessGuides.test_no_broken_internal_or_native_links) ... ok
+test_owner_native_dynamic_woodworking_key_not_fake_json (test_process_guides.ProcessGuides.test_owner_native_dynamic_woodworking_key_not_fake_json) ... ok
+test_patched_oven_smoke_dough_and_recovery_not_silent_vanilla (test_process_guides.ProcessGuides.test_patched_oven_smoke_dough_and_recovery_not_silent_vanilla) ... ok
+test_pewter_example_fits_native_recipe (test_process_guides.ProcessGuides.test_pewter_example_fits_native_recipe) ... ok
+test_reference_definitions_exact_native_types_and_source_readback (test_process_guides.ProcessGuides.test_reference_definitions_exact_native_types_and_source_readback) ... ok
+test_reviewed_dough_controls_and_hide_state_chain (test_process_guides.ProcessGuides.test_reviewed_dough_controls_and_hide_state_chain) ... ok
+test_root_categories_before_our_guides_directory_not_tutorial (test_process_guides.ProcessGuides.test_root_categories_before_our_guides_directory_not_tutorial) ... ok
+test_version_identity_client_only (test_process_guides.ProcessGuides.test_version_identity_client_only) ... ok
+test_all_29_pages_keep_exact_original_icon_occurrences (test_process_labels.Labels.test_all_29_pages_keep_exact_original_icon_occurrences) ... ok
+test_all_visible_labels_are_justified_not_transformed_codes (test_process_labels.Labels.test_all_visible_labels_are_justified_not_transformed_codes) ... ok
+test_requested_problem_examples_have_real_names (test_process_labels.Labels.test_requested_problem_examples_have_real_names) ... ok
+test_source_language_evidence_reads_back_exactly (test_process_labels.Labels.test_source_language_evidence_reads_back_exactly) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 55.119s
+
+OK
+
+EXIT 0
+
+PASS consecutive 1.4.0 install builds have identical SHA-256 43d4ef2dcd90b40fe98537a5005e8ab41018d992e863cdcef6b88a799185b838

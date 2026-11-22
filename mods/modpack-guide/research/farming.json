@@ -1,0 +1,1413 @@
+{
+  "schemaVersion": 1,
+  "scope": "Static process-page drafts only; no implementation modified. New process codes are proposed IDs, NOT claims of existing native pageCodes. Related native identifiers and every emitted item/block reference are independently asset-backed. No mod DLL loaded.",
+  "pack": {
+    "name": "Pszczoly 1.2.0",
+    "gameVersion": "1.22.7",
+    "manifest": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+    "vsAssets": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets",
+    "baseBuildEvidence": {
+      "file": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll",
+      "observation": "Embedded UTF-16 v1.22.7 string matches manifest GameVersion; not a live server version probe."
+    }
+  },
+  "pages": [
+    {
+      "code": "process-farming-animal-care",
+      "title": "Fields → food, feed and animal care",
+      "intro": "Reserve seed before turning crops into food or feed. Art of Growing adds bundle processing; not all Livestock Welfare modules are enabled.",
+      "steps": [
+        {
+          "label": "Prepare a field",
+          "text": "Hoe suitable soil, provide water and protect crops from animals. Match crops to temperature and nutrient needs; rotate crops or replenish depleted nutrients.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:seeds-rye"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/06-farming.json"
+          ]
+        },
+        {
+          "label": "Dry the harvest",
+          "text": "Mature rye drops wet grain bundles under the installed crop patch. Shift-right-click bundles onto the ground and wait for them to dry.",
+          "items": [
+            {
+              "type": "item",
+              "code": "artofgrowing:grainbundle-rye-wet"
+            },
+            {
+              "type": "item",
+              "code": "artofgrowing:grainbundle-rye-dry"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/patches/crop/rye.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/grainbundle.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/lang/en.json"
+          ]
+        },
+        {
+          "label": "Thresh and allocate",
+          "text": "Use a stick on a placed dry bundle stack to separate grains from straw. Keep seeds for replanting. The knife-plus-rye-seed crafting recipe yields rye grain for the kitchen.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:seeds-rye"
+            },
+            {
+              "type": "item",
+              "code": "game:grain-rye"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/recipes/grid/grains.json"
+          ]
+        },
+        {
+          "label": "Feed appropriately",
+          "text": "Stock a trough with species-appropriate feed. Art of Growing adds rye seeds to the large trough; this does not prove every animal accepts that feed.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:seeds-rye"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/patches/trough-large.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/08-animalhusbandry.json"
+          ]
+        },
+        {
+          "label": "Maintain living conditions",
+          "text": "Welfare Hygiene, Weather and Thirst modules are enabled. Provide clean surroundings, weather protection and water; its Safety settings allow animal deaths. These are not decorative animal-care rules.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/livestockwelfare.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!/assets/livestockwelfare/config/handbook/livestockwelfare.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!/assets/livestockwelfare/lang/en.json"
+          ]
+        },
+        {
+          "label": "Do not impose disabled breeding rules",
+          "text": "Breeding.Enabled is false. RequireBedding=true and pregnancy/portion values are inside that disabled module: do not teach them as active requirements. This does not establish that all breeding is disabled; Better Husbandry and GeneLib are installed too.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/livestockwelfare.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/betterhusbandry.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json"
+          ]
+        },
+        {
+          "label": "Return nutrients",
+          "text": "Natural Fertilizer supplies manure slurry and compost barrel recipes. Follow their item recipes before applying fertilizer; an installed recipe does not prove every animal produces its ingredients.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip!/assets/naturalfertilizer/recipes/barrel/manureslurry.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip!/assets/naturalfertilizer/recipes/barrel/manurecompost.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/naturalfertilizer-server.json"
+          ]
+        }
+      ],
+      "relatedNativeGuides": [
+        "gamemechanicinfo-farming",
+        "gamemechanicinfo-animalhusbandry",
+        "livestockwelfare-guide"
+      ],
+      "modIdsCovered": [
+        "artofgrowingpatch",
+        "livestockwelfare",
+        "naturalfertilizer"
+      ],
+      "unknowns": [
+        "Manual Harvesting, Better Husbandry, GeneLib, Catch Livestock and DairyPlus DLL interactions are not live-tested; no fertility, capture or milk schedule is asserted."
+      ],
+      "wordCount": 260
+    },
+    {
+      "code": "process-butchering-leather",
+      "title": "Carcass → kitchen, bones and leather",
+      "intro": "Process animals at the installed stations, then keep food handling separate from the hide barrel line.",
+      "steps": [
+        {
+          "label": "Bring the body home",
+          "text": "Right-click a supported dead animal to carry it in a free bag slot; small bodies fit ordinary inventory slots. Field harvesting sacrifices yield. FieldHarvestingLightMode is false.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/ButcheringConfigV3.json"
+          ]
+        },
+        {
+          "label": "Skin and bleed",
+          "text": "Place the body on a skinning hook. Hold right-click with a knife to skin it; wait for its bled-out color before removing it. Work promptly because bodies rot on stations.",
+          "items": [
+            {
+              "type": "block",
+              "code": "butchering:butcherhook-flint-north"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/blocktypes/butcherhook.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/lang/en.json"
+          ]
+        },
+        {
+          "label": "Butcher and sort",
+          "text": "Put the bled-out body on a butchering table and process it with a knife or cleaver. Break the remaining bone carcass for bones. Send meat to cooking/preservation and skins to the appropriate hide recipes.",
+          "items": [
+            {
+              "type": "block",
+              "code": "butchering:butchertable-primitive-north"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/blocktypes/butchertable.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/lang/en.json"
+          ]
+        },
+        {
+          "label": "Render fat",
+          "text": "The installed pot recipe uses two litres water and two raw primemeat to make one rendered fat. Its output is fat-rendered, not the generic fat link in the older guide prose.",
+          "items": [
+            {
+              "type": "item",
+              "code": "butchering:primemeat-raw"
+            },
+            {
+              "type": "item",
+              "code": "game:fat-rendered"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/recipes/cooking/fatrender.json"
+          ]
+        },
+        {
+          "label": "Soak and scrape",
+          "text": "Make limewater from lime and water. Seal a compatible raw hide in the limewater recipe. Craft the soaked hide with a knife in the grid to obtain scraped hide; species-specific recipes convert supported skins to size-based scraped hides.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:hide-soaked-small"
+            },
+            {
+              "type": "item",
+              "code": "game:hide-scraped-small"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/limewater.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/soakedhide-lime.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/26-leathermaking.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/grid/hide-scraped.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json"
+          ]
+        },
+        {
+          "label": "Tan twice",
+          "text": "Make weak tannin with oak or acacia logs and water; use another log with weak tannin for strong tannin. Seal scraped hide in weak tannin for 72 hours; then prepared hide in strong tannin for 108 hours. A small hide needs two litres per stage and yields one plain normal leather.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:hide-prepared-small"
+            },
+            {
+              "type": "item",
+              "code": "game:leather-normal-plain"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/preparedhide.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/leather.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/26-leathermaking.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/weaktannin.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/strongtannin.json"
+          ]
+        },
+        {
+          "label": "Use leather",
+          "text": "Use plain normal leather in the relevant equipment recipe. Sewn body/leg armor also requires flax twine. Do not substitute pelts or arbitrary species skins for generic tanning ingredients.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:leather-normal-plain"
+            },
+            {
+              "type": "item",
+              "code": "game:flaxtwine"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/grid/armor/leather.json"
+          ]
+        }
+      ],
+      "relatedNativeGuides": [
+        "butcheringguide",
+        "butcheringinfo",
+        "craftinginfo-leathermaking",
+        "craftinginfo-mealcooking",
+        "gamemechanicinfo-foodpreservation"
+      ],
+      "modIdsCovered": [
+        "butchering"
+      ],
+      "unknowns": [
+        "No universal conversion from every species skin to generic hide is asserted.",
+        "Carcass/station and animal-mod interactions were not executed."
+      ],
+      "wordCount": 298
+    },
+    {
+      "code": "process-bees",
+      "title": "Bees → repeatable honey and wax",
+      "intro": "Keep a populated skep for transferring bees into reusable ceramic or Langstroth hives. The upgraded hives do not propagate like vanilla skeps.",
+      "steps": [
+        {
+          "label": "Establish bees",
+          "text": "Use the skep route to obtain a populated colony, then move it to a flower-rich apiary. Keep that occupied skep for populating upgraded hives.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC01-fromgoldencombsguide.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json"
+          ]
+        },
+        {
+          "label": "Build a ceramic hive",
+          "text": "Clay-form and fire a ceramic brood pot and hive top. Transfer the skep colony to the pot and attach the top. The hive retains its colony through the top-harvesting cycle. Interacting with the brood pot while holding the populated skep consumes the skep.",
+          "items": [
+            {
+              "type": "block",
+              "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop"
+            },
+            {
+              "type": "block",
+              "code": "fromgoldencombs:hivetop-ashforest-fired"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/ceramicbroodpot-new.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/hivetop-new.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC01-fromgoldencombsguide.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json"
+          ]
+        },
+        {
+          "label": "Harvest and reset",
+          "text": "When the top is ready, remove it and use a knife to harvest the comb; replace the emptied top. Process comb for honey and wax without destroying the populated brood pot.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC01-fromgoldencombsguide.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json"
+          ]
+        },
+        {
+          "label": "Prepare Langstroth frames",
+          "text": "Build the base, supers, brood box and rack from the native Langstroth guide. Wax linen and cut it into frame liners; fit liners to empty frames on the rack before production.",
+          "items": [
+            {
+              "type": "item",
+              "code": "fromgoldencombs:frameliner"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/itemtypes/frameliner.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/recipes/grid/parts/frameliner.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC03-fromgoldencombs-langstrothguide.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json"
+          ]
+        },
+        {
+          "label": "Assemble and repeat",
+          "text": "Put lined frames in supers, close them and stack them on the base; add the populated brood box on top. Harvest ready frames on the rack with a knife, repair as instructed, then return frames and hive parts.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC03-fromgoldencombs-langstrothguide.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json"
+          ]
+        },
+        {
+          "label": "Integrate with fields",
+          "text": "The installed pollination guide describes benefits for nearby crops, berries and fruit trees. Use that native guide instead of assuming vanilla-only bee behavior or one universal effective radius.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC02-fromgoldencombs-pollination.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json"
+          ]
+        }
+      ],
+      "relatedNativeGuides": [
+        "apiculture-fromgoldencombsguide",
+        "pollination-fromgoldencombsguide",
+        "langstrothguiden-fromgoldencombsguide"
+      ],
+      "modIdsCovered": [
+        "fromgoldencombs"
+      ],
+      "unknowns": [
+        "Honey yield, pollination reach, timing and frame wear are not live-tested.",
+        "Native Langstroth text contains inconsistent wax totals; no exact shopping list is repeated.",
+        "Native prose links to obsolete blue/gray ceramic codes; drafts instead use ashforest states actually declared in installed definitions. Duplicate fancy/new ceramic definitions require loader/runtime checking."
+      ],
+      "wordCount": 290
+    },
+    {
+      "code": "process-textiles",
+      "title": "Flax and fleece → cloth and clothes",
+      "intro": "Flax passes through bundle processing before spinning. Wool has a separate washable fleece line; cloth, twine and block linen are distinct materials.",
+      "steps": [
+        {
+          "label": "Dry and thresh flax",
+          "text": "Mature flax drops wet grain bundles. Place and dry them, then thresh the dry stack with a stick. Reserve the recovered flax seed; keep dry flax straw for fiber.",
+          "items": [
+            {
+              "type": "item",
+              "code": "artofgrowing:grainbundle-flax-wet"
+            },
+            {
+              "type": "item",
+              "code": "artofgrowing:flaxbundle-dry"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/patches/crop/flax.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/grainbundle.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/lang/en.json"
+          ]
+        },
+        {
+          "label": "Ret, rinse and soften",
+          "text": "Soak dry straw in fresh water. Rinse wet straw using the installed water-container or barrel recipe to obtain clean straw. Hold right-click with clean straw to crumple it, then process crumpled straw with a ridge in the offhand to separate fiber.",
+          "items": [
+            {
+              "type": "item",
+              "code": "artofgrowing:flaxbundle-wet"
+            },
+            {
+              "type": "item",
+              "code": "artofgrowing:flaxbundle-clear"
+            },
+            {
+              "type": "item",
+              "code": "artofgrowing:flaxbundle-soft"
+            },
+            {
+              "type": "item",
+              "code": "game:flaxfibers"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/flaxbundle.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/recipes/grid/flaxbundle-clear.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/recipes/barrel/flaxbundle-clear.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/lang/en.json"
+          ]
+        },
+        {
+          "label": "Spin and weave linen",
+          "text": "Tailor’s Delight adds spindle-assisted flax twine. Four twine around a stick make plain cloth; plain cloth converts to a normal linen block and returns the stick. Respect any displayed class requirement.",
+          "items": [
+            {
+              "type": "item",
+              "code": "tailorsdelight:spindle-wood"
+            },
+            {
+              "type": "item",
+              "code": "game:flaxtwine"
+            },
+            {
+              "type": "item",
+              "code": "game:cloth-plain"
+            },
+            {
+              "type": "block",
+              "code": "game:linen-normal-down"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/recipes/grid/twine.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/recipes/grid/linen.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/itemtypes/tool/spindle.json"
+          ]
+        },
+        {
+          "label": "Shear and wash fleece",
+          "text": "The native guide requires living generation-one-or-higher animals and recommends shears; knives risk injury. Wash generic plain fleece with 0.5 litre limewater for 18 hours to obtain generic plain fibers. Species and colors are separate variants.",
+          "items": [
+            {
+              "type": "item",
+              "code": "wool:fleece-generic-plain"
+            },
+            {
+              "type": "item",
+              "code": "wool:fibers-generic-plain"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/config/handbook/animalhusbandryshearing.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/recipes/barrel/washing_hair.json"
+          ]
+        },
+        {
+          "label": "Spin and weave wool",
+          "text": "Use the enabled spinning recipe; the installed Tailor’s Delight compatibility assets add spindle recipes. Wool twine plus a stick makes portable wool cloth; the square-twine recipe makes a wool block.",
+          "items": [
+            {
+              "type": "item",
+              "code": "wool:twine-wool-plain"
+            },
+            {
+              "type": "item",
+              "code": "wool:cloth-wool-plain"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/recipes/grid/twine.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/compatibility/tailorsdelight/recipes/grid/wool/twine.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/recipes/grid/cloth/woolcloth.json"
+          ]
+        },
+        {
+          "label": "Sew the selected garment",
+          "text": "Dressmakers recipes may require dyed cloth, leather bundles, colored twine and an awl. The pack enables common/class/Nadiyan clothing and wool alternatives; this is not removal of clothier trait gates.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/dressmakers-1.8.0.zip!/assets/dressmakers/recipes/grid/clothing/all/arm.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/dressmakers.yaml",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/tailorsdelight.yaml",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/wool.yaml"
+          ]
+        }
+      ],
+      "relatedNativeGuides": [
+        "wool:gamemechanicinfo-animalshearing",
+        "wool:gamemechanicinfo-woolknitting",
+        "craftinginfo-dyemaking"
+      ],
+      "modIdsCovered": [
+        "artofgrowingpatch",
+        "wool",
+        "tailorsdelight",
+        "dressmakers"
+      ],
+      "unknowns": [
+        "Conditional compatibility-folder loading and offhand processing need runtime validation.",
+        "Raw class-restricted recipes do not prove all-class crafting access."
+      ],
+      "wordCount": 266
+    }
+  ],
+  "nativeGuides": [
+    {
+      "pageCode": "apiculture-fromgoldencombsguide",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC01-fromgoldencombsguide.json"
+    },
+    {
+      "pageCode": "butcheringguide",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/config/handbook/01_butcheringguide.json"
+    },
+    {
+      "pageCode": "butcheringinfo",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/config/handbook/02_butcheringinfo.json"
+    },
+    {
+      "pageCode": "craftinginfo-dyemaking",
+      "evidence": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/24-dyemaking.json"
+    },
+    {
+      "pageCode": "craftinginfo-leathermaking",
+      "evidence": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/26-leathermaking.json"
+    },
+    {
+      "pageCode": "craftinginfo-mealcooking",
+      "evidence": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/04-mealcooking.json"
+    },
+    {
+      "pageCode": "gamemechanicinfo-animalhusbandry",
+      "evidence": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/08-animalhusbandry.json"
+    },
+    {
+      "pageCode": "gamemechanicinfo-farming",
+      "evidence": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/06-farming.json"
+    },
+    {
+      "pageCode": "gamemechanicinfo-foodpreservation",
+      "evidence": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json"
+    },
+    {
+      "pageCode": "langstrothguiden-fromgoldencombsguide",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC03-fromgoldencombs-langstrothguide.json"
+    },
+    {
+      "pageCode": "livestockwelfare-guide",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!/assets/livestockwelfare/config/handbook/livestockwelfare.json"
+    },
+    {
+      "pageCode": "pollination-fromgoldencombsguide",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC02-fromgoldencombs-pollination.json"
+    },
+    {
+      "pageCode": "wool:gamemechanicinfo-animalshearing",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/config/handbook/animalhusbandryshearing.json"
+    },
+    {
+      "pageCode": "wool:gamemechanicinfo-woolknitting",
+      "evidence": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/config/handbook/woolknitting.json"
+    }
+  ],
+  "itemEvidence": [
+    {
+      "type": "block",
+      "code": "butchering:butcherhook-flint-north",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/blocktypes/butcherhook.json",
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/worldproperties/abstract/horizontalorientation.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "block",
+      "code": "butchering:butchertable-primitive-north",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/blocktypes/butchertable.json",
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/worldproperties/abstract/horizontalorientation.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "block",
+      "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/ceramicbroodpot-fancy.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "block",
+      "code": "fromgoldencombs:hivetop-ashforest-fired",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/hivetop-fancy.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "block",
+      "code": "game:linen-normal-down",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/blocktypes/cloth/linen.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-clear",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/flaxbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-dry",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/flaxbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-soft",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/flaxbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-wet",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/flaxbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:grainbundle-flax-wet",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/grainbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:grainbundle-rye-dry",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/grainbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:grainbundle-rye-wet",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/grainbundle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "butchering:primemeat-raw",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/itemtypes/food/primemeat.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "fromgoldencombs:frameliner",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/itemtypes/frameliner.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:cloth-plain",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/cloth.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:fat-rendered",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/fat-rendered.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:flaxfibers",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxfibers.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxtwine.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:grain-rye",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/food/grain.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:hide-prepared-small",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:hide-scraped-small",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:hide-soaked-small",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:leather-normal-plain",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/leather.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "game:seeds-rye",
+      "evidence": [
+        "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/seeds.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "tailorsdelight:spindle-wood",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/itemtypes/tool/spindle.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "wool:cloth-wool-plain",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/cloth.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "wool:fibers-generic-plain",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/fibers.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "wool:fleece-generic-plain",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/fleece.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    },
+    {
+      "type": "item",
+      "code": "wool:twine-wool-plain",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/twine.json"
+      ],
+      "basis": "definition and declared variant states; not a runtime registry assertion"
+    }
+  ],
+  "evidenceClassification": [
+    {
+      "modId": "artofgrowingpatch",
+      "version": "1.2.2",
+      "metadataVersion": "1.2.2",
+      "enabledInManifest": true,
+      "classification": "asset-recipes + native item help; DLL interaction unverified",
+      "notes": "Crop drop patches, trough seed additions, bundle variants, seed-to-grain recipe and flax rinsing chain. aogbreedingaddon is absent from manifest, satisfying inverted crop-drop patch dependency.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip",
+      "sha256": "39f08f333b98c0d561f1e3207a7a7d56a154acc8ce0719378af324a68acddf76",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "manualharvesting",
+      "version": "0.1.0",
+      "metadataVersion": "0.1.0",
+      "enabledInManifest": true,
+      "classification": "installed metadata; runtime behavior unresolved",
+      "notes": "No executable interaction verified; do not promise exact right-click drops or harvest compatibility.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualHarvesting_0.1.0.zip",
+      "sha256": "4f0982e2b18c1bb4f8b0cee2973d854bc4a80614f7a43b7daca34d019ea7d96d",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualHarvesting_0.1.0.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "naturalfertilizer",
+      "version": "1.5.1",
+      "metadataVersion": "1.5.1",
+      "enabledInManifest": true,
+      "classification": "asset recipes + pack configuration",
+      "notes": "Manure slurry and compost recipes are present; automatic animal drop behavior is not established by recipes alone.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip",
+      "sha256": "639776fccb7ffeaef2c1d4c0a2752045c0084bfc2e82ba71e345027b57e1ec9b",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "livestockwelfare",
+      "version": "0.16.0",
+      "metadataVersion": "0.16.0",
+      "enabledInManifest": true,
+      "classification": "native guide + authoritative pack module configuration",
+      "notes": "Hygiene/Weather/Thirst/Babies/Dogs/Treats Enabled=true; Breeding.Enabled=false. RequireBedding and pregnancy values remain inside disabled Breeding; Safety allows deaths.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip",
+      "sha256": "612a11546ddab0563ac6e849b5332cf6635fa9965f122c1f5c5b90ee0dde2d10",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "betterhusbandry",
+      "version": "1.4.0",
+      "metadataVersion": "1.4.0",
+      "enabledInManifest": true,
+      "classification": "installed metadata + pack configuration; runtime unresolved",
+      "notes": "Present alongside disabled Welfare breeding module; not evidence that all animal reproduction is disabled.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/betterhusbandry_1.4.0.zip",
+      "sha256": "4b9f6daf8e4e9ef6e8fe4c18f57fcfe05eb7e842908e42a86ec1e940aeb2d861",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/betterhusbandry_1.4.0.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "genelib",
+      "version": "3.2.1",
+      "metadataVersion": "3.2.1",
+      "enabledInManifest": true,
+      "classification": "installed metadata; runtime unresolved",
+      "notes": "Present animal-genetics integration; no generation progression or fertility schedule inferred.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/genelib_3.2.1.zip",
+      "sha256": "a222d7b1d6f30f2b7479703bd14a1d0bb994d7fc3829ef757bf7c0625ff28165",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/genelib_3.2.1.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "dairyplus",
+      "version": "2.0.0",
+      "metadataVersion": "2.0.0",
+      "enabledInManifest": true,
+      "classification": "installed metadata; runtime unresolved",
+      "notes": "Milk-processing gameplay not drafted without exact runtime/config chain; actual mod ID is dairyplus, not dairyexpansion.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip",
+      "sha256": "6b31b32119e556372b809feee3a0277b8357f8a1b65feb7b8913b8b1550c1cb3",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "catchlivestock",
+      "version": "0.2.4",
+      "metadataVersion": "0.2.4",
+      "enabledInManifest": true,
+      "classification": "installed metadata; runtime unresolved",
+      "notes": "Capture interactions excluded from verified process steps.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Catch Livestock_0.2.4.zip",
+      "sha256": "5443b3207981de5f0502c20ce3e3f358bc58e69ea241a61517d0d7ba406b38fd",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Catch Livestock_0.2.4.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "butchering",
+      "version": "1.14.3",
+      "metadataVersion": "1.14.3",
+      "enabledInManifest": true,
+      "classification": "native procedural guides + recipes + pack configuration",
+      "notes": "Hook→bleed→table→bone carcass chain; raw primemeat→rendered fat recipe. FieldHarvestingLightMode=false; ClassRecipesEnabled=true; loot multipliers 1.0.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip",
+      "sha256": "8332a390c42677ab4376e8817ef93e8835b3f074e9cd3fe534ff32a8d5508862",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "fromgoldencombs",
+      "version": "2.1.0",
+      "metadataVersion": "2.1.0",
+      "enabledInManifest": true,
+      "classification": "native procedural guides + item/block variants + recipes; loader caveat",
+      "notes": "Exact unusual pageCodes preserved. Native blue/gray pottery links are not declared states in installed ceramic files; ashforest is declared. Duplicate fancy/new files and recipe resolution need runtime verification.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip",
+      "sha256": "f07ebc5244835332d95be3b84c463de85a96a83ba221d7752e96879bd9955f3b",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "wool",
+      "version": "1.9.6",
+      "metadataVersion": "1.9.6",
+      "enabledInManifest": true,
+      "classification": "native procedural guides + recipes + YAML; compatibility candidate",
+      "notes": "Generation-one-or-higher shearing documented; fleece washing and twine/cloth recipes exist. Tailor compatibility folder is candidate integration, not proof of loader behavior.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip",
+      "sha256": "3a8944776f584abd2ec4c8bcd29c00ae07ba041878f2707d6c1f7862c663fd0d",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "tailorsdelight",
+      "version": "2.2.2",
+      "metadataVersion": "2.2.2",
+      "enabledInManifest": true,
+      "classification": "asset recipes + YAML",
+      "notes": "enable_vs_recipe_patches=true; spindle twine/plain cloth/linen conversion recipes exist. clothier gates remain in source recipes.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip",
+      "sha256": "13812149e502fb9f3b5ee1d9379e829573a78633542727b92ec7035f2001dc09",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "dressmakers",
+      "version": "1.8.0",
+      "metadataVersion": "1.8.0",
+      "enabledInManifest": true,
+      "classification": "asset recipes + YAML",
+      "notes": "Class/common/Nadiyan recipes and wool alternatives enabled. Enabling class clothing recipes does not remove requiresTrait gates.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/dressmakers-1.8.0.zip",
+      "sha256": "34d3441948166102227f0dfd1326e0109b4328786400db0194b0dd335d238e82",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/dressmakers-1.8.0.zip!/modinfo.json"
+      ]
+    },
+    {
+      "modId": "shearlib",
+      "version": "1.3.0",
+      "metadataVersion": "1.3.0",
+      "enabledInManifest": true,
+      "classification": "installed dependency; runtime unresolved",
+      "notes": "Shearing infrastructure installed; not independently a player-facing process page.",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/shearlib-1.3.0.zip",
+      "sha256": "2fcb2b6e102b4fb27d995d11a1a1ccfaeae7210c68d57f7ece0b4a16b0434945",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/shearlib-1.3.0.zip!/modinfo.json"
+      ]
+    }
+  ],
+  "packSettings": {
+    "livestockwelfare": {
+      "Breeding": {
+        "Enabled": false,
+        "RequireBedding": true,
+        "BeddingRadius": 16,
+        "MatingSeconds": 15.0,
+        "NewbornDays": 1.0,
+        "BeddingBlockCodes": [
+          "livestockwelfare:strawbedding-clean"
+        ],
+        "Species": {
+          "sheep": {
+            "PortionsToBreed": 10.0,
+            "PregnancyDays": 20.0,
+            "RestDaysMin": 4.0,
+            "RestDaysMax": 11.0,
+            "GrowUpDays": 14.0
+          },
+          "goat": {
+            "PortionsToBreed": 10.0,
+            "PregnancyDays": 20.0,
+            "RestDaysMin": 4.0,
+            "RestDaysMax": 11.0,
+            "GrowUpDays": 14.0
+          },
+          "pig": {
+            "PortionsToBreed": 10.0,
+            "PregnancyDays": 25.0,
+            "RestDaysMin": 6.0,
+            "RestDaysMax": 11.0,
+            "GrowUpDays": 7.0
+          },
+          "chicken": {
+            "PortionsToBreed": 4.0,
+            "PregnancyDays": null,
+            "RestDaysMin": 0.0,
+            "RestDaysMax": 3.0,
+            "GrowUpDays": 8.3
+          }
+        }
+      },
+      "Safety": {
+        "AnimalsCanDie": true,
+        "OldAgeCanKill": true,
+        "DiseaseCanKill": true,
+        "ExposureCanKill": true,
+        "ThirstCanKill": true,
+        "MalnutritionCanKill": true,
+        "PauseWhenNoPlayerNearby": false,
+        "PlayerRadius": 64
+      }
+    },
+    "welfareEnabledModules": {
+      "Hygiene": true,
+      "Weather": true,
+      "Thirst": true,
+      "Babies": true,
+      "Dogs": true,
+      "Treats": true,
+      "Breeding": false
+    },
+    "butchering": {
+      "BonePickaxeEnabled": false,
+      "HealingPrimeMeatRecipeEnabled": true,
+      "ClassRecipesEnabled": true,
+      "butcheringTableLootMultiplier": 1.0,
+      "SkinningRackLootMultiplier": 1.0,
+      "AnimalMassMultiplier": 1.0,
+      "FieldHarvestingLightMode": false
+    },
+    "textileConfigEvidence": [
+      "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/wool.yaml",
+      "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/tailorsdelight.yaml",
+      "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/dressmakers.yaml"
+    ]
+  },
+  "sourceHashes": [
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/VintagestoryAPI.dll",
+      "sha256": "034283e7e9d98eae45ee63005576fd89badc3c995b531cc4c3fe46f3eb2d3296"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+      "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/blocktypes/cloth/linen.json",
+      "sha256": "5272603386d21a523ddac497f5af9d71eb3f0b5e24a5c875f267e4781b56b84b"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/04-mealcooking.json",
+      "sha256": "7f53197d6e03c7d5d268586efb04ec6f21416adc6f1af6091d3f5fc327e6caa9"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/06-farming.json",
+      "sha256": "c08ce4124720e57b267414597e984d6ff831e9acfaf756dcf1357784c8549c0b"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+      "sha256": "9c737ebb0c2602b87a9181fece1b6f97e397cff1e31aa59a6d5dcab32d6b0e77"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/08-animalhusbandry.json",
+      "sha256": "8f261a3f7528540f44e6f45c11e4e68a6f1fe43908d4192f107dcc517c7c101c"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/24-dyemaking.json",
+      "sha256": "609f08bc235ce4406b5419b3061c7094c0d9d5235a6a87692943fe607c9fe77b"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/26-leathermaking.json",
+      "sha256": "58e4f6d41e206d43e94dd2bfe9aff5214973997f793abd6d0592b9b848d9d2bb"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/food/grain.json",
+      "sha256": "2e323a15be942950e6a94fb4d7cf1b2af41d97e566f9e7a60a41c7cf7bec46ac"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/cloth.json",
+      "sha256": "9112914bbc3ead03ce617105d5d9d69d61f225f2ff202f65cefc25a4e85afb0a"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/fat-rendered.json",
+      "sha256": "86e39b110ae39478cf3f308dbbd6343d8342fc2ffd0ecef3900941bc7dd6fac2"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxfibers.json",
+      "sha256": "e77d27cfdff917560296064504aa04e8f8fe37342911fdafed4e026ab6c44704"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxtwine.json",
+      "sha256": "48f7f0349f9b06e4d749cf9314790379b3afa317a4418b02fa7b8062128257cf"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json",
+      "sha256": "3fb31789a8db675cdadf4dea27da81b16eb4a8febf1897d19385b67bb9eb4507"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/leather.json",
+      "sha256": "7e3b29c5177c5bab2d862301d6d98d53de8c5fea559997219dfee83580796e8a"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/seeds.json",
+      "sha256": "36b8fc568bb6d3042457fe9331d70cb844ff09e80dcb4a1ee9c1f22bfbb3efed"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/leather.json",
+      "sha256": "80845f529f14a782ab3850759971804c167f3a0dae877417fcfc576b56b81b9b"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/limewater.json",
+      "sha256": "e8c94b25c3c05a618b18ba902f5ecc26e782fd692f0fe3cd900f2040009d95d8"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/preparedhide.json",
+      "sha256": "615cbeb2694de64e9fb60f053880347d59e13d1ad8a8553a38c031402be42f53"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/soakedhide-lime.json",
+      "sha256": "9be618a8cffed652882f67795e5fec79c1df03a34aaa04908b2d2cf97b2a1334"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/strongtannin.json",
+      "sha256": "b618d2912576eb0aed8d19677e9272d3311f83708184ec4862cdee1e409fc0c8"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/barrel/weaktannin.json",
+      "sha256": "221c288db2583163feb8dae79252ff6cf126bfc786cd03cc827d9f1658b797f3"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/grid/armor/leather.json",
+      "sha256": "55f89851419e52342c81486daface79018360eb7229820581b706888ab01911d"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/grid/hide-scraped.json",
+      "sha256": "104f1ecb17f977137e7a6ff12e37c6bea373707e6128b06a047596c4fd35d298"
+    },
+    {
+      "path": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/worldproperties/abstract/horizontalorientation.json",
+      "sha256": "9103291f9575e5330484567574cd3fbe88b5b3c62e5beb26a16badc725eea5ba"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/ButcheringConfigV3.json",
+      "sha256": "0617dd6c18e57b47cce87003529006d9eaa866be86464efd3cf3deffb140cd7d"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/betterhusbandry.json",
+      "sha256": "a1a6246ac724e1afb4e4582be82b1f63df003dd2a02e759f660cd1489b8414e8"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/dressmakers.yaml",
+      "sha256": "749e9d60d71cb2394ddfdfa872c486d54b21f7409a4deeb79d85a045cf48a4ea"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/livestockwelfare.json",
+      "sha256": "df2539f574c2e08f943ab9570223bcd8f48e6981b568e743b7c949d7d680bb67"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/naturalfertilizer-server.json",
+      "sha256": "43ac127831b0368ed4cbda97e13954cff09208d0f5c20bad13d7895bb47a458a"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/tailorsdelight.yaml",
+      "sha256": "e42b107f7206c662e9199bd5395d866dc5611f71daca2880afb4129c5de3b634"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/wool.yaml",
+      "sha256": "b7eb799849d8d91b8266f85e0ca757122637116be313ae0e28c4e4193993b049"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+      "sha256": "2a621086e797f4cd2f31c3af320203b8ab964539d7097789278495ad32150f19"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/flaxbundle.json",
+      "sha256": "7e2dd170a884f931277d2f799efe54111b842e8b59bed7138bb94f081a7d45ab"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/itemtypes/grain/grainbundle.json",
+      "sha256": "791d04e196b6000120ba92b6fd7a8bf1aecb400c1ed1b0345c20570d212aa872"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/lang/en.json",
+      "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/patches/crop/flax.json",
+      "sha256": "b7f0f5c8439334bdb7865579a6a1747f29979298809add947f4faf3c68a39ceb"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/patches/crop/rye.json",
+      "sha256": "4d28d74ef967c28f5cc0f87ebd33357be5a96e717a503d661687607eac8e9d08"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/patches/trough-large.json",
+      "sha256": "b6401fd6b265e5f600e47b6c24523947802d7185dd17531a5b865446552074ae"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/recipes/barrel/flaxbundle-clear.json",
+      "sha256": "432c533c0cde9b6f7366763bf5baae492ddc99de551f6fc0263c81b660c47f8c"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/recipes/grid/flaxbundle-clear.json",
+      "sha256": "7c0421616aafdd4a5b4de02e32707b0b8981e86fa3bcf39deb9c81ddeb80316d"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!/assets/artofgrowing/recipes/grid/grains.json",
+      "sha256": "d26f5a23f17ab2798c898ef5517dccbd36668eba49c5a1a934e54d14c5b6c790"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/ceramicbroodpot-fancy.json",
+      "sha256": "d05c393881cf6ddc96e065e825d07254d780a4c54636a2d1f86f8d1ebe6de73b"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/ceramicbroodpot-new.json",
+      "sha256": "ed1c1a6517906011690291a9855af3566f77a2ee19e70c943ea2fbbb6ae9b2ec"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/hivetop-fancy.json",
+      "sha256": "bdff993cc85fa0e809779d97a06904a47e85598e8f694531d40ba98f72d29214"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/blocktypes/ceramicpot/hivetop-new.json",
+      "sha256": "8859a9ef541fdaa4c85cc098ce2a1b2458e36c78545f2a8411fcbdabf02b357c"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC01-fromgoldencombsguide.json",
+      "sha256": "ef6847e9808486e52db3191efb7a4d14c4a78fdadc95537d2402a1b9533448ad"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC02-fromgoldencombs-pollination.json",
+      "sha256": "47ffbd1bc50d60a0e6fe8a8328adffbe6469820994938f9487cad3da5c94199d"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/config/handbook/FGC03-fromgoldencombs-langstrothguide.json",
+      "sha256": "d79d51b1b0a6ce57da0b36df29c4c58e02ca4a6d4120cadc3f27efcf55e01ee2"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/itemtypes/frameliner.json",
+      "sha256": "6bf664a1a1335ca3d05af2418762bf8cb2eefe8b59efd520a6d82577f48202f7"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/lang/en.json",
+      "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!/assets/fromgoldencombs/recipes/grid/parts/frameliner.json",
+      "sha256": "539d6d8d1dcf93d5220cd7ad50f28802f94fb16fc8bfa450c1bc61a3cec8d4b5"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/blocktypes/butcherhook.json",
+      "sha256": "cb0a8b7e76ef627f84e5d0afc32b7d282f82d61db6e84daac0dfc43b56e08e93"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/blocktypes/butchertable.json",
+      "sha256": "0759856b0ba76dadaaebfbdb4246247807e69fa39c9588cdb84605a9b80bea24"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/config/handbook/01_butcheringguide.json",
+      "sha256": "ca9b688dd587f90c2c251aaf88d3446f0904e6b5939e820d971905394746c1f8"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/config/handbook/02_butcheringinfo.json",
+      "sha256": "16ad8e68aafaf41e833ca1dbf0476c3ec895a059b6804a449d2c55561846c350"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/itemtypes/food/primemeat.json",
+      "sha256": "467926173c6dd03f834d26006b90f4db8fa48856be40b00f7e566235bc5790bf"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/lang/en.json",
+      "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!/assets/butchering/recipes/cooking/fatrender.json",
+      "sha256": "3b5660b5e002e401b67a02894120851ffd3963c8bd88548a67dcc242c153751c"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/dressmakers-1.8.0.zip!/assets/dressmakers/recipes/grid/clothing/all/arm.json",
+      "sha256": "c81b7b1f798a33146a7226bf9dd52858385e65a81701e629ae6350371e9bb9cf"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!/assets/livestockwelfare/config/handbook/livestockwelfare.json",
+      "sha256": "66d86d6a5886c3c2f3afc2dbefaaa66d97f3dc81cb2078d14d6848bb5e7bbb7f"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!/assets/livestockwelfare/lang/en.json",
+      "sha256": "27afd64dab721cc318178e6c2ff11729434e22c1ba3c14b507fde52e35c1fef2"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip!/assets/naturalfertilizer/recipes/barrel/manurecompost.json",
+      "sha256": "9c6186e7c8b99ef4081b753e69c46de084301b1a5a145a4d114f8a4e66c0050f"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip!/assets/naturalfertilizer/recipes/barrel/manureslurry.json",
+      "sha256": "6784780d2f4b3ff4daf0de56663dbc7e0e40d01082910f4c94722ae0aecc4816"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/itemtypes/tool/spindle.json",
+      "sha256": "1cc492cabe2b0acfb736382e5aaba6b8bb961df46edbfe6a79056dae5697ecca"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/recipes/grid/linen.json",
+      "sha256": "09f517ba9988467afb29d807226e84f67bc5b85b89354b5c5dbd96fffb56c186"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!/assets/tailorsdelight/recipes/grid/twine.json",
+      "sha256": "f06d606010d308334537f206fbe018ada270f4105b8a9ebb47d598a44e83149e"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/compatibility/tailorsdelight/recipes/grid/wool/twine.json",
+      "sha256": "6346060504eb3779f0d9f4dd8b64611e9c69608fb4265c57dfe756056ac3040a"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/config/handbook/animalhusbandryshearing.json",
+      "sha256": "97111de6cae77fb0c186ece77decc4bde3c913fe977b979803e1f8da0526650d"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/config/handbook/woolknitting.json",
+      "sha256": "067e65d9de801b67826f587bffc104f4e4efe339a4c8779f4fa60cf4a9fb5002"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/cloth.json",
+      "sha256": "73e409ecd3bfead8f4108e87a526a8d48fe39dd7a4d40ddcd988a3eaccdd4648"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/fibers.json",
+      "sha256": "769e8fba9ee26f608ca7d8bb79a0850fb5db8008b0d5adc13c13cb09d4153eab"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/fleece.json",
+      "sha256": "e1d587d9b2e4770c82b04a340c31c38d22df1eccab7c881e5b484bfa778089b1"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/itemtypes/resource/twine.json",
+      "sha256": "a209b3ad30050c68803706bc6ff23d7d899ec449c8f534b7f7d076718d549ed5"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/lang/en.json",
+      "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/recipes/barrel/washing_hair.json",
+      "sha256": "1d82939ea5dec99f113b8b6bfee7fa8649c6181e7a8306f566479b4ea5fba353"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/recipes/grid/cloth/woolcloth.json",
+      "sha256": "44242b69e92b35ba4cee342e22674625c316ed1d3d05eb496a6def9b4e6a610c"
+    },
+    {
+      "path": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!/assets/wool/recipes/grid/twine.json",
+      "sha256": "28975ad53bb2b4f28dfeb219adb8653b36819510bdae4b21293f596de3360dc2"
+    }
+  ],
+  "validation": {
+    "pageCount": 4,
+    "maxWordsPerPage": 400,
+    "wordCounts": {
+      "process-farming-animal-care": 260,
+      "process-butchering-leather": 298,
+      "process-bees": 290,
+      "process-textiles": 266
+    },
+    "itemReferencesValidated": 29,
+    "nativePageCodesValidated": 14,
+    "evidenceFilesHashed": 79,
+    "runtimeValidated": false
+  },
+  "editorialWarnings": [
+    "Native leather prose says 24h initial soaking; actual installed lime recipe says 20h. Draft avoids prose-derived initial time.",
+    "Use knife in crafting grid for scraping; not right-click ground processing.",
+    "From Golden Combs native prose contains stale ceramic color links and inconsistent wax totals.",
+    "Declared variants/recipes establish static evidence, not final patch order or runtime registry availability."
+  ]
+}

@@ -1,0 +1,4 @@
+Unhandled exception. System.NotImplementedException: The method or operation is not implemented.
+   at Kuboczoch.FoodHandbook.ProcessPlan.Rewrite[TNode,TStack](IEnumerable`1 source, Func`2 stacks, Func`2 meal, Func`2 process, Func`3 equal, Func`2 icon, Func`2 label) in /home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/src/ProcessPlan.cs:line 4
+   at Program.<<Main>$>g__Transform|0_3(Node[] nodes) in /home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/tests/Program.cs:line 7
+   at Program.<Main>$(String[] args) in /home/brunette/.hermes/cache/scratch/kuboczoch-food-handbook/tests/Program.cs:line 12

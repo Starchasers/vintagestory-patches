@@ -1,0 +1,50 @@
+{
+  "toolsmith-items": {
+    "title": "Toolsmith - Pszczoly Guide to Toolsmith",
+    "words": 169,
+    "tableRows": 0,
+    "columns": 0,
+    "references": 3,
+    "anchors": 9
+  },
+  "toolsmith-items-handles": {
+    "title": "Toolsmith - Handles",
+    "words": 335,
+    "tableRows": 6,
+    "columns": 3,
+    "references": 5,
+    "anchors": 5
+  },
+  "toolsmith-items-grips": {
+    "title": "Toolsmith - Grips",
+    "words": 382,
+    "tableRows": 11,
+    "columns": 3,
+    "references": 9,
+    "anchors": 5
+  },
+  "toolsmith-items-bindings": {
+    "title": "Toolsmith - Bindings",
+    "words": 1104,
+    "tableRows": 28,
+    "columns": 3,
+    "references": 26,
+    "anchors": 5
+  },
+  "toolsmith-items-treatments": {
+    "title": "Toolsmith - Treatments",
+    "words": 355,
+    "tableRows": 9,
+    "columns": 3,
+    "references": 7,
+    "anchors": 5
+  },
+  "toolsmith-items-maintenance": {
+    "title": "Toolsmith - Maintenance",
+    "words": 499,
+    "tableRows": 6,
+    "columns": 3,
+    "references": 4,
+    "anchors": 8
+  }
+}

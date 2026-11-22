@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>Kuboczoch.FirepitTinderReturn</AssemblyName><Version>1.0.0</Version><Deterministic>true</Deterministic><VSPath Condition="'$(VSPath)' == ''">$(VINTAGE_STORY)</VSPath></PropertyGroup>
+<ItemGroup>
+<Reference Include="VintagestoryAPI"><HintPath>$(VSPath)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+<Reference Include="0Harmony"><HintPath>$(VSPath)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+</ItemGroup>
+<Target Name="ValidateSDK" BeforeTargets="ResolveReferences"><Error Condition="!Exists('$(VSPath)/VintagestoryAPI.dll')" Text="Set VSPath or VINTAGE_STORY to the external Vintage Story 1.22.7 SDK directory." /></Target>
+</Project>

@@ -1,0 +1,383 @@
+{
+  "policy": "HTTP 404/410 only means dead URL, never absent mod; blocked pages and timeouts are unknown.",
+  "results": [
+    {
+      "url": "https://mods.vintagestory.at/algernonswatersheds",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/algernonswatersheds",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/armoryfork",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/armoryfork",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/betterhusbandry",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/betterhusbandry",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/bettertraders",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/bettertraders",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/bloodtrail",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/bloodtrail",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/carryon",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/carryon",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/cartwrightscaravan",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/cartwrightscaravan",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/catchledge",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/catchledge",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/catchlivestock",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/catchlivestock",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/chargedjump",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/chargedjump",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/climbmountain",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/climbmountain",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/combatoverhaulforked",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/combatoverhaulforked",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/containersbundle",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/containersbundle",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/crawlanddive",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/crawlanddive",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/downed",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/downed",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/dressmakers",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/dressmakers",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/em",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/em",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/equusdestrier",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/equusdestrier",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/equusferus",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/equusferus",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/fallingtrees",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/fallingtrees",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/firestarters",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/firestarters",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/foodshelves",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/foodshelves",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/fromgoldencombs",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/fromgoldencombs",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/immersivewoodworking",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/immersivewoodworking",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/kevinsfurniture",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/kevinsfurniture",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/kscartographytable",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/kscartographytable",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/livestockwelfare",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/livestockwelfare",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/manualdough",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/manualdough",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/manualfirestarter",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/manualfirestarter",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/manualharvesting",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/manualharvesting",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/manualorecrush",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/manualorecrush",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/manualshingle",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/manualshingle",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/millwright",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/millwright",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/naturalfertilizer",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/naturalfertilizer",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/noticeboard",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/noticeboard",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/pagoldsilver",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/pagoldsilver",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/pewter",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/pewter",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/purposefulstorage",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/purposefulstorage",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/quiversfork",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/quiversfork",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/realsmoke",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/realsmoke",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/rivers",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/rivers",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/roastingstick",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/roastingstick",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/roughseas",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/roughseas",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/scafolding",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/scafolding",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/seasonedfirewoodredux",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/seasonedfirewoodredux",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/show/mod/28845",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/show/mod/28845",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/show/mod/38705",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/show/mod/38705",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/show/mod/75144",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/show/mod/75144",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/slowtox",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/slowtox",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/sprintmomentum",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/sprintmomentum",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/spyglass",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/spyglass",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/stonebakeoven",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/stonebakeoven",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/stoneharvesting",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/stoneharvesting",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/tabletopgames",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/tabletopgames",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/tailorsdelight",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/tailorsdelight",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/tankardsandgoblets",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/tankardsandgoblets",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/temporalsymphony",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/temporalsymphony",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/toolbelt",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/toolbelt",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/toolsmith",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/toolsmith",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/trailmodupdatedfork",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/trailmodupdatedfork",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/vaultandroll",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/vaultandroll",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/vinconomy",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/vinconomy",
+      "health": "reachable"
+    },
+    {
+      "url": "https://mods.vintagestory.at/wool",
+      "status": 200,
+      "final": "https://mods.vintagestory.at/wool",
+      "health": "reachable"
+    }
+  ]
+}

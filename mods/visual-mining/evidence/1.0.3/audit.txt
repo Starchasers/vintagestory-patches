@@ -1,0 +1,5 @@
+PASS metadata: independent client-only modid, author, game dependency, no IM dependency
+PASS assets: 16 additive animation-only operations, 8 distinct registered clips, no gameplay patches or game-domain overrides
+PASS offhand: all 4 variant clips exclude left-arm keyframes
+PASS production audit: no block writes, networking, durability mutation, resistance mutation or hand-use assignments
+NOTE static invariants plus headless tests are not a rendered in-game acceptance test

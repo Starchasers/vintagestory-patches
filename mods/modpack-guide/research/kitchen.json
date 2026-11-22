@@ -1,0 +1,141 @@
+{
+  "pages": [
+    {
+      "code": "kuboczochmodpackguide-process-kitchen-broth",
+      "title": "Kitchen - Bone broth, clarification and gelatin",
+      "intro": "Turn bones into liquid ingredients with a saucepan. Clarification and gelatin are separate branches: egg white clarifies broth; another bone starts gelatin.",
+      "steps": [
+        {
+          "label": "Set up simmering",
+          "text": "Put a fired saucepan into a firepit. Its four ingredient slots are for simmering, not ordinary cooking-pot meals. Add the recipe's liquid and solid ingredients in matching numbers of portions. A cauldron is an alternative station.",
+          "items": [{"type":"block","code":"aculinaryartillery:saucepan-blue-fired"}],
+          "evidence": ["mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#craftinginfo-simmering-text", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/saucepan-fired.json"]
+        },
+        {
+          "label": "Make the stock",
+          "text": "Simmer one bone with 1 L water to produce 0.5 L bone broth. Liquid output stays inside the saucepan: take the filled saucepan from the firepit output before pouring or using it again.",
+          "items": [{"type":"item","code":"game:bone"},{"type":"item","code":"game:waterportion"},{"type":"item","code":"expandedfoods:brothportion-bone"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/simmering/broth.json", "mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/liquid/broth.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#craftinginfo-simmering-text"]
+        },
+        {
+          "label": "Choose clarified broth",
+          "text": "For clarification, simmer 0.1 L bone broth with 0.01 L egg white to make 0.1 L clarified bone broth. Do not substitute a bone for the egg white; that belongs to the gelatin branch.",
+          "items": [{"type":"item","code":"aculinaryartillery:eggwhiteportion"},{"type":"item","code":"expandedfoods:clarifiedbrothportion-bone"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/simmering/clarifiedbroth.json", "mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/liquid/clarifiedbroth.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/liquid/eggwhite.json"]
+        },
+        {
+          "label": "Or continue to gelatin",
+          "text": "Save unclarified broth for this route. Simmer 1 L bone broth with another bone to obtain liquid gelatin. Simmer 10 liquid-gelatin portions with a bone and 1 L water to obtain raw gelatin; simmer that raw gelatin with 1 L water for plain gelatin. Solid outputs can be taken directly from the output slot.",
+          "items": [{"type":"item","code":"expandedfoods:gelatin-liquid"},{"type":"item","code":"expandedfoods:gelatin-raw"},{"type":"item","code":"expandedfoods:gelatin-plain"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/simmering/gelatin.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#craftinginfo-simmering-text"]
+        }
+      ],
+      "guides": [{"code":"simmeringguide","label":"Saucepans and simmering controls"},{"code":"expandedfoodsguide4","label":"Other liquid ingredient chains"},{"code":"butcheringguide","label":"Animal processing and kitchen supplies"}],
+      "mods": ["aculinaryartillery","expandedfoods"]
+    },
+    {
+      "code": "kuboczochmodpackguide-process-kitchen-pasta",
+      "title": "Kitchen - Fresh pasta and dried pantry noodles",
+      "intro": "Flour and liquid egg become dough, then sheets and noodles. Cook what you need now; dry the rest before storage.",
+      "steps": [
+        {
+          "label": "Knead, without a cooking pot",
+          "text": "Place a mixing bowl and open it with right-click. Add one flour and 0.1 L liquid whole egg or yolk to its ingredient slots. Leave the cooking-pot slot empty: this is kneading an item, not mixing a meal. Hold right-click on the bowl to produce pasta dough.",
+          "items": [{"type":"block","code":"aculinaryartillery:mixingbowl-blue"},{"type":"item","code":"game:flour-rye"},{"type":"item","code":"aculinaryartillery:eggyolkfullportion-chicken"},{"type":"item","code":"expandedfoods:pasta-dough"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/kneading/pasta.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#craftinginfo-mixing-text", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/liquid/eggyolkfull.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/mixingbowl.json"]
+        },
+        {
+          "label": "Flatten and cut",
+          "text": "In the crafting grid, put a stone above the pasta dough to make a sheet; a hammer or rolling pin is another option. Combine the sheet with a knife or cleaver to cut noodles.",
+          "items": [{"type":"item","code":"expandedfoods:pasta-flat"},{"type":"item","code":"expandedfoods:pasta-cut"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/grid/pastaprep.json", "mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json"]
+        },
+        {
+          "label": "Dry the surplus",
+          "text": "Bake cut noodles in an oven until they become dried pasta, then remove them before they char. Drying is a real preservation step: dried noodles have a much longer base freshness period than fresh noodles, and still work in the simmering recipe.",
+          "items": [{"type":"item","code":"expandedfoods:pasta-dried"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json#attributes.bakingPropertiesByType", "mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json#transitionablePropsByType", "mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json#item-handbooktext-pasta"]
+        },
+        {
+          "label": "Cook when needed",
+          "text": "Simmer one cut or dried pasta with 1 L water in a saucepan to make cooked pasta. Add cooked pasta to stew or use a mixing-bowl meal recipe. For mixing a meal, unlike kneading dough, put a cooking pot in the bowl's lower-left slot and use the recipe's exact proportions.",
+          "items": [{"type":"block","code":"aculinaryartillery:saucepan-blue-fired"},{"type":"item","code":"expandedfoods:pasta-cooked"}],
+          "evidence": ["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/simmering/pasta.json", "mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json#item-handbooktext-pasta", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#craftinginfo-mixing-text"]
+        }
+      ],
+      "guides": [{"code":"kneadingmixingguide","label":"Kneading items versus mixing meals"},{"code":"simmeringguide","label":"Cook noodles in a saucepan"},{"code":"gamemechanicinfo-farming","label":"Grow the grain supply"},{"code":"gamemechanicinfo-foodpreservation","label":"Store the finished pantry food"}],
+      "mods": ["aculinaryartillery","expandedfoods"]
+    },
+    {
+      "code": "kuboczochmodpackguide-process-kitchen-dairy",
+      "title": "Kitchen - Milk to cream and salted butter",
+      "intro": "Settle milk in a barrel, skim off its cream, then churn butter. Keep the skim milk for cooking rather than treating it as waste.",
+      "steps": [
+        {
+          "label": "Let the milk separate",
+          "text": "Put fresh milk into a barrel in multiples of 10 L and seal it. After 24 in-game hours the recipe produces separating milk. Prepare a cream scoop while it settles: its grid recipe uses a fired bowl and a stick.",
+          "items": [{"type":"item","code":"game:milkportion"},{"type":"item","code":"dairyplus:separatingmilk"},{"type":"block","code":"dairyplus:creamscoop"}],
+          "evidence": ["mods/DairyPlus_2.0.0.zip!assets/dairyplus/recipes/barrel/settling.json", "mods/DairyPlus_2.0.0.zip!assets/dairyplus/recipes/grid/creamscoop.json", "mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json#creamguide-text"]
+        },
+        {
+          "label": "Skim carefully",
+          "text": "Crouch with the cream scoop in hand and interact with the barrel. Keep going until skimming finishes; interrupting can mix the milk back together. The scoop collects cream and leaves skim milk in the barrel. Skim milk remains a cooking ingredient, but cannot become cheddar.",
+          "items": [{"type":"item","code":"dairyplus:cream"},{"type":"item","code":"dairyplus:skimmilk"}],
+          "evidence": ["mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json#creamguide-text", "mods/DairyPlus_2.0.0.zip!assets/dairyplus/blocktypes/creamscoop.json"]
+        },
+        {
+          "label": "Churn the cream",
+          "text": "Craft and place a plunger churn. Click its lower body to open the inventory, put cream in the top slot, then work the handle. Collect unsalted butter from the lower slot. You do not need a cooking pot or a saucepan for this step.",
+          "items": [{"type":"block","code":"dairyplus:plungerchurn"},{"type":"item","code":"dairyplus:butter-unsalted"}],
+          "evidence": ["mods/DairyPlus_2.0.0.zip!assets/dairyplus/recipes/grid/butterchurn.json", "mods/DairyPlus_2.0.0.zip!assets/dairyplus/blocktypes/churns/plungerchurn.json", "mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json#butterguide-text"]
+        },
+        {
+          "label": "Salt the stored portion",
+          "text": "Combine two unsalted butter with one salt in the grid to get two salted butter. One salted butter plus another salt makes twice-salted butter. Each salt stage increases the base freshness period, but neither stops spoilage. Keep butter cool and use the displayed freshness rather than assuming a fixed shelf life.",
+          "items": [{"type":"item","code":"game:salt"},{"type":"item","code":"dairyplus:butter-salted"},{"type":"item","code":"dairyplus:butter-twicesalted"}],
+          "evidence": ["mods/DairyPlus_2.0.0.zip!assets/dairyplus/recipes/grid/saltedbutter.json", "mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/food/butter.json#transitionablePropsByType"]
+        }
+      ],
+      "guides": [{"code":"creamguide","label":"Cream-scoop interaction"},{"code":"butterguide","label":"Operating the butter churn"},{"code":"gamemechanicinfo-animalhusbandry","label":"Milk supply"},{"code":"gamemechanicinfo-foodpreservation","label":"Cool storage and spoilage"}],
+      "mods": ["dairyplus"]
+    },
+    {
+      "code": "kuboczochmodpackguide-process-kitchen-bottles",
+      "title": "Kitchen - Make bottles and preserve liquid ingredients",
+      "intro": "Use bottles for small liquid batches and stoppers for preservation. A sealed bottle is storage, not an open pouring container.",
+      "steps": [
+        {
+          "label": "Make the container",
+          "text": "Use a saw with a glass slab in the crafting grid to make four glass bottles. Each bottle holds 1 L and transfers liquid in 0.1 L portions. Fill an open bottle with the liquid ingredient you want to keep before sealing it.",
+          "items": [{"type":"block","code":"aculinaryartillery:bottle-glass-quartz-fired"}],
+          "evidence": ["mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/recipes/grid/blocks/glassbottle.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/bottles/glassbottle.json"]
+        },
+        {
+          "label": "Prepare corks",
+          "text": "Simmer dry oak bark with water in a saucepan to make boiled bark. In the crafting grid, put a knife above one boiled bark to make sixteen cork stoppers. This is a kitchen use for bark, separate from the woodworking that supplies your furniture.",
+          "items": [{"type":"item","code":"aculinaryartillery:bark-oak-dry"},{"type":"item","code":"aculinaryartillery:bark-oak-boiled"},{"type":"item","code":"aculinaryartillery:stopper-bark-cork"},{"type":"block","code":"aculinaryartillery:saucepan-blue-fired"}],
+          "evidence": ["mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/recipes/simmering/boiledbark.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/recipes/grid/items/stopper-cork.json", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/bark.json"]
+        },
+        {
+          "label": "Stopper before storing",
+          "text": "Insert a stopper into the filled bottle to preserve its contents. Cork is the preservation-focused option. Keep sealed bottles in a cellar, away from temperature swings. Stoppering slows spoilage; it does not make perishable ingredients last forever.",
+          "items": [{"type":"block","code":"aculinaryartillery:bottle-glass-quartz-corked"}],
+          "evidence": ["mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#block-handbooktext-stopper", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#block-handbooktext-bottle", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json#block-handbooktext-bottlerack", "mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/stopper-bark.json"]
+        },
+        {
+          "label": "Open before cooking",
+          "text": "Unstopper the bottle before drinking or transferring liquid back to your cooking station. Corked and waxed bottle states disable held liquid transfer. Use the open bottle's small transfers to portion liquids for kneading and simmering rather than trying to pour from a sealed bottle.",
+          "items": [],
+          "evidence": ["mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/bottles/glassbottle.json#attributesByType"]
+        }
+      ],
+      "guides": [{"code":"aculinaryartilleryguide","label":"Kitchen containers and equipment"},{"code":"simmeringguide","label":"Boil bark and prepare liquid ingredients"},{"code":"gamemechanicinfo-foodpreservation","label":"Cellar storage"}],
+      "mods": ["aculinaryartillery"]
+    }
+  ],
+  "classifications": [
+    {"modid":"aculinaryartillery","classification":"functional-kitchen-workshop-and-liquid-storage","reason":"Mixing/kneading and simmering stations plus stopper-bearing bottles; authored guides and code-native cooking pages are existing native navigation, not missing content.","pages":["kuboczochmodpackguide-process-kitchen-broth","kuboczochmodpackguide-process-kitchen-pasta","kuboczochmodpackguide-process-kitchen-bottles"],"evidence":["mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/31-kneadingmixingguide.json","mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/32-simmeringguide.json","research/kitchen.md#scope-and-native-navigation"]},
+    {"modid":"expandedfoods","classification":"food-recipe-chains-and-ingredient-preservation","reason":"Native kneading/simmering/grid recipes connect flour and eggs to pasta and bones to broth or gelatin; oven drying changes pasta perish properties.","pages":["kuboczochmodpackguide-process-kitchen-broth","kuboczochmodpackguide-process-kitchen-pasta"],"evidence":["mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/kneading/pasta.json","mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/recipes/simmering/gelatin.json","mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json"]},
+    {"modid":"dairyplus","classification":"milk-processing-stations-and-salted-preserves","reason":"Barrel settling, cream-scoop interaction, churn and salt recipes form a complete milk-to-butter chain; salting changes perish properties.","pages":["kuboczochmodpackguide-process-kitchen-dairy"],"evidence":["mods/DairyPlus_2.0.0.zip!assets/dairyplus/recipes/barrel/settling.json","mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json#creamguide-text","mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json#butterguide-text","mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/food/butter.json"]}
+  ]
+}

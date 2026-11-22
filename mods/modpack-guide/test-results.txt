@@ -1,0 +1,113 @@
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python research_inventory.py
+{
+  "counts": {
+    "block": 20,
+    "item": 15
+  },
+  "definitions": 9,
+  "parsed_assets": 204,
+  "parse_errors": {},
+  "conditional_folders": {
+    "ancienttools": false,
+    "floralzonescaperegion": false,
+    "floralzonescaribbeanregion": false,
+    "floralzonescentralaustralianregion": false,
+    "floralzonesmediterraneanregion": false,
+    "floralzonesneozeylandicregion": false,
+    "geoaddons": false,
+    "mngeology": false,
+    "tailorsdelight": true,
+    "wildcrafttree": false,
+    "wool": true,
+    "butchering": true,
+    "meteoricsteel": false,
+    "botaniastory": false,
+    "uraniumexpanded": false
+  },
+  "attribute_counts": {
+    "definedCodes": 35,
+    "handbookCodes": 19,
+    "nativeHandbookStacks": 85,
+    "generatedAttributeStacks": 72
+  },
+  "artifacts": [
+    "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/research-inventory.json",
+    "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/research-inventory.md",
+    "/home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/attribute_inventory.json"
+  ]
+}
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python build.py
+{
+  "nativeItems": 15,
+  "nativeBlocks": 20,
+  "partRecords": 200,
+  "resolvedPartRecords": 153
+}
+
+Built /home/brunette/.hermes/cache/scratch/toolsmith-handbook-index/dist/KuboczochModpackGuide-1.1.0.zip
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python -m unittest test_build test_pack_audit -v
+test_boilerplate_duplicates (test_build.BuildTests.test_boilerplate_duplicates) ... ok
+test_compact_icons_and_metal_progression (test_build.BuildTests.test_compact_icons_and_metal_progression) ... ok
+test_coverage (test_build.BuildTests.test_coverage) ... ok
+test_index (test_build.BuildTests.test_index) ... ok
+test_packages (test_build.BuildTests.test_packages) ... ok
+test_preservation (test_build.BuildTests.test_preservation) ... ok
+test_complete_pack_evidence (test_pack_audit.PackAuditTests.test_complete_pack_evidence) ... ok
+test_duplicate_links_keep_first_original_and_text (test_pack_audit.PackAuditTests.test_duplicate_links_keep_first_original_and_text) ... ok
+test_real_language (test_pack_audit.PackAuditTests.test_real_language) ... ok
+test_stale_directory_row_and_unrelated_dead_external (test_pack_audit.PackAuditTests.test_stale_directory_row_and_unrelated_dead_external) ... ok
+test_unreadable_metadata_blocks_prune (test_pack_audit.PackAuditTests.test_unreadable_metadata_blocks_prune) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.126s
+
+OK
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python verify_attribute_inventory.py
+PASS: 35 defined codes, 19 native handbook codes, 85 unique pages, 72 attributed stacks; links/aliases/compatibility/internal exclusion verified statically.
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python validate_content_rewrite.py
+{
+  "pages_rewritten": 84,
+  "mod_pages": 76,
+  "category_pages": 7,
+  "root_pages": 1,
+  "distinct_page_href_pairs_preserved": 382,
+  "boilerplate_matches": 0,
+  "input_unchanged": true,
+  "idempotent": true
+}
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project harness/RichtextHarness.csproj -c Release --nologo
+PASS exact API version 1.22.7
+PASS native parser: compact pipe slideshow
+PASS native parser: adjacent icon and anchor
+PASS native item page omits game domain
+PASS native item page preserves custom domain
+PASS native block page prefix
+PASS native page ignores durability
+PASS native page retains material attribute suffix: item-stick-{ "material": "oak" }
+PASS real OnMouseDown calls supplied callback with displayed slot
+PASS real OnMouseDown excludes outside bounds
+PASS real OnMouseDown with null callback performs no navigation (VTML default)
+PASS real LinkTextComponent.Trigger dispatches handbook protocol
+PASS explicit link callback overrides default protocol routing
+PASS all 85 native attributed stack page codes and VTML hrefs match exact game methods
+PASS exact VTML parser tokenizes every shipped custom page
+RESULT 15 checks passed; no client GUI, network, modloader or downloaded mod assemblies executed.
+
+EXIT 0
+
+PASS: consecutive installation builds have identical SHA-256 da680168b6e3b01199f00778ec9619bd30c53696e01d2c53bf497a16ef9d8177

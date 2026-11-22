@@ -1,0 +1,31 @@
+PASS trusted game reference OverallVersion = 1.22.7
+PASS exact trusted ACA assembly semantics including helper lambdas
+PASS ACA hook is public static
+PASS ACA helper returns richtext list
+PASS exact ACA hook parameter signature
+PASS Harmony name binding matches exact ACA parameters
+PASS exact ACA Postfix positional ABI: ref result arg0, components arg5
+PASS actual ACA Postfix IL contains exactly one direct ingredient-helper call
+PASS exact native AddHeading has FOUR parameters; preliminary optional-link API claim corrected
+PASS native linked subheading signature retained
+GENERAL_IL=08D01932676FDA0BD552D689FF84150666ECAA6317B6FFFCD03AE8FC4B535101
+PASS native Processes into ABI, no alternate renderer or added hook
+PASS exact existing native Processes into IL fingerprint
+GENERAL_ABI=capi,openDetailPageFor,stack,components,marginTop,marginBottom,containers,fuels,haveText
+NATIVE_IL=E2ADD5DAADB951752CBFE9280897F4435734707CF612BEE8CFCD7BA053A46207
+PASS exact native ingredient IL fingerprint
+GENERAL_KEYS=1
+PASS native transition heading is already named per EnumTransitionType, not generic text
+PASS exact 12 native collector calls; source-locked ordinals grid1/barrel6, returnedStack2 untouched
+PASS unambiguous grid/barrel recipe locals for contribution capture
+PASS native output collector ABI: instance void (capi,list,output)
+NATIVE_ABI=Vintagestory.API.Client.ICoreClientAPI,Vintagestory.API.Common.ItemStack[],Vintagestory.API.Common.ActionConsumable`1<System.String>,Vintagestory.API.Common.ItemStack,System.Collections.Generic.List`1<Vintagestory.API.Client.RichTextComponentBase>,System.Single,System.Collections.Generic.List`1<Vintagestory.API.Common.ItemStack>,System.Collections.Generic.List`1<Vintagestory.API.Common.ItemStack>,System.Collections.Generic.List`1<Vintagestory.API.Common.ItemStack>,System.Boolean
+PASS production assembly version 0.3.1.0
+PASS production contains independent section composition hook
+PASS addon contains ModSystem
+PASS no bundled upstream namespaces
+PASS ACA retained as metadata reference not bundled code
+VintagestoryAPI.dll sha256=034283e7e9d98eae45ee63005576fd89badc3c995b531cc4c3fe46f3eb2d3296
+ACulinaryArtillery.dll sha256=8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b
+KuboczochFoodHandbook.dll sha256=ab3dd9b2ceefa0c944bd5769594a83cc53125e3fa47f578f9833020d874d45a0
+Metadata checks only; no upstream DLL or game client executed.

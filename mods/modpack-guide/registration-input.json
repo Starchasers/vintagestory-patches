@@ -1,0 +1,3462 @@
+{
+  "customPages": [
+    {
+      "pageCode": "craftinginfo-starterguide",
+      "title": "craftinginfo-starterguide-title",
+      "text": "craftinginfo-starterguide-text"
+    },
+    {
+      "pageCode": "craftinginfo-progressionguide",
+      "title": "craftinginfo-progressionguide-title",
+      "text": "craftinginfo-progressionguide-text"
+    },
+    {
+      "pageCode": "craftinginfo-knapping",
+      "title": "craftinginfo-knapping-title",
+      "text": "craftinginfo-knapping-text"
+    },
+    {
+      "pageCode": "craftinginfo-clayforming",
+      "title": "craftinginfo-clayforming-title",
+      "text": "craftinginfo-clayforming-text"
+    },
+    {
+      "pageCode": "craftinginfo-mealcooking",
+      "title": "craftinginfo-mealcooking-title",
+      "text": "craftinginfo-mealcooking-text"
+    },
+    {
+      "pageCode": "craftinginfo-charcoalburning",
+      "title": "craftinginfo-charcoalburning-title",
+      "text": "craftinginfo-charcoalburning-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-farming",
+      "title": "gamemechanicinfo-farming-title",
+      "text": "gamemechanicinfo-farming-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-foodpreservation",
+      "title": "gamemechanicinfo-foodpreservation-title",
+      "text": "gamemechanicinfo-foodpreservation-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-animalhusbandry",
+      "title": "gamemechanicinfo-animalhusbandry-title",
+      "text": "gamemechanicinfo-animalhusbandry-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-panning",
+      "title": "gamemechanicinfo-panning-title",
+      "text": "gamemechanicinfo-panning-text"
+    },
+    {
+      "pageCode": "craftinginfo-smelting",
+      "title": "craftinginfo-smelting-title",
+      "text": "craftinginfo-smelting-text"
+    },
+    {
+      "pageCode": "craftinginfo-smithing",
+      "title": "craftinginfo-smithing-title",
+      "text": "craftinginfo-smithing-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-prospecting",
+      "title": "gamemechanicinfo-prospecting-title",
+      "text": "gamemechanicinfo-prospecting-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-temporalstability",
+      "title": "gamemechanicinfo-temporalstability-title",
+      "text": "gamemechanicinfo-temporalstability-text"
+    },
+    {
+      "pageCode": "craftinginfo-armor",
+      "title": "craftinginfo-armor-title",
+      "text": "craftinginfo-armor-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-mechanicalpower",
+      "title": "gamemechanicinfo-mechanicalpower-title",
+      "text": "gamemechanicinfo-mechanicalpower-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-steelmaking",
+      "title": "gamemechanicinfo-steelmaking-title",
+      "text": "gamemechanicinfo-steelmaking-text"
+    },
+    {
+      "pageCode": "craftinginfo-cokeoven",
+      "title": "craftinginfo-cokeoven-title",
+      "text": "craftinginfo-cokeoven-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-weather",
+      "title": "gamemechanicinfo-weather-title",
+      "text": "gamemechanicinfo-weather-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-stonelayers",
+      "title": "gamemechanicinfo-stonelayers-title",
+      "text": "gamemechanicinfo-stonelayers-text"
+    },
+    {
+      "pageCode": "craftinginfo-cheese",
+      "title": "craftinginfo-cheese-title",
+      "text": "craftinginfo-cheese-text"
+    },
+    {
+      "pageCode": "craftinginfo-quenching",
+      "title": "craftinginfo-quenching-title",
+      "text": "craftinginfo-quenching-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-fruittrees",
+      "title": "gamemechanicinfo-fruittrees-title",
+      "text": "gamemechanicinfo-fruittrees-text"
+    },
+    {
+      "pageCode": "craftinginfo-alcohol",
+      "title": "craftinginfo-alcohol-title",
+      "text": "craftinginfo-alcohol-text"
+    },
+    {
+      "pageCode": "craftinginfo-dyemaking",
+      "title": "craftinginfo-dyemaking-title",
+      "text": "craftinginfo-dyemaking-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-groundstorage",
+      "title": "gamemechanicinfo-groundstorage-title",
+      "text": "gamemechanicinfo-groundstorage-text"
+    },
+    {
+      "pageCode": "craftinginfo-leathermaking",
+      "title": "craftinginfo-leathermaking-title",
+      "text": "craftinginfo-leathermaking-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-greenhouse",
+      "title": "gamemechanicinfo-greenhouse-title",
+      "text": "gamemechanicinfo-greenhouse-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-beehivekiln",
+      "title": "gamemechanicinfo-beehivekiln-title",
+      "text": "gamemechanicinfo-beehivekiln-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-shipbuilding",
+      "title": "gamemechanicinfo-shipbuilding-title",
+      "text": "gamemechanicinfo-shipbuilding-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-mountableanimals",
+      "title": "gamemechanicinfo-mountableanimals-title",
+      "text": "gamemechanicinfo-mountableanimals-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-fishing",
+      "title": "gamemechanicinfo-fishing-title",
+      "text": "gamemechanicinfo-fishing-text"
+    },
+    {
+      "pageCode": "aculinaryartilleryguide",
+      "title": "aculinaryartillery:aculinaryartilleryguide-title",
+      "text": "aculinaryartillery:aculinaryartilleryguide-text"
+    },
+    {
+      "pageCode": "kneadingmixingguide",
+      "title": "aculinaryartillery:craftinginfo-mixing-title",
+      "text": "aculinaryartillery:craftinginfo-mixing-text"
+    },
+    {
+      "pageCode": "simmeringguide",
+      "title": "aculinaryartillery:craftinginfo-simmering-title",
+      "text": "aculinaryartillery:craftinginfo-simmering-text"
+    },
+    {
+      "pageCode": "walkingstick-guide",
+      "title": "walkingstick-guide-title",
+      "text": "walkingstick-guide-text"
+    },
+    {
+      "pageCode": "bricklayers:craftinginfo-glazedceramics",
+      "title": "bricklayers:craftinginfo-glazedceramics-title",
+      "text": "bricklayers:craftinginfo-glazedceramics-text"
+    },
+    {
+      "pageCode": "bricklayers:craftinginfo-coloredclay",
+      "title": "bricklayers:craftinginfo-coloredclay-title",
+      "text": "bricklayers:craftinginfo-coloredclay-text"
+    },
+    {
+      "pageCode": "bricklayers:craftinginfo-coloredglass",
+      "title": "bricklayers:craftinginfo-coloredglass-title",
+      "text": "bricklayers:craftinginfo-coloredglass-text"
+    },
+    {
+      "pageCode": "butcheringguide",
+      "title": "butcheringguide-title",
+      "text": "butcheringguide-text"
+    },
+    {
+      "pageCode": "butcheringinfo",
+      "title": "butcheringinfo-title",
+      "text": "butcheringinfo-text"
+    },
+    {
+      "pageCode": "chiseltools:chiseltools-guide",
+      "title": "chiseltools:chiseltools-guide-title",
+      "text": "chiseltools:chiseltools-guide-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-coinage",
+      "title": "gamemechanicinfo-coinage-title",
+      "text": "gamemechanicinfo-coinage-text"
+    },
+    {
+      "pageCode": "coins-money",
+      "title": "coins:handbook-money-title",
+      "text": "coins:handbook-money-text"
+    },
+    {
+      "pageCode": "artsguides-liquidmixing",
+      "title": "artsguides-liquidmixing-title",
+      "text": "artsguides-liquidmixing-text"
+    },
+    {
+      "pageCode": "creamguide",
+      "title": "dairyplus:creamguide-title",
+      "text": "dairyplus:creamguide-text"
+    },
+    {
+      "pageCode": "butterguide",
+      "title": "dairyplus:butterguide-title",
+      "text": "dairyplus:butterguide-text"
+    },
+    {
+      "pageCode": "mozzaguide",
+      "title": "dairyplus:mozzaguide-title",
+      "text": "dairyplus:mozzaguide-text"
+    },
+    {
+      "pageCode": "efchefstricksguide",
+      "title": "efchefstricks:efchefstricksguide-title",
+      "text": "efchefstricks:efchefstricksguide-text"
+    },
+    {
+      "pageCode": "expandedfoodsguide",
+      "title": "expandedfoods:expandedfoodsguide-title",
+      "text": "expandedfoods:expandedfoodsguide-text"
+    },
+    {
+      "pageCode": "expandedfoodsguide2",
+      "title": "expandedfoods:expandedfoodsguide2-title",
+      "text": "expandedfoods:expandedfoodsguide2-text"
+    },
+    {
+      "pageCode": "expandedfoodsguide4",
+      "title": "expandedfoods:expandedfoodsguide4-title",
+      "text": "expandedfoods:expandedfoodsguide4-text"
+    },
+    {
+      "pageCode": "expandedfoodsguide5",
+      "title": "expandedfoods:expandedfoodsguide5-title",
+      "text": "expandedfoods:expandedfoodsguide5-text"
+    },
+    {
+      "pageCode": "expandedfoodsguide3",
+      "title": "efmealsmodule:expandedfoodsguide3-title",
+      "text": "efmealsmodule:expandedfoodsguide3-text"
+    },
+    {
+      "pageCode": "firestarters-environment-guide",
+      "title": "firestarters-environment-guide-title",
+      "text": "firestarters-environment-guide-text"
+    },
+    {
+      "pageCode": "foodshelvesguide",
+      "title": "foodshelves:foodshelvesguide-title",
+      "text": "foodshelves:foodshelvesguide-text"
+    },
+    {
+      "pageCode": "apiculture-fromgoldencombsguide",
+      "title": "fromgoldencombs:fromgoldencombsguide-title",
+      "text": "fromgoldencombs:fromgoldencombsguide-text"
+    },
+    {
+      "pageCode": "pollination-fromgoldencombsguide",
+      "title": "fromgoldencombs:fromgoldencombspollination-title",
+      "text": "fromgoldencombs:fromgoldencombspollination-text"
+    },
+    {
+      "pageCode": "langstrothguiden-fromgoldencombsguide",
+      "title": "fromgoldencombs:langstrothguide-title",
+      "text": "fromgoldencombs:langstrothguide-text"
+    },
+    {
+      "pageCode": "sharingwaypointsguide",
+      "title": "kscartographytable:gamemechanicinfo-sharingwaypoints-title",
+      "text": "kscartographytable:gamemechanicinfo-sharingwaypoints-text"
+    },
+    {
+      "pageCode": "ponderingguide",
+      "title": "kscartographytable:gamemechanicinfo-pondering-title",
+      "text": "kscartographytable:gamemechanicinfo-pondering-text"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-combat-survival",
+      "title": "kuboczochmodpackguide:category-combat-survival-title",
+      "text": "kuboczochmodpackguide:category-combat-survival-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-crafting-workshops",
+      "title": "kuboczochmodpackguide:category-crafting-workshops-title",
+      "text": "kuboczochmodpackguide:category-crafting-workshops-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-economy-community",
+      "title": "kuboczochmodpackguide:category-economy-community-title",
+      "text": "kuboczochmodpackguide:category-economy-community-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-farming-husbandry",
+      "title": "kuboczochmodpackguide:category-farming-husbandry-title",
+      "text": "kuboczochmodpackguide:category-farming-husbandry-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-food-cooking",
+      "title": "kuboczochmodpackguide:category-food-cooking-title",
+      "text": "kuboczochmodpackguide:category-food-cooking-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-gear-tools",
+      "title": "kuboczochmodpackguide:category-gear-tools-title",
+      "text": "kuboczochmodpackguide:category-gear-tools-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-category-movement-transport",
+      "title": "kuboczochmodpackguide:category-movement-transport-title",
+      "text": "kuboczochmodpackguide:category-movement-transport-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-aculinaryartillery",
+      "title": "kuboczochmodpackguide:mod-aculinaryartillery-title",
+      "text": "kuboczochmodpackguide:mod-aculinaryartillery-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-armoryfork",
+      "title": "kuboczochmodpackguide:mod-armoryfork-title",
+      "text": "kuboczochmodpackguide:mod-armoryfork-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-artofgrowingpatch",
+      "title": "kuboczochmodpackguide:mod-artofgrowingpatch-title",
+      "text": "kuboczochmodpackguide:mod-artofgrowingpatch-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-betterhusbandry",
+      "title": "kuboczochmodpackguide:mod-betterhusbandry-title",
+      "text": "kuboczochmodpackguide:mod-betterhusbandry-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-bettertraders",
+      "title": "kuboczochmodpackguide:mod-bettertraders-title",
+      "text": "kuboczochmodpackguide:mod-bettertraders-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-bloodtrail",
+      "title": "kuboczochmodpackguide:mod-bloodtrail-title",
+      "text": "kuboczochmodpackguide:mod-bloodtrail-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-bricklayers",
+      "title": "kuboczochmodpackguide:mod-bricklayers-title",
+      "text": "kuboczochmodpackguide:mod-bricklayers-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-butchering",
+      "title": "kuboczochmodpackguide:mod-butchering-title",
+      "text": "kuboczochmodpackguide:mod-butchering-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-carryon",
+      "title": "kuboczochmodpackguide:mod-carryon-title",
+      "text": "kuboczochmodpackguide:mod-carryon-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-cartwrightscaravan",
+      "title": "kuboczochmodpackguide:mod-cartwrightscaravan-title",
+      "text": "kuboczochmodpackguide:mod-cartwrightscaravan-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-catchledge",
+      "title": "kuboczochmodpackguide:mod-catchledge-title",
+      "text": "kuboczochmodpackguide:mod-catchledge-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-catchlivestock",
+      "title": "kuboczochmodpackguide:mod-catchlivestock-title",
+      "text": "kuboczochmodpackguide:mod-catchlivestock-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-chargedjump",
+      "title": "kuboczochmodpackguide:mod-chargedjump-title",
+      "text": "kuboczochmodpackguide:mod-chargedjump-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-chiseltools",
+      "title": "kuboczochmodpackguide:mod-chiseltools-title",
+      "text": "kuboczochmodpackguide:mod-chiseltools-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-climbmountain",
+      "title": "kuboczochmodpackguide:mod-climbmountain-title",
+      "text": "kuboczochmodpackguide:mod-climbmountain-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-coinage",
+      "title": "kuboczochmodpackguide:mod-coinage-title",
+      "text": "kuboczochmodpackguide:mod-coinage-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-coins",
+      "title": "kuboczochmodpackguide:mod-coins-title",
+      "text": "kuboczochmodpackguide:mod-coins-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-combatoverhaulfork",
+      "title": "kuboczochmodpackguide:mod-combatoverhaulfork-title",
+      "text": "kuboczochmodpackguide:mod-combatoverhaulfork-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-containersbundle",
+      "title": "kuboczochmodpackguide:mod-containersbundle-title",
+      "text": "kuboczochmodpackguide:mod-containersbundle-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-coreofartspatch",
+      "title": "kuboczochmodpackguide:mod-coreofartspatch-title",
+      "text": "kuboczochmodpackguide:mod-coreofartspatch-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-crawlanddive",
+      "title": "kuboczochmodpackguide:mod-crawlanddive-title",
+      "text": "kuboczochmodpackguide:mod-crawlanddive-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-dairyplus",
+      "title": "kuboczochmodpackguide:mod-dairyplus-title",
+      "text": "kuboczochmodpackguide:mod-dairyplus-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-downed",
+      "title": "kuboczochmodpackguide:mod-downed-title",
+      "text": "kuboczochmodpackguide:mod-downed-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-dressmakers",
+      "title": "kuboczochmodpackguide:mod-dressmakers-title",
+      "text": "kuboczochmodpackguide:mod-dressmakers-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-efchefstricks",
+      "title": "kuboczochmodpackguide:mod-efchefstricks-title",
+      "text": "kuboczochmodpackguide:mod-efchefstricks-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-efmealsmodule",
+      "title": "kuboczochmodpackguide:mod-efmealsmodule-title",
+      "text": "kuboczochmodpackguide:mod-efmealsmodule-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-em",
+      "title": "kuboczochmodpackguide:mod-em-title",
+      "text": "kuboczochmodpackguide:mod-em-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-equusdestrier",
+      "title": "kuboczochmodpackguide:mod-equusdestrier-title",
+      "text": "kuboczochmodpackguide:mod-equusdestrier-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-equusferus",
+      "title": "kuboczochmodpackguide:mod-equusferus-title",
+      "text": "kuboczochmodpackguide:mod-equusferus-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-expandedfoods",
+      "title": "kuboczochmodpackguide:mod-expandedfoods-title",
+      "text": "kuboczochmodpackguide:mod-expandedfoods-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-fallingtree",
+      "title": "kuboczochmodpackguide:mod-fallingtree-title",
+      "text": "kuboczochmodpackguide:mod-fallingtree-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-firestarters",
+      "title": "kuboczochmodpackguide:mod-firestarters-title",
+      "text": "kuboczochmodpackguide:mod-firestarters-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-foodshelves",
+      "title": "kuboczochmodpackguide:mod-foodshelves-title",
+      "text": "kuboczochmodpackguide:mod-foodshelves-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-fromgoldencombs",
+      "title": "kuboczochmodpackguide:mod-fromgoldencombs-title",
+      "text": "kuboczochmodpackguide:mod-fromgoldencombs-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-immersivemining",
+      "title": "kuboczochmodpackguide:mod-immersivemining-title",
+      "text": "kuboczochmodpackguide:mod-immersivemining-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-immersiveorecrush",
+      "title": "kuboczochmodpackguide:mod-immersiveorecrush-title",
+      "text": "kuboczochmodpackguide:mod-immersiveorecrush-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-immersivewoodworking",
+      "title": "kuboczochmodpackguide:mod-immersivewoodworking-title",
+      "text": "kuboczochmodpackguide:mod-immersivewoodworking-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-kevinsfurniture",
+      "title": "kuboczochmodpackguide:mod-kevinsfurniture-title",
+      "text": "kuboczochmodpackguide:mod-kevinsfurniture-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-kscartographytable",
+      "title": "kuboczochmodpackguide:mod-kscartographytable-title",
+      "text": "kuboczochmodpackguide:mod-kscartographytable-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-livestockwelfare",
+      "title": "kuboczochmodpackguide:mod-livestockwelfare-title",
+      "text": "kuboczochmodpackguide:mod-livestockwelfare-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-manualdough",
+      "title": "kuboczochmodpackguide:mod-manualdough-title",
+      "text": "kuboczochmodpackguide:mod-manualdough-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-manualfirestarter",
+      "title": "kuboczochmodpackguide:mod-manualfirestarter-title",
+      "text": "kuboczochmodpackguide:mod-manualfirestarter-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-manualharvesting",
+      "title": "kuboczochmodpackguide:mod-manualharvesting-title",
+      "text": "kuboczochmodpackguide:mod-manualharvesting-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-manualshingle",
+      "title": "kuboczochmodpackguide:mod-manualshingle-title",
+      "text": "kuboczochmodpackguide:mod-manualshingle-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-millwright",
+      "title": "kuboczochmodpackguide:mod-millwright-title",
+      "text": "kuboczochmodpackguide:mod-millwright-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-naturalfertilizer",
+      "title": "kuboczochmodpackguide:mod-naturalfertilizer-title",
+      "text": "kuboczochmodpackguide:mod-naturalfertilizer-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-noticeboard",
+      "title": "kuboczochmodpackguide:mod-noticeboard-title",
+      "text": "kuboczochmodpackguide:mod-noticeboard-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-pagoldsilver",
+      "title": "kuboczochmodpackguide:mod-pagoldsilver-title",
+      "text": "kuboczochmodpackguide:mod-pagoldsilver-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-pewter",
+      "title": "kuboczochmodpackguide:mod-pewter-title",
+      "text": "kuboczochmodpackguide:mod-pewter-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-purposefulstorage",
+      "title": "kuboczochmodpackguide:mod-purposefulstorage-title",
+      "text": "kuboczochmodpackguide:mod-purposefulstorage-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-quiversfork",
+      "title": "kuboczochmodpackguide:mod-quiversfork-title",
+      "text": "kuboczochmodpackguide:mod-quiversfork-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-realsmoke",
+      "title": "kuboczochmodpackguide:mod-realsmoke-title",
+      "text": "kuboczochmodpackguide:mod-realsmoke-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-rivers",
+      "title": "kuboczochmodpackguide:mod-rivers-title",
+      "text": "kuboczochmodpackguide:mod-rivers-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-roughseas",
+      "title": "kuboczochmodpackguide:mod-roughseas-title",
+      "text": "kuboczochmodpackguide:mod-roughseas-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-rusticcookery",
+      "title": "kuboczochmodpackguide:mod-rusticcookery-title",
+      "text": "kuboczochmodpackguide:mod-rusticcookery-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-scaffolding",
+      "title": "kuboczochmodpackguide:mod-scaffolding-title",
+      "text": "kuboczochmodpackguide:mod-scaffolding-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-simpletea",
+      "title": "kuboczochmodpackguide:mod-simpletea-title",
+      "text": "kuboczochmodpackguide:mod-simpletea-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-slowtox",
+      "title": "kuboczochmodpackguide:mod-slowtox-title",
+      "text": "kuboczochmodpackguide:mod-slowtox-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-sprintmomentum",
+      "title": "kuboczochmodpackguide:mod-sprintmomentum-title",
+      "text": "kuboczochmodpackguide:mod-sprintmomentum-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-spyglass",
+      "title": "kuboczochmodpackguide:mod-spyglass-title",
+      "text": "kuboczochmodpackguide:mod-spyglass-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-stickroast",
+      "title": "kuboczochmodpackguide:mod-stickroast-title",
+      "text": "kuboczochmodpackguide:mod-stickroast-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-stonebakeoven",
+      "title": "kuboczochmodpackguide:mod-stonebakeoven-title",
+      "text": "kuboczochmodpackguide:mod-stonebakeoven-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-stoneharvesting",
+      "title": "kuboczochmodpackguide:mod-stoneharvesting-title",
+      "text": "kuboczochmodpackguide:mod-stoneharvesting-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-tabletopgames",
+      "title": "kuboczochmodpackguide:mod-tabletopgames-title",
+      "text": "kuboczochmodpackguide:mod-tabletopgames-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-tailorsdelight",
+      "title": "kuboczochmodpackguide:mod-tailorsdelight-title",
+      "text": "kuboczochmodpackguide:mod-tailorsdelight-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-tankardsandgoblets",
+      "title": "kuboczochmodpackguide:mod-tankardsandgoblets-title",
+      "text": "kuboczochmodpackguide:mod-tankardsandgoblets-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-temporalsymphony",
+      "title": "kuboczochmodpackguide:mod-temporalsymphony-title",
+      "text": "kuboczochmodpackguide:mod-temporalsymphony-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-toolbelt",
+      "title": "kuboczochmodpackguide:mod-toolbelt-title",
+      "text": "kuboczochmodpackguide:mod-toolbelt-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-toolsmith",
+      "title": "kuboczochmodpackguide:mod-toolsmith-title",
+      "text": "kuboczochmodpackguide:mod-toolsmith-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-trailmodmaro",
+      "title": "kuboczochmodpackguide:mod-trailmodmaro-title",
+      "text": "kuboczochmodpackguide:mod-trailmodmaro-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-tseasonedfirewood",
+      "title": "kuboczochmodpackguide:mod-tseasonedfirewood-title",
+      "text": "kuboczochmodpackguide:mod-tseasonedfirewood-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-vaultandroll",
+      "title": "kuboczochmodpackguide:mod-vaultandroll-title",
+      "text": "kuboczochmodpackguide:mod-vaultandroll-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-vinconomy",
+      "title": "kuboczochmodpackguide:mod-vinconomy-title",
+      "text": "kuboczochmodpackguide:mod-vinconomy-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-walkingstick",
+      "title": "kuboczochmodpackguide:mod-walkingstick-title",
+      "text": "kuboczochmodpackguide:mod-walkingstick-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-watersheds",
+      "title": "kuboczochmodpackguide:mod-watersheds-title",
+      "text": "kuboczochmodpackguide:mod-watersheds-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-mod-wool",
+      "title": "kuboczochmodpackguide:mod-wool-title",
+      "text": "kuboczochmodpackguide:mod-wool-text",
+      "categoryCode": "guide"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-root",
+      "title": "kuboczochmodpackguide:root-title",
+      "text": "kuboczochmodpackguide:root-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "livestockwelfare-guide",
+      "title": "livestockwelfare:handbook-guide-title",
+      "text": "livestockwelfare:handbook-guide-text"
+    },
+    {
+      "pageCode": "gamemechanicinfo-trails",
+      "title": "trailmod:gamemechanicinfo-trails-title",
+      "text": "trailmod:gamemechanicinfo-trails-text"
+    },
+    {
+      "pageCode": "realsmokeguide",
+      "title": "realsmoke:realsmokeguide-title",
+      "text": "realsmoke:realsmokeguide-text"
+    },
+    {
+      "pageCode": "roughseas-goingtosea",
+      "title": "roughseas:guide-goingtosea-title",
+      "text": "roughseas:guide-goingtosea-text"
+    },
+    {
+      "pageCode": "roughseas-weather",
+      "title": "roughseas:guide-weather-title",
+      "text": "roughseas:guide-weather-text"
+    },
+    {
+      "pageCode": "roughseas-vessels",
+      "title": "roughseas:guide-vessels-title",
+      "text": "roughseas:guide-vessels-text"
+    },
+    {
+      "pageCode": "roughseas-surf",
+      "title": "roughseas:guide-surf-title",
+      "text": "roughseas:guide-surf-text"
+    },
+    {
+      "pageCode": "roughseas-mooring",
+      "title": "roughseas:guide-mooring-title",
+      "text": "roughseas:guide-mooring-text"
+    },
+    {
+      "pageCode": "simpletea-guide",
+      "title": "game:simpleteaguide-title",
+      "text": "game:simpleteaguide-text"
+    },
+    {
+      "pageCode": "stone-bake-oven",
+      "title": "stone-bake-oven-title",
+      "text": "stone-bake-oven-text"
+    },
+    {
+      "pageCode": "tabletopgames:craftinginfo-starterguide",
+      "title": "tabletopgames:craftinginfo-starterguide-title",
+      "text": "tabletopgames:craftinginfo-starterguide-text"
+    },
+    {
+      "pageCode": "tabletopgames:craftinginfo-custompiecesguide",
+      "title": "tabletopgames:craftinginfo-custompiecesguide-title",
+      "text": "tabletopgames:craftinginfo-custompiecesguide-text"
+    },
+    {
+      "pageCode": "tabletopgames:craftinginfo-customboardsguide",
+      "title": "tabletopgames:craftinginfo-customboardsguide-title",
+      "text": "tabletopgames:craftinginfo-customboardsguide-text"
+    },
+    {
+      "pageCode": "tabletopgames:interactionsinfo-playingcard",
+      "title": "tabletopgames:interactionsinfo-playingcard-title",
+      "text": "tabletopgames:interactionsinfo-playingcard-text"
+    },
+    {
+      "pageCode": "tabletopgames:interactionsinfo-shuffler",
+      "title": "tabletopgames:interactionsinfo-shuffler-title",
+      "text": "tabletopgames:interactionsinfo-shuffler-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithcraftingmethods",
+      "title": "craftinginfo-toolsmithcraftingmethods-title",
+      "text": "craftinginfo-toolsmithcraftingmethods-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithdurabilityandwear",
+      "title": "craftinginfo-toolsmithdurabilityandwear-title",
+      "text": "craftinginfo-toolsmithdurabilityandwear-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithmiscaddons",
+      "title": "craftinginfo-toolsmithmiscaddons-title",
+      "text": "craftinginfo-toolsmithmiscaddons-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithreforging",
+      "title": "craftinginfo-toolsmithreforging-title",
+      "text": "craftinginfo-toolsmithreforging-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithingbasics",
+      "title": "craftinginfo-toolsmithingbasics-title",
+      "text": "craftinginfo-toolsmithingbasics-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithtoolparts",
+      "title": "craftinginfo-toolsmithtoolparts-title",
+      "text": "craftinginfo-toolsmithtoolparts-text"
+    },
+    {
+      "pageCode": "craftinginfo-toolsmithtooltypes",
+      "title": "craftinginfo-toolsmithtooltypes-title",
+      "text": "craftinginfo-toolsmithtooltypes-text"
+    },
+    {
+      "pageCode": "wool:gamemechanicinfo-animalshearing",
+      "title": "wool:gamemechanicinfo-animalshearing-title",
+      "text": "wool:gamemechanicinfo-animalshearing-text"
+    },
+    {
+      "pageCode": "wool:gamemechanicinfo-woolknitting",
+      "title": "wool:gamemechanicinfo-woolknitting-title",
+      "text": "wool:gamemechanicinfo-woolknitting-text"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-bees",
+      "title": "kuboczochmodpackguide:process-bees-title",
+      "text": "kuboczochmodpackguide:process-bees-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-building-materials",
+      "title": "kuboczochmodpackguide:process-building-materials-title",
+      "text": "kuboczochmodpackguide:process-building-materials-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-butchering-leather",
+      "title": "kuboczochmodpackguide:process-butchering-leather-title",
+      "text": "kuboczochmodpackguide:process-butchering-leather-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-farming-animal-care",
+      "title": "kuboczochmodpackguide:process-farming-animal-care-title",
+      "text": "kuboczochmodpackguide:process-farming-animal-care-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-heraldic-decor",
+      "title": "kuboczochmodpackguide:process-heraldic-decor-title",
+      "text": "kuboczochmodpackguide:process-heraldic-decor-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-combat-survival",
+      "title": "kuboczochmodpackguide:process-index-combat-survival-title",
+      "text": "kuboczochmodpackguide:process-index-combat-survival-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-crafting-workshops",
+      "title": "kuboczochmodpackguide:process-index-crafting-workshops-title",
+      "text": "kuboczochmodpackguide:process-index-crafting-workshops-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-economy-community",
+      "title": "kuboczochmodpackguide:process-index-economy-community-title",
+      "text": "kuboczochmodpackguide:process-index-economy-community-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-farming-husbandry",
+      "title": "kuboczochmodpackguide:process-index-farming-husbandry-title",
+      "text": "kuboczochmodpackguide:process-index-farming-husbandry-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-food-cooking",
+      "title": "kuboczochmodpackguide:process-index-food-cooking-title",
+      "text": "kuboczochmodpackguide:process-index-food-cooking-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-gear-tools",
+      "title": "kuboczochmodpackguide:process-index-gear-tools-title",
+      "text": "kuboczochmodpackguide:process-index-gear-tools-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-index-movement-transport",
+      "title": "kuboczochmodpackguide:process-index-movement-transport-title",
+      "text": "kuboczochmodpackguide:process-index-movement-transport-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-bottles",
+      "title": "kuboczochmodpackguide:process-kitchen-bottles-title",
+      "text": "kuboczochmodpackguide:process-kitchen-bottles-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-broth",
+      "title": "kuboczochmodpackguide:process-kitchen-broth-title",
+      "text": "kuboczochmodpackguide:process-kitchen-broth-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-dairy",
+      "title": "kuboczochmodpackguide:process-kitchen-dairy-title",
+      "text": "kuboczochmodpackguide:process-kitchen-dairy-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-dough-oven",
+      "title": "kuboczochmodpackguide:process-kitchen-dough-oven-title",
+      "text": "kuboczochmodpackguide:process-kitchen-dough-oven-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-firstfire",
+      "title": "kuboczochmodpackguide:process-kitchen-firstfire-title",
+      "text": "kuboczochmodpackguide:process-kitchen-firstfire-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-pasta",
+      "title": "kuboczochmodpackguide:process-kitchen-pasta-title",
+      "text": "kuboczochmodpackguide:process-kitchen-pasta-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-kitchen-tea-storage",
+      "title": "kuboczochmodpackguide:process-kitchen-tea-storage-title",
+      "text": "kuboczochmodpackguide:process-kitchen-tea-storage-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-ore-to-equipment",
+      "title": "kuboczochmodpackguide:process-ore-to-equipment-title",
+      "text": "kuboczochmodpackguide:process-ore-to-equipment-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-powders-to-ceramics",
+      "title": "kuboczochmodpackguide:process-powders-to-ceramics-title",
+      "text": "kuboczochmodpackguide:process-powders-to-ceramics-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-tableware-equipment",
+      "title": "kuboczochmodpackguide:process-tableware-equipment-title",
+      "text": "kuboczochmodpackguide:process-tableware-equipment-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-textiles",
+      "title": "kuboczochmodpackguide:process-textiles-title",
+      "text": "kuboczochmodpackguide:process-textiles-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-wood-to-workshop",
+      "title": "kuboczochmodpackguide:process-wood-to-workshop-title",
+      "text": "kuboczochmodpackguide:process-wood-to-workshop-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-process-workshop-storage",
+      "title": "kuboczochmodpackguide:process-workshop-storage-title",
+      "text": "kuboczochmodpackguide:process-workshop-storage-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-toolsmith-items-bindings",
+      "title": "kuboczochmodpackguide:toolsmith-items-bindings-title",
+      "text": "kuboczochmodpackguide:toolsmith-items-bindings-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-toolsmith-items-grips",
+      "title": "kuboczochmodpackguide:toolsmith-items-grips-title",
+      "text": "kuboczochmodpackguide:toolsmith-items-grips-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-toolsmith-items-handles",
+      "title": "kuboczochmodpackguide:toolsmith-items-handles-title",
+      "text": "kuboczochmodpackguide:toolsmith-items-handles-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-toolsmith-items-maintenance",
+      "title": "kuboczochmodpackguide:toolsmith-items-maintenance-title",
+      "text": "kuboczochmodpackguide:toolsmith-items-maintenance-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-toolsmith-items-treatments",
+      "title": "kuboczochmodpackguide:toolsmith-items-treatments-title",
+      "text": "kuboczochmodpackguide:toolsmith-items-treatments-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-toolsmith-items",
+      "title": "kuboczochmodpackguide:toolsmith-items-title",
+      "text": "kuboczochmodpackguide:toolsmith-items-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-world-overland",
+      "title": "kuboczochmodpackguide:world-overland-title",
+      "text": "kuboczochmodpackguide:world-overland-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-world-survival",
+      "title": "kuboczochmodpackguide:world-survival-title",
+      "text": "kuboczochmodpackguide:world-survival-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-world-trade",
+      "title": "kuboczochmodpackguide:world-trade-title",
+      "text": "kuboczochmodpackguide:world-trade-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "kuboczochmodpackguide-world-water",
+      "title": "kuboczochmodpackguide:world-water-title",
+      "text": "kuboczochmodpackguide:world-water-text",
+      "categoryCode": "kuboczochmodpackguide-index"
+    },
+    {
+      "pageCode": "aculinaryartillery:recipeindex",
+      "title": "Static code-native registration fixture",
+      "text": ""
+    },
+    {
+      "pageCode": "aculinaryartillery:recipelist-broth",
+      "title": "Static code-native registration fixture",
+      "text": ""
+    },
+    {
+      "pageCode": "aculinaryartillery:recipelist-gelatin",
+      "title": "Static code-native registration fixture",
+      "text": ""
+    },
+    {
+      "pageCode": "aculinaryartillery:recipelist-pastanoodle",
+      "title": "Static code-native registration fixture",
+      "text": ""
+    },
+    {
+      "pageCode": "immersivewoodworking:craftinginfo-barkbasket",
+      "title": "Static code-native registration fixture",
+      "text": ""
+    },
+    {
+      "pageCode": "craftinginfo-woodworking",
+      "title": "Static code-native registration fixture",
+      "text": ""
+    }
+  ],
+  "stacks": [
+    {
+      "code": "game:axehead-flint",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:stick",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:drygrass",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:stick",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:bone",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:flaxtwine",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-mordant",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-black",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-brown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-gray",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-green",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-orange",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-pink",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-purple",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-white",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-yellow",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkblue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkbrown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkgreen",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkred",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:linen-diamond-down",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:linen-normal-down",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:linen-offset-down",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:linen-square-down",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-mordant",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-yellow",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-green",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-purple",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-pink",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-orange",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-brown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-gray",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-black",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-white",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:cloth-darkblue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:cloth-darkbrown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:cloth-darkgreen",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:cloth-darkred",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-mordant",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-black",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-brown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-gray",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-green",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-orange",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-pink",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-purple",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-white",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-yellow",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-darkblue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-darkbrown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-darkgreen",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-darkred",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-plain",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-black",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-blue",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-brown",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-gray",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-green",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-orange",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-pink",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-purple",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-red",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-white",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-yellow",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-darkblue",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-darkbrown",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-darkgreen",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:wool-darkred",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-orange",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-black",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-purple",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-pink",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-white",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-yellow",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-gray",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-green",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-sturdy-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:drygrass",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cattailtops",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:papyrustops",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:flaxtwine",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-mordant",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-black",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-brown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-gray",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-green",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-orange",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-pink",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-purple",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-white",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-yellow",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-darkblue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-darkbrown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-darkgreen",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:twine-darkred",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-mordant",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-black",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-brown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-gray",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-green",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-orange",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-pink",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-purple",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-white",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-yellow",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkblue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkbrown",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkgreen",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-darkred",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:rope",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "butchering:sinew-dry",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:leatherstrips-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:glueportion-pitch-hot",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "butchering:glueportion-sinew-cold",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "butchering:glueportion-hide-hot",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-copper",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-tinbronze",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-bismuthbronze",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-blackbronze",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-iron",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-cupronickel",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-meteoriciron",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metalnailsandstrips-steel",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:metal-parts",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:fat",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:fat-rendered",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:beeswax",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:oilportion-flax",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:oilportion-olive",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:foodoilportion-flax",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:foodoilportion-seed",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:grindstone-granite-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:grindstone-shale-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:workbench-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:fabricstrips-rawhide",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/plain"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/mordant"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/blue"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/red"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/yellow"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/green"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/purple"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/pink"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/orange"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/brown"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/gray"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/black"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/white"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "tailorsdelight:block/cloth/dark/darkblue"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "tailorsdelight:block/cloth/dark/darkbrown"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "tailorsdelight:block/cloth/dark/darkgreen"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "tailorsdelight:block/cloth/dark/darkred"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/plain"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/orange"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/black"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/red"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/blue"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/purple"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/pink"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/white"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/yellow"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/gray"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/leather/green"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-sturdy",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/plain"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "game:block/cloth/linen/mordant"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/blue"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/red"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/yellow"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/green"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/purple"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/pink"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/orange"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/brown"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/gray"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/black"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/white"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/darkblue"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/darkbrown"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/darkgreen"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "material": "wool:block/cloth/wool/darkred"
+          }
+        }
+      }
+    },
+    {
+      "code": "toolsmith:sandpaper",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:whetstone-chert",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:whetstone-granite",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:whetstone-andesite",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:whetstone-basalt",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:whetstone-peridotite",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolaged"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolbirch"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/tooloak"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolmaple"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolpine"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolacacia"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolkapok"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolbaldcypress"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toollarch"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolredwood"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolebony"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolwalnut"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolpurpleheart"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/fine/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:crudehandle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {},
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/crude/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolaged"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolbirch"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/tooloak"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolmaple"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolpine"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolacacia"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolkapok"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolbaldcypress"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toollarch"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolredwood"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolebony"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolwalnut"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "toolsmith:handle",
+      "kind": "item",
+      "attributes": {
+        "modularPartRenderData": {
+          "partTextures": {
+            "wood": "toolsmith:block/tools/toolpurpleheart"
+          },
+          "partShapeIndex": "toolsmith:shapes/item/parts/handles/regular/handle"
+        }
+      }
+    },
+    {
+      "code": "game:bandage-clean",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:dough-spelt",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:flour-spelt",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:flour-rye",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:grain-rye",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:waterportion",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:bone",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:charcoal",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:cloth-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:drygrass",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:fat-rendered",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:firewood",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:flaxfibers",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:flaxtwine",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:hide-soaked-small",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:hide-scraped-small",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:hide-prepared-small",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:ingot-copper",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:ingot-iron",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:ingot-pewter",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:leather-normal-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:plank-oak",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:rope",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:shingle-raw-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:shingle-burned-red",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:stick",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:firestarter",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:saw-copper",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:salt",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:milkportion",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:linen-normal-down",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:flower-cornflower-free",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "game:crucible-blue-fired",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:bottle-glass-quartz-fired",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:bottle-glass-quartz-corked",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:mixingbowl-blue",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:saucepan-blue-fired",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:bark-oak-dry",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:bark-oak-boiled",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:eggwhiteportion",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:eggyolkfullportion-chicken",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "aculinaryartillery:stopper-bark-cork",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "walkingstick:walkingstick-crude",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:flaxbundle-dry",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:flaxbundle-wet",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:flaxbundle-clear",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:flaxbundle-soft",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:grainbundle-flax-wet",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:grainbundle-rye-wet",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "artofgrowing:grainbundle-rye-dry",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "game:seeds-rye",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:glazedbowl-raw-clear-blue-plain",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:glazedbowl-burnt-clear-blue-plain",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:glazing-clear-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:glazingbase-clay",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:glazingbase-clear",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:frit-mix-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:frit-baked-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "bricklayers:frit-ground-blue",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "butchering:butcherhook-flint-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "butchering:butchertable-primitive-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "butchering:primemeat-raw",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "chiseltools:handplaner-iron",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "chiseltools:pantograph-steel",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "coins:mint-east",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "coins:wallet",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "coins:banknote-1",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "containersbundle:foodcupboard-east",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:creamscoop",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:plungerchurn",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:butter-unsalted",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:butter-salted",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:butter-twicesalted",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:cream",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:separatingmilk",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "dairyplus:skimmilk",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:gelatin-liquid",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:gelatin-raw",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:gelatin-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:pasta-dough",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:pasta-flat",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:pasta-cut",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:pasta-cooked",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:pasta-dried",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:brothportion-bone",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "expandedfoods:clarifiedbrothportion-bone",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "em:powdered-metal-copper",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "em:powdered-ore-quartz",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "foodshelves:cutice",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "foodshelves:coolingcabinet-normal-east",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "foodshelves:icekeeper-normal-east",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "fromgoldencombs:hivetop-ashforest-fired",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "fromgoldencombs:frameliner",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "heraldry:heraldryworkbench-east",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "heraldrybanners:banner",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "capes:cape",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "immersivewoodworking:choppingblock",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "immersivewoodworking:sawhorse",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "immersivewoodworking:pitsaw-copper",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "kscartographytable:cartographytable-filled-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "kscartographytable:quill",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "oneroof:oneroof-redclay-standard-none-free",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "oneroof:oneroof-redclay-dynamic-none-free",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:bowl-pewter",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:bowl-gold",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:bowl-silver",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:candlelamp-pewter-up",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:crock-pewter",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:tablewaremold-blue-fired-bowl",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "pewter:tablewaremold-blue-raw-bowl",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "purposefulstorage:resourcebin-normal-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "quiversandsheaths:beltbag-back-quiver-arrows",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "scaffolding:scaffolding-top-ns",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "fseasonedfirewood:fpreparedfirewood",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "fseasonedfirewood:fseasonedfirewood",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "simpletea:teaportion-floral-hot",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "simpletea:teaportion-floral-cold",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "stickroast:roastingstick",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "stonebakeoven:ovenbakingtopplain-granite",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "stonebakeoven:ovencontrollerplain-granite-cold-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "stonebakeoven:ovengrillplain-granite-cold-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "tailorsdelight:spindle-wood",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "tankardsandgoblets:tankard-wood",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:grindstone-granite-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "toolsmith:workbench-north",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "windchimes:windchime-wood",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "windchimes:windchime-copper",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "windowdisplay:customwindow-plain",
+      "kind": "block",
+      "attributes": {}
+    },
+    {
+      "code": "wool:cloth-wool-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:fibers-generic-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:fleece-generic-plain",
+      "kind": "item",
+      "attributes": {}
+    },
+    {
+      "code": "wool:twine-wool-plain",
+      "kind": "item",
+      "attributes": {}
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Kuboczoch Visual Mining 1.0.4 — real headless verification
+
+Target: Vintage Story 1.22.7, .NET 10. Built against the owner's supplied game assemblies.
+
+PASS tests/run_verification.py:
+- Integration: real Harmony observer/getter hooks, private per-entity animation registration, asset/metadata deserialization, inherited shovel getter and contact checks.
+- 2,558 per-tool checks: eight enable masks × three tools × occupied/empty offhand × FP/TP. Real inherited EntityPlayer client manager routing (including FP alias), actual patched held-hit getter, sound suppression predicate, observer/carve bypass, committed-carve decal gate, TP/FP owned-only cleanup, vanilla hit/movement preservation, contact reset and actual enabled→disabled tool switching. Strict mocks reject unexpected effects/world writes.
+- Enabled lifecycle: first observation, no-damage tick, 201 ms stale observation and retarget preserve animation while clearing/replacing stale chip/contact state.
+- Config: existing files are never stored; explicit false and cosmetic settings survive; absent fields true; missing file generated once with three true defaults; invalid JSON uses defaults without overwriting the user's file.
+- Existing 57 real-asset renderer fixtures pass production dispatch/mesh replacement and exact reset, including grown log, dirt, peat and clay. Topsoil UV2/color/renderpass channels remain covered.
+- Voxel: all six real mesh/neighbor hooks plus decal filter install; nine crack fallback cases; 18 tool/face cases with 12 successive hits, monotonic removal and exact rollback.
+- Sound: 24 assertions; real Harmony transpiler, original IL/branches/arguments preserved, hit-only suppression, vanilla final break and compatibility fallback.
+
+PASS expected RED: tests/run_toggle_red.py runs the SAME current integration sources against the actual archived 1.0.3 DLL. It reproduces existing-config overwrite and owned-animation cleanup failures. 1.0.4 passes. Raw logs: evidence/1.0.4/integration-red-actual-1.0.3.txt and integration-green.txt.
+
+PASS audit.py: client-only metadata, Kuboczoch author, no networking/gameplay writes, 16 additive own-domain animation-only operations, eight clips and four onehand variants without left-arm tracks. Renderer/animation assets and timing were not modified for 1.0.4.
+
+PASS fresh source ZIP rebuild in an empty scratch directory: Release build with zero warnings/errors, full integration/voxel/sound/audit all passed again. See evidence/1.0.4/fresh-source-rebuild.txt. DLL hashes differ between build directories (not asserted byte-reproducible); both builds exercise the same delivered sources.
+
+Independent review found FP alias and enabled lifecycle gaps during development; fixes and real client-routing regressions are included. Final independent read-only review reported no blockers. See REVIEW.md.
+
+Reproduce using .NET 10 and your own 1.22.7 game directory:
+python tests/run_verification.py --dotnet dotnet --game /path/to/vintagestory
+python audit.py
+Optional actual historical RED requires the retained original archive:
+python tests/run_toggle_red.py --dotnet dotnet --game /path/to/vintagestory --legacy-install /path/to/KuboczochVisualMining_1.0.3.zip
+
+LIMITATIONS: headless engine/CPU tests, not graphical/audible in-world acceptance. No remote server/session started. Snow/top-rotation appearance and full mod-stack interoperability remain unverified; blocks broken before visual contact do not receive invented post-break impacts. No permission bypass, chiseling, gameplay mutation, networking, repository publication or live server changes.

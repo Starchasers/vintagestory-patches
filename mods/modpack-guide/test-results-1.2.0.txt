@@ -1,0 +1,86 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet build client/ToolsmithFamilySlideshows.csproj -c Release
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ToolsmithFamilySlideshows -> /home/brunette/.hermes/cache/scratch/toolsmith-progression-guide/client/bin/Release/net10.0/KuboczochModpackGuide.Client.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python release_build.py
+/home/brunette/.hermes/cache/scratch/toolsmith-progression-guide/dist/KuboczochModpackGuide-1.2.0.zip
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python registry_input.py
+175 custom pages; 100 stacks
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project harness/RichtextHarness.csproj -c Release
+PASS exact API version 1.22.7
+PASS native parser: compact pipe slideshow
+PASS native parser: adjacent icon and anchor
+PASS native item page omits game domain
+PASS native item page preserves custom domain
+PASS native block page prefix
+PASS native page ignores durability
+PASS native page retains material attribute suffix: item-stick-{ "material": "oak" }
+PASS real OnMouseDown calls supplied callback with displayed slot
+PASS real OnMouseDown excludes outside bounds
+PASS real OnMouseDown with null callback performs no navigation (VTML default)
+PASS real LinkTextComponent.Trigger dispatches handbook protocol
+PASS explicit link callback overrides default protocol routing
+PASS all 85 native attributed stack page codes and VTML hrefs match exact game methods
+PASS exact VTML parser tokenizes every shipped custom page
+PASS regression: plain attributed aliases and game-domain href are not registered
+PASS real GuiDialogHandbook.LoadPages_Async registers fixture custom and stack pages
+PASS all 34 progression anchors resolve after native registration; missing: 
+RESULT 18 checks passed; no client GUI, network, modloader or downloaded mod assemblies executed.
+
+EXIT 0
+
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project client/tests/FamilyTests.csproj -c Release -- attribute_inventory.json client/assets/kuboczochmodpackguide/config/toolsmith-families.json
+PASS exact native API 1.22.7
+PASS all 85 exact inventory snapshots materialized
+PASS all 85 native attributed page codes equal source inventory
+PASS duplicate codes do not duplicate slideshow variants
+PASS fresh attribute trees per build
+PASS uninstalled collectible skipped without air fallback
+PASS empty/unknown selection creates no native component
+PASS actual native slideshow class contains combined variants
+PASS native OnMouseDown routes all 85 displayed stacks through handbook protocol
+PASS outside-bounds click does not navigate
+PASS missing handbook protocol safely does nothing
+API delegate: Vintagestory.API.Client.RichTextComponentBase Invoke(Vintagestory.API.Client.ICoreClientAPI, Vintagestory.API.Common.VtmlTagToken, System.Collections.Generic.Stack`1[Vintagestory.API.Client.CairoFont], System.Action`1[Vintagestory.API.Client.LinkTextComponent])
+PASS converter binds exact installed API delegate signature
+PASS native converter registry accepts own converter
+PASS native VTML parser accepts family pipe syntax
+PASS actual Tag2RichTextDelegate invocation produces native slideshow
+PASS non-plain snapshot values rejected without polymorphic deserialization
+RESULT headless native class/callback/snapshot checks passed; no GUI or downloaded mod DLL execution
+
+EXIT 0
+
+$ /home/brunette/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python -m unittest test_progression -v
+test_bounded_pages (test_progression.ProgressionTests.test_bounded_pages) ... ok
+test_cleanup_preserved (test_progression.ProgressionTests.test_cleanup_preserved) ... ok
+test_entry_title (test_progression.ProgressionTests.test_entry_title) ... ok
+test_family_slideshow (test_progression.ProgressionTests.test_family_slideshow) ... ok
+test_no_attributed_synthetic_links (test_progression.ProgressionTests.test_no_attributed_synthetic_links) ... ok
+test_numeric_comparisons (test_progression.ProgressionTests.test_numeric_comparisons) ... ok
+test_numeric_source_and_active_defaults (test_progression.ProgressionTests.test_numeric_source_and_active_defaults) ... ok
+test_real_progression (test_progression.ProgressionTests.test_real_progression) ... ok
+test_registry_for_family_clicks (test_progression.ProgressionTests.test_registry_for_family_clicks) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.048s
+
+OK
+
+EXIT 0
+

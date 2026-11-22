@@ -1,0 +1,167 @@
+[
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/yangcoifix.cs",
+    "copy": "evidence/process-static/yangcoifix.cs",
+    "sha256": "c6b217e7b57a9f497830945db981f8fb50171aede5605b16e095a5dcb2bbeadc"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/Footsteps.cs",
+    "copy": "evidence/process-static/Footsteps.cs",
+    "sha256": "33cf238ba011ae8f4a206fda56c1236da482fa9dc49faf618cfb7676f73f1183"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/ConfigureEverything.cs",
+    "copy": "evidence/process-static/ConfigureEverything.cs",
+    "sha256": "a713ad73090ec5afc9ee3feb1b31cdbd627c25d2f441da285eba4b1680567821"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/DanaTweaks.cs",
+    "copy": "evidence/process-static/DanaTweaks.cs",
+    "sha256": "7919df4cc619b62f13f8e32ee7073b9294626258af6bef7f7eaea5f04e0ba8f9"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CommonLib.cs",
+    "copy": "evidence/process-static/CommonLib.cs",
+    "sha256": "1ccf121e88ea761b4ed42460a264074f820b341fdebf340f71b94e4c58f147d7"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/RealSmoke.cs",
+    "copy": "evidence/process-static/RealSmoke.cs",
+    "sha256": "48736a3e1a889de011713b1f9aa71638db7d1f0cbff26562b6f3b70a68dc58ea"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/TemporalSymphony.cs",
+    "copy": "evidence/process-static/TemporalSymphony.cs",
+    "sha256": "dbec1e7a1186d8de22fcf3d0635ff6c485454a72eaabd6f3993cb9daae8bd4f6"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/Genelib.cs",
+    "copy": "evidence/process-static/Genelib.cs",
+    "sha256": "049db3f0f989a0e78aceb121962b9125232f32eb1d8f0f4a00284ea1b253e1cb"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/overhaullib.cs",
+    "copy": "evidence/process-static/overhaullib.cs",
+    "sha256": "ec29dda36751a0c353c8e18d5861cf692806cf4155200d36679c885ce2b4026e"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/PlayerModelLib.cs",
+    "copy": "evidence/process-static/PlayerModelLib.cs",
+    "sha256": "83b9bb5f6a6f77285fd09488ab9e2d1d3bb3a78b77d0fa6e2711bc00495d83ea"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/OverhaullibLegacyCompat.cs",
+    "copy": "evidence/process-static/OverhaullibLegacyCompat.cs",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/ManualDough.cs",
+    "copy": "evidence/process-static/ManualDough.cs",
+    "sha256": "f2c5ce76d8f16b686a56ff1fc949c4342cf8ed0551e84fe7972e90bae7fab4fe"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CoreOfArts.cs",
+    "copy": "evidence/process-static/CoreOfArts.cs",
+    "sha256": "e81c4ac574285896b9ad5e93a24fc8d5e69d9c3ee6a2ab732ab6c90e1d251860"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/DairyPlus.cs",
+    "copy": "evidence/process-static/DairyPlus.cs",
+    "sha256": "169b3581f25363042553532fc6c692fbf7a9787cdaa023f94545579e8db5a565"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/equusdestrier.cs",
+    "copy": "evidence/process-static/equusdestrier.cs",
+    "sha256": "c6b5cdcf0b5af6313bed49661c3f966bc542344ae17e53cd7bb88c4377d8489b"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/one-roof.cs",
+    "copy": "evidence/process-static/one-roof.cs",
+    "sha256": "031bf6cc94358280e692c52b090862eb3d0575eb5593e5ef8ddcf4e7ee30dc05"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/equusferus.cs",
+    "copy": "evidence/process-static/equusferus.cs",
+    "sha256": "350391e113a8a6274d9ea66c22b1032a768e11ca4208bbb870d0716e6840280e"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/ArtOfGrowing.cs",
+    "copy": "evidence/process-static/ArtOfGrowing.cs",
+    "sha256": "8362c64c9e225c4ee0d66ee295f19486938a9686ab498a367f192d29ed0a364b"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/TerrainSlabs.cs",
+    "copy": "evidence/process-static/TerrainSlabs.cs",
+    "sha256": "f7664c050bf9db5443fddd5842729bbf19f0091db3abaa1694c3d5d10551f2a0"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/ImmersiveLanterns.cs",
+    "copy": "evidence/process-static/ImmersiveLanterns.cs",
+    "sha256": "ad94913fc9640787cef2c96df830846e743aa016e2edf790b77ffce7d70a6ceb"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/vs_shearlib.cs",
+    "copy": "evidence/process-static/vs_shearlib.cs",
+    "sha256": "c9b3b8f57eab5799b71c37e8ef14ee446b9437ab424829b72f593f132c93d728"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/MistStability.cs",
+    "copy": "evidence/process-static/MistStability.cs",
+    "sha256": "edb5f4f7e0cd41831fee66343436a89e5dec3f76a44a1d37109ff6156f2384df"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/Immersive Light.cs",
+    "copy": "evidence/process-static/Immersive Light.cs",
+    "sha256": "f91ae415db4ca104fb0f8ee34eecb3477fbad426ce66708a251a5e7c01920edc"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/jsonpatcheslib.cs",
+    "copy": "evidence/process-static/jsonpatcheslib.cs",
+    "sha256": "466f6e4586bfb14361378bc165305451057b0b3b9b60725676dc3b7ac35d5119"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/configlib.cs",
+    "copy": "evidence/process-static/configlib.cs",
+    "sha256": "f782ba015f5958c1eca7324583838e90d43ee77fbe739d564ddfd166845aa280"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CombatOverhaul.Integration.QuenchablePatchGate.cs",
+    "copy": "evidence/process-static/CombatOverhaul.Integration.QuenchablePatchGate.cs",
+    "sha256": "fce6423d85dd2e608604fd15dd89c6ba74863a5405fbcb040c1255b8e807e954"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CombatOverhaul.Integration.ArmorQuenchShatterChancePatch.cs",
+    "copy": "evidence/process-static/CombatOverhaul.Integration.ArmorQuenchShatterChancePatch.cs",
+    "sha256": "1794c0a33adb6591e2becb8e40a2aa3ccac7884f989f49a18ea4e9125ac1431f"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CombatOverhaul.Integration.ArmorQuenchComponents.cs",
+    "copy": "evidence/process-static/CombatOverhaul.Integration.ArmorQuenchComponents.cs",
+    "sha256": "0bc92e30865a595b656efd84868cc7f264822332bfbc49640b7f86979a31e494"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CombatOverhaul.CombatOverhaulSystem.cs",
+    "copy": "evidence/process-static/CombatOverhaul.CombatOverhaulSystem.cs",
+    "sha256": "b5c6800a4ad15ffc943620d2f6dcf511cac1ddad56b22560718cce41ff20e7be"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/spyglass.cs",
+    "copy": "evidence/process-static/spyglass.cs",
+    "sha256": "aa8f187d41ef15fb556cad585a728b020b3083e239dc4012160c240aefcfee97"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/tweaks-static/CombatOverhaul.cs",
+    "copy": "evidence/process-static/CombatOverhaul.cs",
+    "sha256": "0da3eb552aebe859d1f5b0d9ecb4469800e85e92b75d5bc54293fac52084d9f3"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/IwSystem.cs",
+    "copy": "evidence/process-static/IwSystem.cs",
+    "sha256": "c6d6e92d7ad9287f726d2efc591e8e883a2a211f9b9f5a0962a6cdf87b81ca21"
+  },
+  {
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/iw-source/src/Handbook/WoodworkingHandbookInfo.OwnPages.cs",
+    "copy": "evidence/process-static/WoodworkingHandbookInfo.OwnPages.cs",
+    "sha256": "fbef86b23d0bb8dac7afed1a1a9e91506183e9ad2dffe71607501fdc4a5115cb"
+  }
+]

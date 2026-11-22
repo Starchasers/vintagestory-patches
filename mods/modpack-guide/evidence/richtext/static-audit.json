@@ -1,0 +1,15 @@
+{
+  "itemstack_consumed_attributes": [
+    "floattype",
+    "code",
+    "type",
+    "rsize",
+    "offx",
+    "offy"
+  ],
+  "pipe_split": "literal |, no trimming in converter",
+  "callback": "VTML constructor omits optional onStackClicked; defaults null",
+  "stack_attributes": "No stack attributes parser in itemstack converter",
+  "handbook_protocol": "ModSystemSurvivalHandbook -> dialog.OpenDetailPageFor(exact page code)",
+  "grouping": "VTML selects explicit ItemStack[] overload; not groupBy overload"
+}

@@ -1,0 +1,18 @@
+SPIKE API=1.22.7 native table component types=
+GEOMETRY width=240 scale=0.75 tableHeight=434.00 rowHeight=217.00 click=PASS
+GEOMETRY width=320 scale=0.75 tableHeight=306.00 rowHeight=153.00 click=PASS
+GEOMETRY width=420 scale=0.75 tableHeight=274.00 rowHeight=137.00 click=PASS
+GEOMETRY width=550 scale=0.75 tableHeight=146.00 rowHeight=73.00 click=PASS
+GEOMETRY width=240 scale=1 tableHeight=596.00 rowHeight=298.00 click=PASS
+GEOMETRY width=320 scale=1 tableHeight=420.00 rowHeight=210.00 click=PASS
+GEOMETRY width=420 scale=1 tableHeight=376.00 rowHeight=188.00 click=PASS
+GEOMETRY width=550 scale=1 tableHeight=200.00 rowHeight=100.00 click=PASS
+GEOMETRY width=240 scale=1.5 tableHeight=894.00 rowHeight=447.00 click=PASS
+GEOMETRY width=320 scale=1.5 tableHeight=630.00 rowHeight=315.00 click=PASS
+GEOMETRY width=420 scale=1.5 tableHeight=498.00 rowHeight=249.00 click=PASS
+GEOMETRY width=550 scale=1.5 tableHeight=300.00 rowHeight=150.00 click=PASS
+GEOMETRY width=240 scale=2 tableHeight=1192.00 rowHeight=596.00 click=PASS
+GEOMETRY width=320 scale=2 tableHeight=840.00 rowHeight=420.00 click=PASS
+GEOMETRY width=420 scale=2 tableHeight=752.00 rowHeight=376.00 click=PASS
+GEOMETRY width=550 scale=2 tableHeight=400.00 rowHeight=200.00 click=PASS
+PASS 1146 assertions; native font metrics/wrapping/layout/link events, no game GUI or untrusted mod DLL loaded

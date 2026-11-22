@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "sawcontainerguard",
+  "name": "Kuboczoch Saw Container Guard",
+  "description": "Prevents Saw Chiseling from converting containers and other stateful blocks while retaining ordinary solid wood conversion.",
+  "version": "1.0.0",
+  "authors": ["Kuboczoch"],
+  "side": "universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": { "game": "1.22.7", "survival": "" }
+}

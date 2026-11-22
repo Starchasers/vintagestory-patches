@@ -1,0 +1,62 @@
+{
+  "source_sha256": "e55d89929a6c78bb29acd88652fe8d5125ef4ae04134238aa9aaccfae5b61648",
+  "patches": [
+    {
+      "asset": "assets/immersivemining/patches/animations/pickaxenew.json",
+      "oldcode": "pickaxenew",
+      "newcode": "kvm-pickaxe",
+      "path": "/client/animations/-",
+      "frames": null
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/pickaxenew.json",
+      "oldcode": "pickaxenew",
+      "newcode": "kvm-pickaxe",
+      "path": "/animations/-",
+      "frames": 52
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/axenew.json",
+      "oldcode": "axechopnew",
+      "newcode": "kvm-axe",
+      "path": "/client/animations/-",
+      "frames": null
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/axenew.json",
+      "oldcode": "axechopnew",
+      "newcode": "kvm-axe",
+      "path": "/animations/-",
+      "frames": 40
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/shovelnew.json",
+      "oldcode": "shoveldignew",
+      "newcode": "kvm-shovel",
+      "path": "/client/animations/-",
+      "frames": null
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/shovelnew.json",
+      "oldcode": "shoveldignew",
+      "newcode": "kvm-shovel",
+      "path": "/animations/-",
+      "frames": 40
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/axechophorizontalnew.json",
+      "oldcode": "axechophorizontalnew",
+      "newcode": "kvm-axe-horizontal",
+      "path": "/client/animations/-",
+      "frames": null
+    },
+    {
+      "asset": "assets/immersivemining/patches/animations/axechophorizontalnew.json",
+      "oldcode": "axechophorizontalnew",
+      "newcode": "kvm-axe-horizontal",
+      "path": "/animations/-",
+      "frames": 40
+    }
+  ],
+  "excluded": "All original DLL, tool/item/gameplay patches, knife animations, networking and config"
+}

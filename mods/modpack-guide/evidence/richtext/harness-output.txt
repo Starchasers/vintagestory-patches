@@ -1,0 +1,14 @@
+PASS exact API version 1.22.7
+PASS native parser: compact pipe slideshow
+PASS native parser: adjacent icon and anchor
+PASS native item page omits game domain
+PASS native item page preserves custom domain
+PASS native block page prefix
+PASS native page ignores durability
+PASS native page retains material attribute suffix: item-stick-{ "material": "oak" }
+PASS real OnMouseDown calls supplied callback with displayed slot
+PASS real OnMouseDown excludes outside bounds
+PASS real OnMouseDown with null callback performs no navigation (VTML default)
+PASS real LinkTextComponent.Trigger dispatches handbook protocol
+PASS explicit link callback overrides default protocol routing
+RESULT 13 checks passed; no client GUI, network, modloader or downloaded mod assemblies executed.

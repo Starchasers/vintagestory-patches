@@ -1,0 +1,15 @@
+{
+  "type": "content",
+  "modid": "kuboczochpszczolyteabalance",
+  "name": "Kuboczoch Pszczoly Tea Balance",
+  "authors": [
+    "Kuboczoch"
+  ],
+  "description": "Adjusts Floral and Wild Tea satiety and updates their original handbook and item descriptions. HP and all other mechanics are unchanged.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.22.7",
+    "simpletea": "1.2.0"
+  },
+  "side": "universal"
+}

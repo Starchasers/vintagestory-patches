@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable><GameDir Condition="'$(GameDir)' == ''">/home/brunette/.hermes/cache/scratch/vs-freeze/game-api</GameDir><GameApi>$(GameDir)</GameApi></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI"><HintPath>$(GameApi)/VintagestoryAPI.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameApi)/Lib/0Harmony.dll</HintPath></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(GameApi)/Lib/Newtonsoft.Json.dll</HintPath></Reference>
+    <None Include="$(GameApi)/Lib/*.dll" Link="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

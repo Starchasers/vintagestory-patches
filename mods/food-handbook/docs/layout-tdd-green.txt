@@ -1,0 +1,3 @@
+PASS 0.3.0 reproducer: actual API Left bounds coincide and one click invokes BOTH callbacks
+PASS 84 trusted API geometry/input cases: distinct output rectangles, single-output clicks, wrapping, four GUI scales
+No real client/ACA/Harmony startup or item rendering exercised.

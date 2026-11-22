@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "kuboczochpitchgluecompat",
+  "name": "Kuboczoch Boat Resin Construction",
+  "authors": ["Kuboczoch"],
+  "description": "Replaces every Rough Seas pitch-glue construction step with one raw resin per seam, preserving native work timing and progress.",
+  "version": "1.3.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": { "game": "1.22.4", "roughseas": "5.0.1" }
+}

@@ -1,0 +1,13 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet run --project voxel-src/tests/VoxelTests.csproj -c Release -p:GameDir=/home/brunette/.hermes/cache/scratch/vs-freeze/game-api
+exit=0
+PASS: all six Harmony tessellation patches (five dispatch paths incl TopSoil plus neighbor visibility) and local crack-decal filter installed against actual game assemblies.
+PASS missing chip entry keeps vanilla cracks
+PASS uncommitted entry keeps vanilla cracks
+PASS committed chip without mesh replacement keeps vanilla cracks
+PASS committed chip and successful replacement permits suppression
+PASS replacement flag alone does not suppress cracks
+PASS replacement for another block ID keeps vanilla cracks
+PASS replacement in another dimension keeps vanilla cracks
+PASS replacement at another position keeps vanilla cracks
+PASS missing position keeps vanilla cracks
+PASS: 18 tool/face cases; 12 sequential hits each; monotonic removal, surviving cuboids, open boundaries and exact rollback.

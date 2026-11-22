@@ -1,0 +1,3776 @@
+{
+  "native": [
+    {
+      "code": "toolsmith:grindstone-granite-north",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-granite-east",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-granite-south",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-granite-west",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-north",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-east",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-south",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-sandstone-west",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-shale-north",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-shale-east",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-shale-south",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-shale-west",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-north",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-east",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-south",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:grindstone-andesite-west",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/grindstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:workbench-north",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/workbench.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:workbench-east",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/workbench.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:workbench-south",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/workbench.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:workbench-west",
+      "type": "block",
+      "source": "assets/toolsmith/blocktypes/workbench.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:fabricstrips-rawhide",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/fabricstrips.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:fabricstrips-cloth",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/fabricstrips.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:fabricstrips-leather",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/fabricstrips.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:fabricstrips-sturdy",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/fabricstrips.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:fabricstrips-wool",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/fabricstrips.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:sandpaper",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/sandpaper.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:tinkertoolparts",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/tinkertoolparts.json",
+      "hidden": true
+    },
+    {
+      "code": "toolsmith:whetstone-chert",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/whetstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:whetstone-granite",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/whetstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:whetstone-andesite",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/whetstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:whetstone-basalt",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/whetstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:whetstone-peridotite",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/whetstone.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:carpentedhandle",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/handles/carpentedhandle.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:crudehandle",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/handles/crudehandle.json",
+      "hidden": false
+    },
+    {
+      "code": "toolsmith:handle",
+      "type": "item",
+      "source": "assets/toolsmith/itemtypes/handles/handle.json",
+      "hidden": false
+    }
+  ],
+  "parts": [
+    {
+      "category": "bindings",
+      "branch": "ancienttools",
+      "id": "fabricstrips-atleather",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-ancienttools.json",
+      "record": {
+        "id": "fabricstrips-atleather",
+        "bindingStatTag": "leather",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "butchery",
+      "id": "sinew-dry",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-butchery.json",
+      "record": {
+        "id": "sinew-dry",
+        "bindingStatTag": "rope",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "butchering:item/resource/sinew"
+      },
+      "resolved": [
+        {
+          "code": "butchering:sinew-dry",
+          "type": "item",
+          "source": "butchering_1.14.3.zip!assets/butchering/itemtypes/resource/sinew.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "butchery",
+      "id": "glueportion-sinew-cold",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-butchery.json",
+      "record": {
+        "id": "glueportion-sinew-cold",
+        "bindingStatTag": "glue",
+        "isLiquid": true,
+        "litersUsed": 0.5,
+        "bindingShapePath": "",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "butchering:glueportion-sinew-cold",
+          "type": "item",
+          "source": "butchering_1.14.3.zip!assets/butchering/itemtypes/liquids/glueportion.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "butchery",
+      "id": "glueportion-hide-hot",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-butchery.json",
+      "record": {
+        "id": "glueportion-hide-hot",
+        "bindingStatTag": "glue",
+        "isLiquid": true,
+        "litersUsed": 0.5,
+        "bindingShapePath": "",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "butchering:glueportion-hide-hot",
+          "type": "item",
+          "source": "butchering_1.14.3.zip!assets/butchering/itemtypes/liquids/glueportion.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "primitivesurvival",
+      "id": "cordage",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-primitivesurvival.json",
+      "record": {
+        "id": "cordage",
+        "bindingStatTag": "rope",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-bamboo",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-bamboo",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:bamboo/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-bark",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-bark",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:bark/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-coconut",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-coconut",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:coconut/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-flax",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-flax",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:flax/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-mixed",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-mixed",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:mixed/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-nzflax",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-nzflax",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:nzflax/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-palm",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-palm",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:palm/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-papyrus",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-papyrus",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:papyrus/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-porcupine",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-porcupine",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:porcupine/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-reed",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-reed",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:reed/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-sinew",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-sinew",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:sinew/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-straw",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-straw",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:straw/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-vine",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-vine",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:vine/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-larch",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-larch",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:larch/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-tuja",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-tuja",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:tuja/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-honeylocust",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-honeylocust",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:honeylocust/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-birch",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-birch",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:birch/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-brideinwhite",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-brideinwhite",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:brideinwhite/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-alder",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-alder",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:alder/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-bearnut",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-bearnut",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:bearnut/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-willow",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-willow",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:willow/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-redwillow",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-redwillow",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:redwillow/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-poplar",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-poplar",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:poplar/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-aspen",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-aspen",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:aspen/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-eucalyptus",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-eucalyptus",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:eucalyptus/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-kapok",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-kapok",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:kapok/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "stringsense",
+      "id": "cord-sapele",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-stringsense.json",
+      "record": {
+        "id": "cord-sapele",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "stringsense:sapele/cord"
+      },
+      "resolved": []
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-mordant",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-mordant",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/mordant"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-mordant",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-black",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/black"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-black",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-blue",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/blue"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-blue",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-brown",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-brown",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/brown"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-brown",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-gray",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/gray"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-gray",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-green",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/green"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-green",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-orange",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/orange"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-orange",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-pink",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/pink"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-pink",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-purple",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/purple"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-purple",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-red",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/red"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-red",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-white",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/white"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-white",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-yellow",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/yellow"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-yellow",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-darkblue",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-darkblue",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "tailorsdelight:block/cloth/dark/darkblue"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-darkblue",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-darkbrown",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-darkbrown",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "tailorsdelight:block/cloth/dark/darkbrown"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-darkbrown",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-darkgreen",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-darkgreen",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "tailorsdelight:block/cloth/dark/darkgreen"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-darkgreen",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "twine-darkred",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "twine-darkred",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "tailorsdelight:block/cloth/dark/darkred"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:twine-darkred",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "tailorsdelight",
+      "id": "leatherstrips-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-tailorsdelight.json",
+      "record": {
+        "id": "leatherstrips-plain",
+        "bindingStatTag": "leather",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:leatherstrips-plain",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/leatherstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "drygrass",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "drygrass",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:drygrass",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/drygrass.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "cattailtops",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "cattailtops",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:cattailtops",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/catttailtops.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "papyrustops",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "papyrustops",
+        "bindingStatTag": "reeds",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:papyrustops",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/papyrustops.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "flaxtwine",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "flaxtwine",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:flaxtwine",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/flaxtwine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "fabricstrips-rawhide",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "fabricstrips-rawhide",
+        "bindingStatTag": "hide",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:fabricstrips-rawhide",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/fabricstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "rope",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "rope",
+        "bindingStatTag": "rope",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:rope",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/rope.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "fabricstrips-cloth",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "fabricstrips-cloth",
+        "bindingStatTag": "cloth",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:fabricstrips-cloth",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/fabricstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "fabricstrips-leather",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "fabricstrips-leather",
+        "bindingStatTag": "leather",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:fabricstrips-leather",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/fabricstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "fabricstrips-sturdy",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "fabricstrips-sturdy",
+        "bindingStatTag": "sturdy",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:fabricstrips-sturdy",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/fabricstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "glueportion-pitch-hot",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "glueportion-pitch-hot",
+        "bindingStatTag": "glue",
+        "isLiquid": true,
+        "litersUsed": 0.5,
+        "bindingShapePath": "",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:glueportion-pitch-hot",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/liquid/glueportion.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-copper",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-copper",
+        "bindingStatTag": "coppernails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-copper",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-tinbronze",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-tinbronze",
+        "bindingStatTag": "tinbronzenails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-tinbronze",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-bismuthbronze",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-bismuthbronze",
+        "bindingStatTag": "bismuthbronzenails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-bismuthbronze",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-blackbronze",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-blackbronze",
+        "bindingStatTag": "blackbronzenails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-blackbronze",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-iron",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-iron",
+        "bindingStatTag": "ironnails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-iron",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-cupronickel",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-cupronickel",
+        "bindingStatTag": "cupronickelnails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-cupronickel",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-meteoriciron",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-meteoriciron",
+        "bindingStatTag": "meteoricironnails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-meteoriciron",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metalnailsandstrips-steel",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metalnailsandstrips-steel",
+        "bindingStatTag": "steelnails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metalnailsandstrips-steel",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/metalnailsandstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "vanilla",
+      "id": "metal-parts",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-vanilla.json",
+      "record": {
+        "id": "metal-parts",
+        "bindingStatTag": "cupronickelnails",
+        "bindingShapePath": "metal",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:metal-parts",
+          "type": "block",
+          "source": "VS1.22.7!assets/survival/blocktypes/metal/metalpartsandscraps.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-mordant",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-mordant",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/mordant"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-mordant",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-plain",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/plain"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-plain",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-black",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/black"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-black",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-blue",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/blue"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-blue",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-brown",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-brown",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/brown"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-brown",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-gray",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/gray"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-gray",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-green",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/green"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-green",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-orange",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/orange"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-orange",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-pink",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/pink"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-pink",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-purple",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/purple"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-purple",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-red",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/red"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-red",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-white",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/white"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-white",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-yellow",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "game:block/cloth/linen/yellow"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-yellow",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-darkblue",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-darkblue",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "wool:block/cloth/wool/darkblue"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkblue",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-darkbrown",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-darkbrown",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "wool:block/cloth/wool/darkbrown"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkbrown",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-darkgreen",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-darkgreen",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "wool:block/cloth/wool/darkgreen"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkgreen",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "twine-wool-darkred",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "twine-wool-darkred",
+        "bindingStatTag": "twine",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": "wool:block/cloth/wool/darkred"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkred",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "bindings",
+      "branch": "wool",
+      "id": "fabricstrips-wool",
+      "source": "assets/toolsmith/config/toolsmith/parts/bindings/bindings-wool.json",
+      "record": {
+        "id": "fabricstrips-wool",
+        "bindingStatTag": "cloth",
+        "bindingShapePath": "string",
+        "bindingTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:fabricstrips-wool",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/fabricstrips.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-acacia",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-acacia",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/acacia"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-aged",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-aged",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/aged"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-baldcypress",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-baldcypress",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/baldcypress"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-birch",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-birch",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/birch"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-cypress",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-cypress",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/cypress"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-ebony",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-ebony",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/ebony"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-kapok",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-kapok",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/kapok"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-larch",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-larch",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/larch"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-maple",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-maple",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/maple"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-pine",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-pine",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/pine"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-purpleheart",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-purpleheart",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/purpleheart"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-redwood",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-redwood",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/redwood"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "leather-normal-walnut",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "leather-normal-walnut",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/leather/walnut"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "ancienttools",
+      "id": "buckskin",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-ancienttools.json",
+      "record": {
+        "id": "buckskin",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "ancienttools:item/resource/buckskin"
+      },
+      "resolved": []
+    },
+    {
+      "category": "grips",
+      "branch": "tailorsdelight",
+      "id": "cloth-darkblue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-tailorsdelight.json",
+      "record": {
+        "id": "cloth-darkblue",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "tailorsdelight:block/cloth/dark/darkblue"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:cloth-darkblue",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "tailorsdelight",
+      "id": "cloth-darkbrown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-tailorsdelight.json",
+      "record": {
+        "id": "cloth-darkbrown",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "tailorsdelight:block/cloth/dark/darkbrown"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:cloth-darkbrown",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "tailorsdelight",
+      "id": "cloth-darkgreen",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-tailorsdelight.json",
+      "record": {
+        "id": "cloth-darkgreen",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "tailorsdelight:block/cloth/dark/darkgreen"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:cloth-darkgreen",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "tailorsdelight",
+      "id": "cloth-darkred",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-tailorsdelight.json",
+      "record": {
+        "id": "cloth-darkred",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "tailorsdelight:block/cloth/dark/darkred"
+      },
+      "resolved": [
+        {
+          "code": "tailorsdelight:cloth-darkred",
+          "type": "item",
+          "source": "tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "flaxtwine",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "flaxtwine",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:flaxtwine",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/flaxtwine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "linen-diamond-down",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "linen-diamond-down",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/diamond1"
+      },
+      "resolved": [
+        {
+          "code": "game:linen-diamond-down",
+          "type": "block",
+          "source": "VS1.22.7!assets/survival/blocktypes/cloth/linen.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "linen-normal-down",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "linen-normal-down",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/normal1"
+      },
+      "resolved": [
+        {
+          "code": "game:linen-normal-down",
+          "type": "block",
+          "source": "VS1.22.7!assets/survival/blocktypes/cloth/linen.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "linen-offset-down",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "linen-offset-down",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/offset1"
+      },
+      "resolved": [
+        {
+          "code": "game:linen-offset-down",
+          "type": "block",
+          "source": "VS1.22.7!assets/survival/blocktypes/cloth/linen.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "linen-square-down",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "linen-square-down",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/square1"
+      },
+      "resolved": [
+        {
+          "code": "game:linen-square-down",
+          "type": "block",
+          "source": "VS1.22.7!assets/survival/blocktypes/cloth/linen.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-plain",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/normal1"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-plain",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-mordant",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-mordant",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/mordant"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-mordant",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-blue",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/blue"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-blue",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-red",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/red"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-red",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-yellow",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/yellow"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-yellow",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-green",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/green"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-green",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-purple",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/purple"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-purple",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-pink",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/pink"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-pink",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-orange",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/orange"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-orange",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-brown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-brown",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/brown"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-brown",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-gray",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/gray"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-gray",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-black",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/black"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-black",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "cloth-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "cloth-white",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/white"
+      },
+      "resolved": [
+        {
+          "code": "game:cloth-white",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-plain",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-plain",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-orange",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/orange"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-orange",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-black",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/black"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-black",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-red",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/red"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-red",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-blue",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/blue"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-blue",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-purple",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/purple"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-purple",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-pink",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/pink"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-pink",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-white",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/white"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-white",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-yellow",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/yellow"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-yellow",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-gray",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/gray"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-gray",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-normal-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-normal-green",
+        "gripStatTag": "leather",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/leather/green"
+      },
+      "resolved": [
+        {
+          "code": "game:leather-normal-green",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "vanilla",
+      "id": "leather-sturdy-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-vanilla.json",
+      "record": {
+        "id": "leather-sturdy-plain",
+        "gripStatTag": "sturdy",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": ""
+      },
+      "resolved": [
+        {
+          "code": "game:leather-sturdy-plain",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/leather.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-mordant",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-mordant",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/mordant"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-mordant",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-plain",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/normal1"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-plain",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-black",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/black"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-black",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-blue",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/blue"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-blue",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-brown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-brown",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/brown"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-brown",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-gray",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/gray"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-gray",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-green",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/green"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-green",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-orange",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/orange"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-orange",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-pink",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/pink"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-pink",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-purple",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/purple"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-purple",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-red",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/red"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-red",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-white",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/white"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-white",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-yellow",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/yellow"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-yellow",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-darkblue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-darkblue",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkblue"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkblue",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-darkbrown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-darkbrown",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkbrown"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkbrown",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-darkgreen",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-darkgreen",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkgreen"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkgreen",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "twine-wool-darkred",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "twine-wool-darkred",
+        "gripStatTag": "twine",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkred"
+      },
+      "resolved": [
+        {
+          "code": "wool:twine-wool-darkred",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-mordant",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-mordant",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "game:block/cloth/linen/mordant"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-mordant",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-plain",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/plain"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-plain",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-black",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/black"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-black",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-blue",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/blue"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-blue",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-brown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-brown",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/brown"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-brown",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-gray",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/gray"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-gray",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-green",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/green"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-green",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-orange",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/orange"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-orange",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-pink",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/pink"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-pink",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-purple",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/purple"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-purple",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-red",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/red"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-red",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-white",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/white"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-white",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-yellow",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/yellow"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-yellow",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-darkblue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-darkblue",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkblue"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-darkblue",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-darkbrown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-darkbrown",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkbrown"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-darkbrown",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-darkgreen",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-darkgreen",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkgreen"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-darkgreen",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "cloth-wool-darkred",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "cloth-wool-darkred",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkred"
+      },
+      "resolved": [
+        {
+          "code": "wool:cloth-wool-darkred",
+          "type": "item",
+          "source": "wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-plain",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-plain",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/plain"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-plain",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-black",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-black",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/black"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-black",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-blue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-blue",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/blue"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-blue",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-brown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-brown",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/brown"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-brown",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-gray",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-gray",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/gray"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-gray",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-green",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-green",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/green"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-green",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-orange",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-orange",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/orange"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-orange",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-pink",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-pink",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/pink"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-pink",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-purple",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-purple",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/purple"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-purple",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-red",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-red",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/red"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-red",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-white",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-white",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/white"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-white",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-yellow",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-yellow",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/linen/yellow"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-yellow",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-darkblue",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-darkblue",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkblue"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-darkblue",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-darkbrown",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-darkbrown",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkbrown"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-darkbrown",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-darkgreen",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-darkgreen",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkgreen"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-darkgreen",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "grips",
+      "branch": "wool",
+      "id": "wool-darkred",
+      "source": "assets/toolsmith/config/toolsmith/parts/grips/grips-wool.json",
+      "record": {
+        "id": "wool-darkred",
+        "gripStatTag": "cloth",
+        "gripShapePath": "fabric",
+        "gripTextureOverride": "wool:block/cloth/wool/darkred"
+      },
+      "resolved": [
+        {
+          "code": "wool:wool-darkred",
+          "type": "block",
+          "source": "wool-1.9.6.zip!assets/wool/blocktypes/cloth/wool.json"
+        }
+      ]
+    },
+    {
+      "category": "handles",
+      "branch": "vanilla",
+      "id": "stick",
+      "source": "assets/toolsmith/config/toolsmith/parts/handles/handles-vanilla.json",
+      "record": {
+        "id": "stick",
+        "handleStatTag": "stick",
+        "canHaveGrip": false,
+        "handleShapePath": "toolsmith:shapes/item/parts/handles/stick/handle",
+        "canBeTreated": false,
+        "dryingTimeMult": 1.0
+      },
+      "resolved": [
+        {
+          "code": "game:stick",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/stick.json"
+        }
+      ]
+    },
+    {
+      "category": "handles",
+      "branch": "vanilla",
+      "id": "bone",
+      "source": "assets/toolsmith/config/toolsmith/parts/handles/handles-vanilla.json",
+      "record": {
+        "id": "bone",
+        "handleStatTag": "bone",
+        "canHaveGrip": true,
+        "handleShapePath": "toolsmith:shapes/item/parts/handles/bone/handle",
+        "canBeTreated": false,
+        "dryingTimeMult": 1.0
+      },
+      "resolved": [
+        {
+          "code": "game:bone",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/bone.json"
+        }
+      ]
+    },
+    {
+      "category": "handles",
+      "branch": "vanilla",
+      "id": "crudehandle",
+      "source": "assets/toolsmith/config/toolsmith/parts/handles/handles-vanilla.json",
+      "record": {
+        "id": "crudehandle",
+        "handleStatTag": "crude",
+        "canHaveGrip": true,
+        "handleShapePath": "toolsmith:shapes/item/parts/handles/crude/handle",
+        "canBeTreated": false,
+        "dryingTimeMult": 1.0
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:crudehandle",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/handles/crudehandle.json"
+        }
+      ]
+    },
+    {
+      "category": "handles",
+      "branch": "vanilla",
+      "id": "handle",
+      "source": "assets/toolsmith/config/toolsmith/parts/handles/handles-vanilla.json",
+      "record": {
+        "id": "handle",
+        "handleStatTag": "handle",
+        "canHaveGrip": true,
+        "handleShapePath": "toolsmith:shapes/item/parts/handles/regular/handle",
+        "canBeTreated": true,
+        "dryingTimeMult": 1.0
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:handle",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/handles/handle.json"
+        }
+      ]
+    },
+    {
+      "category": "handles",
+      "branch": "vanilla",
+      "id": "carpentedhandle",
+      "source": "assets/toolsmith/config/toolsmith/parts/handles/handles-vanilla.json",
+      "record": {
+        "id": "carpentedhandle",
+        "handleStatTag": "professional",
+        "canHaveGrip": true,
+        "handleShapePath": "toolsmith:shapes/item/parts/handles/fine/handle",
+        "canBeTreated": true,
+        "dryingTimeMult": 2.0
+      },
+      "resolved": [
+        {
+          "code": "toolsmith:carpentedhandle",
+          "type": "item",
+          "source": "toolsmith_1.2.19.zip!assets/toolsmith/itemtypes/handles/carpentedhandle.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "expandedfoods",
+      "id": "foodoilportion-flax",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-expandedfoods.json",
+      "record": {
+        "id": "foodoilportion-flax",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.1
+      },
+      "resolved": [
+        {
+          "code": "expandedfoods:foodoilportion-flax",
+          "type": "item",
+          "source": "ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/liquid/foodoil.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "expandedfoods",
+      "id": "foodoilportion-seed",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-expandedfoods.json",
+      "record": {
+        "id": "foodoilportion-seed",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.1
+      },
+      "resolved": [
+        {
+          "code": "expandedfoods:foodoilportion-seed",
+          "type": "item",
+          "source": "ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/liquid/foodoil.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "oilsandmore",
+      "id": "plantoil-flax",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-oilsandmore.json",
+      "record": {
+        "id": "plantoil-flax",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.1
+      },
+      "resolved": []
+    },
+    {
+      "category": "treatments",
+      "branch": "oilsandmore",
+      "id": "plantoil-walnut",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-oilsandmore.json",
+      "record": {
+        "id": "plantoil-walnut",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.1
+      },
+      "resolved": []
+    },
+    {
+      "category": "treatments",
+      "branch": "oilsandmore",
+      "id": "woodfinish-flax",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-oilsandmore.json",
+      "record": {
+        "id": "woodfinish-flax",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.05
+      },
+      "resolved": []
+    },
+    {
+      "category": "treatments",
+      "branch": "oilsandmore",
+      "id": "woodfinish-walnut",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-oilsandmore.json",
+      "record": {
+        "id": "woodfinish-walnut",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.05
+      },
+      "resolved": []
+    },
+    {
+      "category": "treatments",
+      "branch": "vanilla",
+      "id": "fat",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-vanilla.json",
+      "record": {
+        "id": "fat",
+        "treatmentStatTag": "fat",
+        "dryingHours": 12,
+        "isLiquid": false,
+        "litersUsed": 0.0
+      },
+      "resolved": [
+        {
+          "code": "game:fat",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/fat.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "vanilla",
+      "id": "fat-rendered",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-vanilla.json",
+      "record": {
+        "id": "fat-rendered",
+        "treatmentStatTag": "fat",
+        "dryingHours": 12,
+        "isLiquid": false,
+        "litersUsed": 0.0
+      },
+      "resolved": [
+        {
+          "code": "game:fat-rendered",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/fat-rendered.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "vanilla",
+      "id": "beeswax",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-vanilla.json",
+      "record": {
+        "id": "beeswax",
+        "treatmentStatTag": "wax",
+        "dryingHours": 12,
+        "isLiquid": false,
+        "litersUsed": 0.0
+      },
+      "resolved": [
+        {
+          "code": "game:beeswax",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/resource/beeswax.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "vanilla",
+      "id": "oilportion-flax",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-vanilla.json",
+      "record": {
+        "id": "oilportion-flax",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.1
+      },
+      "resolved": [
+        {
+          "code": "game:oilportion-flax",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/liquid/oilportion.json"
+        }
+      ]
+    },
+    {
+      "category": "treatments",
+      "branch": "vanilla",
+      "id": "oilportion-olive",
+      "source": "assets/toolsmith/config/toolsmith/parts/treatments/treatments-vanilla.json",
+      "record": {
+        "id": "oilportion-olive",
+        "treatmentStatTag": "oil",
+        "dryingHours": 24,
+        "isLiquid": true,
+        "litersUsed": 0.1
+      },
+      "resolved": [
+        {
+          "code": "game:oilportion-olive",
+          "type": "item",
+          "source": "VS1.22.7!assets/survival/itemtypes/liquid/oilportion.json"
+        }
+      ]
+    }
+  ],
+  "resolutionErrors": [],
+  "counts": {
+    "nativeItems": 15,
+    "nativeBlocks": 20,
+    "partRecords": 200,
+    "resolvedPartRecords": 153
+  },
+  "source": {
+    "pack": "Pszczoly 1.2.0",
+    "created": "2026-11-15T11:02:38.3648483Z",
+    "game": "1.22.7",
+    "toolsmith": "1.2.19",
+    "toolsmithSha256": "325ead64a9192ea7426d017e1c5141286f860f95c3af5dd34b79ad14f060974b"
+  },
+  "ordering": "Handles: recipe prerequisites. Others: config record order within named material branch; alternatives are not an enforced total order."
+}

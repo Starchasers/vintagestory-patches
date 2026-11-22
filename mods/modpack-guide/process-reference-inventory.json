@@ -1,0 +1,1704 @@
+{
+  "count": 133,
+  "resolved": [
+    {
+      "type": "item",
+      "code": "game:bandage-clean",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/bandage.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:dough-spelt",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/food/dough.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/patches/grain.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:flour-spelt",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/food/flour.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/patches/grain.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:flour-rye",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/food/flour.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/patches/grain.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:grain-rye",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/food/grain.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/patches/grain.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:waterportion",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/liquid/waterportion.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:bone",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/bone.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:charcoal",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/charcoal.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:cloth-plain",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/cloth.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:drygrass",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/drygrass.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:fat-rendered",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/fat-rendered.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:firewood",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/firewood.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:flaxfibers",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxfibers.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxtwine.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:hide-soaked-small",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:hide-scraped-small",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:hide-prepared-small",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/hide.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:ingot-copper",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/ingot.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:ingot-iron",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/ingot.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:ingot-pewter",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/ingot.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:leather-normal-plain",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/leather.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:plank-oak",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/plank.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:rope",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/rope.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:shingle-raw-red",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/shingle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:shingle-burned-red",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/shingle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:stick",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/stick.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:firestarter",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/tool/firestarter.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:saw-copper",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/tool/saw.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:salt",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/crushed/salt.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:milkportion",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/liquid/dairy/milkportion.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "game:linen-normal-down",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/blocktypes/cloth/linen.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/game/patches/waxedlinen.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "game:flower-cornflower-free",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/blocktypes/plant/flower.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "game:crucible-blue-fired",
+      "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/blocktypes/clay/fired/crucible.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "aculinaryartillery:bottle-glass-quartz-fired",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/bottles/glassbottle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "aculinaryartillery:bottle-glass-quartz-corked",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/bottles/glassbottle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "aculinaryartillery:mixingbowl-blue",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/mixingbowl.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "aculinaryartillery:saucepan-blue-fired",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/blocktypes/saucepan-fired.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "aculinaryartillery:bark-oak-dry",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/bark.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "aculinaryartillery:bark-oak-boiled",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/bark.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "aculinaryartillery:eggwhiteportion",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/liquid/eggwhite.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "aculinaryartillery:eggyolkfullportion-chicken",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/liquid/eggyolkfull.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/patches/compatibility/moreanimals/eggyolkfull.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "aculinaryartillery:stopper-bark-cork",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/itemtypes/stopper-bark.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "walkingstick:walkingstick-crude",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip!assets/walkingstick/itemtypes/tool/walkingsticks/walkingstick-crude.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-dry",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/flaxbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-wet",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/flaxbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-clear",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/flaxbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:flaxbundle-soft",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/flaxbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:grainbundle-flax-wet",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/grainbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:grainbundle-rye-wet",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/grainbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "artofgrowing:grainbundle-rye-dry",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/itemtypes/grain/grainbundle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "game:seeds-rye",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/game/itemtypes/resource/grainseeds.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "bricklayers:glazedbowl-raw-clear-blue-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/blocktypes/clay/bowlglazed.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "bricklayers:glazedbowl-burnt-clear-blue-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/blocktypes/clay/bowlglazed.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "bricklayers:glazing-clear-blue",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/itemtypes/liquid/glazing.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "bricklayers:glazingbase-clay",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/itemtypes/liquid/glazingbase.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "bricklayers:glazingbase-clear",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/itemtypes/liquid/glazingbase.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "bricklayers:frit-mix-blue",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/itemtypes/resource/frit.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "bricklayers:frit-baked-blue",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/itemtypes/resource/frit.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "bricklayers:frit-ground-blue",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/itemtypes/resource/frit.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "butchering:butcherhook-flint-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/blocktypes/butcherhook.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "butchering:butchertable-primitive-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/blocktypes/butchertable.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "butchering:primemeat-raw",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/itemtypes/food/primemeat.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "chiseltools:handplaner-iron",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip!assets/chiseltools/itemtypes/handplaner.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "chiseltools:pantograph-steel",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip!assets/chiseltools/itemtypes/pantograph.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "coins:mint-east",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/blocktypes/mint.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "coins:wallet",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/itemtypes/wallet.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "coins:banknote-1",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/itemtypes/banknote.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "containersbundle:foodcupboard-east",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/containersbundle_1.4.1.zip!assets/containersbundle/blocktypes/wood/foodcupboard.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "dairyplus:creamscoop",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/blocktypes/creamscoop.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "dairyplus:plungerchurn",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/blocktypes/churns/plungerchurn.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "dairyplus:butter-unsalted",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/food/butter.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "dairyplus:butter-salted",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/food/butter.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "dairyplus:butter-twicesalted",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/food/butter.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "dairyplus:cream",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/liquid/cream.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "dairyplus:separatingmilk",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/liquid/seperatingmilk.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "dairyplus:skimmilk",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/itemtypes/liquid/skimmilk.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:gelatin-liquid",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/gelatin.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:gelatin-raw",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/gelatin.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:gelatin-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/gelatin.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:pasta-dough",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:pasta-flat",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:pasta-cut",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:pasta-cooked",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:pasta-dried",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/food/mixing/pasta.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:brothportion-bone",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/liquid/broth.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:clarifiedbrothportion-bone",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/itemtypes/liquid/clarifiedbroth.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "em:powdered-metal-copper",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/expanded_matter-3.8.3.zip!assets/em/itemtypes/resource/powdered-metal.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "em:powdered-ore-quartz",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/expanded_matter-3.8.3.zip!assets/em/itemtypes/resource/powdered-ore.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "foodshelves:cutice",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/itemtypes/cutice.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "foodshelves:coolingcabinet-normal-east",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/blocktypes/coolers/coolingcabinet.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "foodshelves:icekeeper-normal-east",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/blocktypes/coolers/icekeeper.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/blocktypes/ceramicpot/ceramicbroodpot-fancy.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "fromgoldencombs:hivetop-ashforest-fired",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/blocktypes/ceramicpot/hivetop-fancy.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "fromgoldencombs:frameliner",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/itemtypes/frameliner.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "heraldry:heraldryworkbench-east",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Heraldry-v2.0.0.zip!assets/heraldry/blocktypes/heraldryworkbench.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "heraldrybanners:banner",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HeraldryBanners-v2.0.0.zip!assets/heraldrybanners/itemtypes/banner.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "capes:cape",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HeraldryCapes-v2.0.0.zip!assets/capes/itemtypes/cape.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "immersivewoodworking:choppingblock",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/blocktypes/choppingblock.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "immersivewoodworking:sawhorse",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/blocktypes/sawhorse.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "immersivewoodworking:pitsaw-copper",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/itemtypes/tool/pitsaw.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "kscartographytable:cartographytable-filled-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip!assets/kscartographytable/blocktypes/cartographytable.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "kscartographytable:quill",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip!assets/kscartographytable/itemtypes/tool/quill.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "oneroof:oneroof-redclay-standard-none-free",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip!assets/oneroof/blocktypes/oneroof.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip!assets/oneroof/patches/woodtypes.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "oneroof:oneroof-redclay-dynamic-none-free",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip!assets/oneroof/blocktypes/oneroof.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip!assets/oneroof/patches/woodtypes.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:bowl-pewter",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/metal/bowl.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/gold/bowl.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/silver/bowl.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:bowl-gold",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/metal/bowl.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/gold/bowl.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/silver/bowl.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:bowl-silver",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/metal/bowl.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/gold/bowl.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/silver/bowl.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:candlelamp-pewter-up",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/metal/candlelamp.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/gold/candlelamp.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/silver/candlelamp.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:crock-pewter",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/metal/crock.json",
+      "patches": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/gold/crock.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/patches/pewter/blocktypes/metal/silver/crock.json"
+      ],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:tablewaremold-blue-fired-bowl",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/clay/mold/fired/tablewaremold.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "pewter:tablewaremold-blue-raw-bowl",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/blocktypes/clay/mold/raw/tablewaremold.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "purposefulstorage:resourcebin-normal-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/purposefulstorage_2.3.1.zip!assets/purposefulstorage/blocktypes/resources/resourcebin.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "quiversandsheaths:beltbag-back-quiver-arrows",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/quiversfork_0.9.32.zip!assets/quiversandsheaths/itemtypes/beltbags/quiver-arrows.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "scaffolding:scaffolding-top-ns",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/scaffolding_1.3.1.zip!assets/scaffolding/blocktypes/scaffolding.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "fseasonedfirewood:fpreparedfirewood",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tseasonedfirewood_1.2.12.zip!assets/fseasonedfirewood/itemtypes/resource/firewood-prepared.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "fseasonedfirewood:fseasonedfirewood",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tseasonedfirewood_1.2.12.zip!assets/fseasonedfirewood/itemtypes/resource/firewood-seasoned.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "simpletea:teaportion-floral-hot",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip!assets/simpletea/itemtypes/liquid/teaportion.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "simpletea:teaportion-floral-cold",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip!assets/simpletea/itemtypes/liquid/teaportion.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "stickroast:roastingstick",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/StickRoast_0.1.0.zip!assets/stickroast/itemtypes/roastingstick.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "stonebakeoven:ovenbakingtopplain-granite",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/blocktypes/ovenbakingtopplain.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "stonebakeoven:ovencontrollerplain-granite-cold-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/blocktypes/ovencontrollerplain.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillplain-granite-cold-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/blocktypes/ovengrillplain.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "tailorsdelight:spindle-wood",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!assets/tailorsdelight/itemtypes/tool/spindle.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "tankardsandgoblets:tankard-wood",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TankardsandGoblets_v1.4.4.zip!assets/tankardsandgoblets/blocktypes/tankard.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "toolsmith:grindstone-granite-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/blocktypes/grindstone.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "toolsmith:workbench-north",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/blocktypes/workbench.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "windchimes:windchime-wood",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windchimes-1.22.0-v1.5.4.zip!assets/windchimes/blocktypes/windchime.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "windchimes:windchime-copper",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windchimes-1.22.0-v1.5.4.zip!assets/windchimes/blocktypes/windchime.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "block",
+      "code": "windowdisplay:customwindow-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windowdisplay_1.1.4.zip!assets/windowdisplay/blocktypes/windowdisplay/customwindow.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "wool:cloth-wool-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/itemtypes/resource/cloth.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "wool:fibers-generic-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/itemtypes/resource/fibers.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "wool:fleece-generic-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/itemtypes/resource/fleece.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    },
+    {
+      "type": "item",
+      "code": "wool:twine-wool-plain",
+      "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/itemtypes/resource/twine.json",
+      "patches": [],
+      "basis": "static definition/variants and matching content patches; not live registry"
+    }
+  ],
+  "missing": [],
+  "parseErrors": [],
+  "patchErrors": [],
+  "expansionErrors": [],
+  "archiveHashes": [
+    {
+      "modid": "aculinaryartillery",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip",
+      "sha256": "926f4e94bea53eee15e0f60b8873bc9a9fd096c326cff6f20b68e1bdab22f714"
+    },
+    {
+      "modid": "walkingstick",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip",
+      "sha256": "a20272dd4c711aea684fc97c5f1ebf035793a7ea768929f4390c143eaf02d21e"
+    },
+    {
+      "modid": "watersheds",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/watersheds_7.0.6.zip",
+      "sha256": "3e4d339f2d87df2dedadc89d5ce068c3b811a78aceff3c9313e6c532c4f0d865"
+    },
+    {
+      "modid": "artofgrowingpatch",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip",
+      "sha256": "39f08f333b98c0d561f1e3207a7a7d56a154acc8ce0719378af324a68acddf76"
+    },
+    {
+      "modid": "attributerenderinglibrary",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/AttributeRenderingLibrary-v3.2.0.zip",
+      "sha256": "9665cb8e1e6c8f546168615431a704722cda4a8f016070869e093e2128cc71aa"
+    },
+    {
+      "modid": "egocaribautomapmarkers",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Auto Map Markers 5.0.3 - Vintage Story 1.22.zip",
+      "sha256": "92a12bd8a6f2db6d1c7b99f8ff116ba8c534b29e6cdb01c91005cf8b0c861e43"
+    },
+    {
+      "modid": "barkbeetle",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BarkBeetle_1.0.6.zip",
+      "sha256": "24ffdff9009841ae33a4e5650baddc99471c887f05cea89831e66face7de2cf8"
+    },
+    {
+      "modid": "betterhusbandry",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/betterhusbandry_1.4.0.zip",
+      "sha256": "4b9f6daf8e4e9ef6e8fe4c18f57fcfe05eb7e842908e42a86ec1e940aeb2d861"
+    },
+    {
+      "modid": "bettertraders",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BetterTradersv0.2.2.zip",
+      "sha256": "598ed22b8096c16c758d57b5573402909ccf7653ae470dc6eec11bbcbe66f691"
+    },
+    {
+      "modid": "bloodtrail",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BloodTrail-v1.2.13.zip",
+      "sha256": "70f97fa5fcccae9b4278c90619a331abade6879e042baac59bcf5d5582cfe029"
+    },
+    {
+      "modid": "bricklayers",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip",
+      "sha256": "d3105494676bbba514ed4f4f0e54a3dee55db400718132c9f2ff48a62cf638db"
+    },
+    {
+      "modid": "butchering",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip",
+      "sha256": "8332a390c42677ab4376e8817ef93e8835b3f074e9cd3fe534ff32a8d5508862"
+    },
+    {
+      "modid": "carryon",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CarryOn-1.22.0_v1.14.3.zip",
+      "sha256": "75de8f4d5aa76c32550895a86f8fbb8c8a8fab6d02a2699f7b23983d829ef82b"
+    },
+    {
+      "modid": "cartwrightscaravan",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CartwrightsCaravan_1.9.1.zip",
+      "sha256": "e98b204ca4ceecb41555c7189364184a06120d5a0f6693a4dbeabcea0ecc5093"
+    },
+    {
+      "modid": "cartcarryonpatch",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/cartcarryonpatch_1.0.1.zip",
+      "sha256": "c9143d7638dfd65b865932336218646db4cc27b2f988cf166a4f13992e991c2a"
+    },
+    {
+      "modid": "catchledge",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CatchLedge_0.7.1.zip",
+      "sha256": "8f7cee87829ccf049e4175fdc922bcf39781aae2956e909e3cad8d283aa04985"
+    },
+    {
+      "modid": "catchlivestock",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Catch Livestock_0.2.4.zip",
+      "sha256": "5443b3207981de5f0502c20ce3e3f358bc58e69ea241a61517d0d7ba406b38fd"
+    },
+    {
+      "modid": "cavesymphony",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CaveSymphony_1.2.2.zip",
+      "sha256": "fce11b4c81841e897845fff0aad26017c179d52684e4883e62e3be50de0ab53d"
+    },
+    {
+      "modid": "chargedjump",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChargedJumpMod_1.2.3.zip",
+      "sha256": "c09fb0a453f5a8bf97577e885752d6d9dfe9805f616701d78914ba5212ecaf2f"
+    },
+    {
+      "modid": "cbr",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiseledBlockRetention-2.0.1.zip",
+      "sha256": "38c55f08aa456960b279629c3d1bec5f8b666be4f8e95fec596d3a40d0732ab0"
+    },
+    {
+      "modid": "chiseltools",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip",
+      "sha256": "8d5d40b66f332f5c1d14d868fce67bdf5f76a95a9aa5185f8389c23539d90fe1"
+    },
+    {
+      "modid": "clickuptorches",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ClickUpTorches.zip",
+      "sha256": "3cca8bf11a613a48918492e98dfaf17e1daa9690d53fed8b329547760f54dd21"
+    },
+    {
+      "modid": "yangcoifix",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/yangcoifix.zip",
+      "sha256": "d5cadaea3d92ece71b12d778aeafdfd54bcc97c362966f59dad882abfb405273"
+    },
+    {
+      "modid": "climbmountain",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ClimbMountain_0.2.4.zip",
+      "sha256": "5f298d291178eb5d2014367c6d0dcd47486315a2aa8a740a530810b08a354f45"
+    },
+    {
+      "modid": "coinage",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coinage-2.4.0.zip",
+      "sha256": "710c1c8399ae24daf1c271500407b85d9305444b489fd2709d784bcb6c86ce03"
+    },
+    {
+      "modid": "coins",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip",
+      "sha256": "844cf505b77bc7d480d930a1127aa76598470a9c71f555b84dc1407729225275"
+    },
+    {
+      "modid": "combatoverhaulfork",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/combatoverhaulfork_0.18.9.zip",
+      "sha256": "05189774f90879d667e27a855aaecc30582fd76f05ce75ac80f848fcfd96ba1e"
+    },
+    {
+      "modid": "armoryfork",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/armoryfork_1.11.4.zip",
+      "sha256": "694a7db9b0842b71fb2ab3d3aeba286464f39ddb4835472e1fe74df5bd08d6cf"
+    },
+    {
+      "modid": "commercially",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/commercially_0.1.1.zip",
+      "sha256": "9de760b7f16e4d3faaa4a9a95c20b19f42a9c54fe5271cbaaf7c7b01a2b53f15"
+    },
+    {
+      "modid": "commonlib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CommonLib_VS1.21.1_net8_v2.8.0.zip",
+      "sha256": "2b92c7210a26e1ced3163ca5c4b2c5bf7da1b9cca80ccc1b109049a7d7ebd4ac"
+    },
+    {
+      "modid": "configlib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/configlib_1.13.2.zip",
+      "sha256": "17943dcdfb5b93c28343e19e66b582da69019e7863f96450f8637399f80f1c95"
+    },
+    {
+      "modid": "configureeverything",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ConfigureEverything-v3.0.0.zip",
+      "sha256": "10db9394c202a6c6563ca47ee81cfc368d881f64dcde86bc47a74098f0ac0d29"
+    },
+    {
+      "modid": "containersbundle",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/containersbundle_1.4.1.zip",
+      "sha256": "964b3113cfa56754a26e0217d42fc51a465a1b0cc3481719ba4fe80d19525124"
+    },
+    {
+      "modid": "coreofartspatch",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CoreOfArts_1.2.2.zip",
+      "sha256": "937800ec4d400bffdf72bf8c5b429505beaf55004b89c72663c03e1d0862a78a"
+    },
+    {
+      "modid": "crawlanddive",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CrawlAndDive_0.2.5.zip",
+      "sha256": "e6d5bc2a4b8a65933c261e1a2321723d73ba691bbfecf99dba9414f822ff6149"
+    },
+    {
+      "modid": "dairyplus",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip",
+      "sha256": "6b31b32119e556372b809feee3a0277b8357f8a1b65feb7b8913b8b1550c1cb3"
+    },
+    {
+      "modid": "danatweaks",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DanaTweaks-v4.1.0.zip",
+      "sha256": "6267f98f3e1960e3c62e999149110d62313a7778fbef9fa8a28b4810882075e7"
+    },
+    {
+      "modid": "vsimgui",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/vsimgui_1.2.7.zip",
+      "sha256": "27cb87de02034a97d154ea2052687aa2c015870bd1ed0bb7a01b813fa57558e3"
+    },
+    {
+      "modid": "downed",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/downed_2.9.0.zip",
+      "sha256": "172949f9b5a79bc9bec84a3364d8a0724126becf4cabf1dd8cab1bad7acaf567"
+    },
+    {
+      "modid": "dressmakers",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/dressmakers-1.8.0.zip",
+      "sha256": "34d3441948166102227f0dfd1326e0109b4328786400db0194b0dd335d238e82"
+    },
+    {
+      "modid": "equusdestrier",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/equusdestrier_1.1.2.zip",
+      "sha256": "9b55c5c1e7fe40ab26868688b69fa19cfaf3f8a641ff2ae6c8ddbfc45f582414"
+    },
+    {
+      "modid": "equusferus",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/equusferus_1.0.6.zip",
+      "sha256": "66851144cb0ee6ff9f8e13a155ff4a3254fa48f81584cc21b7be8c607699ce79"
+    },
+    {
+      "modid": "efchefstricks",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_ChefsTricks_1.0.0-dev.6.zip",
+      "sha256": "92e2fa102dd89f2ea706f8dd36325109785a0e9ac1109f5fd0df688f7bf1424f"
+    },
+    {
+      "modid": "expandedfoods",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip",
+      "sha256": "13ca68a3cf21d3950c04a5e01ec054b459c2f1e99e62c01f72d2d6b99b879279"
+    },
+    {
+      "modid": "efmealsmodule",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip",
+      "sha256": "65c4bd877e8b61fbe99f7d5a46de7372304ace7510a4fbd9727bff68932bc084"
+    },
+    {
+      "modid": "em",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/expanded_matter-3.8.3.zip",
+      "sha256": "47af295647dfb2d6198b30265198c893935efb23893a6aed8d93c0ae6e0bfb45"
+    },
+    {
+      "modid": "extrainfo",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExtraInfo-v2.2.1.zip",
+      "sha256": "4d6058abbb1e30640db8a8b67b8eba7030da1bc80bc8410a6f6c1fcfb532ca44"
+    },
+    {
+      "modid": "fallingtree",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FallingTree_0.5.2.zip",
+      "sha256": "6feeb6d903d55189c9a7a51d978e852c732b052ea4d1ec30d3de005bea31fae3"
+    },
+    {
+      "modid": "farseer",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/farseer_1.4.0.zip",
+      "sha256": "bac916746b57c214e31d0d9189c4f7bc8be11b689c238ea7d6cbf32debc302bc"
+    },
+    {
+      "modid": "firestarters",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Firestarters_1.4.6.zip",
+      "sha256": "651e7a324138c03e87cc1afcc39d2bc637e307caa53b5a520227f18e2895304f"
+    },
+    {
+      "modid": "foodshelves",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip",
+      "sha256": "83c113311d104b055677ec5baa3ba70d051a48ff94f3f72bb86023749d38f188"
+    },
+    {
+      "modid": "footprints",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Footprints-v1.2.16.zip",
+      "sha256": "a95c81fe207e0652abc42c5c893993cc60e9d804b7820dd15f28e02cbf791ec1"
+    },
+    {
+      "modid": "footsteps",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Footsteps_1.0.3.zip",
+      "sha256": "e04d2b821d37b003b605c3e158f52d800f25e7884c07c41418f891e7f322a6b5"
+    },
+    {
+      "modid": "fromgoldencombs",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip",
+      "sha256": "f07ebc5244835332d95be3b84c463de85a96a83ba221d7752e96879bd9955f3b"
+    },
+    {
+      "modid": "genelib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/genelib_3.2.1.zip",
+      "sha256": "a222d7b1d6f30f2b7479703bd14a1d0bb994d7fc3829ef757bf7c0625ff28165"
+    },
+    {
+      "modid": "handtohand",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HandtoHand_1.0.7.zip",
+      "sha256": "5c0693b072b7f2c047c6a40f4cfef7ef9c0ba2a997643532ca243eae4915fa13"
+    },
+    {
+      "modid": "handbookoptimizer",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HandbookOptimizer-0.19.2.zip",
+      "sha256": "7fc3c7516023bfcaee3a395dc68914724ba8ea28bd4b5954685b35426b80eafe"
+    },
+    {
+      "modid": "heraldry",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Heraldry-v2.0.0.zip",
+      "sha256": "1e177c01717875908513bf23486ad55abc957cdee91ae352f764cf1c3771ed84"
+    },
+    {
+      "modid": "heraldrybanners",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HeraldryBanners-v2.0.0.zip",
+      "sha256": "3e8c9aa44f4c7af3b45b85a1261dae5389df8e425fbaad6fe4649bcafad1f277"
+    },
+    {
+      "modid": "capes",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HeraldryCapes-v2.0.0.zip",
+      "sha256": "2dc8135aa3bd8a19c8ee65513d8f703fa8018a07ff5f37db79fa940aee250be4"
+    },
+    {
+      "modid": "immersivecorpsedrop",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Immersive Corpse Drop 1.0.4 (Vintagestory 1.22).zip",
+      "sha256": "a6ed85f057dc681e12ce5d9bd93cb4c0f3c62a903d9536c88cf619ee74aec210"
+    },
+    {
+      "modid": "immersivefoliage",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ImmersiveFoliage_0.1.1.zip",
+      "sha256": "e0f2fb1dbde228d822f54f4ed0b4dc578910808dacf8c3fb26a5192e5b82fe04"
+    },
+    {
+      "modid": "immersivelanterns",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ImmersiveLanterns_0.4.1.zip",
+      "sha256": "578bbc8b349b11b1e8b3f6d13e0dc380052425e3ef0b2e6c0935839e24340f0a"
+    },
+    {
+      "modid": "immersivelight",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Immersive Light_0.2.7.zip",
+      "sha256": "fe14eaeccb35b7bbd1be9e3327524a47e9d4c6fe23e5ec27da3c209887abbcf3"
+    },
+    {
+      "modid": "immersiveorecrush",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ImmersiveOreCrush_2.2.5.zip",
+      "sha256": "84337505f9140ef629e2f11b8716f634bd09bfd3aeaae31d66fee156a6e9f140"
+    },
+    {
+      "modid": "immersivewoodworking",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip",
+      "sha256": "91c6a6da78e01f95ac4b2490c55875043f344a380f303e2c2fdc369ca70963d8"
+    },
+    {
+      "modid": "itempickupnotifier",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/itempickupnotifier_2.3.0.zip",
+      "sha256": "6f0eaf65eb6fb3c487c90d8ff3a123166775e3e60660f812a3222e91e3b08e03"
+    },
+    {
+      "modid": "jaunt",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/jaunt_3.3.1.zip",
+      "sha256": "54c4d33e508ede71fa3eaacf34ff85363e48f3a069c67b70d250c5551f63e1af"
+    },
+    {
+      "modid": "jsonpatcheslib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/jsonpatcheslib_1.5.9.zip",
+      "sha256": "b6444d3ac519b8466a7c0f397a9c12ceebd9c52e1ce43c1b0f4993e775442a94"
+    },
+    {
+      "modid": "juicyores",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/JuicyOres-v1.0.2.zip",
+      "sha256": "e077ba122fc5286ca0acc1d23d494010825da967038bcd1413dcfa4fd71fc8b3"
+    },
+    {
+      "modid": "kscartographytable",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip",
+      "sha256": "722deddf272832764bd2cb22b28974aa8ac985add329d741aa3ee96181beb3b1"
+    },
+    {
+      "modid": "kevinsfurniture",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/kevinsfurniture_1.9.0.zip",
+      "sha256": "370339cf2aae6cf1ace9b495778230c2fff5625a38c257a92a9acf298829703e"
+    },
+    {
+      "modid": "kuboczochfoodhandbook",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochFoodHandbook-0.3.0.zip",
+      "sha256": "fbf0d65c4e9063c7534b4688604af36ac321dddec954f73a9b9af81bec548b23"
+    },
+    {
+      "modid": "kuboczochhandbookrefresh",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochHandbookRefresh-1.0.0.zip",
+      "sha256": "c77a7730f406bd58395cd022ca5fc52cdc9559acceadea7d69c1a9114d362667"
+    },
+    {
+      "modid": "kuboczochmodpackguide",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochModpackGuide-1.0.2.zip",
+      "sha256": "fb4bad7f4a710c21f9eb23bac1e108c7313327d7945004c1dc1e1e7cbbeffa85"
+    },
+    {
+      "modid": "kuboczochtutorialskip",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochTutorialSkip-1.0.1.zip",
+      "sha256": "9ba6d7029bbd710e8b9c9e344b11875a4bed6ef2174c1634a3cb1a18920ae8a4"
+    },
+    {
+      "modid": "kuboczochvisualmining",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochVisualMining_1.0.4.zip",
+      "sha256": "0e3033fcfa9fd26d98820454d409195b4aad3646dba2884a8a57228c23685a66"
+    },
+    {
+      "modid": "kuboczochwoodworkingtutorial",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochWoodworkingTutorial-1.3.0.zip",
+      "sha256": "836dab86ff9a5b89eb9dfe10e69dba80aa38bba3a905f1a4d929887b8cafd4a6"
+    },
+    {
+      "modid": "livestockwelfare",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip",
+      "sha256": "612a11546ddab0563ac6e849b5332cf6635fa9965f122c1f5c5b90ee0dde2d10"
+    },
+    {
+      "modid": "manualdishes",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualDishes_0.1.2.zip",
+      "sha256": "f4fee89d7c24060efdb85b7be3830a0a2ed1c009db98df80f0a69574e6dfeb13"
+    },
+    {
+      "modid": "manualdough",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualDough_1.1.8.zip",
+      "sha256": "fb69ece65352a78eab13c37b601c5ded04c8eff02c7ee840a16f73116aea2033"
+    },
+    {
+      "modid": "manualfirestarter",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualFirestarter_0.1.3.zip",
+      "sha256": "21c4702e1ce5914a1b212f5758d1012d19b98dc546868a89b49853aba752eca3"
+    },
+    {
+      "modid": "manualfirestartertutorial",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochManualFirestarterTutorial-1.2.1.zip",
+      "sha256": "f49fafbf45693c151f7588ecebc40ea709f4140ca3ad3e8d33eafdf3dc8ba970"
+    },
+    {
+      "modid": "manualharvesting",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualHarvesting_0.1.0.zip",
+      "sha256": "4f0982e2b18c1bb4f8b0cee2973d854bc4a80614f7a43b7daca34d019ea7d96d"
+    },
+    {
+      "modid": "manualquenching",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualQuenching_1.0.10.zip",
+      "sha256": "f729f01a193c719626c5671051c985ec9171293d5a4b6f240d358d8d823988f1"
+    },
+    {
+      "modid": "manualshingle",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualShingle_1.0.4.zip",
+      "sha256": "516d306347923d3eee17d32ab8bbd5beaf173122d98c0596bf918a45f9553408"
+    },
+    {
+      "modid": "millwright",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/millwright_1.3.5.zip",
+      "sha256": "ec08fee9ef72d9046ebf1a103f06cf5cbc416c88e99740b6eea9066c14cf11b4"
+    },
+    {
+      "modid": "mistsofstability",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/MistStability_0.2.1.zip",
+      "sha256": "2d6e1110072f6f3b8b1e23c83295741a3279b74d8f9507aa6c81caee600f7349"
+    },
+    {
+      "modid": "morepiles",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/MorePiles-v3.0.1.zip",
+      "sha256": "878ed3ecff17661e8a2f9b9155cffa4779e6b7970df0f2f5ce13d83dcbdc0755"
+    },
+    {
+      "modid": "naturalfertilizer",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/naturalfertilizer-v1.22.0-1.5.1.zip",
+      "sha256": "639776fccb7ffeaef2c1d4c0a2752045c0084bfc2e82ba71e345027b57e1ec9b"
+    },
+    {
+      "modid": "trailmodmaro",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NaturalTrailsMod_1.3.21.zip",
+      "sha256": "c861df888cbff100603a786e4073cc7a5666c0eb6226d937fe5c556c80d975b4"
+    },
+    {
+      "modid": "noticeboard",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NoticeBoard_3.0.4.zip",
+      "sha256": "9139afd50fc1f71ad6dc7ad871f18f9a51a3e2aa2d4cc21f0d0f8004960782f1"
+    },
+    {
+      "modid": "oneroof",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip",
+      "sha256": "7471e4dcb6130082d06db7767e1b2cd57d1f6abb2fe167df181d2c2e3e4d29a2"
+    },
+    {
+      "modid": "overhaullib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/overhaullib_2.0.10.zip",
+      "sha256": "f709912cc01bfff59ba44dc61f82220995ced1407ec190a489b20ad96a024f8a"
+    },
+    {
+      "modid": "overhaulliblegacycompat",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/overhaulliblegacycompat_1.2.15.zip",
+      "sha256": "d9cfda41a304f7c8d09ac90159a27c29bed2934193feb22c5dadfa4ee5386de7"
+    },
+    {
+      "modid": "pewter",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip",
+      "sha256": "b6ebf8ad7bf89437d487abbf0cbc4bda0ae1a72a982fd5be942126bf7848ca1b"
+    },
+    {
+      "modid": "pagoldsilver",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip",
+      "sha256": "76d00485db71d6226efb40260b2c79f2449ccd20a52b843fb60df4b3699706d6"
+    },
+    {
+      "modid": "placeonslabs",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/placeonslabs_1.2.0.zip",
+      "sha256": "f65313ad5d3ce02d2d62b38fd3847afb53c275c6d6f094d6a82d8215f840d889"
+    },
+    {
+      "modid": "playermodellib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/playermodellib_1.25.0.zip",
+      "sha256": "9a3ddf96af2dfb44e0d9ff49bf51852cb618e5b6692944a9c5b24655a8d3d106"
+    },
+    {
+      "modid": "playerlistrevived",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/PlayerListRevived-2.3.8.zip",
+      "sha256": "da9c06f72b0fdba91861203819e58a96f6847c4dbe3f2072b1dc16f94462ef81"
+    },
+    {
+      "modid": "prospecttogether",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ProspectTogether-2.2.1.zip",
+      "sha256": "d6ca5a3b198d3635f6a29f8e0003187fa87cbee4fbf71d3f0ac8595083924538"
+    },
+    {
+      "modid": "purposefulstorage",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/purposefulstorage_2.3.1.zip",
+      "sha256": "fdb6edefb5201261e137c447a7a9796a9753bda2753a7aef33f7d5f11278c5d3"
+    },
+    {
+      "modid": "quietroughseas",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/quietroughseas_1.5.0.zip",
+      "sha256": "81c194c24063cad1c0fea9fd3aa5abd45aa32365129671f47bcf61a16728235a"
+    },
+    {
+      "modid": "quiversfork",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/quiversfork_0.9.32.zip",
+      "sha256": "2a8f355b9566a67021000a114bd2445f733551ec5c624f508a84e9110bf03362"
+    },
+    {
+      "modid": "radialcrafting",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/RadialCrafting_0.2.7.zip",
+      "sha256": "c5b04a4d4e73ae5fb690f54bd4fe4398b665bf399181ffc4b010b628cfe2d5aa"
+    },
+    {
+      "modid": "realsmoke",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/realsmoke_1.3.1.zip",
+      "sha256": "c3e5fe270a2ee619e21c77b7582fad78f7b8c4a3ae184b43e15d0a0f173d2918"
+    },
+    {
+      "modid": "realsmokeartofgrowingfirepit",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/realsmokeforunofficialaog.zip",
+      "sha256": "e4ca31cc51ae334c533efb1af3c4ea12473929553a2689fd5ce690de6c0417c2"
+    },
+    {
+      "modid": "rivers",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/rivers_5.0.3.zip",
+      "sha256": "2138a6a07283d1e7ba4647d52f980acd479b227619b67068b5527c9c872f373f"
+    },
+    {
+      "modid": "roughseas",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip",
+      "sha256": "200e501bcf54f1777364bf49b9cd3c61f46331269992ebbde0c567f8e1b96b90"
+    },
+    {
+      "modid": "rusticcookery",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/rusticcookery_1.2.0.zip",
+      "sha256": "1fd0c038655ce4efd04e4b55ae5f8ea3b3aa307a91edeb6312a8c1dd6951b8f9"
+    },
+    {
+      "modid": "sawchiseling",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/SawChiseling_0.1.2.zip",
+      "sha256": "ff61437a93e535d287f1ad4587c4703ba14e1d1e41fab7714aed2c41db0df4bf"
+    },
+    {
+      "modid": "scaffolding",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/scaffolding_1.3.1.zip",
+      "sha256": "8d019b14b611f40fe4b3e57babf47b4bb56a06d94a0c56ed454cb5b77685e37c"
+    },
+    {
+      "modid": "scrollbarcreativeinventorytabs",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/scrollbarcreativeinventorytabs.zip",
+      "sha256": "6f88d29db972187e2a6d233269785ce09b060f6e431839849ae9a5d98bc866b7"
+    },
+    {
+      "modid": "tseasonedfirewood",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tseasonedfirewood_1.2.12.zip",
+      "sha256": "3cd50a7babc6caba1bfd8a09c7481991f2ced2ba2a24517824efb46f34be5b0b"
+    },
+    {
+      "modid": "shearlib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/shearlib-1.3.0.zip",
+      "sha256": "2fcb2b6e102b4fb27d995d11a1a1ccfaeae7210c68d57f7ece0b4a16b0434945"
+    },
+    {
+      "modid": "shelfobsessed",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/shelfobsessed_v2.2.1.zip",
+      "sha256": "19272e2593195e5f0df3745d362c0e636a643988049f8c39f08b2e4f514f59f6"
+    },
+    {
+      "modid": "simpletea",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip",
+      "sha256": "2fa75de5c5d6a53fe7d32ea3ef2f216df3f1e3550c3b3a592503938c0eef658d"
+    },
+    {
+      "modid": "slowtox",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/slowtox_5.1.0.zip",
+      "sha256": "5593964b5ce4d3cd402aa9e3ab1045a7c5c31f0c03b3c557eb35904410b27bdf"
+    },
+    {
+      "modid": "sortablestorage",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/sortablestorage_3.0.0.zip",
+      "sha256": "934cfd4e386d427cc1ccf179352586786572958bfb20bfb72c87eee8f715a190"
+    },
+    {
+      "modid": "sprintmomentum",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/SprintMomentum_0.2.1.zip",
+      "sha256": "8ae10069c4b9cde3b4bc26aa7b1a3f57dad1ceff290ee98ec7dc0d0654dba91e"
+    },
+    {
+      "modid": "spyglass",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/spyglass_0.6.1.zip",
+      "sha256": "74ebb878a6b9d00395193c1592133f9c43c6538ba90e41f4ab5d91b83e16b23d"
+    },
+    {
+      "modid": "statushudcont",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/statushudcont_4.4.0.zip",
+      "sha256": "d060ea69ecbfafcb0e7ead8313a6c1221c914a0900f4838f62e5bb4ce73ab8f1"
+    },
+    {
+      "modid": "stickroast",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/StickRoast_0.1.0.zip",
+      "sha256": "36222fd79734a652bcb48e95bcca275a0489195ce646d459acb8ac74efe8e0ed"
+    },
+    {
+      "modid": "stickstepsounds",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/StickStepSounds.zip",
+      "sha256": "c4a8ddf452dc34950e429b785d1bafedaafedd9b4f39e296cfa7ee5ca254572e"
+    },
+    {
+      "modid": "stonebakeoven",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip",
+      "sha256": "a4156c8db0508ebf0a4767c74a6767fbc49963618fc2407ce3eb9f7be427fe0d"
+    },
+    {
+      "modid": "stoneharvesting",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/StoneHarvesting_1.2.2.zip",
+      "sha256": "12aca9cd6f4bde18b4ec6756ae00bb180c89f3d498ba6067469916e3c1413c6c"
+    },
+    {
+      "modid": "sungaze",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/SunGaze_0.1.1.zip",
+      "sha256": "5a2c0853d369da8976d63c5203c508896f2b01fc5ff532092663f14cfe0e1541"
+    },
+    {
+      "modid": "tabletopgames",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TabletopGames-v4.0.1.zip",
+      "sha256": "6f2a3490afde82d65cf92e6594af6418ed5511925987edd2c014c9bf8a512ecb"
+    },
+    {
+      "modid": "tailorsdelight",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip",
+      "sha256": "13812149e502fb9f3b5ee1d9379e829573a78633542727b92ec7035f2001dc09"
+    },
+    {
+      "modid": "tankardsandgoblets",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TankardsandGoblets_v1.4.4.zip",
+      "sha256": "95a4d123250f45b5c3fac4a7fbac278a2f8f7e16867f02a0d355616ea1c4a421"
+    },
+    {
+      "modid": "temporalsymphony",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TemporalSymphony_2.3.2.zip",
+      "sha256": "5139dfcc2c7c28c4f64fbc94409f80a97e26c48fb39abad5d5c0b06c459dae77"
+    },
+    {
+      "modid": "terraprety",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TerraPrety_7.11.1.zip",
+      "sha256": "e0f1d76776a2d5f1a165696105d0640b6a1fe7d7828de008293429d39a55127f"
+    },
+    {
+      "modid": "terrainslabs",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/terrainslabs_1.0.17.zip",
+      "sha256": "b3ab02506a9b020eff39a73d0e678c26777c9236d5145db9737f5088f7df7adc"
+    },
+    {
+      "modid": "toolbelt",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ToolBelt_0.3.6.zip",
+      "sha256": "0798f239b2231d05a6f575d17d2eb14e2dc8ea6be14cf87b7e44471200d5784c"
+    },
+    {
+      "modid": "toolsmith",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip",
+      "sha256": "325ead64a9192ea7426d017e1c5141286f860f95c3af5dd34b79ad14f060974b"
+    },
+    {
+      "modid": "remotetradercheckmod",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/remotetradercheckmod_0.8.0.zip",
+      "sha256": "681ad46fc7bf57436d87f4bbd9b5bc7edcc2bea885edcaf769fb5cce0ac22b57"
+    },
+    {
+      "modid": "universaldisplaylib",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/universaldisplaylib_1.5.0.zip",
+      "sha256": "d097fd050ba4131d07160f7c6a7b0c509ef825a588d77d1c17355e855008fa14"
+    },
+    {
+      "modid": "vaultandroll",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/VaultAndRoll_0.1.2.zip",
+      "sha256": "6d3f5252ecc60437cba7f86b46cde55cfdb9c0e924b1f82fdac06960a2a352aa"
+    },
+    {
+      "modid": "vinconomy",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/vinconomy_6.0.3.zip",
+      "sha256": "61890b839218d9c6da234119e9ef3b6358bac730b3fd8e272ba385793c08aea9"
+    },
+    {
+      "modid": "windchimes",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windchimes-1.22.0-v1.5.4.zip",
+      "sha256": "930b49d5d354ecf2770895b32eec28da657baa20d61181f1be680abb9da50014"
+    },
+    {
+      "modid": "windowdisplay",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windowdisplay_1.1.4.zip",
+      "sha256": "e0afb1bb55533b0b48b3e6ba4e9285c9c893bc1f412ffc7d2913e3e9c069b6dc"
+    },
+    {
+      "modid": "windowdisplaypatches",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windowdisplaypatches_1.0.9.zip",
+      "sha256": "12438e365f26abccd35bd8abab9babfc2a11b9cacbd51a87713a51135cba0c39"
+    },
+    {
+      "modid": "wool",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip",
+      "sha256": "3a8944776f584abd2ec4c8bcd29c00ae07ba041878f2707d6c1f7862c663fd0d"
+    },
+    {
+      "modid": "infinitumcore",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/infinitumcore_1.2.0.zip",
+      "sha256": "b1974cd4518938d27677a24c4a5525c338b862613978e994e0445c555840999a"
+    },
+    {
+      "modid": "infinitumpickuphud",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/infinitumpickuphud_1.5.0.zip",
+      "sha256": "25094551bf15ce7d8ed2c9f93d9268905408fd123340de4ca8bdf799048c2483"
+    },
+    {
+      "modid": "infinitumprospectinghud",
+      "archive": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/infinitumprospectinghud_1.1.0.zip",
+      "sha256": "e0cb2e8a5920e9cef23fdb6468e28687bcd1d136d87204a60d6d89a2f0bb68d7"
+    }
+  ],
+  "runtimeModsExecuted": false
+}

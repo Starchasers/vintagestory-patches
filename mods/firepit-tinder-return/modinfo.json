@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "kuboczochfirepittinderreturn",
+  "name": "Kuboczoch Firepit Tinder Return",
+  "authors": ["Kuboczoch"],
+  "description": "Fixes Art of Growing dry-grass firepit construction selecting the straw firepit. New dry-grass firepits return fresh dry grass during construction; straw firepits still return straw. Existing ambiguous firepits are unchanged.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {"game": "1.22.7", "artofgrowingpatch": "1.2.2"}
+}

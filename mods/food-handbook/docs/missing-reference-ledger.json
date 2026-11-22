@@ -1,0 +1,4689 @@
+{
+  "scope": "Complete only for saved supported cooking/mixing source definitions, NOT runtime registration, all item routing or arbitrary generated meal IDs. No invented fallback translations.",
+  "counts": {
+    "source_definitions": 108,
+    "unique_meal_codes": 7,
+    "item_output_definitions": 21,
+    "unresolved_runtime_registrations": 108,
+    "translations": {
+      "en": {
+        "present": 7
+      },
+      "pl": {
+        "present": 7
+      }
+    }
+  },
+  "parse_errors": [
+    {
+      "source": "mods/Firestarters_1.4.6.zip!assets/firestarters/lang/en.json",
+      "error": "<string>:5 Unexpected \"\r\" at column 48"
+    }
+  ],
+  "rows": [
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 0,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-black-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-black-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 1,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-woad-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-blue-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 2,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-blue-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-blue-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 3,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-gray-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-gray-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 4,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-green-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-green-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 5,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-orange-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-orange-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 6,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-pink-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-pink-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 7,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-purple-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-purple-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 8,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-red-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-red-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 9,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-white-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-white-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 10,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-yellow-hot",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-yellow-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 11,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-black-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-black-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 12,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-blue-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-blue-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 13,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-gray-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-gray-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 14,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-green-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-green-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 15,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-orange-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-orange-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 16,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-pink-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-pink-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 17,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-purple-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-purple-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 18,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-red-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-red-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 19,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-white-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-white-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "aculinaryartillery",
+      "source": "aculinaryartillery/assets/aculinaryartillery/recipes/cooking/sealingwax.json",
+      "definition_index": 20,
+      "family": "cooking",
+      "literal_code": "sealingwax-wax-yellow-cold",
+      "conditions": [],
+      "cooksInto": {
+        "type": "Item",
+        "code": "sealingwax-wax-yellow-hot",
+        "quantity": 100
+      },
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "item output; no assumed meal page",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/meatystew.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/meatystew.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/meatystew.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/meatystew.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/meatystew.json",
+      "definition_index": 4,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/soup.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/soup.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/soup.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/veggiestew.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/veggiestew.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/acorns/recipes/meals/veggiestew.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/primitivesurvival/recipes/meals/meatystew.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/primitivesurvival/recipes/meals/meatystew.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/primitivesurvival/recipes/meals/meatystew.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/primitivesurvival/recipes/meals/meatystew.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/primitivesurvival/recipes/meals/soup.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "expandedfoods",
+      "source": "expandedfoods/assets/expandedfoods/patches/compatibility/primitivesurvival/recipes/meals/soup.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/augratin.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/augratin.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/compote.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/compote.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastacold.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastacold.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastacold.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastacold.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastacold.json",
+      "definition_index": 4,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastahot.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastahot.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/pastahot.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/riceandbeans.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/riceandbeans.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 4,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 5,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/salad.json",
+      "definition_index": 6,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[6].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/yogurtmeal.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/acorns/recipes/meals/yogurtmeal.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "acorns"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/augratin.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/augratin.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastacold.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastacold.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastacold.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastacold.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastacold.json",
+      "definition_index": 4,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastacold.json",
+      "definition_index": 5,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[5].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastahot.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/pastahot.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/riceandbeans.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/riceandbeans.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/salad.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/salad.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/salad.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/salad.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/ancienttools/recipes/meals/salad.json",
+      "definition_index": 4,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        },
+        {
+          "json_path": "$[4].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "ancienttools"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/augratin.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/pastacold.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/pastacold.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/pastacold.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/pastacold.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/pastahot.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/pastahot.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/riceandbeans.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/riceandbeans.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/salad.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/salad.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/salad.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/moreanimals/recipes/meals/salad.json",
+      "definition_index": 3,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        },
+        {
+          "json_path": "$[3].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "moreanimals"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/augratin.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/augratin.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/pastacold.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/pastacold.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/pastahot.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/pastahot.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/riceandbeans.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/riceandbeans.json",
+      "definition_index": 1,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/riceandbeans.json",
+      "definition_index": 2,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[1].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        },
+        {
+          "json_path": "$[2].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/patches/compatibility/primitivesurvival/recipes/meals/salad.json",
+      "definition_index": 0,
+      "family": "meals",
+      "literal_code": null,
+      "conditions": [
+        {
+          "json_path": "$[0].dependsOn",
+          "key": "dependsOn",
+          "value": [
+            {
+              "modid": "primitivesurvival"
+            }
+          ]
+        }
+      ],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": null,
+      "expected_title_key": null,
+      "translations": {}
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/cooking/augratin.json",
+      "definition_index": 0,
+      "family": "cooking",
+      "literal_code": "augratin",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-augratin",
+      "expected_title_key": "mealrecipe-name-augratin",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Au Gratin",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-augratin"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Au Gratin",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Au Gratin",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-augratin"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Au Gratin",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-augratin": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-augratin": {
+          "en": [],
+          "pl": []
+        }
+      }
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/cooking/compote.json",
+      "definition_index": 0,
+      "family": "cooking",
+      "literal_code": "compote",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-compote",
+      "expected_title_key": "mealrecipe-name-compote",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Compôte",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-compote"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Compôte",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Kompot",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-compote"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Kompot",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-compote": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-compote": {
+          "en": [],
+          "pl": []
+        }
+      }
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/cooking/pastahot.json",
+      "definition_index": 0,
+      "family": "cooking",
+      "literal_code": "pastahot",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-pastahot",
+      "expected_title_key": "mealrecipe-name-pastahot",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Hot Pasta",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-pastahot"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Hot Pasta",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Makaron",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-pastahot"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Makaron",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-pastahot": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-pastahot": {
+          "en": [],
+          "pl": []
+        }
+      }
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/cooking/riceandbeans.json",
+      "definition_index": 0,
+      "family": "cooking",
+      "literal_code": "riceandbeans",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-riceandbeans",
+      "expected_title_key": "mealrecipe-name-riceandbeans",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Pilaf",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-riceandbeans"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Pilaf",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Ryż po pilawsku",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-riceandbeans"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Ryż po pilawsku",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-riceandbeans": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-riceandbeans": {
+          "en": [],
+          "pl": []
+        }
+      }
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/mixing/pastacold.json",
+      "definition_index": 0,
+      "family": "mixing",
+      "literal_code": "pastacold",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-pastacold",
+      "expected_title_key": "mealrecipe-name-pastacold",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Cold Pasta",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-pastacold"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Cold Pasta",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Sałatka makaronowa",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-pastacold"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Sałatka makaronowa",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-pastacold": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-pastacold": {
+          "en": [],
+          "pl": []
+        }
+      }
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/mixing/salad.json",
+      "definition_index": 0,
+      "family": "mixing",
+      "literal_code": "meatysalad",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-meatysalad",
+      "expected_title_key": "mealrecipe-name-meatysalad",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Salad",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-meatysalad"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Salad",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Sałatka",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-meatysalad"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Sałatka",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-meatysalad": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-meatysalad": {
+          "en": [],
+          "pl": []
+        }
+      }
+    },
+    {
+      "mod_id": "efmealsmodule",
+      "source": "efmealsmodule/assets/efmealsmodule/recipes/mixing/yogurtmeal.json",
+      "definition_index": 0,
+      "family": "mixing",
+      "literal_code": "yogurtmeal",
+      "conditions": [],
+      "cooksInto": null,
+      "runtime_registration": "unverified; asset patches/config/ingredient resolution may change registration",
+      "route_status": "source candidate only; page registration not runtime verified",
+      "pageCode": "handbook-mealrecipe-yogurtmeal",
+      "expected_title_key": "mealrecipe-name-yogurtmeal",
+      "translations": {
+        "en": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Yogurt Meal",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/en.json",
+              "literal_key": "game:mealrecipe-name-yogurtmeal"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Yogurt Meal",
+          "ambiguity": null
+        },
+        "pl": {
+          "status": "present",
+          "candidates": [
+            {
+              "value": "Jogurt",
+              "source": "mods/ExpandedFoods_MealsModule_1.0.0-dev.9.zip!assets/efmealsmodule/lang/pl.json",
+              "literal_key": "game:mealrecipe-name-yogurtmeal"
+            }
+          ],
+          "fallback_candidates": [],
+          "effective_value": "Jogurt",
+          "ambiguity": null
+        }
+      },
+      "unused_alternative_spellings": {
+        "meal-recipe-yogurtmeal": {
+          "en": [],
+          "pl": []
+        },
+        "meat-recipe-yogurtmeal": {
+          "en": [],
+          "pl": []
+        }
+      }
+    }
+  ],
+  "guide_pageCodes": [
+    {
+      "pageCode": "aculinaryartilleryguide",
+      "source": "aculinaryartillery/assets/aculinaryartillery/config/handbook/24-aculinaryartilleryguide.json",
+      "title_key": "aculinaryartillery:aculinaryartilleryguide-title"
+    },
+    {
+      "pageCode": "kneadingmixingguide",
+      "source": "aculinaryartillery/assets/aculinaryartillery/config/handbook/31-kneadingmixingguide.json",
+      "title_key": "aculinaryartillery:craftinginfo-mixing-title"
+    },
+    {
+      "pageCode": "simmeringguide",
+      "source": "aculinaryartillery/assets/aculinaryartillery/config/handbook/32-simmeringguide.json",
+      "title_key": "aculinaryartillery:craftinginfo-simmering-title"
+    },
+    {
+      "pageCode": "efchefstricksguide",
+      "source": "efchefstricks/assets/efchefstricks/config/handbook/30-efchefstricksguide.json",
+      "title_key": "efchefstricks:efchefstricksguide-title"
+    },
+    {
+      "pageCode": "expandedfoodsguide",
+      "source": "expandedfoods/assets/expandedfoods/config/handbook/25-expandedfoodsguide.json",
+      "title_key": "expandedfoods:expandedfoodsguide-title"
+    },
+    {
+      "pageCode": "expandedfoodsguide2",
+      "source": "expandedfoods/assets/expandedfoods/config/handbook/26-expandedfoodsguide2.json",
+      "title_key": "expandedfoods:expandedfoodsguide2-title"
+    },
+    {
+      "pageCode": "expandedfoodsguide4",
+      "source": "expandedfoods/assets/expandedfoods/config/handbook/28-expandedfoodsguide4.json",
+      "title_key": "expandedfoods:expandedfoodsguide4-title"
+    },
+    {
+      "pageCode": "expandedfoodsguide5",
+      "source": "expandedfoods/assets/expandedfoods/config/handbook/29-expandedfoodsguide5.json",
+      "title_key": "expandedfoods:expandedfoodsguide5-title"
+    },
+    {
+      "pageCode": "expandedfoodsguide3",
+      "source": "efmealsmodule/assets/efmealsmodule/config/handbook/27-expandedfoodsguide3.json",
+      "title_key": "efmealsmodule:expandedfoodsguide3-title"
+    }
+  ]
+}

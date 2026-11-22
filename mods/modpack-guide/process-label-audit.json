@@ -1,0 +1,2180 @@
+[
+  {
+    "page": "process-farming-animal-care",
+    "kind": "item",
+    "code": "game:seeds-rye",
+    "label": "Rye grain",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "game:item-seeds-rye",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "item",
+    "code": "artofgrowing:grainbundle-rye-wet",
+    "label": "Wet rye",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-grainbundle-rye-*wet",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "item",
+    "code": "artofgrowing:grainbundle-rye-dry",
+    "label": "Dry rye",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-grainbundle-rye-*dry",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "item",
+    "code": "game:seeds-rye",
+    "label": "Rye grain",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "game:item-seeds-rye",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "item",
+    "code": "game:grain-rye",
+    "label": "Rye cereal",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "game:item-grain-rye",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "item",
+    "code": "game:seeds-rye",
+    "label": "Rye grain",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "game:item-seeds-rye",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "guide",
+    "code": "gamemechanicinfo-farming",
+    "label": "Game Mechanic: Farming",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-farming-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/06-farming.json",
+    "titleKey": "game:gamemechanicinfo-farming-title"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "guide",
+    "code": "gamemechanicinfo-animalhusbandry",
+    "label": "Game Mechanic: Animal Husbandry",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-animalhusbandry-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/08-animalhusbandry.json",
+    "titleKey": "game:gamemechanicinfo-animalhusbandry-title"
+  },
+  {
+    "page": "process-farming-animal-care",
+    "kind": "guide",
+    "code": "livestockwelfare-guide",
+    "label": "Livestock Welfare: caring for your animals",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!assets/livestockwelfare/lang/en.json",
+    "languageKey": "handbook-guide-title",
+    "sha256": "27afd64dab721cc318178e6c2ff11729434e22c1ba3c14b507fde52e35c1fef2",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/livestockwelfare_0.16.0.zip!assets/livestockwelfare/config/handbook/livestockwelfare.json",
+    "titleKey": "livestockwelfare:handbook-guide-title"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "block",
+    "code": "butchering:butcherhook-flint-north",
+    "label": "Primitive Skinning Hook",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/lang/en.json",
+    "languageKey": "block-butcherhook-flint-*",
+    "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "block",
+    "code": "butchering:butchertable-primitive-north",
+    "label": "Primitive Butchering Table",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/lang/en.json",
+    "languageKey": "block-butchertable-primitive-*",
+    "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "butchering:primemeat-raw",
+    "label": "Raw Primemeat",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/lang/en.json",
+    "languageKey": "item-primemeat-raw",
+    "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:fat-rendered",
+    "label": "Lump of rendered fat",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-fat-rendered",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:hide-soaked-small",
+    "label": "Soaked hide (Small)",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-hide-soaked-small",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:hide-scraped-small",
+    "label": "Scraped hide (Small)",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-hide-scraped-small",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:hide-prepared-small",
+    "label": "Prepared hide (Small)",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-hide-prepared-small",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:leather-normal-plain",
+    "label": "Leather",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-leather-normal-plain",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:leather-normal-plain",
+    "label": "Leather",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-leather-normal-plain",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "item",
+    "code": "game:flaxtwine",
+    "label": "Flax twine",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-flaxtwine",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "guide",
+    "code": "butcheringguide",
+    "label": "Butchering: Guide",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/lang/en.json",
+    "languageKey": "game:butcheringguide-title",
+    "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/config/handbook/01_butcheringguide.json",
+    "titleKey": "game:butcheringguide-title"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "guide",
+    "code": "butcheringinfo",
+    "label": "Butchering: Info",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/lang/en.json",
+    "languageKey": "game:butcheringinfo-title",
+    "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/config/handbook/02_butcheringinfo.json",
+    "titleKey": "game:butcheringinfo-title"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "guide",
+    "code": "craftinginfo-leathermaking",
+    "label": "Crafting Mechanic: Leather Making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-leathermaking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/26-leathermaking.json",
+    "titleKey": "game:craftinginfo-leathermaking-title"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "guide",
+    "code": "craftinginfo-mealcooking",
+    "label": "Crafting Mechanic: Meal making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-mealcooking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/04-mealcooking.json",
+    "titleKey": "game:craftinginfo-mealcooking-title"
+  },
+  {
+    "page": "process-butchering-leather",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "process-bees",
+    "kind": "block",
+    "code": "fromgoldencombs:ceramicbroodpot-ashforest-notop",
+    "label": "Ceramic Hive",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/lang/en.json",
+    "languageKey": "block-ceramicbroodpot-*",
+    "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538"
+  },
+  {
+    "page": "process-bees",
+    "kind": "block",
+    "code": "fromgoldencombs:hivetop-ashforest-fired",
+    "label": "Ceramic Honey Pot",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/lang/en.json",
+    "languageKey": "block-hivetop-*",
+    "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538"
+  },
+  {
+    "page": "process-bees",
+    "kind": "item",
+    "code": "fromgoldencombs:frameliner",
+    "label": "Frame Liner",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/lang/en.json",
+    "languageKey": "item-frameliner",
+    "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538"
+  },
+  {
+    "page": "process-bees",
+    "kind": "guide",
+    "code": "apiculture-fromgoldencombsguide",
+    "label": "Apiculture 101 - From Golden Combs",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/lang/en.json",
+    "languageKey": "fromgoldencombsguide-title",
+    "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/config/handbook/FGC01-fromgoldencombsguide.json",
+    "titleKey": "fromgoldencombs:fromgoldencombsguide-title"
+  },
+  {
+    "page": "process-bees",
+    "kind": "guide",
+    "code": "pollination-fromgoldencombsguide",
+    "label": "Apiculture 102 - Bees and Crops",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/lang/en.json",
+    "languageKey": "fromgoldencombs:fromgoldencombspollination-title",
+    "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/config/handbook/FGC02-fromgoldencombs-pollination.json",
+    "titleKey": "fromgoldencombs:fromgoldencombspollination-title"
+  },
+  {
+    "page": "process-bees",
+    "kind": "guide",
+    "code": "langstrothguiden-fromgoldencombsguide",
+    "label": "Apiculture 103 - Langstroth Hives",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/lang/en.json",
+    "languageKey": "fromgoldencombs:langstrothguide-title",
+    "sha256": "6d39a2198a945f78bdb52f4baff3adc903f5cd300f2006c4af19eafb9bc8d538",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/FromGoldenCombs-1.22-v2.1.0.zip!assets/fromgoldencombs/config/handbook/FGC03-fromgoldencombs-langstrothguide.json",
+    "titleKey": "fromgoldencombs:langstrothguide-title"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "artofgrowing:grainbundle-flax-wet",
+    "label": "Wet flax",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-grainbundle-flax-*wet",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "artofgrowing:flaxbundle-dry",
+    "label": "Linen straw",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-flaxbundle-dry",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "artofgrowing:flaxbundle-wet",
+    "label": "Soaked linen straw",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-flaxbundle-wet",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "artofgrowing:flaxbundle-clear",
+    "label": "Pure linen straw",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-flaxbundle-clear",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "artofgrowing:flaxbundle-soft",
+    "label": "Crumpled linen straw",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ArtOfGrowing_1.2.2.zip!assets/artofgrowing/lang/en.json",
+    "languageKey": "item-flaxbundle-soft",
+    "sha256": "967e81b323f88711804898240c2da954a3682a74f8449e9fcf0e3a4a74575ca7"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "game:flaxfibers",
+    "label": "Flax fibers",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-flaxfibers",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "tailorsdelight:spindle-wood",
+    "label": "Wooden spindle",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tailors_delight-2.2.2.zip!assets/tailorsdelight/lang/en.json",
+    "languageKey": "tailorsdelight:item-spindle-wood",
+    "sha256": "31c926bf6006170faa0b79e94851870d3890ae1f41401bd307380dfce3462858"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "game:flaxtwine",
+    "label": "Flax twine",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-flaxtwine",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "game:cloth-plain",
+    "label": "Plain cloth",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-cloth-plain",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "block",
+    "code": "game:linen-normal-down",
+    "label": "Linen (Normal stitches)",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "block-linen-normal-*",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "wool:fleece-generic-plain",
+    "label": "Light fleece",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/lang/en.json",
+    "languageKey": "wool:item-fleece-generic-plain",
+    "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "wool:fibers-generic-plain",
+    "label": "Light wool fibers",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/lang/en.json",
+    "languageKey": "wool:item-fibers-generic-plain",
+    "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "wool:twine-wool-plain",
+    "label": "Wool twine",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/lang/en.json",
+    "languageKey": "wool:item-twine-wool-plain",
+    "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "item",
+    "code": "wool:cloth-wool-plain",
+    "label": "Plain wool cloth",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/lang/en.json",
+    "languageKey": "wool:item-cloth-wool-plain",
+    "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "guide",
+    "code": "wool:gamemechanicinfo-animalshearing",
+    "label": "Game Mechanic: Animal Shearing",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/lang/en.json",
+    "languageKey": "wool:gamemechanicinfo-animalshearing-title",
+    "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/config/handbook/animalhusbandryshearing.json",
+    "titleKey": "wool:gamemechanicinfo-animalshearing-title"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "guide",
+    "code": "wool:gamemechanicinfo-woolknitting",
+    "label": "Game Mechanic: Colored Wool & Knitting",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/lang/en.json",
+    "languageKey": "wool:gamemechanicinfo-woolknitting-title",
+    "sha256": "99efd406529ab8b703bad8e4ae5510debcb7071a8f273e793d1ca98e99ee9615",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/wool-1.9.6.zip!assets/wool/config/handbook/woolknitting.json",
+    "titleKey": "wool:gamemechanicinfo-woolknitting-title"
+  },
+  {
+    "page": "process-textiles",
+    "kind": "guide",
+    "code": "craftinginfo-dyemaking",
+    "label": "Crafting Mechanic: Dye making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-dyemaking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/24-dyemaking.json",
+    "titleKey": "game:craftinginfo-dyemaking-title"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "block",
+    "code": "aculinaryartillery:saucepan-blue-fired",
+    "label": "Earthy brown ceramic saucepan",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "block-saucepan-blue-fired",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "game:bone",
+    "label": "Bone",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-bone",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "game:waterportion",
+    "label": "Water",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-waterportion",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "expandedfoods:brothportion-bone",
+    "label": "Bone broth portion",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-brothportion-bone",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "aculinaryartillery:eggwhiteportion",
+    "label": "Egg white portion",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "item-eggwhiteportion",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "expandedfoods:clarifiedbrothportion-bone",
+    "label": "Clarified bone broth portion",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-clarifiedbrothportion-bone",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "expandedfoods:gelatin-liquid",
+    "label": "Pre-gelatin",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-gelatin-liquid",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "expandedfoods:gelatin-raw",
+    "label": "Raw gelatin",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-gelatin-raw",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "item",
+    "code": "expandedfoods:gelatin-plain",
+    "label": "Plain gelatin",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-gelatin-plain",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "guide",
+    "code": "simmeringguide",
+    "label": "Crafting Mechanic: Simmering",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "craftinginfo-simmering-title",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/32-simmeringguide.json",
+    "titleKey": "aculinaryartillery:craftinginfo-simmering-title"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "guide",
+    "code": "expandedfoodsguide4",
+    "label": "Expanded Foods: Cooking 104 - Expanded Liquids",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "expandedfoodsguide4-title",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/config/handbook/28-expandedfoodsguide4.json",
+    "titleKey": "expandedfoods:expandedfoodsguide4-title"
+  },
+  {
+    "page": "process-kitchen-broth",
+    "kind": "guide",
+    "code": "butcheringguide",
+    "label": "Butchering: Guide",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/lang/en.json",
+    "languageKey": "game:butcheringguide-title",
+    "sha256": "31980e0ed67dcca1267894763514abe6af928e547d1c5a859c3665b8c5ddc727",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/butchering_1.14.3.zip!assets/butchering/config/handbook/01_butcheringguide.json",
+    "titleKey": "game:butcheringguide-title"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "block",
+    "code": "aculinaryartillery:mixingbowl-blue",
+    "label": "Earthy brown ceramic mixing bowl",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "block-mixingbowl-blue",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "game:flour-rye",
+    "label": "Rye flour",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-flour-rye",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "aculinaryartillery:eggyolkfullportion-chicken",
+    "label": "Liquid chicken egg portion",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "item-eggyolkfullportion-chicken",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "expandedfoods:pasta-dough",
+    "label": "Pasta dough",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-pasta-dough",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "expandedfoods:pasta-flat",
+    "label": "Flattened pasta dough",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-pasta-flat",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "expandedfoods:pasta-cut",
+    "label": "Raw pasta noodles",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-pasta-cut",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "expandedfoods:pasta-dried",
+    "label": "Dried pasta noodles",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-pasta-dried",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "block",
+    "code": "aculinaryartillery:saucepan-blue-fired",
+    "label": "Earthy brown ceramic saucepan",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "block-saucepan-blue-fired",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "item",
+    "code": "expandedfoods:pasta-cooked",
+    "label": "Cooked pasta noodles",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExpandedFoods_2.0.0-dev.17.zip!assets/expandedfoods/lang/en.json",
+    "languageKey": "item-pasta-cooked",
+    "sha256": "0764d8e23db95bf26bcbe9b497e315edd963276716c9143e8192c951fcb57655"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "guide",
+    "code": "kneadingmixingguide",
+    "label": "Crafting Mechanic: Kneading & Mixing",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "craftinginfo-mixing-title",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/31-kneadingmixingguide.json",
+    "titleKey": "aculinaryartillery:craftinginfo-mixing-title"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "guide",
+    "code": "simmeringguide",
+    "label": "Crafting Mechanic: Simmering",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "craftinginfo-simmering-title",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/32-simmeringguide.json",
+    "titleKey": "aculinaryartillery:craftinginfo-simmering-title"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "guide",
+    "code": "gamemechanicinfo-farming",
+    "label": "Game Mechanic: Farming",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-farming-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/06-farming.json",
+    "titleKey": "game:gamemechanicinfo-farming-title"
+  },
+  {
+    "page": "process-kitchen-pasta",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "game:milkportion",
+    "label": "Milk",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-milkportion",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "dairyplus:separatingmilk",
+    "label": "Separating Milk",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:item-separatingmilk",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "block",
+    "code": "dairyplus:creamscoop",
+    "label": "Cream Scoop",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:block-creamscoop",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "dairyplus:cream",
+    "label": "Cream",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:item-cream",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "dairyplus:skimmilk",
+    "label": "Skim Milk",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:item-skimmilk",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "block",
+    "code": "dairyplus:plungerchurn",
+    "label": "Butter Churn",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:block-plungerchurn",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "dairyplus:butter-unsalted",
+    "label": "Unsalted Butter",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:item-butter-unsalted",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "game:salt",
+    "label": "Salt",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-salt",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "dairyplus:butter-salted",
+    "label": "Salted Butter",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:item-butter-salted",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "item",
+    "code": "dairyplus:butter-twicesalted",
+    "label": "Twice-Salted Butter",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "dairyplus:item-butter-twicesalted",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "guide",
+    "code": "creamguide",
+    "label": "Crafting Mechanic: Skimming Cream",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "creamguide-title",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/config/handbook/31-creamguide.json",
+    "titleKey": "dairyplus:creamguide-title"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "guide",
+    "code": "butterguide",
+    "label": "Crafting Mechanic: Churning Butter",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/lang/en.json",
+    "languageKey": "butterguide-title",
+    "sha256": "6f76ea3fcda098ba3d5238fbe101ec4c3195587afd974aac2b13c1049aab5bfe",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DairyPlus_2.0.0.zip!assets/dairyplus/config/handbook/32-butterguide.json",
+    "titleKey": "dairyplus:butterguide-title"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "guide",
+    "code": "gamemechanicinfo-animalhusbandry",
+    "label": "Game Mechanic: Animal Husbandry",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-animalhusbandry-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/08-animalhusbandry.json",
+    "titleKey": "game:gamemechanicinfo-animalhusbandry-title"
+  },
+  {
+    "page": "process-kitchen-dairy",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "block",
+    "code": "aculinaryartillery:bottle-glass-quartz-fired",
+    "label": "Quartz glass bottle",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "block-bottle-glass-quartz-fired",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "item",
+    "code": "aculinaryartillery:bark-oak-dry",
+    "label": "Oak bark",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "item-bark-oak-dry",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "item",
+    "code": "aculinaryartillery:bark-oak-boiled",
+    "label": "Boiled oak bark",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "item-bark-oak-boiled",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "item",
+    "code": "aculinaryartillery:stopper-bark-cork",
+    "label": "Cork",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "item-stopper-bark-cork",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "block",
+    "code": "aculinaryartillery:saucepan-blue-fired",
+    "label": "Earthy brown ceramic saucepan",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "block-saucepan-blue-fired",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "block",
+    "code": "aculinaryartillery:bottle-glass-quartz-corked",
+    "label": "Stopped quartz glass bottle",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "block-bottle-glass-quartz-corked",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "guide",
+    "code": "aculinaryartilleryguide",
+    "label": "A Culinary Artillery: Cooking 100 - Your Tools",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "aculinaryartilleryguide-title",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/24-aculinaryartilleryguide.json",
+    "titleKey": "aculinaryartillery:aculinaryartilleryguide-title"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "guide",
+    "code": "simmeringguide",
+    "label": "Crafting Mechanic: Simmering",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/lang/en.json",
+    "languageKey": "craftinginfo-simmering-title",
+    "sha256": "e758a2f3860a74400e6d64f1239d94c14d2de890e685011a64159b4d016004c9",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ACulinaryArtillery_2.0.0-dev.29.zip!assets/aculinaryartillery/config/handbook/32-simmeringguide.json",
+    "titleKey": "aculinaryartillery:craftinginfo-simmering-title"
+  },
+  {
+    "page": "process-kitchen-bottles",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "block",
+    "code": "scaffolding:scaffolding-top-ns",
+    "label": "Scaffolding",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/scaffolding_1.3.1.zip!assets/scaffolding/lang/en.json",
+    "languageKey": "block-scaffolding-*-*",
+    "sha256": "50beb1dd774ee371719da4aa01f1bd7f99c7f24b3d0bef7825849027c01a427e"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "item",
+    "code": "game:shingle-raw-red",
+    "label": "Raw red clay shingle",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-shingle-raw-red",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "item",
+    "code": "game:shingle-burned-red",
+    "label": "Fired red ceramic shingle",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-shingle-burned-red",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "block",
+    "code": "oneroof:oneroof-redclay-standard-none-free",
+    "label": "OneRoof red clay",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip!assets/oneroof/lang/en.json",
+    "languageKey": "block-oneroof-redclay-standard-none-*",
+    "sha256": "9d336f08dbf8f2df4448b54db437d6538a8c8797a06122ea6a78f8e8b1bbdc38"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "block",
+    "code": "oneroof:oneroof-redclay-dynamic-none-free",
+    "label": "OneRoof red clay dynamic",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/oneroof_1.12.0.zip!assets/oneroof/lang/en.json",
+    "languageKey": "block-oneroof-redclay-dynamic-none-*",
+    "sha256": "9d336f08dbf8f2df4448b54db437d6538a8c8797a06122ea6a78f8e8b1bbdc38"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "item",
+    "code": "chiseltools:handplaner-iron",
+    "label": "Iron Hand Planer",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip!assets/chiseltools/lang/en.json",
+    "languageKey": "item-handplaner-iron",
+    "sha256": "dd30db3ac16113d06d8bffcf4c7cb8f0808a1b0d3e3dacab8b41866e1b813a83"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "item",
+    "code": "chiseltools:pantograph-steel",
+    "label": "Steel Pantograph",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip!assets/chiseltools/lang/en.json",
+    "languageKey": "item-pantograph-steel",
+    "sha256": "dd30db3ac16113d06d8bffcf4c7cb8f0808a1b0d3e3dacab8b41866e1b813a83"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "guide",
+    "code": "kuboczochmodpackguide-process-wood-to-workshop",
+    "label": "Wood to a working workshop",
+    "authoredTitle": "process-wood-to-workshop"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "guide",
+    "code": "kuboczochmodpackguide-process-powders-to-ceramics",
+    "label": "Powders to glazed working ceramics",
+    "authoredTitle": "process-powders-to-ceramics"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "guide",
+    "code": "craftinginfo-clayforming",
+    "label": "Crafting Mechanic: Clay forming",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-clayforming-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/03-clayforming.json",
+    "titleKey": "game:craftinginfo-clayforming-title"
+  },
+  {
+    "page": "process-building-materials",
+    "kind": "guide",
+    "code": "chiseltools:chiseltools-guide",
+    "label": "Chisel Tools Guide",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip!assets/chiseltools/lang/en.json",
+    "languageKey": "chiseltools-guide-title",
+    "sha256": "dd30db3ac16113d06d8bffcf4c7cb8f0808a1b0d3e3dacab8b41866e1b813a83",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiselTools1.17.9.zip!assets/chiseltools/config/handbook/chiseltools.json",
+    "titleKey": "chiseltools:chiseltools-guide-title"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "block",
+    "code": "heraldry:heraldryworkbench-east",
+    "label": "Heraldry Workbench",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Heraldry-v2.0.0.zip!assets/heraldry/lang/en.json",
+    "languageKey": "block-heraldryworkbench-*",
+    "sha256": "4195387a9f1ccb9f118a5d69aef3b8a4ff460b2f5f99e82b105a4c7b875275db"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "item",
+    "code": "heraldrybanners:banner",
+    "label": "Banner",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HeraldryBanners-v2.0.0.zip!assets/heraldrybanners/lang/en.json",
+    "languageKey": "item-banner",
+    "sha256": "82a3b00552eadf7f98cb98d043b4870ab520a7bef41d7716dcfb770327c6080d"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "item",
+    "code": "capes:cape",
+    "label": "Cape",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HeraldryCapes-v2.0.0.zip!assets/capes/lang/en.json",
+    "languageKey": "item-cape",
+    "sha256": "7e393c86f60be7cac97fa7cbb8d3179b2bce383a5717d3eff27355971dfae50c"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "block",
+    "code": "windowdisplay:customwindow-plain",
+    "label": "Custom Window",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windowdisplay_1.1.4.zip!assets/windowdisplay/lang/en.json",
+    "languageKey": "windowdisplay:block-customwindow-plain",
+    "sha256": "4304791309d11245a4e8efd409a80b03df2b41b1818e53b31ca13b1443d776b1"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "block",
+    "code": "windchimes:windchime-wood",
+    "label": "Wooden wind chime",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windchimes-1.22.0-v1.5.4.zip!assets/windchimes/lang/en.json",
+    "languageKey": "windchimes:block-windchime-wood",
+    "sha256": "6ccf1d773f04d9415721a38ed4fd80933518b8a68597b9373360054a0a144d3e"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "block",
+    "code": "windchimes:windchime-copper",
+    "label": "Copper wind chime",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/windchimes-1.22.0-v1.5.4.zip!assets/windchimes/lang/en.json",
+    "languageKey": "windchimes:block-windchime-copper",
+    "sha256": "6ccf1d773f04d9415721a38ed4fd80933518b8a68597b9373360054a0a144d3e"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "guide",
+    "code": "kuboczochmodpackguide-process-textiles",
+    "label": "Flax and fleece → cloth and clothes",
+    "authoredTitle": "process-textiles"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "guide",
+    "code": "kuboczochmodpackguide-process-wood-to-workshop",
+    "label": "Wood to a working workshop",
+    "authoredTitle": "process-wood-to-workshop"
+  },
+  {
+    "page": "process-heraldic-decor",
+    "kind": "guide",
+    "code": "craftinginfo-dyemaking",
+    "label": "Crafting Mechanic: Dye making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-dyemaking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/24-dyemaking.json",
+    "titleKey": "game:craftinginfo-dyemaking-title"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "item",
+    "code": "game:ingot-pewter",
+    "label": "Pewter ingot",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/lang/en.json",
+    "languageKey": "game:item-ingot-pewter",
+    "sha256": "cad99f6c1068b41b419a9f804d7af355836da04627216faf7a04f557c988337f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:tablewaremold-blue-raw-bowl",
+    "label": "Raw blue clay bowl mold",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/lang/en.json",
+    "languageKey": "pewter:block-tablewaremold-blue-raw-bowl",
+    "sha256": "cad99f6c1068b41b419a9f804d7af355836da04627216faf7a04f557c988337f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:tablewaremold-blue-fired-bowl",
+    "label": "Earthy brown ceramic bowl mold",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/lang/en.json",
+    "languageKey": "pewter:block-tablewaremold-blue-fired-bowl",
+    "sha256": "cad99f6c1068b41b419a9f804d7af355836da04627216faf7a04f557c988337f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:bowl-pewter",
+    "label": "Pewter bowl",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/lang/en.json",
+    "languageKey": "pewter:block-bowl-pewter",
+    "sha256": "cad99f6c1068b41b419a9f804d7af355836da04627216faf7a04f557c988337f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:candlelamp-pewter-up",
+    "label": "Pewter candle lamp",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/lang/en.json",
+    "languageKey": "pewter:block-candlelamp-pewter-*",
+    "sha256": "cad99f6c1068b41b419a9f804d7af355836da04627216faf7a04f557c988337f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:crock-pewter",
+    "label": "Pewter crock",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pewter_1.5.0.zip!assets/pewter/lang/en.json",
+    "languageKey": "pewter:block-crock-pewter",
+    "sha256": "cad99f6c1068b41b419a9f804d7af355836da04627216faf7a04f557c988337f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:bowl-silver",
+    "label": "Silver bowl",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/lang/en.json",
+    "languageKey": "pewter:block-bowl-silver",
+    "sha256": "7b95c407fb9623aa8d9055170e6ff9ae186c891bcd00caadee51bc3c487e8bc9"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "block",
+    "code": "pewter:bowl-gold",
+    "label": "Gold bowl",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/pagoldsilver_1.1.0.zip!assets/pagoldsilver/lang/en.json",
+    "languageKey": "pewter:block-bowl-gold",
+    "sha256": "7b95c407fb9623aa8d9055170e6ff9ae186c891bcd00caadee51bc3c487e8bc9"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "item",
+    "code": "quiversandsheaths:beltbag-back-quiver-arrows",
+    "label": "Bow quiver",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/quiversfork_0.9.32.zip!assets/quiversandsheaths/lang/en.json",
+    "languageKey": "item-beltbag-*-quiver-arrows",
+    "sha256": "46857a710418423f3fc9ed45318b178ac6536f7bc33b18853501d4850becca4f"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "guide",
+    "code": "kuboczochmodpackguide-process-ore-to-equipment",
+    "label": "Ore to useful metal equipment",
+    "authoredTitle": "process-ore-to-equipment"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "guide",
+    "code": "kuboczochmodpackguide-process-butchering-leather",
+    "label": "Carcass → kitchen, bones and leather",
+    "authoredTitle": "process-butchering-leather"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-smelting",
+    "label": "Crafting Mechanic: Smelting",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-smelting-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/10-smelting.json",
+    "titleKey": "game:craftinginfo-smelting-title"
+  },
+  {
+    "page": "process-tableware-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-leathermaking",
+    "label": "Crafting Mechanic: Leather Making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-leathermaking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/26-leathermaking.json",
+    "titleKey": "game:craftinginfo-leathermaking-title"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "item",
+    "code": "game:drygrass",
+    "label": "Dry grass",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-drygrass",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "item",
+    "code": "game:firewood",
+    "label": "Firewood",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-firewood",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "item",
+    "code": "game:firestarter",
+    "label": "Firestarter",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualFirestarter_0.1.3.zip!assets/game/lang/en.json",
+    "languageKey": "item-firestarter",
+    "sha256": "4243a04929d233d469f2f08f5a2eb5514e2092e8fa813163a67ef13585ad8b89"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "item",
+    "code": "game:firestarter",
+    "label": "Firestarter",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ManualFirestarter_0.1.3.zip!assets/game/lang/en.json",
+    "languageKey": "item-firestarter",
+    "sha256": "4243a04929d233d469f2f08f5a2eb5514e2092e8fa813163a67ef13585ad8b89"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "item",
+    "code": "game:stick",
+    "label": "Stick",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-stick",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "item",
+    "code": "stickroast:roastingstick",
+    "label": "Roasting Stick",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/StickRoast_0.1.0.zip!assets/stickroast/lang/en.json",
+    "languageKey": "item-roastingstick",
+    "sha256": "69211a77b3f97e7e573db977075736c89ebc995c43bb2ed7606b4a073e99f635"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "guide",
+    "code": "craftinginfo-starterguide",
+    "label": "Starter Guide",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-starterguide-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/00-starterguide.json",
+    "titleKey": "game:craftinginfo-starterguide-title"
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "guide",
+    "code": "firestarters-environment-guide",
+    "label": "Firestarting and the environment",
+    "curatedReason": "Installed firestarters environment handbook page; its English language JSON is malformed."
+  },
+  {
+    "page": "process-kitchen-firstfire",
+    "kind": "guide",
+    "code": "craftinginfo-mealcooking",
+    "label": "Crafting Mechanic: Meal making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-mealcooking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/04-mealcooking.json",
+    "titleKey": "game:craftinginfo-mealcooking-title"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "item",
+    "code": "game:flour-spelt",
+    "label": "Spelt flour",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-flour-spelt",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "item",
+    "code": "game:dough-spelt",
+    "label": "Spelt dough",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-dough-spelt",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "item",
+    "code": "fseasonedfirewood:fpreparedfirewood",
+    "label": "Prepared firewood",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tseasonedfirewood_1.2.12.zip!assets/fseasonedfirewood/lang/en.json",
+    "languageKey": "item-fpreparedfirewood",
+    "sha256": "3885072705c5749cec43359eed840bde3d6c66c7da1dccba09adef6a9dad373f"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "item",
+    "code": "fseasonedfirewood:fseasonedfirewood",
+    "label": "Seasoned firewood",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/tseasonedfirewood_1.2.12.zip!assets/fseasonedfirewood/lang/en.json",
+    "languageKey": "item-fseasonedfirewood",
+    "sha256": "3885072705c5749cec43359eed840bde3d6c66c7da1dccba09adef6a9dad373f"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "block",
+    "code": "stonebakeoven:ovencontrollerplain-granite-cold-north",
+    "label": "Plain stone oven heat source (Granite)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/lang/en.json",
+    "languageKey": "block-ovencontrollerplain-granite-*",
+    "sha256": "07ed95561e2393de704cee1cc02ac2c9feeb0a42cff64cfca0abb5efb8c70416"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "block",
+    "code": "stonebakeoven:ovengrillplain-granite-cold-north",
+    "label": "Plain stone oven heat distribution (Granite)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/lang/en.json",
+    "languageKey": "block-ovengrillplain-granite-*",
+    "sha256": "07ed95561e2393de704cee1cc02ac2c9feeb0a42cff64cfca0abb5efb8c70416"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "block",
+    "code": "stonebakeoven:ovenbakingtopplain-granite",
+    "label": "Plain stone oven baking space (Granite)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/lang/en.json",
+    "languageKey": "block-ovenbakingtopplain-granite",
+    "sha256": "07ed95561e2393de704cee1cc02ac2c9feeb0a42cff64cfca0abb5efb8c70416"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "item",
+    "code": "game:dough-spelt",
+    "label": "Spelt dough",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-dough-spelt",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "guide",
+    "code": "stone-bake-oven",
+    "label": "Stone Bake Oven",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/lang/en.json",
+    "languageKey": "game:stone-bake-oven-title",
+    "sha256": "07ed95561e2393de704cee1cc02ac2c9feeb0a42cff64cfca0abb5efb8c70416",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/stonebakeoven_1.4.0.zip!assets/stonebakeoven/config/handbook/stone-bake-oven.json",
+    "titleKey": "game:stone-bake-oven-title"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "guide",
+    "code": "craftinginfo-mealcooking",
+    "label": "Crafting Mechanic: Meal making",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-mealcooking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/04-mealcooking.json",
+    "titleKey": "game:craftinginfo-mealcooking-title"
+  },
+  {
+    "page": "process-kitchen-dough-oven",
+    "kind": "guide",
+    "code": "artsguides-liquidmixing",
+    "label": "Arts Guides: Mixing in the world",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CoreOfArts_1.2.2.zip!assets/coreofart/lang/en.json",
+    "languageKey": "game:artsguides-liquidmixing-title",
+    "sha256": "419eb46dd6aad34bed0614bdcf318d5a4892cea1372e3afcc45e82badf3b18e6",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CoreOfArts_1.2.2.zip!assets/coreofart/config/handbook/01-liquidmixing.json",
+    "titleKey": "game:artsguides-liquidmixing-title"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "block",
+    "code": "game:flower-cornflower-free",
+    "label": "Cornflower",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "block-flower-cornflower-*",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "item",
+    "code": "game:waterportion",
+    "label": "Water",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-waterportion",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "item",
+    "code": "simpletea:teaportion-floral-hot",
+    "label": "Floral Tea",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip!assets/simpletea/lang/en.json",
+    "languageKey": "item-teaportion-floral-hot",
+    "sha256": "74faef65cc2f5af2f6c2617becf629136a9e56f96ddc2ce55dff2e0a1e8f9660"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "block",
+    "code": "tankardsandgoblets:tankard-wood",
+    "label": "Basic Wooden Tankard",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TankardsandGoblets_v1.4.4.zip!assets/tankardsandgoblets/lang/en.json",
+    "languageKey": "block-tankard-wood",
+    "sha256": "9697829f0d30e2bfd8cb76c5ae30edd54c100c2bdcc6af02f34887279317a85d"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "item",
+    "code": "simpletea:teaportion-floral-cold",
+    "label": "Cold Floral Tea",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip!assets/simpletea/lang/en.json",
+    "languageKey": "item-teaportion-floral-cold",
+    "sha256": "74faef65cc2f5af2f6c2617becf629136a9e56f96ddc2ce55dff2e0a1e8f9660"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "block",
+    "code": "foodshelves:coolingcabinet-normal-east",
+    "label": "Cooling Cabinet",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/lang/en.json",
+    "languageKey": "block-coolingcabinet-*",
+    "sha256": "b5a6a005405461e604adb91f6700f264dff2333986925807059bd7624c6b01e5"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "item",
+    "code": "foodshelves:cutice",
+    "label": "Cut ice",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/lang/en.json",
+    "languageKey": "item-cutice",
+    "sha256": "b5a6a005405461e604adb91f6700f264dff2333986925807059bd7624c6b01e5"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "block",
+    "code": "foodshelves:icekeeper-normal-east",
+    "label": "Ice Keeper",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/lang/en.json",
+    "languageKey": "block-icekeeper-*",
+    "sha256": "b5a6a005405461e604adb91f6700f264dff2333986925807059bd7624c6b01e5"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "guide",
+    "code": "simpletea-guide",
+    "label": "Simple Tea: Cooking Guide",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip!assets/simpletea/lang/en.json",
+    "languageKey": "game:simpleteaguide-title",
+    "sha256": "74faef65cc2f5af2f6c2617becf629136a9e56f96ddc2ce55dff2e0a1e8f9660",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/simpletea_1.2.0.zip!assets/simpletea/config/handbook/tea-guide.json",
+    "titleKey": "game:simpleteaguide-title"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "guide",
+    "code": "foodshelvesguide",
+    "label": "Guide to Food Shelves",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/lang/en.json",
+    "languageKey": "foodshelvesguide-title",
+    "sha256": "b5a6a005405461e604adb91f6700f264dff2333986925807059bd7624c6b01e5",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/foodshelves_3.1.1.zip!assets/foodshelves/config/handbook/31-foodshelvesguide.json",
+    "titleKey": "foodshelves:foodshelvesguide-title"
+  },
+  {
+    "page": "process-kitchen-tea-storage",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "block",
+    "code": "immersivewoodworking:choppingblock",
+    "label": "Chopping block",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/lang/en.json",
+    "languageKey": "block-choppingblock",
+    "sha256": "f9bd73bc6385df65e0ab638665746855387fd55b97a60347cb9b28c9d58889e7"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "item",
+    "code": "game:firewood",
+    "label": "Firewood",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-firewood",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "block",
+    "code": "immersivewoodworking:sawhorse",
+    "label": "Sawhorse",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/lang/en.json",
+    "languageKey": "block-sawhorse",
+    "sha256": "f9bd73bc6385df65e0ab638665746855387fd55b97a60347cb9b28c9d58889e7"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "item",
+    "code": "game:stick",
+    "label": "Stick",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-stick",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "item",
+    "code": "game:saw-copper",
+    "label": "Copper saw",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-saw-copper",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "item",
+    "code": "immersivewoodworking:pitsaw-copper",
+    "label": "Copper pit saw",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/lang/en.json",
+    "languageKey": "item-pitsaw-copper",
+    "sha256": "f9bd73bc6385df65e0ab638665746855387fd55b97a60347cb9b28c9d58889e7"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "item",
+    "code": "game:plank-oak",
+    "label": "Board (Oak)",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-plank-oak",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "block",
+    "code": "toolsmith:workbench-north",
+    "label": "Workbench",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "toolsmith:block-workbench-north",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "block",
+    "code": "toolsmith:grindstone-granite-north",
+    "label": "Granite Grindstone",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "toolsmith:block-grindstone-granite-north",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "guide",
+    "code": "craftinginfo-woodworking",
+    "label": "Crafting Mechanic: Immersive Woodworking",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/immersivewoodworking_1.3.13.zip!assets/immersivewoodworking/lang/en.json",
+    "languageKey": "craftinginfo-woodworking-title",
+    "sha256": "f9bd73bc6385df65e0ab638665746855387fd55b97a60347cb9b28c9d58889e7"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "guide",
+    "code": "gamemechanicinfo-mechanicalpower",
+    "label": "Game Mechanic: Mechanical Power",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-mechanicalpower-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/15-mechanicalpower.json",
+    "titleKey": "game:gamemechanicinfo-mechanicalpower-title"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "guide",
+    "code": "craftinginfo-toolsmithcraftingmethods",
+    "label": "Toolsmithing - Crafting and Deconstruction Methods",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "game:craftinginfo-toolsmithcraftingmethods-title",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/config/handbook/toolsmithing-craftingmethods.json",
+    "titleKey": "game:craftinginfo-toolsmithcraftingmethods-title"
+  },
+  {
+    "page": "process-wood-to-workshop",
+    "kind": "guide",
+    "code": "craftinginfo-toolsmithdurabilityandwear",
+    "label": "Toolsmithing - Durability, Sharpness and Wear",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "game:craftinginfo-toolsmithdurabilityandwear-title",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/config/handbook/toolsmithing-durabilityandwear.json",
+    "titleKey": "game:craftinginfo-toolsmithdurabilityandwear-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "item",
+    "code": "game:charcoal",
+    "label": "Charcoal",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-charcoal",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "block",
+    "code": "game:crucible-blue-fired",
+    "label": "Earthy brown ceramic crucible",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "block-crucible-blue-*",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "item",
+    "code": "game:ingot-copper",
+    "label": "Copper ingot",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-ingot-copper",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "block",
+    "code": "toolsmith:workbench-north",
+    "label": "Workbench",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "toolsmith:block-workbench-north",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "item",
+    "code": "game:ingot-iron",
+    "label": "Iron ingot",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-ingot-iron",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "gamemechanicinfo-prospecting",
+    "label": "Game Mechanic: Prospecting",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-prospecting-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/12-prospecting.json",
+    "titleKey": "game:gamemechanicinfo-prospecting-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-charcoalburning",
+    "label": "Crafting Mechanic: Charcoal burning",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-charcoalburning-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/05-charcoalburning.json",
+    "titleKey": "game:craftinginfo-charcoalburning-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-smelting",
+    "label": "Crafting Mechanic: Smelting",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-smelting-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/10-smelting.json",
+    "titleKey": "game:craftinginfo-smelting-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-smithing",
+    "label": "Crafting Mechanic: Smithing",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-smithing-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/11-smithing.json",
+    "titleKey": "game:craftinginfo-smithing-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-toolsmithcraftingmethods",
+    "label": "Toolsmithing - Crafting and Deconstruction Methods",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "game:craftinginfo-toolsmithcraftingmethods-title",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/config/handbook/toolsmithing-craftingmethods.json",
+    "titleKey": "game:craftinginfo-toolsmithcraftingmethods-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-toolsmithdurabilityandwear",
+    "label": "Toolsmithing - Durability, Sharpness and Wear",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "game:craftinginfo-toolsmithdurabilityandwear-title",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/config/handbook/toolsmithing-durabilityandwear.json",
+    "titleKey": "game:craftinginfo-toolsmithdurabilityandwear-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-toolsmithreforging",
+    "label": "Toolsmithing - Secrets of the Reforge",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/lang/en.json",
+    "languageKey": "game:craftinginfo-toolsmithreforging-title",
+    "sha256": "0a12ba9edda4f40030cce9baa61abcda2000d80d1a0ffe9929d2835d0e21e8f6",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/toolsmith_1.2.19.zip!assets/toolsmith/config/handbook/toolsmithing-reforging.json",
+    "titleKey": "game:craftinginfo-toolsmithreforging-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "craftinginfo-quenching",
+    "label": "Crafting Mechanic: Quenching and Tempering",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-quenching-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/21-quenching.json",
+    "titleKey": "game:craftinginfo-quenching-title"
+  },
+  {
+    "page": "process-ore-to-equipment",
+    "kind": "guide",
+    "code": "gamemechanicinfo-steelmaking",
+    "label": "Game Mechanic: Steelmaking",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-steelmaking-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/16-steelmaking.json",
+    "titleKey": "game:gamemechanicinfo-steelmaking-title"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "em:powdered-ore-quartz",
+    "label": "Powdered quartz",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/expanded_matter-3.8.3.zip!assets/em/lang/en.json",
+    "languageKey": "em:item-powdered-ore-quartz",
+    "sha256": "c589f097715643e2cf6ba4f8c65db61f1f6c8158ad6f210e0155ec26ddce4d84"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "em:powdered-metal-copper",
+    "label": "Powdered copper",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/expanded_matter-3.8.3.zip!assets/em/lang/en.json",
+    "languageKey": "em:item-powdered-metal-copper",
+    "sha256": "c589f097715643e2cf6ba4f8c65db61f1f6c8158ad6f210e0155ec26ddce4d84"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "bricklayers:glazingbase-clay",
+    "label": "Clay slurry (1 litre)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:item-glazingbase-clay",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "bricklayers:glazingbase-clear",
+    "label": "Clear glazing base (1 litre)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:item-glazingbase-clear",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "bricklayers:frit-mix-blue",
+    "label": "Frit mix (Blue)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:item-frit-mix-blue",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "bricklayers:frit-baked-blue",
+    "label": "Baked frit (Blue)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:item-frit-baked-blue",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "bricklayers:frit-ground-blue",
+    "label": "Ground frit (Blue)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:item-frit-ground-blue",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "item",
+    "code": "bricklayers:glazing-clear-blue",
+    "label": "Glazing (Clear blue, 1 litre)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:item-glazing-clear-blue",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "block",
+    "code": "bricklayers:glazedbowl-raw-clear-blue-plain",
+    "label": "Raw glazed bowl (Blue)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:block-glazedbowl-raw-clear-blue-plain",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "block",
+    "code": "bricklayers:glazedbowl-burnt-clear-blue-plain",
+    "label": "Glazed bowl (Blue)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:block-glazedbowl-burnt-clear-blue-plain",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "guide",
+    "code": "bricklayers:craftinginfo-glazedceramics",
+    "label": "Crafting Mechanic: Glazing Ceramics",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:craftinginfo-glazedceramics-title",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/config/handbook/100-glazed_ceramics.json",
+    "titleKey": "bricklayers:craftinginfo-glazedceramics-title"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "guide",
+    "code": "bricklayers:craftinginfo-coloredclay",
+    "label": "Crafting Mechanic: Colored Pottery & Porcelain",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:craftinginfo-coloredclay-title",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/config/handbook/110-colored_clay.json",
+    "titleKey": "bricklayers:craftinginfo-coloredclay-title"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "guide",
+    "code": "bricklayers:craftinginfo-coloredglass",
+    "label": "Crafting Mechanic: Colored Glass",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/lang/en.json",
+    "languageKey": "bricklayers:craftinginfo-coloredglass-title",
+    "sha256": "455947848d3b3a2439863b530ffbbcc89ab077cc0bb4e36ce2d35b0e2a28a70c",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/bricklayers-3.3.4.zip!assets/bricklayers/config/handbook/120-colored_glass.json",
+    "titleKey": "bricklayers:craftinginfo-coloredglass-title"
+  },
+  {
+    "page": "process-powders-to-ceramics",
+    "kind": "guide",
+    "code": "gamemechanicinfo-mechanicalpower",
+    "label": "Game Mechanic: Mechanical Power",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-mechanicalpower-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/15-mechanicalpower.json",
+    "titleKey": "game:gamemechanicinfo-mechanicalpower-title"
+  },
+  {
+    "page": "process-workshop-storage",
+    "kind": "item",
+    "code": "game:firewood",
+    "label": "Firewood",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-firewood",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-workshop-storage",
+    "kind": "item",
+    "code": "game:plank-oak",
+    "label": "Board (Oak)",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-plank-oak",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "process-workshop-storage",
+    "kind": "block",
+    "code": "purposefulstorage:resourcebin-normal-north",
+    "label": "Resource Bin",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/purposefulstorage_2.3.1.zip!assets/purposefulstorage/lang/en.json",
+    "languageKey": "block-resourcebin-*",
+    "sha256": "7c33989e3964d4b42bdd96ea73a06c964f60bb28fdc7d8f8813b84a9da04445e"
+  },
+  {
+    "page": "process-workshop-storage",
+    "kind": "block",
+    "code": "containersbundle:foodcupboard-east",
+    "label": "Food cupboard",
+    "curatedReason": "Food cupboard block definition; east is placement orientation, not part of its name."
+  },
+  {
+    "page": "process-workshop-storage",
+    "kind": "guide",
+    "code": "gamemechanicinfo-groundstorage",
+    "label": "Game Mechanic: Ground Storage",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-groundstorage-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/25-groundstorage.json",
+    "titleKey": "game:gamemechanicinfo-groundstorage-title"
+  },
+  {
+    "page": "process-workshop-storage",
+    "kind": "guide",
+    "code": "gamemechanicinfo-foodpreservation",
+    "label": "Game Mechanic: Food preservation",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-foodpreservation-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/07-foodpreservation.json",
+    "titleKey": "game:gamemechanicinfo-foodpreservation-title"
+  },
+  {
+    "page": "world-overland",
+    "kind": "item",
+    "code": "walkingstick:walkingstick-crude",
+    "label": "Crude walking stick",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip!assets/walkingstick/lang/en.json",
+    "languageKey": "item-walkingstick-crude",
+    "sha256": "23ec0698a901b9f4134d291a3787619ebf1ab886f8c1044891f8aa84b04dab94"
+  },
+  {
+    "page": "world-overland",
+    "kind": "block",
+    "code": "kscartographytable:cartographytable-filled-north",
+    "label": "Cartography table",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip!assets/kscartographytable/lang/en.json",
+    "languageKey": "block-cartographytable-*",
+    "sha256": "1326478558adbb2fae7fdbc68d5d7b6701941fc4a8de73ada9be5c35ecae15eb"
+  },
+  {
+    "page": "world-overland",
+    "kind": "item",
+    "code": "kscartographytable:quill",
+    "label": "Quill",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip!assets/kscartographytable/lang/en.json",
+    "languageKey": "item-quill",
+    "sha256": "1326478558adbb2fae7fdbc68d5d7b6701941fc4a8de73ada9be5c35ecae15eb"
+  },
+  {
+    "page": "world-overland",
+    "kind": "guide",
+    "code": "walkingstick-guide",
+    "label": "Walking Sticks Guide",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip!assets/walkingstick/lang/en.json",
+    "languageKey": "game:walkingstick-guide-title",
+    "sha256": "23ec0698a901b9f4134d291a3787619ebf1ab886f8c1044891f8aa84b04dab94",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip!assets/walkingstick/config/handbook/walkingstick-guide.json",
+    "titleKey": "game:walkingstick-guide-title"
+  },
+  {
+    "page": "world-overland",
+    "kind": "guide",
+    "code": "sharingwaypointsguide",
+    "label": "Game Mechanic: Sharing Waypoints and Maps",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip!assets/kscartographytable/lang/en.json",
+    "languageKey": "gamemechanicinfo-sharingwaypoints-title",
+    "sha256": "1326478558adbb2fae7fdbc68d5d7b6701941fc4a8de73ada9be5c35ecae15eb",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip!assets/kscartographytable/config/handbook/cartographytableguide.json",
+    "titleKey": "kscartographytable:gamemechanicinfo-sharingwaypoints-title"
+  },
+  {
+    "page": "world-overland",
+    "kind": "guide",
+    "code": "gamemechanicinfo-trails",
+    "label": "Game Mechanic: Natural Trails & Roads",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NaturalTrailsMod_1.3.21.zip!assets/trailmod/lang/en.json",
+    "languageKey": "gamemechanicinfo-trails-title",
+    "sha256": "4942e541fbf1788b165c48de84bef8784ab8073226e82631712f715c848d7837",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NaturalTrailsMod_1.3.21.zip!assets/trailmod/config/handbook/25-trails.json",
+    "titleKey": "trailmod:gamemechanicinfo-trails-title"
+  },
+  {
+    "page": "world-water",
+    "kind": "item",
+    "code": "game:rope",
+    "label": "Coil of rope",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-rope",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "world-water",
+    "kind": "guide",
+    "code": "roughseas-goingtosea",
+    "label": "Rough Seas: Going to Sea",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/lang/en.json",
+    "languageKey": "guide-goingtosea-title",
+    "sha256": "f36bc996cf52e123c50cf4ca718df6aaf2744ebdbe527c83d0b6b299776f6a6e",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/config/handbook/00-goingtosea.json",
+    "titleKey": "roughseas:guide-goingtosea-title"
+  },
+  {
+    "page": "world-water",
+    "kind": "guide",
+    "code": "roughseas-weather",
+    "label": "Rough Seas: Wind, Storms and Currents",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/lang/en.json",
+    "languageKey": "guide-weather-title",
+    "sha256": "f36bc996cf52e123c50cf4ca718df6aaf2744ebdbe527c83d0b6b299776f6a6e",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/config/handbook/01-weather.json",
+    "titleKey": "roughseas:guide-weather-title"
+  },
+  {
+    "page": "world-water",
+    "kind": "guide",
+    "code": "roughseas-vessels",
+    "label": "Rough Seas: Vessels and Their Repair",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/lang/en.json",
+    "languageKey": "guide-vessels-title",
+    "sha256": "f36bc996cf52e123c50cf4ca718df6aaf2744ebdbe527c83d0b6b299776f6a6e",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/config/handbook/02-vessels.json",
+    "titleKey": "roughseas:guide-vessels-title"
+  },
+  {
+    "page": "world-water",
+    "kind": "guide",
+    "code": "roughseas-surf",
+    "label": "Rough Seas: Surf, Swamping and Bailing",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/lang/en.json",
+    "languageKey": "guide-surf-title",
+    "sha256": "f36bc996cf52e123c50cf4ca718df6aaf2744ebdbe527c83d0b6b299776f6a6e",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/config/handbook/03-surf.json",
+    "titleKey": "roughseas:guide-surf-title"
+  },
+  {
+    "page": "world-water",
+    "kind": "guide",
+    "code": "roughseas-mooring",
+    "label": "Rough Seas: Mooring and Anchoring",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/lang/en.json",
+    "languageKey": "guide-mooring-title",
+    "sha256": "f36bc996cf52e123c50cf4ca718df6aaf2744ebdbe527c83d0b6b299776f6a6e",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip!assets/roughseas/config/handbook/04-mooring.json",
+    "titleKey": "roughseas:guide-mooring-title"
+  },
+  {
+    "page": "world-survival",
+    "kind": "item",
+    "code": "game:flaxtwine",
+    "label": "Flax twine",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-flaxtwine",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "world-survival",
+    "kind": "item",
+    "code": "game:bandage-clean",
+    "label": "Clean bandage",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "item-bandage-clean",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561"
+  },
+  {
+    "page": "world-survival",
+    "kind": "guide",
+    "code": "craftinginfo-armor",
+    "label": "Crafting Mechanic: Armor",
+    "source": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/game/lang/en.json",
+    "languageKey": "craftinginfo-armor-title",
+    "sha256": "41332bcc7bd96be10e0294a82895a4de3dba66d38e219d6fe72ab9ffd1f50561",
+    "handbookSource": "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/config/handbook/14-armor.json",
+    "titleKey": "game:craftinginfo-armor-title"
+  },
+  {
+    "page": "world-trade",
+    "kind": "block",
+    "code": "coins:mint-east",
+    "label": "Mint",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/lang/en.json",
+    "languageKey": "coins:block-mint-*",
+    "sha256": "5d943ba603e844165b275d091cb9708e4ee2e74eae8b0b6cb370debb44e81db1"
+  },
+  {
+    "page": "world-trade",
+    "kind": "item",
+    "code": "coins:wallet",
+    "label": "Wallet",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/lang/en.json",
+    "languageKey": "coins:item-wallet",
+    "sha256": "5d943ba603e844165b275d091cb9708e4ee2e74eae8b0b6cb370debb44e81db1"
+  },
+  {
+    "page": "world-trade",
+    "kind": "item",
+    "code": "coins:banknote-1",
+    "label": "Banknote (1)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/lang/en.json",
+    "languageKey": "coins:item-banknote-1",
+    "sha256": "5d943ba603e844165b275d091cb9708e4ee2e74eae8b0b6cb370debb44e81db1"
+  },
+  {
+    "page": "world-trade",
+    "kind": "item",
+    "code": "coins:banknote-1",
+    "label": "Banknote (1)",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/lang/en.json",
+    "languageKey": "coins:item-banknote-1",
+    "sha256": "5d943ba603e844165b275d091cb9708e4ee2e74eae8b0b6cb370debb44e81db1"
+  },
+  {
+    "page": "world-trade",
+    "kind": "guide",
+    "code": "coins-money",
+    "label": "Money and currencies",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/lang/en.json",
+    "languageKey": "coins:handbook-money-title",
+    "sha256": "5d943ba603e844165b275d091cb9708e4ee2e74eae8b0b6cb370debb44e81db1",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip!assets/coins/config/handbook/coins-money.json",
+    "titleKey": "coins:handbook-money-title"
+  },
+  {
+    "page": "world-trade",
+    "kind": "guide",
+    "code": "gamemechanicinfo-coinage",
+    "label": "Coins",
+    "source": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coinage-2.4.0.zip!assets/game/lang/en.json",
+    "languageKey": "gamemechanicinfo-coinage-title",
+    "sha256": "290090975a6f937dd14f4474e174b4b9dbc6b07fd045b86b0ddfef88583761a0",
+    "handbookSource": "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coinage-2.4.0.zip!assets/game/config/handbook/56-guide-coins.json",
+    "titleKey": "game:gamemechanicinfo-coinage-title"
+  }
+]

@@ -1,0 +1,32 @@
+$ /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet build src/KuboczochVisualMining.csproj -c Release -p:GameDir=/home/brunette/.hermes/cache/scratch/vs-freeze/game-api
+exit=0
+  Determining projects to restore...
+  Restored /home/brunette/.hermes/cache/scratch/kvm104-source-_av__t7p/src/KuboczochVisualMining.csproj (in 51 ms).
+  KuboczochVisualMining -> /home/brunette/.hermes/cache/scratch/kvm104-source-_av__t7p/src/bin/Release/net10.0/KuboczochVisualMining.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+$ python tests/run_verification.py --dotnet /home/brunette/.hermes/cache/scratch/woodworking-tutorial/dotnet/dotnet --game /home/brunette/.hermes/cache/scratch/vs-freeze/game-api
+exit=0
+integration-green.txt: PASS (exit=0)
+voxel.txt: PASS (exit=0)
+sound.txt: PASS (exit=0)
+Verified fixture count: 57
+PASS real tests; artifacts are CPU observations, not rendered gameplay evidence
+
+$ python audit.py
+exit=0
+PASS metadata: independent client-only modid, author, game dependency, no IM dependency
+PASS assets: 16 additive animation-only operations, 8 distinct registered clips, no gameplay patches or game-domain overrides
+PASS offhand: all 4 variant clips exclude left-arm keyframes
+PASS production audit: no block writes, networking, durability mutation, resistance mutation or hand-use assignments
+NOTE static invariants plus headless tests are not a rendered in-game acceptance test
+
+Original DLL SHA256 179295a113fc618622c84c0f12b3dc6852ecf5410bdcccd1d15c0a6bb84843e5
+Fresh DLL SHA256 6b957a8a69101b4458e557f3fdeb41c66ff2e0622f1fa80ef007c15e4b3cf036
+Byte-identical DLL: False
+Fresh directory: /home/brunette/.hermes/cache/scratch/kvm104-source-_av__t7p

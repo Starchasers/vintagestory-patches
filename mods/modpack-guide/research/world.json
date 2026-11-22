@@ -1,0 +1,1513 @@
+{
+  "pages": [
+    {
+      "code": "world-overland",
+      "title": "Plan an overland route and share it",
+      "intro": "Build a return route before taking a long expedition. This pack changes both terrain and movement; a single movement trick is not a substitute for supplies.",
+      "steps": [
+        {
+          "label": "1. Make a starter walking stick",
+          "text": "Follow the crude-stick recipe: three sticks on a diagonal, with a rope immediately left of the centre stick (pattern __S / RS_ / S__). Its pack config grants AutoStep and a hunger modifier of -5; unlike better sticks, it has no WalkingSpeed entry. Equip it as a walking aid; the native guide describes passive bonuses while equipped.",
+          "items": [
+            {
+              "type": "item",
+              "code": "walkingstick:walkingstick-crude"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip::assets/walkingstick/recipes/grid/walkingstick-crude.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip::assets/walkingstick/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/WalkingSticks/walkingstick-crude.json"
+          ]
+        },
+        {
+          "label": "2. Choose a forgiving route",
+          "text": "Scout a route back to shelter before trying cliffs. Terrain is affected by Watersheds, Rivers and Terra Prety. Mountain climbing is configured for Stone and Ore materials, with climb stamina cost 5 per second and jump stamina cost 20. Charged jumping has maxCharge 0.15 and sprint-jump disabled. Test movement on low ground; these pages do not prescribe unverified default keybinds.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/ClimbMountain.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/ChargedJumpConfig.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/TerraPrety.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/watersheds_7.0.6.zip::modinfo.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/rivers_5.0.3.zip::modinfo.json"
+          ]
+        },
+        {
+          "label": "3. Build a shared waypoint station",
+          "text": "Make a cartography table using its native recipe. Take the quill by right-clicking the ink-and-quill on the placed table. With the quill, right-click its map to write your changes; Ctrl + right-click reads the table changes into your map. Each table has its own shared waypoints; deletions are copied too.",
+          "items": [
+            {
+              "type": "block",
+              "code": "kscartographytable:cartographytable-filled-north"
+            },
+            {
+              "type": "item",
+              "code": "kscartographytable:quill"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/blocktypes/cartographytable.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/itemtypes/tool/quill.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/recipes/grid/cartographytable.json"
+          ]
+        },
+        {
+          "label": "4. Make repeat journeys easier",
+          "text": "Use the same path repeatedly to develop a trail. Only players create trails here; TrailDevolveDays is 60 and TrampledSoilDevolveDays is 4, so paths are not permanent. For group exploration, the advanced cartography table also shares explored areas; the ordinary table shares waypoints.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/TrailModConfig.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NaturalTrailsMod_1.3.21.zip::assets/trailmod/config/handbook/25-trails.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/lang/en.json"
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "code": "walkingstick-guide",
+          "label": "Walking sticks"
+        },
+        {
+          "code": "sharingwaypointsguide",
+          "label": "Cartography and sharing waypoints"
+        },
+        {
+          "code": "gamemechanicinfo-trails",
+          "label": "Trails"
+        }
+      ],
+      "mods": [
+        "walkingstick",
+        "watersheds",
+        "rivers",
+        "terraprety",
+        "climbmountain",
+        "chargedjump",
+        "kscartographytable",
+        "trailmodmaro"
+      ]
+    },
+    {
+      "code": "world-water",
+      "title": "Prepare, cross, and secure a vessel",
+      "intro": "Use the native Rough Seas guides for vessel-specific repairs and bailing. Quiet Rough Seas changes some behaviour, so these are not unmodified vanilla boats.",
+      "steps": [
+        {
+          "label": "1. Check the water before launching",
+          "text": "Watch the wind, treetops, darkening sky and swell. Plan a short crossing with a sheltered landing, and turn back as storms approach. Rough Seas describes lightning and dangerous surf; a boat is not a safe place to wait out a storm.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/01-weather.json"
+          ]
+        },
+        {
+          "label": "2. Pack for the actual vessel",
+          "text": "Read Vessels and Their Repair, inspect the hull, and take its repair materials plus a bowl or bucket for bailing. Different vessels have different repair requirements; do not assume one repair material works for every hull.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/02-vessels.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/03-surf.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/lang/en.json"
+          ]
+        },
+        {
+          "label": "3. Do not depend on river propulsion",
+          "text": "Quiet Rough Seas sets RiversPushBoats to false and both paddling/sculling stroke multipliers to 8. Its metadata also restricts boat hit damage to axes. That does not make a hull stormproof or replace repairs. Swimming/armour-load advice and patch-specific keys are deliberately omitted pending code-level verification.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/quietroughseas_1.5.0.zip::modinfo.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/quietroughseas.json"
+          ]
+        },
+        {
+          "label": "4. Moor before stepping ashore",
+          "text": "With a rope, right-click the vessel and then a fence post ashore. Use the rope tool-mode control to adjust its length; a longer rope permits a wider swing. A sailboat can instead lower its anchor by right-clicking it with an empty hand, and raise it the same way. Storms can drag or break moorings: leave valuables ashore.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:rope"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/04-mooring.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/lang/en.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/rope.json"
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "code": "roughseas-goingtosea",
+          "label": "Going to Sea"
+        },
+        {
+          "code": "roughseas-weather",
+          "label": "Wind, Storms and Currents"
+        },
+        {
+          "code": "roughseas-vessels",
+          "label": "Vessels and Their Repair"
+        },
+        {
+          "code": "roughseas-surf",
+          "label": "Surf, Swamping and Bailing"
+        },
+        {
+          "code": "roughseas-mooring",
+          "label": "Mooring and Anchoring"
+        }
+      ],
+      "mods": [
+        "roughseas",
+        "quietroughseas",
+        "rivers"
+      ]
+    },
+    {
+      "code": "world-survival",
+      "title": "Prepare a recovery kit before a fight",
+      "intro": "Combat Overhaul, Armory and Downed change the risk of travel. Prepare healing and a retreat before hunting or fighting; do not treat surviving defeat as free healing.",
+      "steps": [
+        {
+          "label": "1. Make a small healing reserve",
+          "text": "Place two flax twine vertically in the crafting grid to make two clean bandages. Keep them accessible before leaving shelter. The clean bandage is a real healing item, not an ingredient-only preview.",
+          "items": [
+            {
+              "type": "item",
+              "code": "game:flaxtwine"
+            },
+            {
+              "type": "item",
+              "code": "game:bandage-clean"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/recipes/grid/bandage.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/bandage.json",
+            "/home/brunette/.hermes/cache/scratch/woodworking-tutorial/vs/assets/survival/itemtypes/resource/flaxtwine.json"
+          ]
+        },
+        {
+          "label": "2. Check the combat settings",
+          "text": "This pack enables melee swings stopping on terrain, while spear directional attacks are disabled. Spear aiming difficulty and thrown-distance settings are both 1. Vanilla armour grid recipes are disabled, so use the current item recipes rather than treating the vanilla armour guide as authoritative. Practise in open ground and use the current weapon controls shown by the game rather than a guessed attack key.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/combatoverhaul.yaml"
+          ]
+        },
+        {
+          "label": "3. Retreat with a recovery plan",
+          "text": "Downed duration is 300 seconds here, self-revive is disabled and the map is hidden while downed. Passed-out recovery is also disabled. Agree where companions should regroup before splitting up. Do not promise automatic recovery: the exact rescue interaction is not established by this config and is not invented here.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/downed.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/downed_2.9.0.zip::modinfo.json"
+          ]
+        },
+        {
+          "label": "4. Track and recover cautiously",
+          "text": "Blood Trail adds blood trails to animals wounded by a player. Follow tracks only when the return route and your remaining healing are adequate. Immersive Corpse Drop makes harvested corpse contents drop without a loot UI, so check the ground after harvesting rather than waiting for a container window.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BloodTrail-v1.2.13.zip::modinfo.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Immersive Corpse Drop 1.0.4 (Vintagestory 1.22).zip::modinfo.json"
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "code": "craftinginfo-armor",
+          "label": "Native armour guide: crafting reference, not proof of current combat controls"
+        }
+      ],
+      "mods": [
+        "combatoverhaulfork",
+        "armoryfork",
+        "downed",
+        "bloodtrail",
+        "immersivecorpsedrop"
+      ]
+    },
+    {
+      "code": "world-trade",
+      "title": "Agree a currency and make a small trade",
+      "intro": "Coins and Coinage are separate systems. Player-issued notes are not automatically metal coins or trader gears. Agree on the issuer and denomination before posting a price.",
+      "steps": [
+        {
+          "label": "1. Found a note currency",
+          "text": "Craft and place a Coins mint using its native recipe, then right-click it. Choose a name, a 2–4 letter symbol and a colour. Your first personal currency is free. Mint a small quantity of 1-notes first; unlimited minting does not guarantee anyone will accept them. This pack permits at most three currencies per player.",
+          "items": [
+            {
+              "type": "block",
+              "code": "coins:mint-east"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/blocktypes/mint.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/coins.json"
+          ]
+        },
+        {
+          "label": "2. Store money without hiding your payment",
+          "text": "Deposit notes by dragging them onto a wallet, or open the wallet and choose Deposit all notes. Withdraw before buying at a note-accepting shop: the Coins guide says shops take loose notes, not wallet balances. Losing the wallet loses its contents.",
+          "items": [
+            {
+              "type": "item",
+              "code": "coins:wallet"
+            },
+            {
+              "type": "item",
+              "code": "coins:banknote-1"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/itemtypes/wallet.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/itemtypes/banknote.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/lang/en.json"
+          ]
+        },
+        {
+          "label": "3. Make the exact change",
+          "text": "A shop asking for five 1-notes will not take a 10-note. Craft one 10-note into ten 1-notes, or one 100-note into ten 10-notes. Different currencies never mix. Use the Coinage guide separately for metal coin-making; no exchange rate between the two mods is established. Coinage requires hammer tool tier 3. Food still decays in Vinconomy shops here (stall perish rate 0.015).",
+          "items": [
+            {
+              "type": "item",
+              "code": "coins:banknote-1"
+            }
+          ],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coinage-2.4.0.zip::assets/game/config/handbook/56-guide-coins.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/coinage.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/vinconomy.json"
+          ]
+        },
+        {
+          "label": "4. Coordinate a group",
+          "text": "At a bound mint the founder can add players under Shared with. They can mint that currency, but cannot rename or transfer it. Use a notice board to advertise issuer, denomination and meeting place; its UI provides Compose notice. Ownership and posting permissions still apply. Tabletop Games is optional social play, not a prerequisite for trading. For Hand to Hand, the config requires the receiver to hold R; one-sided forced handoff is disabled.",
+          "items": [],
+          "evidence": [
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NoticeBoard_3.0.4.zip::assets/noticeboard/lang/en.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TabletopGames-v4.0.1.zip::modinfo.json",
+            "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/HandToHandConfig.json"
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "code": "coins-money",
+          "label": "Player-issued money and wallets"
+        },
+        {
+          "code": "gamemechanicinfo-coinage",
+          "label": "Metal coin-making: separate currency system"
+        }
+      ],
+      "mods": [
+        "coins",
+        "coinage",
+        "noticeboard",
+        "vinconomy",
+        "commercially",
+        "handtohand",
+        "tabletopgames"
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "modid": "walkingstick",
+      "group": "travel",
+      "impact": "Equipable walking aids; crude stick has no speed config, AutoStep true, Hunger -5.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip::assets/walkingstick/lang/en.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/adventurers-walking-stick-net10_3.0.12.zip::assets/walkingstick/recipes/grid/walkingstick-crude.json"
+      ],
+      "vanilla_delta": "Equipable walking aids; crude stick has no speed config, AutoStep true, Hunger -5.",
+      "interactions": [
+        "catchledge: empty hands required; do not assume equipped-stick ledge grabbing"
+      ]
+    },
+    {
+      "modid": "watersheds",
+      "group": "world",
+      "impact": "World-generation overhaul: route-finding context, not a craft unlock.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/watersheds_7.0.6.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/watersheds_7.0.6.zip::modinfo.json"
+      ],
+      "vanilla_delta": "World-generation overhaul: route-finding context, not a craft unlock.",
+      "interactions": [
+        "world-overland"
+      ]
+    },
+    {
+      "modid": "rivers",
+      "group": "world",
+      "impact": "Adds rivers; do not promise boat current transport with Quiet Rough Seas.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/rivers_5.0.3.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/rivers_5.0.3.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Adds rivers; do not promise boat current transport with Quiet Rough Seas.",
+      "interactions": [
+        "world-overland",
+        "world-water"
+      ]
+    },
+    {
+      "modid": "terraprety",
+      "group": "world",
+      "impact": "Natural-terrain world-generation redesign.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TerraPrety_7.11.1.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/TerraPrety.json"
+      ],
+      "vanilla_delta": "Natural-terrain world-generation redesign.",
+      "interactions": [
+        "world-overland"
+      ]
+    },
+    {
+      "modid": "kscartographytable",
+      "group": "travel",
+      "impact": "Table-local waypoint exchange; advanced table also exchanges explored map areas.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/blocktypes/cartographytable.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/itemtypes/tool/quill.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KsCartographyTable_v2.0.4.zip::assets/kscartographytable/lang/en.json"
+      ],
+      "vanilla_delta": "Table-local waypoint exchange; advanced table also exchanges explored map areas.",
+      "interactions": [
+        "world-overland"
+      ]
+    },
+    {
+      "modid": "trailmodmaro",
+      "group": "travel",
+      "impact": "Only players create trails; trail and trampled-soil devolution are configured, not disabled.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NaturalTrailsMod_1.3.21.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/TrailModConfig.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NaturalTrailsMod_1.3.21.zip::assets/trailmod/config/handbook/25-trails.json"
+      ],
+      "vanilla_delta": "Repeated player passage changes trails; configured devolution 4/60 days. No claim of permanent roads.",
+      "interactions": [
+        "world-overland"
+      ]
+    },
+    {
+      "modid": "roughseas",
+      "group": "travel",
+      "impact": "Weather, vessel damage, repair, swamping and mooring systems.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/01-weather.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/02-vessels.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/03-surf.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/config/handbook/04-mooring.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/roughseas_4.4.0.zip::assets/roughseas/lang/en.json"
+      ],
+      "vanilla_delta": "Weather, vessel damage, repair, swamping and mooring systems.",
+      "interactions": [
+        "world-water"
+      ]
+    },
+    {
+      "modid": "coins",
+      "group": "trade-community",
+      "impact": "Player-issued notes, personal/shared currencies, mint and wallet; denominations 1/10/100.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/blocktypes/mint.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/itemtypes/banknote.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/itemtypes/wallet.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/lang/en.json"
+      ],
+      "vanilla_delta": "Player-issued notes, personal/shared currencies, mint and wallet; denominations 1/10/100.",
+      "interactions": [
+        "world-trade"
+      ]
+    },
+    {
+      "modid": "coinage",
+      "group": "trade-community",
+      "impact": "Metal coin-making with a separate native guide; not proven interchangeable with Coins notes.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coinage-2.4.0.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coinage-2.4.0.zip::assets/game/config/handbook/56-guide-coins.json"
+      ],
+      "vanilla_delta": "Metal coin-making with a separate native guide; not proven interchangeable with Coins notes.",
+      "interactions": [
+        "world-trade"
+      ]
+    },
+    {
+      "modid": "downed",
+      "group": "combat-survival",
+      "impact": "300-second downed state; no self-revive, no passed-out recovery, hidden map.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/downed_2.9.0.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/downed.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/downed_2.9.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "300-second downed state; no self-revive, no passed-out recovery, hidden map.",
+      "interactions": [
+        "world-survival"
+      ]
+    },
+    {
+      "modid": "bloodtrail",
+      "group": "combat-survival",
+      "impact": "Player-wounded animals leave blood trails.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BloodTrail-v1.2.13.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BloodTrail-v1.2.13.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Player-wounded animals leave blood trails.",
+      "interactions": [
+        "world-survival"
+      ]
+    },
+    {
+      "modid": "immersivecorpsedrop",
+      "group": "combat-survival",
+      "impact": "Harvested corpses drop loot without a container UI.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Immersive Corpse Drop 1.0.4 (Vintagestory 1.22).zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Immersive Corpse Drop 1.0.4 (Vintagestory 1.22).zip::modinfo.json"
+      ],
+      "vanilla_delta": "Harvested corpses drop loot without a container UI.",
+      "interactions": [
+        "world-survival"
+      ]
+    },
+    {
+      "modid": "noticeboard",
+      "group": "trade-community",
+      "impact": "Player notices, parchment and board permissions; posting is community coordination.",
+      "status": "covered-static",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NoticeBoard_3.0.4.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/NoticeBoard_3.0.4.zip::assets/noticeboard/lang/en.json"
+      ],
+      "vanilla_delta": "Player notices, parchment and board permissions; posting is community coordination.",
+      "interactions": [
+        "world-trade"
+      ]
+    },
+    {
+      "modid": "quietroughseas",
+      "group": "travel-compatibility",
+      "impact": "Declares quiet logs, axe-only boat hit damage, faster paddled boats, suppression of Rivers pushing boats.",
+      "status": "covered-with-code-verification-limit",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/quietroughseas_1.5.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Changes Rough Seas; not a cosmetic-only exclusion. Swimming guidance omitted until code-level verification.",
+      "interactions": [
+        "roughseas",
+        "rivers"
+      ]
+    },
+    {
+      "modid": "catchledge",
+      "group": "movement-logistics",
+      "impact": "Ledge grab/hang requires both main hand and offhand empty; exact activation key not verified.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CatchLedge_0.7.1.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/CatchingLedgeServer.json"
+      ],
+      "vanilla_delta": "Ledge grab/hang requires both main hand and offhand empty; exact activation key not verified.",
+      "interactions": [
+        "walkingstick",
+        "carryon"
+      ]
+    },
+    {
+      "modid": "chargedjump",
+      "group": "movement-logistics",
+      "impact": "Charge max 0.15, charge rate 0.003, sprint jump disabled; metadata says sneak and hold space.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChargedJumpMod_1.2.3.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/ChargedJumpConfig.json"
+      ],
+      "vanilla_delta": "Charge max 0.15, charge rate 0.003, sprint jump disabled; metadata says sneak and hold space.",
+      "interactions": []
+    },
+    {
+      "modid": "climbmountain",
+      "group": "movement-logistics",
+      "impact": "Only Stone/Ore materials configured climbable; stamina costs jump 20 and climb 5/sec.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ClimbMountain_0.2.4.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/ClimbMountain.json"
+      ],
+      "vanilla_delta": "Only Stone/Ore materials configured climbable; stamina costs jump 20 and climb 5/sec.",
+      "interactions": []
+    },
+    {
+      "modid": "crawlanddive",
+      "group": "movement-logistics",
+      "impact": "Crawling plus dive/slide; DisableDive false, CrawlSpeedDelta -0.6; no invented activation key.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CrawlAndDive_0.2.5.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/CrawlAndDiveServer.json"
+      ],
+      "vanilla_delta": "Crawling plus dive/slide; DisableDive false, CrawlSpeedDelta -0.6; no invented activation key.",
+      "interactions": []
+    },
+    {
+      "modid": "vaultandroll",
+      "group": "movement-logistics",
+      "impact": "RollDamageScale 0.5 and vault cooldown 1000ms; this is not immunity to falls.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/VaultAndRoll_0.1.2.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/VaultAndRoll.json"
+      ],
+      "vanilla_delta": "RollDamageScale 0.5 and vault cooldown 1000ms; this is not immunity to falls.",
+      "interactions": []
+    },
+    {
+      "modid": "sprintmomentum",
+      "group": "movement-logistics",
+      "impact": "Material-specific acceleration, stopping and turning replaces instant-response movement.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/SprintMomentum_0.2.1.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/SprintMomentum.json"
+      ],
+      "vanilla_delta": "Material-specific acceleration, stopping and turning replaces instant-response movement.",
+      "interactions": []
+    },
+    {
+      "modid": "carryon",
+      "group": "movement-logistics",
+      "impact": "Allows selected containers; no sprint while carrying, carry penalty retained; crates cannot go on back.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CarryOn-1.22.0_v1.14.3.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/CarryOnConfig.json"
+      ],
+      "vanilla_delta": "Allows selected containers; no sprint while carrying, carry penalty retained; crates cannot go on back.",
+      "interactions": []
+    },
+    {
+      "modid": "combatoverhaulfork",
+      "group": "combat-survival",
+      "impact": "Melee stops on terrain; spear directional attacks off; vanilla armour grid recipes off; Toolsmith integration on.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/combatoverhaulfork_0.18.9.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/combatoverhaul.yaml"
+      ],
+      "vanilla_delta": "Melee stops on terrain; spear directional attacks off; vanilla armour grid recipes off; Toolsmith integration on.",
+      "interactions": [
+        "toolsmith",
+        "armoryfork",
+        "downed",
+        "overhaullib",
+        "overhaulliblegacycompat"
+      ]
+    },
+    {
+      "modid": "armoryfork",
+      "group": "combat-survival",
+      "impact": "Weapon/shield/armour content, not a client cosmetic library; complete recipes/controls not reconstructed.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/armoryfork_1.11.4.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/armory.yaml"
+      ],
+      "vanilla_delta": "Weapon/shield/armour content, not a client cosmetic library; complete recipes/controls not reconstructed.",
+      "interactions": []
+    },
+    {
+      "modid": "handtohand",
+      "group": "trade-community",
+      "impact": "Direct item handoff; AllowGiveWithoutReceiverHolding false, comment identifies receiver holding R as required.",
+      "status": "covered-config-no-invented-controls",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HandtoHand_1.0.7.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/HandToHandConfig.json"
+      ],
+      "vanilla_delta": "Direct item handoff; AllowGiveWithoutReceiverHolding false, comment identifies receiver holding R as required.",
+      "interactions": []
+    },
+    {
+      "modid": "cartwrightscaravan",
+      "group": "movement-logistics",
+      "impact": "Seraph-pulled/pushed carts, sleds and market stalls; mounting/storage workflow deferred, not invented.",
+      "status": "deferred-native-workflow",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CartwrightsCaravan_1.9.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Seraph-pulled/pushed carts, sleds and market stalls; mounting/storage workflow deferred, not invented.",
+      "interactions": [
+        "carryon",
+        "cartcarryonpatch"
+      ]
+    },
+    {
+      "modid": "cartcarryonpatch",
+      "group": "movement-logistics",
+      "impact": "Compatibility for Cartwright carts transporting Carry On barrels and crates.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/cartcarryonpatch_1.0.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Compatibility for Cartwright carts transporting Carry On barrels and crates.",
+      "interactions": [
+        "cartwrightscaravan",
+        "carryon"
+      ]
+    },
+    {
+      "modid": "equusdestrier",
+      "group": "movement-logistics",
+      "impact": "Enabled horse addon; metadata is insufficient to establish its practical stages.",
+      "status": "deferred-native-workflow",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/equusdestrier_1.1.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Enabled horse addon; metadata is insufficient to establish its practical stages.",
+      "interactions": [
+        "equusferus",
+        "jaunt"
+      ]
+    },
+    {
+      "modid": "equusferus",
+      "group": "movement-logistics",
+      "impact": "Tameable wild horses and coat genetics; taming and riding controls deferred to dedicated evidence.",
+      "status": "deferred-native-workflow",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/equusferus_1.0.6.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Tameable wild horses and coat genetics; taming and riding controls deferred to dedicated evidence.",
+      "interactions": [
+        "genelib",
+        "jaunt"
+      ]
+    },
+    {
+      "modid": "bettertraders",
+      "group": "trade-community",
+      "impact": "Adds trader structures in addition to vanilla traders; no new-currency claim.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/BetterTradersv0.2.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Adds trader structures in addition to vanilla traders; no new-currency claim.",
+      "interactions": [
+        "remotetradercheckmod"
+      ]
+    },
+    {
+      "modid": "remotetradercheckmod",
+      "group": "trade-community",
+      "impact": "Trader-phone stock check UI; rejects uncharted lands; reports gears and stock arrival, not remote buying.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/remotetradercheckmod_0.8.0.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/remotetradercheckmod_0.8.0.zip::assets/remotetradercheckmod/lang/en.json"
+      ],
+      "vanilla_delta": "Trader-phone stock check UI; rejects uncharted lands; reports gears and stock arrival, not remote buying.",
+      "interactions": [
+        "bettertraders"
+      ]
+    },
+    {
+      "modid": "vinconomy",
+      "group": "trade-community",
+      "impact": "Player-owned shops; Coins native guide describes note purchases from loose notes, not wallet balances.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/vinconomy_6.0.3.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/coins_0.1.0.zip::assets/coins/lang/en.json"
+      ],
+      "vanilla_delta": "Player-owned shops; Coins native guide describes note purchases from loose notes, not wallet balances.",
+      "interactions": [
+        "coins",
+        "commercially"
+      ]
+    },
+    {
+      "modid": "commercially",
+      "group": "trade-community",
+      "impact": "Ownership, commercial blocks and map-waypoint UI; exact shop setup not proven by generic metadata.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/commercially_0.1.1.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/commercially-core.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/commercially_0.1.1.zip::assets/commercially/lang/en.json"
+      ],
+      "vanilla_delta": "Ownership, commercial blocks and map-waypoint UI; exact shop setup not proven by generic metadata.",
+      "interactions": [
+        "vinconomy"
+      ]
+    },
+    {
+      "modid": "tabletopgames",
+      "group": "trade-community",
+      "impact": "Tabletop simulator/social games; no progression gate.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TabletopGames-v4.0.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Tabletop simulator/social games; no progression gate.",
+      "interactions": [
+        "noticeboard"
+      ]
+    },
+    {
+      "modid": "egocaribautomapmarkers",
+      "group": "navigation-helper",
+      "impact": "Creates configurable map markers on interaction; do not imply every object is automatically marked.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Auto Map Markers 5.0.3 - Vintage Story 1.22.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Creates configurable map markers on interaction; do not imply every object is automatically marked.",
+      "interactions": [
+        "kscartographytable"
+      ]
+    },
+    {
+      "modid": "prospecttogether",
+      "group": "navigation-helper",
+      "impact": "Stores and shares prospecting readings; does not itself prospect or create ore.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ProspectTogether-2.2.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Stores and shares prospecting readings; does not itself prospect or create ore.",
+      "interactions": [
+        "kscartographytable",
+        "infinitumprospectinghud"
+      ]
+    },
+    {
+      "modid": "spyglass",
+      "group": "navigation-helper",
+      "impact": "Adds a spyglass; item recipe/controls deferred to native entry. ",
+      "status": "deferred-native-workflow",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/spyglass_0.6.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Adds a spyglass; item recipe/controls deferred to native entry. ",
+      "interactions": []
+    },
+    {
+      "modid": "footprints",
+      "group": "tracking-ambience",
+      "impact": "Animals and players leave footprints; potentially useful tracking, not a crafting chain.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Footprints-v1.2.16.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Animals and players leave footprints; potentially useful tracking, not a crafting chain.",
+      "interactions": [
+        "bloodtrail"
+      ]
+    },
+    {
+      "modid": "clickuptorches",
+      "group": "survival-qol",
+      "impact": "Right-click pickup of torches; gameplay interaction tweak, not a library.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ClickUpTorches.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Right-click pickup of torches; gameplay interaction tweak, not a library.",
+      "interactions": []
+    },
+    {
+      "modid": "slowtox",
+      "group": "survival",
+      "impact": "Changes intoxication with benefits; exact effects deferred to food/drink research.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/slowtox_5.1.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Changes intoxication with benefits; exact effects deferred to food/drink research.",
+      "interactions": []
+    },
+    {
+      "modid": "toolbelt",
+      "group": "logistics",
+      "impact": "Belts can hold tools; recipe and use belong to equipment/storage research.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ToolBelt_0.3.6.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Belts can hold tools; recipe and use belong to equipment/storage research.",
+      "interactions": []
+    },
+    {
+      "modid": "placeonslabs",
+      "group": "building-qol",
+      "impact": "Allows placement on slabs; not a staged technology unlock.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/placeonslabs_1.2.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Allows placement on slabs; not a staged technology unlock.",
+      "interactions": []
+    },
+    {
+      "modid": "terrainslabs",
+      "group": "world-building",
+      "impact": "Slab-related terrain/building content; no unsupported creation/placement instructions.",
+      "status": "deferred-native-workflow",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/terrainslabs_1.0.17.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Slab-related terrain/building content; no unsupported creation/placement instructions.",
+      "interactions": []
+    },
+    {
+      "modid": "sortablestorage",
+      "group": "storage-qol",
+      "impact": "Adds a storage sort button; QoL, not new material progression.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/sortablestorage_3.0.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Adds a storage sort button; QoL, not new material progression.",
+      "interactions": []
+    },
+    {
+      "modid": "radialcrafting",
+      "group": "crafting-ui",
+      "impact": "Radial crafting menu; do not replace native recipe constraints with imagined recipes.",
+      "status": "classified-no-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/RadialCrafting_0.2.7.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Radial crafting menu; do not replace native recipe constraints with imagined recipes.",
+      "interactions": []
+    },
+    {
+      "modid": "danatweaks",
+      "group": "mixed-tweaks",
+      "impact": "Mixed tweaks must be evaluated from server and client configs, not treated as all enabled.",
+      "status": "needs-config-or-code-verification",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/DanaTweaks-v4.1.0.zip::modinfo.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/config/ModConfig/DanaTweaks-Server.json"
+      ],
+      "vanilla_delta": "Mixed tweaks must be evaluated from server and client configs, not treated as all enabled.",
+      "interactions": []
+    },
+    {
+      "modid": "configureeverything",
+      "group": "mixed-tweaks",
+      "impact": "Configuration-driven vanilla overrides; do not assume every potential override is active.",
+      "status": "needs-config-or-code-verification",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ConfigureEverything-v3.0.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Configuration-driven vanilla overrides; do not assume every potential override is active.",
+      "interactions": []
+    },
+    {
+      "modid": "cbr",
+      "group": "unresolved-enabled",
+      "impact": "Enabled ID with empty description; insufficient evidence to declare cosmetic, library or progression.",
+      "status": "needs-config-or-code-verification",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ChiseledBlockRetention-2.0.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Enabled ID with empty description; insufficient evidence to declare cosmetic, library or progression.",
+      "interactions": []
+    },
+    {
+      "modid": "yangcoifix",
+      "group": "compatibility",
+      "impact": "Enabled fix ID with empty description; no player progression inferred.",
+      "status": "needs-config-or-code-verification",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/yangcoifix.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Enabled fix ID with empty description; no player progression inferred.",
+      "interactions": []
+    },
+    {
+      "modid": "attributerenderinglibrary",
+      "group": "technical-library",
+      "impact": "Attribute-based variant system for rendering things and much more.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/AttributeRenderingLibrary-v3.2.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "commonlib",
+      "group": "technical-library",
+      "impact": "Infrastructure/support ID; no standalone player process established from metadata.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CommonLib_VS1.21.1_net8_v2.8.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "configlib",
+      "group": "technical-library",
+      "impact": "A universal place to configure your mods. Makes it possible for content mods to have configs too.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/configlib_1.13.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "coreofartspatch",
+      "group": "technical-library",
+      "impact": "The main mod-library for other mods of the Arts series.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CoreOfArts_1.2.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "vsimgui",
+      "group": "technical-library",
+      "impact": "Brings famous immediate mode GUI to Vintage Story",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/vsimgui_1.2.7.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "genelib",
+      "group": "technical-library",
+      "impact": "Infrastructure/support ID; no standalone player process established from metadata.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/genelib_3.2.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "handbookoptimizer",
+      "group": "technical-library",
+      "impact": "Heavy mod-pack handbook and crafting-grid optimizer: ingredient and recipe indexes, paced previews, progressive descriptions and diagnostics for Vintage Story 1.22.7.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/HandbookOptimizer-0.19.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "jaunt",
+      "group": "technical-library",
+      "impact": "Rideable/stamina infrastructure; indirectly changes mounts but is not itself a rideable crafting chain.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/jaunt_3.3.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "jsonpatcheslib",
+      "group": "technical-library",
+      "impact": "Implements more convenient syntax and more functionality for patching JSON assets.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/jsonpatcheslib_1.5.9.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "overhaullib",
+      "group": "technical-library",
+      "impact": "Infrastructure/support ID; no standalone player process established from metadata.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/overhaullib_2.0.10.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "overhaulliblegacycompat",
+      "group": "technical-library",
+      "impact": "Infrastructure/support ID; no standalone player process established from metadata.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/overhaulliblegacycompat_1.2.15.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "playermodellib",
+      "group": "technical-library",
+      "impact": "Infrastructure/support ID; no standalone player process established from metadata.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/playermodellib_1.25.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "universaldisplaylib",
+      "group": "technical-library",
+      "impact": "Library for blocks with free-placement display surfaces - any block, not just windows. Adds surfaces defined in the shape file, item stacking, rotation, precise placement, lighting, particles and block swapping.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/universaldisplaylib_1.5.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "shearlib",
+      "group": "technical-library",
+      "impact": "Animal-harvest support; downstream animal/wool interactions need their own evidence.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/shearlib-1.3.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "infinitumcore",
+      "group": "technical-library",
+      "impact": "A shared backbone mod for Infinitum mods that handles networking, pickup tracking, collection matching, server-side progress storage, and common client/server communication.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/infinitumcore_1.2.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Supports other systems; no independent material progression inferred from enabled library status.",
+      "interactions": []
+    },
+    {
+      "modid": "cavesymphony",
+      "group": "client-ambience-rendering",
+      "impact": "Gives caves life.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/CaveSymphony_1.2.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "farseer",
+      "group": "client-ambience-rendering",
+      "impact": "Draws silhouettes of the terrain outside of your view distance",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/farseer_1.4.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "footsteps",
+      "group": "client-ambience-rendering",
+      "impact": "Presentation/compatibility candidate; metadata alone does not establish a standalone process.",
+      "status": "no-player-stages-established-code-verification-needed",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Footsteps_1.0.3.zip::modinfo.json"
+      ],
+      "vanilla_delta": "No standalone crafting chain established. Do not interpret this exclusion from progression pages as proof of zero gameplay impact.",
+      "interactions": []
+    },
+    {
+      "modid": "immersivefoliage",
+      "group": "client-ambience-rendering",
+      "impact": "Dynamic foliage that reacts to entities, both physically and audibly.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ImmersiveFoliage_0.1.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "immersivelanterns",
+      "group": "client-ambience-rendering",
+      "impact": "Lanterns react to movement and make noise",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ImmersiveLanterns_0.4.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "immersivelight",
+      "group": "client-ambience-rendering",
+      "impact": "Light that respects walls!",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/Immersive Light_0.2.7.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "juicyores",
+      "group": "client-ambience-rendering",
+      "impact": "Makes ores much more visible",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/JuicyOres-v1.0.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "mistsofstability",
+      "group": "client-ambience-rendering",
+      "impact": "Visual effects for stable/unstable areas.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/MistStability_0.2.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "realsmoke",
+      "group": "client-ambience-rendering",
+      "impact": "Physics-based smoke",
+      "status": "no-player-stages-established-code-verification-needed",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/realsmoke_1.3.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "No standalone crafting chain established. Do not interpret this exclusion from progression pages as proof of zero gameplay impact.",
+      "interactions": []
+    },
+    {
+      "modid": "realsmokeartofgrowingfirepit",
+      "group": "client-ambience-rendering",
+      "impact": "Presentation/compatibility candidate; metadata alone does not establish a standalone process.",
+      "status": "no-player-stages-established-code-verification-needed",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/realsmokeforunofficialaog.zip::modinfo.json"
+      ],
+      "vanilla_delta": "No standalone crafting chain established. Do not interpret this exclusion from progression pages as proof of zero gameplay impact.",
+      "interactions": []
+    },
+    {
+      "modid": "stickstepsounds",
+      "group": "client-ambience-rendering",
+      "impact": "Plays stick cracking sound when walking on loose sticks",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/StickStepSounds.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "sungaze",
+      "group": "client-ambience-rendering",
+      "impact": "Little animation for looking at the sun",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/SunGaze_0.1.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "temporalsymphony",
+      "group": "client-ambience-rendering",
+      "impact": "Presentation/compatibility candidate; metadata alone does not establish a standalone process.",
+      "status": "no-player-stages-established-code-verification-needed",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/TemporalSymphony_2.3.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "No standalone crafting chain established. Do not interpret this exclusion from progression pages as proof of zero gameplay impact.",
+      "interactions": []
+    },
+    {
+      "modid": "kuboczochvisualmining",
+      "group": "client-ambience-rendering",
+      "impact": "Private standalone client-side cosmetic mining animations and voxel chips. Original visual assets by SaltyWater and GamingToast. No gameplay changes.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochVisualMining_1.0.4.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Presentation or feedback changes; no crafting chain added by evidence examined. Do not infer immunity, damage or resource gains.",
+      "interactions": []
+    },
+    {
+      "modid": "extrainfo",
+      "group": "ui-information",
+      "impact": "Useful information for handbook, blocks, items and entities",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/ExtraInfo-v2.2.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "itempickupnotifier",
+      "group": "ui-information",
+      "impact": "Small hud overlay that shows pickup items",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/itempickupnotifier_2.3.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "playerlistrevived",
+      "group": "ui-information",
+      "impact": "View the player list on Vintage Story servers",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/PlayerListRevived-2.3.8.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "scrollbarcreativeinventorytabs",
+      "group": "ui-information",
+      "impact": "Inventory tabs, but for people with too many mods.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/scrollbarcreativeinventorytabs.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "statushudcont",
+      "group": "ui-information",
+      "impact": "Displays status information on the HUD.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/statushudcont_4.4.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "infinitumpickuphud",
+      "group": "ui-information",
+      "impact": "A lightweight pickup HUD that shows which items you just received, including items gained from panning, hand gathering, and other non-standard pickup sources.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/infinitumpickuphud_1.5.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "infinitumprospectinghud",
+      "group": "ui-information",
+      "impact": "A client-side prospecting HUD with reading history, ore icons, trend indicators and a draggable window, configurable through Infinitum Core without switching your selected chat tab.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/infinitumprospectinghud_1.1.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Information/display helper, not an item unlock or player progression stage.",
+      "interactions": []
+    },
+    {
+      "modid": "kuboczochfoodhandbook",
+      "group": "documentation-tutorial",
+      "impact": "Client-only independent process sections for native ACA handbook recipe contributions. No recipe or tooltip changes.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochFoodHandbook-0.3.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Documentation/tutorial behaviour; do not duplicate its implementation as a fictional craft unlock.",
+      "interactions": []
+    },
+    {
+      "modid": "kuboczochhandbookrefresh",
+      "group": "documentation-tutorial",
+      "impact": "Updates existing English survival guides for the Pszczoly 1.0 modpack. Documentation only; no gameplay changes.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochHandbookRefresh-1.0.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Documentation/tutorial behaviour; do not duplicate its implementation as a fictional craft unlock.",
+      "interactions": []
+    },
+    {
+      "modid": "kuboczochmodpackguide",
+      "group": "documentation-tutorial",
+      "impact": "Additive client handbook index for the Pszczoly 1.0 modpack.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochModpackGuide-1.0.2.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Documentation/tutorial behaviour; do not duplicate its implementation as a fictional craft unlock.",
+      "interactions": []
+    },
+    {
+      "modid": "kuboczochtutorialskip",
+      "group": "documentation-tutorial",
+      "impact": "Stuck on a tutorial step? Skip it and continue the tutorial. Saves progress immediately.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochTutorialSkip-1.0.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Documentation/tutorial behaviour; do not duplicate its implementation as a fictional craft unlock.",
+      "interactions": []
+    },
+    {
+      "modid": "kuboczochwoodworkingtutorial",
+      "group": "documentation-tutorial",
+      "impact": "Two compact First Steps stages with native item previews and handbook links: prepare a chopping block, then make firewood.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochWoodworkingTutorial-1.3.0.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Documentation/tutorial behaviour; do not duplicate its implementation as a fictional craft unlock.",
+      "interactions": []
+    },
+    {
+      "modid": "manualfirestartertutorial",
+      "group": "documentation-tutorial",
+      "impact": "Replaces only the First Steps firepit instructions with short stages for Manual Firestarter.",
+      "status": "excluded-as-standalone-progression",
+      "evidence": [
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/evpack.json",
+        "/home/brunette/.hermes/game-context/vintage-story/1571480359365771304/prizC/extracted/mods/KuboczochManualFirestarterTutorial-1.2.1.zip::modinfo.json"
+      ],
+      "vanilla_delta": "Documentation/tutorial behaviour; do not duplicate its implementation as a fictional craft unlock.",
+      "interactions": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "artofgrowing:blocktypes/wood/firepit.json",
+    "op": "add",
+    "path": "/behaviorsByType/*/0",
+    "value": {
+      "name": "RusticCookeryBraising"
+    }
+  },
+  {
+    "file": "artofgrowing:blocktypes/wood/firepit.json",
+    "op": "add",
+    "path": "/entityBehaviors/-",
+    "value": {
+      "name": "RusticCookeryBraisingSound"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GamePath Condition="'$(GamePath)' == ''">$(VINTAGE_STORY)</GamePath>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RoughSeas" HintPath="$(RoughSeasPath)" Private="false" />
+    <Reference Include="VintagestoryAPI" HintPath="$(GamePath)/VintagestoryAPI.dll" Private="false" />
+    <Reference Include="VintagestoryLib" HintPath="$(GamePath)/VintagestoryLib.dll" Private="false" />
+    <Reference Include="VSSurvivalMod" HintPath="$(GamePath)/Mods/VSSurvivalMod.dll" Private="false" />
+    <Reference Include="VSEssentials" HintPath="$(GamePath)/Mods/VSEssentials.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(GamePath)/Lib/0Harmony.dll" Private="false" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(GamePath)/Lib/Newtonsoft.Json.dll" Private="false" />
+  </ItemGroup>
+</Project>
