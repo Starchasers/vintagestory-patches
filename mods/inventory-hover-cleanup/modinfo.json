@@ -1,1 +1,0 @@
-{"type":"code","modid":"kuboczochinventoryhovercleanup","name":"Kuboczoch: Inventory Hover Cleanup","authors":["Kuboczoch"],"description":"Preserves slot-leave cleanup when a hovered inventory slot disappears.","version":"1.0.0","side":"Client","requiredOnClient":false,"requiredOnServer":false,"dependencies":{"game":"1.22.7"}}

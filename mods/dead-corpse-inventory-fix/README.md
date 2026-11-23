@@ -1,10 +1,11 @@
-# Kuboczoch: Inventory Hover Cleanup
+# Kuboczoch: Dead Corpse Inventory Fix
 
 Small client-only compatibility fix for the inventory-slot leave crash reported with
 Vintage Story **1.22.7** and Dead **2.9.8**. No server installation or Dead dependency
-is required. Install `kuboczochinventoryhovercleanup-1.0.0.zip` in your client Mods directory.
-If you installed the earlier unprefixed preview, remove `inventoryhovercleanup-1.0.0.zip`
-first. The mod ID changed; keeping both copies would install the patch twice.
+is required. Install `kuboczochdeadcorpseinventoryfix-1.0.0.zip` in your client Mods directory.
+If you installed either earlier preview, remove `inventoryhovercleanup-1.0.0.zip`
+and `kuboczochinventoryhovercleanup-1.0.0.zip` first if present. Their mod IDs differ
+from this release; keeping an older copy would install the patch twice.
 
 When a hovered bag-content slot disappears, the native grid looks it up again and
 can dispatch a null slot. A receiving grid dereferences `slot.Inventory` and crashes.
@@ -47,7 +48,7 @@ reset, exact previous slot identity, unrelated inventory state, callback continu
 no duplicate leave, re-entry, valid replacement slots, empty slots, cache clearing,
 exception propagation, unsupported IL rejection, client-only loading and unpatching.
 
-Packaging produces `dist/kuboczochinventoryhovercleanup-1.0.0.zip`, with a deterministic
+Packaging produces `dist/kuboczochdeadcorpseinventoryfix-1.0.0.zip`, with a deterministic
 allowlist of the owned DLL, modinfo and these two documentation files. No game,
 Harmony or third-party DLL is distributed.
 

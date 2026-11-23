@@ -14,10 +14,10 @@ class PackageTests(unittest.TestCase):
         import json
         root = Path(__file__).resolve().parents[1]
         info = json.loads((root / "modinfo.json").read_text())
-        self.assertEqual(info["modid"], "kuboczochinventoryhovercleanup")
-        self.assertEqual(info["name"], "Kuboczoch: Inventory Hover Cleanup")
-        self.assertTrue((root / "KuboczochInventoryHoverCleanup.csproj").is_file())
-        self.assertIn("dist/kuboczochinventoryhovercleanup-1.0.0.zip", (root / "tools/package.py").read_text())
+        self.assertEqual(info["modid"], "kuboczochdeadcorpseinventoryfix")
+        self.assertEqual(info["name"], "Kuboczoch: Dead Corpse Inventory Fix")
+        self.assertTrue((root / "KuboczochDeadCorpseInventoryFix.csproj").is_file())
+        self.assertIn("dist/kuboczochdeadcorpseinventoryfix-1.0.0.zip", (root / "tools/package.py").read_text())
 
     def test_allowlist_determinism_and_bytes(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -30,8 +30,8 @@ class PackageTests(unittest.TestCase):
             first, second = root / "a.zip", root / "b.zip"
             self.assertEqual(module.package(root, dll, first), module.package(root, dll, second))
             with zipfile.ZipFile(first) as z:
-                self.assertEqual(z.namelist(), ["KuboczochInventoryHoverCleanup.dll", "README.md", "RESEARCH.md", "modinfo.json"])
-                self.assertEqual(z.read("KuboczochInventoryHoverCleanup.dll"), dll.read_bytes())
+                self.assertEqual(z.namelist(), ["KuboczochDeadCorpseInventoryFix.dll", "README.md", "RESEARCH.md", "modinfo.json"])
+                self.assertEqual(z.read("KuboczochDeadCorpseInventoryFix.dll"), dll.read_bytes())
                 self.assertIsNone(z.testzip())
     def test_symlink_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
