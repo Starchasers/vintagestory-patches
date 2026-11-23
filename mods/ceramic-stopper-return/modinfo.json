@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "kuboczochceramicstopperreturn",
+  "name": "Kuboczoch: Ceramic Stopper Return",
+  "authors": ["Kuboczoch"],
+  "description": "Preserves bottle stoppers when uncorking stacked ACA bottles.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": { "game": "1.22.7", "aculinaryartillery": "2.0.0-dev.29" }
+}
