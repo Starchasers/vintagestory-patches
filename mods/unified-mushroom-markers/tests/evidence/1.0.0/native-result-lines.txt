@@ -1,3 +1,4 @@
+PASS fixture uses real provider AutoMapMarkers/settings.json path
 PASS production pack contains both original categories
 PASS unpatched baseline exposes two safety-specific UI categories
 PASS unpatched baseline produces separate safety matches
@@ -40,4 +41,4 @@ PASS real StartPre installs patches 0
 PASS real Dispose removes patches 0
 PASS real StartPre installs patches 1
 PASS real Dispose removes patches 1
-ALL 42 native assembly assertions passed
+ALL 43 native assembly assertions passed

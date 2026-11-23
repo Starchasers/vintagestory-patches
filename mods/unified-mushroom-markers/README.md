@@ -16,6 +16,14 @@ Title/color/icon are intentionally fixed while this patch is installed. Editing 
 
 Install `KuboczochUnifiedMushroomMarkers-1.0.0.zip` alongside Auto Map Markers on the **client**, then restart. Do not install the source directory. No replacement of Auto Map Markers or editing of its definition files is required; the patch ZIP contains no third-party DLLs. This patch does not remove Auto Map Markers' own server requirement.
 
+## Optional enabled config
+
+[`config/AutoMapMarkers/settings.json`](config/AutoMapMarkers/settings.json) is an updated copy of the **latest available pack (`Nb7Rd`) client configuration**, not a guessed/default config. It enables the unified mushroom row, sets both legacy mushroom overrides to the same neutral title/icon/color, and collapses both legacy expand states so selected subtype settings cannot override migration. Every unrelated existing setting/override/expand state is preserved. Global mod features were already enabled in that source config and remain enabled.
+
+To use it, close the game, back up your current file, then copy the supplied **`settings.json`** to **`<VintagestoryData>/ModConfig/AutoMapMarkers/settings.json`**, replacing that file, and restart. Use your actual game data directory, including any custom `--dataPath`. The JSON is a **separate optional download**, not automatically installed by the mod ZIP. If you changed settings since the pack snapshot, merging only its two mushroom overrides and expand-state values is safer than replacing the whole file.
+
+The config has been loaded through the patched production 5.0.3 settings loader with an explicit assertion that global features and unified mushroom tracking are enabled. The legacy unsafe key is retained for upstream serialization compatibility; it does **not** create a second UI category while this patch is installed.
+
 ## Existing waypoints and removal
 
 **Existing saved pins are not migrated, renamed, recolored or deleted.** They may still reveal poisonous/edible names, colors or species. Review/remove old mushroom pins manually if that information should disappear. Automatically identifying old pins would risk modifying unrelated or manually edited waypoints.
@@ -37,7 +45,7 @@ python tools/package.py --game-path "$GAME" --automap-markers-path "$AMM_DLL" --
 python -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-For production-assembly tests, extract the modpack's `_core.json` and `settings.json` into a disposable directory (the test reads these, not the live game configuration):
+For production-assembly tests, extract the modpack's `_core.json` to a disposable directory and `settings.json` to its **`AutoMapMarkers/settings.json`** subpath (the test requires the actual provider path, not a sibling settings file). For the optional enabled config, copy the delivered JSON to that subpath and append `--require-enabled` to the test command:
 
 ```sh
 "$DOTNET" run --project tests/Tests.csproj -c Release \

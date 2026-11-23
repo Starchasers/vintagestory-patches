@@ -27,11 +27,12 @@ class Program
         };
         typeof(Vintagestory.API.Config.GamePaths).GetProperty("AssetsPath")!.SetValue(null, Path.Combine(game, "assets"));
         Vintagestory.API.Config.Lang.PreLoad(null, Path.Combine(game, "assets"), "en");
-        Run(args[1]);
+        Run(args[1], args.Length > 2 && args[2] == "--require-enabled");
     }
-    static void Run(string fixture)
+    static void Run(string fixture, bool requireEnabled)
     {
         var defs = JsonConvert.DeserializeObject<List<MarkerCategoryDef>>(File.ReadAllText(fixture))!;
+        Check(File.Exists(Path.Combine(Path.GetDirectoryName(fixture)!, "AutoMapMarkers", "settings.json")), "fixture uses real provider AutoMapMarkers/settings.json path");
         Check(defs.SelectMany(c => c.Entries).Count(e => MushroomPolicy.IsMushroom(e.Label)) == 2, "production pack contains both original categories");
         var baseline = MarkerSettingsPersistence.LoadSettings(Path.GetDirectoryName(fixture)!, defs);
         var baselineLayout = MarkerSettingsPersistence.BuildSettingLayout(baseline, defs);
@@ -46,6 +47,7 @@ class Program
                 Check(Harmony.GetPatchInfo(method).Owners.Contains(harmony.Id), "production Harmony target " + method.Name);
             var settings = MarkerSettingsPersistence.LoadSettings(Path.GetDirectoryName(fixture)!, defs);
             Check(ReferenceEquals(settings.AutoMapMarkers.OrganicMatter.SafeMushroom, settings.AutoMapMarkers.OrganicMatter.UnsafeMushroom), "loaded settings share unified object");
+            if (requireEnabled) Check(!settings.DisableAllModFeatures && settings.AutoMapMarkers.OrganicMatter.SafeMushroom.Enabled, "delivered config actually enables unified mushroom tracking");
             var layout = MarkerSettingsPersistence.BuildSettingLayout(settings, defs);
             var entries = layout.Tabs.SelectMany(t => t.Subgroups).SelectMany(g => g.Entries).ToList();
             var mushrooms = entries.Where(e => MushroomPolicy.IsMushroom(e.EntryLabel)).ToList();
