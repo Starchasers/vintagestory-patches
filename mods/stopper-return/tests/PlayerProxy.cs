@@ -7,10 +7,11 @@ using Vintagestory.API.Common;
 public static class PlayerProxy
 {
     private static readonly Type Implementation = Build();
-    public static IPlayer Create(IPlayerInventoryManager manager)
+    public static IPlayer Create(IPlayerInventoryManager manager, EntityPlayer? entity = null)
     {
         var player = (IPlayer)Activator.CreateInstance(Implementation)!;
         Implementation.GetField("Manager")!.SetValue(player, manager);
+        Implementation.GetField("Entity")!.SetValue(player, entity);
         return player;
     }
     private static Type Build()
@@ -22,12 +23,15 @@ public static class PlayerProxy
         var type = assembly.DefineDynamicModule("Player").DefineType("TestPlayer", TypeAttributes.Public);
         type.AddInterfaceImplementation(typeof(IPlayer));
         var manager = type.DefineField("Manager", typeof(IPlayerInventoryManager), FieldAttributes.Public);
+        var entity = type.DefineField("Entity", typeof(EntityPlayer), FieldAttributes.Public);
         foreach (var method in typeof(IPlayer).GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
         {
             var implementation = type.DefineMethod(method.Name, MethodAttributes.Public | MethodAttributes.Virtual | MethodAttributes.Final,
                 method.ReturnType, method.GetParameters().Select(p => p.ParameterType).ToArray());
             var il = implementation.GetILGenerator();
             if (method.Name == "get_InventoryManager") { il.Emit(OpCodes.Ldarg_0); il.Emit(OpCodes.Ldfld, manager); }
+            else if (method.Name == "get_PlayerUID") { il.Emit(OpCodes.Ldstr, "test"); }
+            else if (method.Name == "get_Entity") { il.Emit(OpCodes.Ldarg_0); il.Emit(OpCodes.Ldfld, entity); }
             else if (method.ReturnType != typeof(void))
             {
                 var value = il.DeclareLocal(method.ReturnType);

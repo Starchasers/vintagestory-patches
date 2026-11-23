@@ -4,11 +4,15 @@ using ACulinaryArtillery;
 using HarmonyLib;
 using Kuboczoch.StopperReturn;
 using Vintagestory.API.Common;
+using Vintagestory.Common;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 
+Console.WriteLine($"RUN ACA-SHA256={Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(File.ReadAllBytes(typeof(BlockStoppableContainer).Assembly.Location)))} MOD-SHA256={Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(File.ReadAllBytes(typeof(StopperReturnMod).Assembly.Location)))}");
 bool red = args.Contains("--red");
 bool cloneOnly = args.Contains("--clone-only");
+if (args.Contains("--lifecycle")) return NativeRegression.Lifecycle();
+if (args.Contains("--native-flow")) return NativeRegression.Flow(args.Contains("--red"), args.Contains("--single-install"));
 string manifest = args.FirstOrDefault(a => a.EndsWith(".json"))
     ?? throw new ArgumentException("Pass the JSON manifest from discover_stoppers.py");
 var specs = Newtonsoft.Json.JsonConvert.DeserializeObject<StopperSpec[]>(File.ReadAllText(manifest))!;
@@ -52,10 +56,17 @@ try
     try { StopperReturnMod.DetachRemovedStopper(changed).ToArray(); }
     catch (InvalidOperationException) { refused = true; }
     Check(refused, "changed compatibility IL rejected"); cases++;
+    var changedReturn = PatchProcessor.GetOriginalInstructions(StopperReturnMod.Target).ToList();
+    changedReturn.RemoveAt(changedReturn.FindLastIndex(c => c.operand is MethodInfo m && m.Name == "TryGiveItemstack"));
+    refused = false;
+    try { StopperReturnMod.DetachRemovedStopper(changedReturn).ToArray(); }
+    catch (InvalidOperationException) { refused = true; }
+    Check(refused, "changed returned-container IL rejected"); cases++;
     Console.WriteLine($"RESULT cases={cases} failures={failures}; materials={string.Join(',', specs.Select(s => s.Code.Split('-')[1]).Distinct().Order())}");
     if (failures > 0) Environment.ExitCode = 1;
 }
 finally { harmony.UnpatchAll(StopperReturnMod.HarmonyId); }
+return Environment.ExitCode;
 
 void Run(StopperSpec spec, StopperSpec other, int bottles, int offhandCount, bool blocked)
 {

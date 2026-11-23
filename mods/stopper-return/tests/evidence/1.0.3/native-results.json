@@ -1,0 +1,146 @@
+[
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "red",
+    "exitCode": 1,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT cases=4797 failures=4512; materials=bark,ceramic,glass,metal,wood"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "clone-only-red",
+    "exitCode": 1,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT cases=4797 failures=4324; materials=bark,ceramic,glass,metal,wood"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "green",
+    "exitCode": 0,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT cases=4797 failures=0; materials=bark,ceramic,glass,metal,wood"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "flow-native-red",
+    "exitCode": 1,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT native-paired-flow red=True failures=14 loose=1 open=6"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "flow-green",
+    "exitCode": 0,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT native-paired-flow red=False failures=0 loose=6 open=6"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "lifecycle-green",
+    "exitCode": 0,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "PASS lifecycle both dispose orders, reload, double disposal, eight concurrent peers"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "flow-102-direct-install",
+    "exitCode": 1,
+    "modSha256": "7368a9782f858946d79005ea859c4a8c56f333682fcf11304fe70f4abe46dbf0",
+    "result": "RESULT native-paired-flow red=False failures=12 loose=6 open=6"
+  },
+  {
+    "provider": "dev29",
+    "providerSha256": "8f6cb3c873f39cc2e3b898aa538015370608547b6f4d34a0fbdae51ec255406b",
+    "variants": 47,
+    "mode": "lifecycle-102-red",
+    "exitCode": 1,
+    "modSha256": "7368a9782f858946d79005ea859c4a8c56f333682fcf11304fe70f4abe46dbf0",
+    "result": "FAIL lifecycle System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation."
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "red",
+    "exitCode": 1,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT cases=4797 failures=4512; materials=bark,ceramic,glass,metal,wood"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "clone-only-red",
+    "exitCode": 1,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT cases=4797 failures=4324; materials=bark,ceramic,glass,metal,wood"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "green",
+    "exitCode": 0,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT cases=4797 failures=0; materials=bark,ceramic,glass,metal,wood"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "flow-native-red",
+    "exitCode": 1,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT native-paired-flow red=True failures=6 loose=1 open=6"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "flow-green",
+    "exitCode": 0,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "RESULT native-paired-flow red=False failures=0 loose=6 open=6"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "lifecycle-green",
+    "exitCode": 0,
+    "modSha256": "d21e092d496db8e4b630ce253fe77f63dbce8561e6f3938d410da111c31a6e17",
+    "result": "PASS lifecycle both dispose orders, reload, double disposal, eight concurrent peers"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "flow-102-direct-install",
+    "exitCode": 0,
+    "modSha256": "7368a9782f858946d79005ea859c4a8c56f333682fcf11304fe70f4abe46dbf0",
+    "result": "RESULT native-paired-flow red=False failures=0 loose=6 open=6"
+  },
+  {
+    "provider": "dev32",
+    "providerSha256": "dfea2335e2f61616974293c7ee03d955366e318c959252f475597ef2b0b9f471",
+    "variants": 47,
+    "mode": "lifecycle-102-red",
+    "exitCode": 1,
+    "modSha256": "7368a9782f858946d79005ea859c4a8c56f333682fcf11304fe70f4abe46dbf0",
+    "result": "FAIL lifecycle System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation."
+  }
+]

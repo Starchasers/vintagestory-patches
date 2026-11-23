@@ -31,7 +31,7 @@ class PackagingTests(unittest.TestCase):
         metadata = json.loads((root / "modinfo.json").read_text())
         self.assertEqual(metadata["name"], "Kuboczoch: Stopper Return")
         self.assertEqual(metadata["modid"], "kuboczochstopperreturn")
-        self.assertEqual(metadata["version"], "1.0.2")
+        self.assertEqual(metadata["version"], "1.0.3")
         self.assertEqual(package.DLL, "KuboczochStopperReturn.dll")
         source = (root / "src/StopperReturn.cs").read_text()
         self.assertIn("namespace Kuboczoch.StopperReturn;", source)

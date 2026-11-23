@@ -1,5 +1,17 @@
 # Stopper-return investigation
 
+## 1.0.3 follow-up: integrated lifecycle and returned-bottle authority
+
+The historical method-only green below did not cover two ModSystem instances or native returned-container inventory insertion. The user's client log records the second `Start` failing with `ACA stopper extraction IL changed`; the original catch unpatched the shared owner, disabling the extraction fix. Native double-Start reproduces this on both providers.
+
+The new native six-bottle flow falsifies live-offhand insertion aliasing for both provider builds: each held insertion clones the offhand stack, six nested stoppers survive, and no nested stopper aliases the live input. Do not add a speculative insertion clone patch. With extraction unpatched, the same flow produces offhand counts `1,1,1,1`, then `0,0` after moving the lone loose stopper away, ending with six open bottles and only one loose stopper.
+
+ACA dev29 calls native TryGiveItemstack for returned bottles on clients; dev32 gates these branches to the server. 1.0.3 replaces only the first two of five calls in OnHeldInteractStart with a server-only helper, reporting success on clients to suppress the paired drop fallback. The remaining three wax/seal paths are untouched. Shared, locked, reference-counted installation preserves the patch while either integrated instance is alive and rolls back only the attempted owner.
+
+Native serialization is a full authoritative snapshot simulation, not actual packet dispatch, dirty-slot timing or HUD rendering. The unwanted client mutation and literal zero-count stack are reproduced; exact rendered ghost icons and live multiplayer acceptance are not claimed. See [REGRESSION-1.0.3.md](REGRESSION-1.0.3.md).
+
+## Historical 1.0.1 / 1.0.2 evidence (superseded scope)
+
 ## Provenance
 
 Report: [Starchasers/vintagestory-patches #3](https://github.com/Starchasers/vintagestory-patches/issues/3), ceramic stopper disappearing when opening a bottle with a matching stopper in the offhand.

@@ -9,7 +9,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 DLL = "KuboczochStopperReturn.dll"
-TEXT = ("modinfo.json", "README.md", "RESEARCH.md")
+TEXT = ("modinfo.json", "README.md", "RESEARCH.md", "REGRESSION-1.0.3.md")
 
 
 def package(root, assembly, output):
@@ -60,7 +60,7 @@ def main():
     args = parser.parse_args()
     subprocess.run([args.dotnet, "build", str(ROOT / "KuboczochStopperReturn.csproj"),
                     "-c", "Release", "-p:GamePath=" + str(args.game_path.resolve())], check=True)
-    output = ROOT / "dist/kuboczochstopperreturn-1.0.2.zip"
+    output = ROOT / "dist/kuboczochstopperreturn-1.0.3.zip"
     checksum = package(ROOT, ROOT / "bin/Release/net10.0" / DLL, output)
     output.with_suffix(".zip.sha256").write_text(checksum + "  " + output.name + "\n")
     print(output)

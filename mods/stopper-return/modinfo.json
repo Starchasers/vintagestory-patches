@@ -4,7 +4,7 @@
   "name": "Kuboczoch: Stopper Return",
   "authors": ["Kuboczoch"],
   "description": "Returns all ACA stopper materials to the offhand or ground without blocking on different stopper types or losing nested stoppers.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "side": "Universal",
   "requiredOnClient": true,
   "requiredOnServer": true,
