@@ -26,10 +26,17 @@ public sealed class ToolsmithItemReferences : ModSystem
         foreach (string code in tag.Attributes.GetValueOrDefault("code", "").Split('|', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
         {
             CollectibleObject? collectible = block ? api.World.GetBlock(new AssetLocation(code)) : api.World.GetItem(new AssetLocation(code));
-            if (collectible == null) throw new FormatException("Unregistered guide reference: " + code);
+            // A guide may outlive an optional provider or a provider's collectible codes.
+            // Do not abort LevelFinalize and leave the entire survival handbook uninitialized.
+            if (collectible == null)
+            {
+                api.Logger.Warning("[Modpack Guide] Unregistered guide reference: " + code);
+                continue;
+            }
             stacks.Add(new ItemStack(collectible));
         }
-        if (stacks.Count == 0) throw new FormatException("toolsmithitem requires at least one registered code");
+        if (stacks.Count == 0)
+            return new RichTextComponent(api, "[Unavailable guide item]", fonts.Peek());
         var extents = fonts.Peek().GetFontExtents();
         var component = new SlideshowItemstackTextComponent(api, stacks.ToArray(), extents.Height / Vintagestory.API.Config.RuntimeEnv.GUIScale, EnumFloat.Inline,
             stack => ToolsmithFamilySlideshows.OpenStackHandbook(api, stack))
