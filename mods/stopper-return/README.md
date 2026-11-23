@@ -1,6 +1,6 @@
 # Kuboczoch: Stopper Return
 
-Standalone ACA compatibility patch, version **1.0.1**, for **all stopper materials**. Prevents nested stopper loss when opening stacked bottles and permits opening while holding a different stopper type.
+Standalone ACA compatibility patch, version **1.0.2**, for **all stopper materials**. Prevents nested stopper loss when opening stacked bottles and permits opening while holding a different stopper type.
 
 | Offhand | Removed stopper |
 | --- | --- |
@@ -14,9 +14,11 @@ The matching/empty transfer and failed-transfer ground drop remain ACA's native 
 
 ## Install / remove
 
-Put `kuboczochceramicstopperreturn-1.0.1.zip` in `Mods` on **both client and server** (singleplayer uses the same installation), alongside ACA. **Replace the previous ZIP; do not keep both versions.** Restart to install/remove. No content IDs or save format are added. Back up your save before testing development-version mods.
+Stop the game/server. **Before installing, delete the old `kuboczochceramicstopperreturn-1.0.0.zip` and `kuboczochceramicstopperreturn-1.0.1.zip` files from `Mods` on both client and server.** Also remove any renamed copies or extracted installations of the old mod. Version 1.0.2 changes the mod ID, so the loader will not treat the old and new IDs as the same mod; keeping both can load duplicate patches.
 
-Display branding is now **Kuboczoch: Stopper Return**. The historical mod ID `kuboczochceramicstopperreturn`, Harmony ID, DLL name and package basename deliberately remain stable so this is an update, not a second independently loaded patch.
+Put only `kuboczochstopperreturn-1.0.2.zip` in `Mods` on **both client and server** (singleplayer uses the same installation), alongside ACA. Restart to install/remove. No content IDs or save format are added. Back up your save before testing development-version mods.
+
+The complete identity is now **Kuboczoch: Stopper Return**: mod ID `kuboczochstopperreturn`, Harmony ID `kuboczoch.stopperreturn`, assembly `KuboczochStopperReturn.dll`, namespace `Kuboczoch.StopperReturn`. Version 1.0.2 changes naming only; stopper-return behavior is unchanged from 1.0.1.
 
 Tested at the native managed-method level with VS **1.22.7** and actual ACA **2.0.0-dev.29 / dev.32**. Already-corrupted zero-sized nested stoppers are not repaired. Full client/server game testing remains pending; pack-wide compatibility is not asserted. See [RESEARCH.md](RESEARCH.md).
 
@@ -30,7 +32,7 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 python tests/run_native.py --dotnet /path/to/dotnet --game-path /path/to/game \
   --provider dev29 /path/to/extracted/aca29 /path/to/ACA-dev29.zip \
   --provider dev32 /path/to/extracted/aca32 /path/to/ACA-dev32.zip \
-  --mod-assembly bin/Release/net10.0/KuboczochCeramicStopperReturn.dll \
+  --mod-assembly bin/Release/net10.0/KuboczochStopperReturn.dll \
   --output /path/to/evidence
 ```
 

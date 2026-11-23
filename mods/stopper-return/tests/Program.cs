@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using ACulinaryArtillery;
 using HarmonyLib;
-using Kuboczoch.CeramicStopperReturn;
+using Kuboczoch.StopperReturn;
 using Vintagestory.API.Common;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;

@@ -25,6 +25,24 @@ class PackagingTests(unittest.TestCase):
         (self.root / "ACulinaryArtillery.dll").write_bytes(b"MZ foreign")
         self.output = self.root / "out.zip"
 
+    def test_release_identity(self):
+        import json
+        root = Path(__file__).resolve().parents[1]
+        metadata = json.loads((root / "modinfo.json").read_text())
+        self.assertEqual(metadata["name"], "Kuboczoch: Stopper Return")
+        self.assertEqual(metadata["modid"], "kuboczochstopperreturn")
+        self.assertEqual(metadata["version"], "1.0.2")
+        self.assertEqual(package.DLL, "KuboczochStopperReturn.dll")
+        source = (root / "src/StopperReturn.cs").read_text()
+        self.assertIn("namespace Kuboczoch.StopperReturn;", source)
+        self.assertIn('HarmonyId = "kuboczoch.stopperreturn"', source)
+        self.assertNotIn("ceramic", source.lower())
+        self.assertTrue((root / "KuboczochStopperReturn.csproj").is_file())
+        upgrade = (root / "README.md").read_text()
+        for old_version in ("1.0.0", "1.0.1"):
+            self.assertIn(f"kuboczochceramicstopperreturn-{old_version}.zip", upgrade)
+        self.assertIn("duplicate patches", upgrade)
+
     def test_deterministic_allowlist(self):
         first = package.package(self.root, self.assembly, self.output)
         second = package.package(self.root, self.assembly, self.root / "second.zip")

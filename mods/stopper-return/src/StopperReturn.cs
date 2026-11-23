@@ -3,11 +3,11 @@ using System.Reflection.Emit;
 using HarmonyLib;
 using Vintagestory.API.Common;
 
-namespace Kuboczoch.CeramicStopperReturn;
+namespace Kuboczoch.StopperReturn;
 
 public sealed class StopperReturnMod : ModSystem
 {
-    public const string HarmonyId = "kuboczoch.ceramicstopperreturn";
+    public const string HarmonyId = "kuboczoch.stopperreturn";
     private Harmony? harmony;
 
     public override void Start(ICoreAPI api)

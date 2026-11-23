@@ -6,7 +6,9 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <Deterministic>true</Deterministic>
     <PathMap>$(MSBuildProjectDirectory)=/_/</PathMap>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <AssemblyName>KuboczochStopperReturn</AssemblyName>
+    <RootNamespace>Kuboczoch.StopperReturn</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="src/**/*.cs"/>
