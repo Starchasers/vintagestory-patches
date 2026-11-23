@@ -1,0 +1,229 @@
+# Captured native output (stack frames omitted; full logs local)
+
+## dev29 red exit=1
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+RESULT cases=4797 failures=4512; materials=bark,ceramic,glass,metal,wood
+
+## dev29 clone-only-red exit=1
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+RESULT cases=4797 failures=4324; materials=bark,ceramic,glass,metal,wood
+
+## dev29 green exit=0
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+RESULT cases=4797 failures=0; materials=bark,ceramic,glass,metal,wood
+
+## dev29 flow-native-red exit=1
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+INSERT 1 client-created-return-bottles=1 server-nested=1 offhand=5
+INSERT-OWNERSHIP 1 nested-alias-live-input=False
+INSERT 2 client-created-return-bottles=1 server-nested=2 offhand=4
+INSERT-OWNERSHIP 2 nested-alias-live-input=False
+INSERT 3 client-created-return-bottles=1 server-nested=3 offhand=3
+INSERT-OWNERSHIP 3 nested-alias-live-input=False
+INSERT 4 client-created-return-bottles=1 server-nested=4 offhand=2
+INSERT-OWNERSHIP 4 nested-alias-live-input=False
+INSERT 5 client-created-return-bottles=1 server-nested=5 offhand=1
+INSERT-OWNERSHIP 5 nested-alias-live-input=False
+INSERT 6 client-created-return-bottles=0 server-nested=6 offhand=null
+INSERT-OWNERSHIP 6 nested-alias-live-input=False
+EXTRACT-AUTHORITY 1 client-created-return-bottles=1
+EXTRACT 1 offhand=1
+EXTRACT-AUTHORITY 2 client-created-return-bottles=1
+EXTRACT 2 offhand=1
+EXTRACT-AUTHORITY 3 client-created-return-bottles=1
+EXTRACT 3 offhand=1
+EXTRACT-AUTHORITY 4 client-created-return-bottles=1
+EXTRACT 4 offhand=1
+EXTRACT-AUTHORITY 5 client-created-return-bottles=1
+EXTRACT 5 offhand=0
+EXTRACT-AUTHORITY 6 client-created-return-bottles=0
+EXTRACT 6 offhand=0
+FULL-INVENTORY inserting=True client-drops=1 server-drops=1 pass=False
+FULL-INVENTORY inserting=False client-drops=1 server-drops=1 pass=False
+RESULT native-paired-flow red=True failures=14 loose=1 open=6
+
+## dev29 flow-green exit=0
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+INSERT 1 client-created-return-bottles=0 server-nested=1 offhand=5
+INSERT-OWNERSHIP 1 nested-alias-live-input=False
+INSERT 2 client-created-return-bottles=0 server-nested=2 offhand=4
+INSERT-OWNERSHIP 2 nested-alias-live-input=False
+INSERT 3 client-created-return-bottles=0 server-nested=3 offhand=3
+INSERT-OWNERSHIP 3 nested-alias-live-input=False
+INSERT 4 client-created-return-bottles=0 server-nested=4 offhand=2
+INSERT-OWNERSHIP 4 nested-alias-live-input=False
+INSERT 5 client-created-return-bottles=0 server-nested=5 offhand=1
+INSERT-OWNERSHIP 5 nested-alias-live-input=False
+INSERT 6 client-created-return-bottles=0 server-nested=6 offhand=null
+INSERT-OWNERSHIP 6 nested-alias-live-input=False
+EXTRACT-AUTHORITY 1 client-created-return-bottles=0
+EXTRACT 1 offhand=1
+EXTRACT-AUTHORITY 2 client-created-return-bottles=0
+EXTRACT 2 offhand=2
+EXTRACT-AUTHORITY 3 client-created-return-bottles=0
+EXTRACT 3 offhand=3
+EXTRACT-AUTHORITY 4 client-created-return-bottles=0
+EXTRACT 4 offhand=4
+EXTRACT-AUTHORITY 5 client-created-return-bottles=0
+EXTRACT 5 offhand=1
+EXTRACT-AUTHORITY 6 client-created-return-bottles=0
+EXTRACT 6 offhand=2
+FULL-INVENTORY inserting=True client-drops=0 server-drops=1 pass=True
+FULL-INVENTORY inserting=False client-drops=0 server-drops=1 pass=True
+RESULT native-paired-flow red=False failures=0 loose=6 open=6
+
+## dev29 lifecycle-green exit=0
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+LIFECYCLE double Start succeeded
+PASS failed install rolls back only attempted owner; live peer retained
+PASS lifecycle both dispose orders, reload, double disposal, eight concurrent peers
+
+## dev29 flow-102-direct-install exit=1
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=7368A9782F858946D79005EA859C4A8C56F333682FCF11304FE70F4ABE46DBF0
+INSERT 1 client-created-return-bottles=1 server-nested=1 offhand=5
+INSERT-OWNERSHIP 1 nested-alias-live-input=False
+INSERT 2 client-created-return-bottles=1 server-nested=2 offhand=4
+INSERT-OWNERSHIP 2 nested-alias-live-input=False
+INSERT 3 client-created-return-bottles=1 server-nested=3 offhand=3
+INSERT-OWNERSHIP 3 nested-alias-live-input=False
+INSERT 4 client-created-return-bottles=1 server-nested=4 offhand=2
+INSERT-OWNERSHIP 4 nested-alias-live-input=False
+INSERT 5 client-created-return-bottles=1 server-nested=5 offhand=1
+INSERT-OWNERSHIP 5 nested-alias-live-input=False
+INSERT 6 client-created-return-bottles=0 server-nested=6 offhand=null
+INSERT-OWNERSHIP 6 nested-alias-live-input=False
+EXTRACT-AUTHORITY 1 client-created-return-bottles=1
+EXTRACT 1 offhand=1
+EXTRACT-AUTHORITY 2 client-created-return-bottles=1
+EXTRACT 2 offhand=2
+EXTRACT-AUTHORITY 3 client-created-return-bottles=1
+EXTRACT 3 offhand=3
+EXTRACT-AUTHORITY 4 client-created-return-bottles=1
+EXTRACT 4 offhand=4
+EXTRACT-AUTHORITY 5 client-created-return-bottles=1
+EXTRACT 5 offhand=1
+EXTRACT-AUTHORITY 6 client-created-return-bottles=0
+EXTRACT 6 offhand=2
+FULL-INVENTORY inserting=True client-drops=1 server-drops=1 pass=False
+FULL-INVENTORY inserting=False client-drops=1 server-drops=1 pass=False
+RESULT native-paired-flow red=False failures=12 loose=6 open=6
+
+## dev29 lifecycle-102-red exit=1
+RUN ACA-SHA256=8F6CB3C873F39CC2E3B898AA538015370608547B6F4D34A0FBDAE51EC255406B MOD-SHA256=7368A9782F858946D79005EA859C4A8C56F333682FCF11304FE70F4ABE46DBF0
+FAIL lifecycle System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: ACA stopper extraction IL changed; refusing an ambiguous patch.
+LIFECYCLE after failure live-owner-transpilers=0
+
+## dev32 red exit=1
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+RESULT cases=4797 failures=4512; materials=bark,ceramic,glass,metal,wood
+
+## dev32 clone-only-red exit=1
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+RESULT cases=4797 failures=4324; materials=bark,ceramic,glass,metal,wood
+
+## dev32 green exit=0
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+RESULT cases=4797 failures=0; materials=bark,ceramic,glass,metal,wood
+
+## dev32 flow-native-red exit=1
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+INSERT 1 client-created-return-bottles=0 server-nested=1 offhand=5
+INSERT-OWNERSHIP 1 nested-alias-live-input=False
+INSERT 2 client-created-return-bottles=0 server-nested=2 offhand=4
+INSERT-OWNERSHIP 2 nested-alias-live-input=False
+INSERT 3 client-created-return-bottles=0 server-nested=3 offhand=3
+INSERT-OWNERSHIP 3 nested-alias-live-input=False
+INSERT 4 client-created-return-bottles=0 server-nested=4 offhand=2
+INSERT-OWNERSHIP 4 nested-alias-live-input=False
+INSERT 5 client-created-return-bottles=0 server-nested=5 offhand=1
+INSERT-OWNERSHIP 5 nested-alias-live-input=False
+INSERT 6 client-created-return-bottles=0 server-nested=6 offhand=null
+INSERT-OWNERSHIP 6 nested-alias-live-input=False
+EXTRACT-AUTHORITY 1 client-created-return-bottles=0
+EXTRACT 1 offhand=1
+EXTRACT-AUTHORITY 2 client-created-return-bottles=0
+EXTRACT 2 offhand=1
+EXTRACT-AUTHORITY 3 client-created-return-bottles=0
+EXTRACT 3 offhand=1
+EXTRACT-AUTHORITY 4 client-created-return-bottles=0
+EXTRACT 4 offhand=1
+EXTRACT-AUTHORITY 5 client-created-return-bottles=0
+EXTRACT 5 offhand=0
+EXTRACT-AUTHORITY 6 client-created-return-bottles=0
+EXTRACT 6 offhand=0
+FULL-INVENTORY inserting=True client-drops=0 server-drops=1 pass=True
+FULL-INVENTORY inserting=False client-drops=0 server-drops=1 pass=True
+RESULT native-paired-flow red=True failures=6 loose=1 open=6
+
+## dev32 flow-green exit=0
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+INSERT 1 client-created-return-bottles=0 server-nested=1 offhand=5
+INSERT-OWNERSHIP 1 nested-alias-live-input=False
+INSERT 2 client-created-return-bottles=0 server-nested=2 offhand=4
+INSERT-OWNERSHIP 2 nested-alias-live-input=False
+INSERT 3 client-created-return-bottles=0 server-nested=3 offhand=3
+INSERT-OWNERSHIP 3 nested-alias-live-input=False
+INSERT 4 client-created-return-bottles=0 server-nested=4 offhand=2
+INSERT-OWNERSHIP 4 nested-alias-live-input=False
+INSERT 5 client-created-return-bottles=0 server-nested=5 offhand=1
+INSERT-OWNERSHIP 5 nested-alias-live-input=False
+INSERT 6 client-created-return-bottles=0 server-nested=6 offhand=null
+INSERT-OWNERSHIP 6 nested-alias-live-input=False
+EXTRACT-AUTHORITY 1 client-created-return-bottles=0
+EXTRACT 1 offhand=1
+EXTRACT-AUTHORITY 2 client-created-return-bottles=0
+EXTRACT 2 offhand=2
+EXTRACT-AUTHORITY 3 client-created-return-bottles=0
+EXTRACT 3 offhand=3
+EXTRACT-AUTHORITY 4 client-created-return-bottles=0
+EXTRACT 4 offhand=4
+EXTRACT-AUTHORITY 5 client-created-return-bottles=0
+EXTRACT 5 offhand=1
+EXTRACT-AUTHORITY 6 client-created-return-bottles=0
+EXTRACT 6 offhand=2
+FULL-INVENTORY inserting=True client-drops=0 server-drops=1 pass=True
+FULL-INVENTORY inserting=False client-drops=0 server-drops=1 pass=True
+RESULT native-paired-flow red=False failures=0 loose=6 open=6
+
+## dev32 lifecycle-green exit=0
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=D21E092D496DB8E4B630CE253FE77F63DBCE8561E6F3938D410DA111C31A6E17
+LIFECYCLE double Start succeeded
+PASS failed install rolls back only attempted owner; live peer retained
+PASS lifecycle both dispose orders, reload, double disposal, eight concurrent peers
+
+## dev32 flow-102-direct-install exit=0
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=7368A9782F858946D79005EA859C4A8C56F333682FCF11304FE70F4ABE46DBF0
+INSERT 1 client-created-return-bottles=0 server-nested=1 offhand=5
+INSERT-OWNERSHIP 1 nested-alias-live-input=False
+INSERT 2 client-created-return-bottles=0 server-nested=2 offhand=4
+INSERT-OWNERSHIP 2 nested-alias-live-input=False
+INSERT 3 client-created-return-bottles=0 server-nested=3 offhand=3
+INSERT-OWNERSHIP 3 nested-alias-live-input=False
+INSERT 4 client-created-return-bottles=0 server-nested=4 offhand=2
+INSERT-OWNERSHIP 4 nested-alias-live-input=False
+INSERT 5 client-created-return-bottles=0 server-nested=5 offhand=1
+INSERT-OWNERSHIP 5 nested-alias-live-input=False
+INSERT 6 client-created-return-bottles=0 server-nested=6 offhand=null
+INSERT-OWNERSHIP 6 nested-alias-live-input=False
+EXTRACT-AUTHORITY 1 client-created-return-bottles=0
+EXTRACT 1 offhand=1
+EXTRACT-AUTHORITY 2 client-created-return-bottles=0
+EXTRACT 2 offhand=2
+EXTRACT-AUTHORITY 3 client-created-return-bottles=0
+EXTRACT 3 offhand=3
+EXTRACT-AUTHORITY 4 client-created-return-bottles=0
+EXTRACT 4 offhand=4
+EXTRACT-AUTHORITY 5 client-created-return-bottles=0
+EXTRACT 5 offhand=1
+EXTRACT-AUTHORITY 6 client-created-return-bottles=0
+EXTRACT 6 offhand=2
+FULL-INVENTORY inserting=True client-drops=0 server-drops=1 pass=True
+FULL-INVENTORY inserting=False client-drops=0 server-drops=1 pass=True
+RESULT native-paired-flow red=False failures=0 loose=6 open=6
+
+## dev32 lifecycle-102-red exit=1
+RUN ACA-SHA256=DFEA2335E2F61616974293C7EE03D955366E318C959252F475597EF2B0B9F471 MOD-SHA256=7368A9782F858946D79005EA859C4A8C56F333682FCF11304FE70F4ABE46DBF0
+FAIL lifecycle System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: ACA stopper extraction IL changed; refusing an ambiguous patch.
+LIFECYCLE after failure live-owner-transpilers=0

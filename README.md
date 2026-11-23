@@ -7,6 +7,7 @@ Custom gameplay fixes, compatibility patches and handbook improvements for the *
 - **[AoG Cookery Compatibility](mods/aog-cookery-compat)** — Restores Rustic Cookery braising interactions and sounds on Art of Growing firepits.
 - **[Boat Resin Construction](mods/boat-resin-construction)** — Uses one raw resin per seam when building Rough Seas boats, instead of pitch glue. Keeps construction timing and progress unchanged.
 - **[Kuboczoch: Dead Corpse Inventory Fix](mods/dead-corpse-inventory-fix)** — Preserves slot-leave cleanup when a hovered bag-content slot disappears, preventing the corpse/inventory hover crash without suppressing exceptions.
+- **[Kuboczoch: Stopper Return](mods/stopper-return)** — Returns all ACA stopper materials to empty/matching offhands or drops them safely; different stopper types no longer block opening, and stacked bottles retain their nested stopper.
 - **[Firepit Tinder Return](mods/firepit-tinder-return)** — Returns dry grass when dismantling newly built dry-grass firepits, rather than incorrectly returning straw. Straw-built firepits still return straw.
 - **[Pszczoły Tea Balance](mods/pszczoly-tea-balance)** — Reduces Floral Tea and Wild Tea satiety and updates their descriptions, without changing healing effects.
 - **[Quiet Rough Seas](https://github.com/Starchasers/vintagestory-quietroughseas)** — Quieter Rough Seas logging, axe-only player hull damage, stronger paddling/sculling, helpful-only boat currents and lightning protection for animals.
