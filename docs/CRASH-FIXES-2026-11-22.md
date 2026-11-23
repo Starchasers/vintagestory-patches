@@ -11,7 +11,7 @@ Two independent client failures were investigated on Vintage Story 1.22.7. They 
 
 ## Disappearing inventory-slot hover
 
-- Separate implementation: [collection PR #4](https://github.com/Starchasers/vintagestory-patches/pull/4), **Inventory Hover Cleanup 1.0.0**. This pin-only coordination PR does not contain that implementation.
+- Separate implementation: [collection PR #4](https://github.com/Starchasers/vintagestory-patches/pull/4), **Kuboczoch: Inventory Hover Cleanup 1.0.0**. This pin-only coordination PR does not contain that implementation.
 - Exact VS 1.22.7 and Dead 2.9.8 methods reproduced a null leave-event slot after bag-content shrink. The patch retains the entered slot per GUI grid and substitutes it only when the leave lookup returns null, allowing native callbacks and cleanup to continue.
 - Parent verification: unpatched native failure reproduced in both leave branches; patched production Harmony path passed 29 assertions; two packaging tests passed; build completed without warnings or errors.
 - Neither the `spyglass` Harmony ID nor the launcher's combined crash summary proves those mods caused the hover failure.
@@ -21,7 +21,7 @@ Two independent client failures were investigated on Vintage Story 1.22.7. They 
 1. Review Quiet Rough Seas PR #2 before #3; merge this submodule-pin PR only after its upstream dependency chain is accepted. If squash merging changes the desired pin, update the gitlink to the accepted equivalent commit before merging.
 2. Review collection PR #4 independently. Both fixes are needed to cover both reported failure classes.
 3. Back up the mod set. Replace `quietroughseas_1.8.0.zip` with `quietroughseas_1.8.1.zip` on clients and server; keep Rough Seas 5.0.1 installed. Do not keep duplicate versions. Preserve the existing Quiet Rough Seas configuration.
-4. Install `inventoryhovercleanup-1.0.0.zip` on affected clients; it is client-only and not required on the server.
+4. Install `kuboczochinventoryhovercleanup-1.0.0.zip` on affected clients; it is client-only and not required on the server. Remove the earlier unprefixed `inventoryhovercleanup-1.0.0.zip` preview first if present: its mod ID differs, so both ZIPs must not coexist.
 5. Restart clients/server. Test occupied rowing boats, mounting/dismounting, nearby players and first-person variants; test corpse bag-content changes, inventory switching and GUI close/reopen.
 
 No live world, installed modpack or server was modified. Rendered multiplayer boat behavior and physical inventory/tooltip interaction have not been validated. Headless reproductions and native server startup are not a claim that the entire modpack is crash-free. Historical Windows native event-log failures on other dates were not assigned a cause or silently treated as fixed.
