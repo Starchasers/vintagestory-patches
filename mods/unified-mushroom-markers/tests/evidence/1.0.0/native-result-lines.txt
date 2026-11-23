@@ -1,0 +1,43 @@
+PASS production pack contains both original categories
+PASS unpatched baseline exposes two safety-specific UI categories
+PASS unpatched baseline produces separate safety matches
+PASS client-only mod lifecycle
+PASS production Harmony target Build
+PASS production Harmony target BuildSettingLayout
+PASS production Harmony target LoadSettings
+PASS production Harmony target GetSettings
+PASS production Harmony target SaveSettings
+PASS loaded settings share unified object
+PASS real UI layout has exactly one neutral mushroom row
+PASS poisonous category absent from real UI layout
+PASS no safety or psychedelic subcategories in UI
+PASS unrelated resin UI retained
+PASS unified toggle can be disabled without stale unsafe enable
+PASS disabled unified toggle survives native save/reload
+PASS saved source categories stay collapsed
+PASS single non-dynamic production registry match mushroom-fieldmushroom-normal
+PASS no title/color/icon clues mushroom-fieldmushroom-normal
+PASS real ThingIdentifier suppresses species title mushroom-fieldmushroom-normal
+PASS actual protobuf payload/server title formatting remains neutral mushroom-fieldmushroom-normal
+PASS single non-dynamic production registry match mushroom-deathcap-normal
+PASS no title/color/icon clues mushroom-deathcap-normal
+PASS real ThingIdentifier suppresses species title mushroom-deathcap-normal
+PASS actual protobuf payload/server title formatting remains neutral mushroom-deathcap-normal
+PASS single non-dynamic production registry match mushroom-flyagaric-normal
+PASS no title/color/icon clues mushroom-flyagaric-normal
+PASS real ThingIdentifier suppresses species title mushroom-flyagaric-normal
+PASS actual protobuf payload/server title formatting remains neutral mushroom-flyagaric-normal
+PASS single non-dynamic production registry match mushroom-modadded-normal
+PASS no title/color/icon clues mushroom-modadded-normal
+PASS real ThingIdentifier suppresses species title mushroom-modadded-normal
+PASS actual protobuf payload/server title formatting remains neutral mushroom-modadded-normal
+PASS unrelated resin registry retained
+PASS original definitions not mutated
+PASS unsafe-only parent enable migrates to unified toggle
+PASS expanded disabled children override inactive enabled parents
+PASS expanded enabled unsafe child migrates to unified toggle
+PASS real StartPre installs patches 0
+PASS real Dispose removes patches 0
+PASS real StartPre installs patches 1
+PASS real Dispose removes patches 1
+ALL 42 native assembly assertions passed
