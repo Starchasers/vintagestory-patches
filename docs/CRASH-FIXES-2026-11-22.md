@@ -4,7 +4,7 @@ Two independent client failures were investigated on Vintage Story 1.22.7. They 
 
 ## Rowing animation lifecycle
 
-- Implementation: [Quiet Rough Seas PR #3](https://github.com/Starchasers/vintagestory-quietroughseas/pull/3), version **1.8.1**, pinned here at `9c442a392dccc3922337c4fda78fa2d0a13bdf19`.
+- Implementation: [Quiet Rough Seas PR #3](https://github.com/Starchasers/vintagestory-quietroughseas/pull/3), version **1.8.1**, pinned here at `5f8052aa14416a9073c6a6e66abfda1985a7ef1c`.
 - Depends on existing [Quiet Rough Seas PR #2](https://github.com/Starchasers/vintagestory-quietroughseas/pull/2), preserving the installed 1.8.0 animal-lightning protection.
 - Guards only Rough Seas `MountStrokes.Pace`, `DrawnShare` and `Finish` animation-state reads while their manager/animator is unavailable. Healthy virtual lookup and stroke bookkeeping remain intact.
 - Parent verification: 195 runtime assertions; five intended failing controls; 65 current assertions and 2,000 seeded cases; four intended failing current controls. Official 1.22.7 dedicated-server startup compiled the installable source ZIP, installed the patches against the official Rough Seas 5.0.1 binary, reached RunGame and shut down cleanly.
@@ -18,8 +18,8 @@ Two independent client failures were investigated on Vintage Story 1.22.7. They 
 
 ## Review and rollout
 
-1. Review Quiet Rough Seas PR #2 before #3; merge this submodule-pin PR only after its upstream dependency chain is accepted. If squash merging changes the desired pin, update the gitlink to the accepted equivalent commit before merging.
-2. Review collection PR #4 independently. Both fixes are needed to cover both reported failure classes.
+1. Quiet Rough Seas PRs #2 and #3 were squash-merged in that order. This gitlink references the accepted main commit `5f8052aa14416a9073c6a6e66abfda1985a7ef1c`, whose source tree matches the tested rowing implementation.
+2. Collection PR #4 was independently squash-merged as `e2c4fd35141f80359e8d45179209052788726a73`. Both fixes are needed to cover both reported failure classes.
 3. Back up the mod set. Replace `quietroughseas_1.8.0.zip` with `quietroughseas_1.8.1.zip` on clients and server; keep Rough Seas 5.0.1 installed. Do not keep duplicate versions. Preserve the existing Quiet Rough Seas configuration.
 4. Install `kuboczochdeadcorpseinventoryfix-1.0.0.zip` on affected clients; it is client-only and not required on the server. Remove earlier `inventoryhovercleanup-1.0.0.zip` and `kuboczochinventoryhovercleanup-1.0.0.zip` previews first if present: their mod IDs differ, so older ZIPs must not coexist with this release.
 5. Restart clients/server. Test occupied rowing boats, mounting/dismounting, nearby players and first-person variants; test corpse bag-content changes, inventory switching and GUI close/reopen.
