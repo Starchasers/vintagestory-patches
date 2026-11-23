@@ -5,7 +5,7 @@ using HarmonyLib;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 
-namespace InventoryHoverCleanup;
+namespace KuboczochInventoryHoverCleanup;
 
 public sealed class HoverCleanupMod : ModSystem
 {
@@ -13,7 +13,7 @@ public sealed class HoverCleanupMod : ModSystem
     public override bool ShouldLoad(EnumAppSide side) => side == EnumAppSide.Client;
     public override void StartClientSide(ICoreClientAPI api)
     {
-        harmony = new Harmony("starchasers.inventoryhovercleanup");
+        harmony = new Harmony("kuboczoch.inventoryhovercleanup");
         harmony.Patch(AccessTools.Method(typeof(GuiElementItemSlotGridBase), "OnMouseMove"),
             transpiler: new HarmonyMethod(typeof(HoverCleanup), nameof(HoverCleanup.Transpile)));
     }

@@ -1,7 +1,7 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using HarmonyLib;
-using InventoryHoverCleanup;
+using KuboczochInventoryHoverCleanup;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
@@ -138,7 +138,7 @@ public static class Program
         if (!args.Contains("--red")) mod.StartClientSide(null!);
         try { Run(!args.Contains("--red"), true); Run(!args.Contains("--red"), false); if (!args.Contains("--red")) { NativeTransition(); EdgeCases(); } }
         finally { mod.Dispose(); }
-        Check(!Harmony.HasAnyPatches("starchasers.inventoryhovercleanup"), "dispose unpatches owner");
+        Check(!Harmony.HasAnyPatches("kuboczoch.inventoryhovercleanup"), "dispose unpatches owner");
         Console.WriteLine($"{assertions} assertions passed"); return 0;
     }
 }
