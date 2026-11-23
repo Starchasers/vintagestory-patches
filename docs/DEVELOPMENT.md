@@ -16,6 +16,7 @@ Run commands from the relevant mod directory.
 
 - **AoG Cookery Compatibility / Pszczoly Tea Balance:** content-only mods. Package their assets and `modinfo.json` at the ZIP root; no compilation needed.
 - **Boat Resin Construction:** build `mod/KuboczochPitchGlueCompat.csproj`. See `Directory.Build.props`, `package.py` and the mod README for SDK/pack parameters.
+- **Inventory Hover Cleanup:** `python tools/package.py --game-path /path/to/game --dotnet /path/to/dotnet`. Production Harmony tests: `dotnet run --project tests/Tests.csproj -c Release -p:GamePath=/path/to/game -p:DeadPath=/path/to/dead`; append `-- --red` for unpatched crash reproduction. Requires exact VS 1.22.7 and Dead 2.9.8 for tests; see its README for packaging tests and validation limits.
 - **Firepit Tinder Return:** `python tools/build.py --vs /path/to/game --pack /path/to/modpack.zip`.
 - **Food Handbook:** set `GAME_PATH=/path/to/game` and `ACA_PATH=/path/to/ACulinaryArtillery.dll`, then run `python tools/build.py`. SDK-free policy tests: `dotnet run --project tests/Tests.csproj -c Release`.
 - **Modpack Guide:** `dotnet build client/ToolsmithFamilySlideshows.csproj -c Release -p:GameDir=/path/to/game`. See its README for content generation and testing.
