@@ -60,7 +60,7 @@ def main():
     args = parser.parse_args()
     subprocess.run([args.dotnet, "build", str(ROOT / "KuboczochCeramicStopperReturn.csproj"),
                     "-c", "Release", "-p:GamePath=" + str(args.game_path.resolve())], check=True)
-    output = ROOT / "dist/kuboczochceramicstopperreturn-1.0.0.zip"
+    output = ROOT / "dist/kuboczochceramicstopperreturn-1.0.1.zip"
     checksum = package(ROOT, ROOT / "bin/Release/net10.0" / DLL, output)
     output.with_suffix(".zip.sha256").write_text(checksum + "  " + output.name + "\n")
     print(output)

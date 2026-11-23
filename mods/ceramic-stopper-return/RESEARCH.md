@@ -20,14 +20,14 @@ Target method: `ACulinaryArtillery.BlockStoppableContainer.OnHeldInteractStart(I
 
 In both published versions, the uncorking branch:
 
-1. Reads `GetStopper(itemslot.Itemstack)` to check offhand collectible compatibility.
+1. Reads `GetStopper(itemslot.Itemstack)` to check offhand collectible compatibility. An empty offhand is accepted, but a nonempty one must have the **identical collectible object** as the nested stopper (`ceq` in IL). Different stopper types fail this early guard, so the later failed-transfer ground-drop fallback is never reached. The previous clone-only patch preserved this restriction.
 2. Reads it again into the removed-stopper local. `GetStopper` uses native `BlockContainer.GetContents` and returns the nested `ItemStack` directly, not a clone.
 3. Splits/replaces the container, removing its stopper from the new open bottle. When splitting a held stack, the **remaining bottles retain the original nested stack reference**.
 4. Transfers the removed-stopper local through `new DummySlot(stopper).TryPutInto(world, offhandSlot, 1)` or spawns it if that fails.
 
 Native `ItemSlot.TryPutInto` / `CollectibleObject.TryMergeStacks` decrement the source stack on a successful transfer. Because that source aliases the remaining bottles' contents, they now contain a **zero-sized stopper**. A later uncork can transfer/drop nothing. The initial transfer succeeds: the damage is to subsequent bottles in the held stack. An empty offhand can also trigger the aliasing bug; it is not ceramic-specific. A fresh single bottle with a matching offhand did not lose its stopper in this harness. The reported broader single-bottle wording is not claimed fully reproduced.
 
-The patch inserts one clone call immediately after the **second** `GetStopper` call in this method. It does not replace the method, alter all `GetStopper` results, patch native slots globally, change inventory/drop policy, or edit provider files. A signature lookup and exactly-two-read/store-local IL check reject an unexpected provider shape. Harmony ownership enables clean unpatching on disposal. It runs on both sides to preserve identical local interaction logic; networking remains ACA's responsibility.
+Version **1.0.1** replaces only that first-read collectible comparison with a helper: reference equality still succeeds, and different collectibles succeed only if **both** carry `isLiquidContainerStopper: true`. Non-stopper routing is preserved. ACA then attempts the native transfer, which rejects different collectible types, and drops the removed stopper through its existing fallback. The patch also retains the clone call immediately after the **second** `GetStopper` read. It does not replace the method, alter other getters, patch native slots globally or edit provider files. A signature lookup, exactly-two-read/store-local guard and null-safe collectible-comparison IL check reject unexpected provider shapes. Harmony ownership enables clean unpatching on disposal. It runs on both sides to preserve identical local interaction logic; networking remains ACA's responsibility.
 
 No normalization of nested stack sizes is performed. Already-corrupted stoppers are not healed, to avoid silently inventing items or changing saved data.
 
@@ -35,13 +35,16 @@ No normalization of nested stack sizes is performed. Already-corrupted stoppers 
 
 VS **1.22.7**, .NET **10**, real ACA **dev29** and **dev32**, separately executed:
 
-- Unpatched `--red`: **nonzero exit**, conservation failure at first opening of three bottles with two offhand stoppers: expected **5**, observed **3** (one returned plus two zero-sized nested stoppers).
-- Patched: **8 cases passed** per provider. Six native interaction cases cross one/three bottles with matching offhand count two/empty/full; all bottles are opened sequentially, total stoppers/containers are conserved, and remaining nested stoppers stay size one. Another case verifies a dropped stopper does not alias remaining contents. One verifies changed/empty IL is rejected.
-- Packaging policy tests: six cases cover repeatable allowlist archive, foreign DLL rejection, symlink rejection, disguised executable rejection, private path rejection and non-DLL rejection. Those use explicitly synthetic packaging bytes, not a fake production mod assembly.
+- Each ZIP discovers **47** usable variants: bark 1, ceramic 10, glass 11, metal 12, wood 13. Raw ceramic lacks the usable-stopper flag. Optional cross-mod patches are not applied. Inheritance, variant expansion, max stack size and attributes come from actual provider assets, not a ceramic-only fixture.
+- Each mode runs **4,796 cases per provider**. Every variant crosses empty, matching two/near-full/full, all 46 different stopper variants and an unrelated non-stopper, with one and three held bottles opened sequentially; two additional cases verify fail-closed IL guards.
+- Original `--red`: **4,512 failures**, nonzero exit, in each provider. Both mismatch restriction and nested-stack aliasing reproduce.
+- Previous behavior `--clone-only`: **4,324 failures**, nonzero exit, in each provider. The clone prevents aliasing but every different-stopper pairing still blocks opening.
+- Current patched: **0 failures**, exit zero, **4,796 passed per provider**. Exact offhand/drop counts, offhand identity under mismatch, nested stack size/reference isolation and bottle/stopper conservation are checked after every opening.
+- Packaging policy tests cover repeatable allowlist archives, foreign DLLs, symlinks, disguised executables, private paths and non-DLL payloads. They use explicitly synthetic packaging bytes, never a fake production assembly.
 
 The native-method harness constructs real ACA blocks, VS `ItemStack`, `DummySlot`, `ItemSlotOffhand`, nested contents and `EntityPlayer`. Only world lookup/spawning and inventory-manager services are mocked. IPlayer has an internal SDK interface member; a test-only dynamic implementation supplies its inventory manager without modifying the SDK. No test helper ships in the mod DLL.
 
-These tests establish the aliasing bug and managed repair against both published providers. They do not establish asset-loader startup, complete pack integration, rendering, sound, client/server synchronization or a user game reproduction. Game testing remains pending.
+These tests establish the aliasing bug, early mismatch prohibition and narrow managed repair against both published providers. They do not establish asset-loader startup, complete pack integration, rendering, sound, client/server synchronization or a user game reproduction. Game testing remains pending.
 
 ## Would upgrading fix it?
 

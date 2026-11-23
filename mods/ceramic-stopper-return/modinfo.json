@@ -1,10 +1,10 @@
 {
   "type": "code",
   "modid": "kuboczochceramicstopperreturn",
-  "name": "Kuboczoch: Ceramic Stopper Return",
+  "name": "Kuboczoch: Stopper Return",
   "authors": ["Kuboczoch"],
-  "description": "Preserves bottle stoppers when uncorking stacked ACA bottles.",
-  "version": "1.0.0",
+  "description": "Returns all ACA stopper materials to the offhand or ground without blocking on different stopper types or losing nested stoppers.",
+  "version": "1.0.1",
   "side": "Universal",
   "requiredOnClient": true,
   "requiredOnServer": true,
