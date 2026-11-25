@@ -11,6 +11,7 @@ Custom gameplay fixes, compatibility patches and handbook improvements for the *
 - **[Firepit Tinder Return](mods/firepit-tinder-return)** — Returns dry grass when dismantling newly built dry-grass firepits, rather than incorrectly returning straw. Straw-built firepits still return straw.
 - **[Pszczoły Tea Balance](mods/pszczoly-tea-balance)** — Reduces Floral Tea and Wild Tea satiety and updates their descriptions, without changing healing effects.
 - **[Quiet Rough Seas](https://github.com/Starchasers/vintagestory-quietroughseas)** — Quieter Rough Seas logging, axe-only player hull damage, stronger paddling/sculling, helpful-only boat currents and lightning protection for animals.
+- **[Kuboczoch's Safer Surface](mods/safer-surface)** — Server-only VS 1.22.7 mod limiting new drifter, shiver and bowtorn player detection to 8 blocks on safe seasonal daytime surfaces. Caves, darkness at either endpoint, storms, unstable regions, retaliation and existing pursuit retain vanilla behavior. Wildlife is unchanged. Version 0.1.0 is a test build; see its native gameplay checklist.
 - **[Saw Container Guard](mods/saw-container-guard)** — Prevents Saw Chiseling from converting containers and other stateful blocks into chiseled blocks. Empty containers are protected too; ordinary solid wood remains chiselable.
 
 ## Handbooks and tutorials
@@ -31,7 +32,7 @@ This repository contains **source code**, not a single installable modpack. Use 
 
 Place installable ZIPs in your Vintage Story `Mods` directory. When updating, replace the old ZIP rather than keeping two versions of the same mod. Restart the game after changing mods. Do not copy the entire repository into `Mods`.
 
-Quiet Rough Seas, Tutorial Skip and Coins are maintained in their linked repositories. Their directories here are Git submodules; their releases and issue trackers remain with those projects.
+Quiet Rough Seas, Tutorial Skip, Safer Surface and Coins are maintained in their linked repositories. Their directories here are Git submodules; their releases and issue trackers remain with those projects.
 
 ## Source code
 
@@ -46,7 +47,7 @@ Build instructions: [developer documentation](docs/DEVELOPMENT.md). Coins is a p
 ```sh
 git clone https://github.com/Starchasers/vintagestory-patches.git
 cd vintagestory-patches
-git submodule update --init --recursive -- mods/quiet-rough-seas mods/tutorial-skip
+git submodule update --init --recursive -- mods/quiet-rough-seas mods/tutorial-skip mods/safer-surface
 ```
 
 ## Credits

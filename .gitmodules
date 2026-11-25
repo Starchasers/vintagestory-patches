@@ -7,3 +7,6 @@
 [submodule "mods/coins"]
 	path = mods/coins
 	url = https://github.com/Starchasers/vintagestory-coins.git
+[submodule "mods/safer-surface"]
+	path = mods/safer-surface
+	url = https://github.com/Starchasers/kuboczochs-safer-surface.git
