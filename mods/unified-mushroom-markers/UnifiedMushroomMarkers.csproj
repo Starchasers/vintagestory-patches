@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <AssemblyName>UnifiedMushroomMarkers</AssemblyName><Version>1.0.0</Version>
+    <Deterministic>true</Deterministic><EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <Reference Include="VintagestoryAPI"><HintPath>$(GamePath)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="automapmarkers"><HintPath>$(AutoMapMarkersPath)</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="ValidateInputs" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GamePath)/VintagestoryAPI.dll') Or !Exists('$(GamePath)/Lib/0Harmony.dll') Or !Exists('$(AutoMapMarkersPath)')" Text="Set GamePath to a Vintage Story 1.22 installation and AutoMapMarkersPath to the external Auto Map Markers 5.0.3 DLL." />
+  </Target>
+</Project>

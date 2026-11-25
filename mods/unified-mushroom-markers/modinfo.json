@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "unifiedmushroommarkers",
+  "name": "Kuboczoch: Unified Mushroom Markers",
+  "authors": ["Kuboczoch"],
+  "description": "One neutral Mushrooms category for Auto Map Markers; no poisonous category or safety clues in new markers.",
+  "version": "1.0.0",
+  "side": "client",
+  "requiredOnClient": false,
+  "requiredOnServer": false,
+  "dependencies": { "game": "1.22.0", "egocaribautomapmarkers": "5.0.3" }
+}
