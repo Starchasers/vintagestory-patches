@@ -1,0 +1,18 @@
+# Generated outputs and local SDKs must never enter source control.
+**/bin/
+**/obj/
+/dist/
+/sdk/
+/game/
+*.dll
+*.pdb
+*.zip
+*.zip.sha256
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.vs/
+.idea/

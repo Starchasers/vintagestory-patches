@@ -32,7 +32,7 @@ This repository contains **source code**, not a single installable modpack. Use 
 
 Place installable ZIPs in your Vintage Story `Mods` directory. When updating, replace the old ZIP rather than keeping two versions of the same mod. Restart the game after changing mods. Do not copy the entire repository into `Mods`.
 
-Quiet Rough Seas, Tutorial Skip, Safer Surface and Coins are maintained in their linked repositories. Their directories here are Git submodules; their releases and issue trackers remain with those projects.
+Safer Surface source, tests and packaging tools live directly in `mods/safer-surface`; build instructions are in its `tools/README.md`. Quiet Rough Seas, Tutorial Skip and Coins are maintained in their linked repositories. Their directories here are Git submodules; their releases and issue trackers remain with those projects.
 
 ## Source code
 
@@ -47,7 +47,7 @@ Build instructions: [developer documentation](docs/DEVELOPMENT.md). Coins is a p
 ```sh
 git clone https://github.com/Starchasers/vintagestory-patches.git
 cd vintagestory-patches
-git submodule update --init --recursive -- mods/quiet-rough-seas mods/tutorial-skip mods/safer-surface
+git submodule update --init --recursive -- mods/quiet-rough-seas mods/tutorial-skip
 ```
 
 ## Credits

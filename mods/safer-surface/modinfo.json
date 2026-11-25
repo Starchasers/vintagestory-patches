@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "kuboczochssafersurface",
+  "name": "Kuboczoch's Safer Surface",
+  "authors": ["Kuboczoch"],
+  "description": "Caps new player acquisition by selected monsters on stable, daylit surfaces, without changing existing pursuit or retaliation.",
+  "version": "0.1.0",
+  "side": "Server",
+  "requiredOnClient": false,
+  "requiredOnServer": true,
+  "dependencies": { "game": "1.22.7" }
+}
