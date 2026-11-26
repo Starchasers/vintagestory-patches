@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/SaferSurface.csproj" />
+    <Reference Include="VintagestoryAPI"><HintPath>$(GameDir)/VintagestoryAPI.dll</HintPath></Reference>
+    <Reference Include="VSEssentials"><HintPath>$(GameDir)/Mods/VSEssentials.dll</HintPath></Reference>
+    <Reference Include="VSSurvivalMod"><HintPath>$(GameDir)/Mods/VSSurvivalMod.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameDir)/Lib/0Harmony.dll</HintPath></Reference>
+  </ItemGroup>
+  <!-- SDK dependencies are test-output-only; never content in a mod package. -->
+  <Target Name="CopyExternalTestDependencies" AfterTargets="Build">
+    <ItemGroup><SdkDependency Include="$(GameDir)/*.dll;$(GameDir)/Lib/*.dll;$(GameDir)/Mods/*.dll" /></ItemGroup>
+    <Copy SourceFiles="@(SdkDependency)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

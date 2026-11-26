@@ -1,0 +1,58 @@
+name: Safer Surface tests
+on:
+  push:
+    paths: ['mods/safer-surface/**', '.github/workflows/safer-surface.yml']
+  pull_request:
+    paths: ['mods/safer-surface/**', '.github/workflows/safer-surface.yml']
+  workflow_dispatch:
+    inputs:
+      sdk_integration:
+        description: Build against a preinstalled licensed SDK on a trusted runner
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  sdk-free:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mods/safer-surface
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: dotnet run --project tests/PolicyTests.csproj --configuration Release
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v
+  sdk-integration:
+    if: github.event_name == 'workflow_dispatch' && inputs.sdk_integration
+    needs: sdk-free
+    runs-on: [self-hosted, linux, vintage-story-sdk]
+    defaults:
+      run:
+        working-directory: mods/safer-surface
+    env:
+      GAME_DIR: ${{ vars.VS_GAME_DIR }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require preinstalled SDK and tools
+        run: |
+          test -n "$GAME_DIR"
+          test -f "$GAME_DIR/VintagestoryAPI.dll"
+          dotnet --version
+          python3 --version
+      - run: dotnet run --project tests/native/NativeTests.csproj -c Release -p:GameDir="$GAME_DIR"
+      - run: python3 tools/package.py --game-dir "$GAME_DIR"
+      - run: sha256sum --check kuboczochssafersurface-0.1.0.zip.sha256
+        working-directory: mods/safer-surface/dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kuboczochssafersurface-0.1.0
+          path: |
+            mods/safer-surface/dist/kuboczochssafersurface-0.1.0.zip
+            mods/safer-surface/dist/kuboczochssafersurface-0.1.0.zip.sha256
+          if-no-files-found: error
