@@ -10,7 +10,7 @@ using Vintagestory.GameContent;
 public class Fake : DispatchProxy
 {
     public System.Func<MethodInfo, object?[]?, object?>? Handler;
-    protected override object? Invoke(MethodInfo? m, object?[]? a) => Handler?.Invoke(m!, a) ?? (m!.ReturnType.IsValueType ? Activator.CreateInstance(m.ReturnType) : null);
+    protected override object? Invoke(MethodInfo? m, object?[]? a) => Handler?.Invoke(m!, a) ?? (m!.ReturnType != typeof(void) && m.ReturnType.IsValueType ? Activator.CreateInstance(m.ReturnType) : null);
     public static T Create<T>(System.Func<MethodInfo, object?[]?, object?> handler) where T : class
     {
         var result = DispatchProxy.Create<T, Fake>();
@@ -47,7 +47,12 @@ public static class FamilyTests
             if (e.GetProperty("kind").GetString() == "block") blocks.Add(c, new Block { Code = new AssetLocation(c), BlockId = id++ });
             else items.Add(c, new Item { Code = new AssetLocation(c), ItemId = id++ });
         }
-        var logger = Fake.Create<ILogger>((m,a) => null);
+        var warnings = new List<string>();
+        var logger = Fake.Create<ILogger>((m,a) =>
+        {
+            if (m.Name == "Warning" && a is { Length: > 0 }) warnings.Add(a[0]?.ToString() ?? "");
+            return null;
+        });
         var world = Fake.Create<IClientWorldAccessor>((m,a) => m.Name switch
         {
             "GetItem" when a![0] is AssetLocation loc => items.GetValueOrDefault(loc.ToString()),
@@ -101,6 +106,23 @@ public static class FamilyTests
         var token = (VtmlTagToken)VtmlParser.Tokenize(logger, "<toolsmithfamily code=\"toolsmith:handle|toolsmith:handle\"/>")[0];
         Check(token.Name == ToolsmithFamilySlideshows.TagName && token.Attributes["code"] == "toolsmith:handle|toolsmith:handle", "native VTML parser accepts family pipe syntax");
         var fontStack = new Stack<CairoFont>(); fontStack.Push(CairoFont.WhiteSmallText());
+        VtmlTagToken ItemTag(string markup) => (VtmlTagToken)VtmlParser.Tokenize(logger, markup)[0];
+        const string missingRoof = "oneroof:oneroof-redclay-standard-none-free";
+        var unavailable = ToolsmithItemReferences.Convert(api, ItemTag("<toolsmithitem type=\"block\" code=\"" + missingRoof + "\"/>"), fontStack, _ => { });
+        Check(unavailable is RichTextComponent, "missing optional roof reference yields text, not handbook initialization exception");
+        Check(warnings.Any(w => w.Contains(missingRoof)), "missing reference is diagnosable in client warning log");
+        blocks[missingRoof] = new Block { Code = new AssetLocation(missingRoof), BlockId = 10000 };
+        var presentRoof = (SlideshowItemstackTextComponent)ToolsmithItemReferences.Convert(api, ItemTag("<toolsmithitem type=\"block\" code=\"" + missingRoof + "\"/>"), fontStack, _ => { });
+        Check(presentRoof.Itemstacks.Length == 1 && presentRoof.Itemstacks[0].Collectible.Code.ToString() == missingRoof, "installed optional roof retains native clickable slideshow");
+        blocks.Remove(missingRoof);
+        var partial = (SlideshowItemstackTextComponent)ToolsmithItemReferences.Convert(api, ItemTag("<toolsmithitem code=\"toolsmith:handle|missing:item\"/>"), fontStack, _ => { });
+        Check(partial.Itemstacks.Length == 1 && partial.Itemstacks[0].Collectible.Code.ToString() == "toolsmith:handle", "mixed list preserves valid item without air substitution");
+        Check(ToolsmithItemReferences.Convert(api, ItemTag("<toolsmithitem/>"), fontStack, _ => { }) is RichTextComponent, "empty reference cannot abort guide creation");
+        Check(ToolsmithItemReferences.Convert(api, ItemTag("<toolsmithitem code=\"missing:item\"/>"), fontStack, _ => { }) is RichTextComponent, "missing item safely falls back like missing block");
+        VtmlUtil.TagConverters["toolsmithitem"] = ToolsmithItemReferences.Convert;
+        var parsedMissing = VtmlUtil.Richtextify(api, "Before <toolsmithitem type=\"block\" code=\"" + missingRoof + "\"/> After", CairoFont.WhiteSmallText());
+        Check(parsedMissing.Length >= 3, "native richtext page construction survives missing optional provider");
+        VtmlUtil.TagConverters.Remove("toolsmithitem");
         var converted = (SlideshowItemstackTextComponent)converter(api, token, fontStack, _ => throw new Exception("must use handbook protocol instead"));
         Check(converted.Itemstacks.Length == handle.Length, "actual Tag2RichTextDelegate invocation produces native slideshow");
         try { new ToolsmithFamilySlideshows("{\"codes\":[{\"code\":\"toolsmith:handle\",\"kind\":\"item\",\"stacks\":[{\"attributes\":{\"x\":1}}]}]}"); throw new Exception("expected invalid snapshot rejection"); }
